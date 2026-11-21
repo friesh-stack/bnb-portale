@@ -21,62 +21,63 @@ HEUTE = dt.date.today()
 
 UI = {
     "de": {"aktuell": "Aktuell", "karte": "Karte", "entdecken": "Entdecken", "unterkuenfte": "Unterkünfte",
-           "gastgeber": "Für Gastgeber", "news_titel": "Was ist los in {r}?", "news_leer": "Die ersten Meldungen erscheinen hier in Kürze.",
+           "gastgeber": "Für Gastgeber", "news_titel": "Was ist los {ri}?", "news_leer": "Die ersten Meldungen erscheinen hier in Kürze.",
            "stand": "Stand", "quelle": "Quelle", "karte_titel": "{r} auf der Karte", "karte_laden": "Karte laden",
            "karte_hinweis": "Die Karte wird von OpenStreetMap geladen. Dabei wird Ihre IP-Adresse an die OpenStreetMap Foundation übertragen.",
            "beispiel": "Beispielhafte Hinweise – werden laufend ergänzt.", "entdecken_titel": "Das erwartet Sie",
            "unterk_titel": "Unterkünfte direkt vom Gastgeber", "unterk_frei": "Hier kann Ihre Ferienwohnung stehen",
            "unterk_frei_text": "Eigene Unterseite mit Fotos, Preisen und Anfrage direkt an Sie.", "mehr": "Mehr erfahren",
-           "g_titel": "Sie vermieten in {r}?", "g_text": "Gäste suchen hier nach Unterkünften. Wir erstellen Ihnen mit KI eine eigene Unterseite – Sie erzählen, laden Fotos hoch, fertig.",
+           "g_titel": "Sie vermieten {ri}?", "g_text": "Gäste suchen hier nach Unterkünften. Wir erstellen Ihnen mit KI eine eigene Unterseite – Sie erzählen, laden Fotos hoch, fertig.",
            "g_cta": "Unterkunft eintragen", "impressum": "Impressum", "datenschutz": "Datenschutz", "fotos": "Fotos",
            "projekt": "Ein friesh-stack Projekt", "schwester": "Weitere Portale", "burano": "Auch in Italien: Burano",
            "start": "Startseite", "zur_karte": "Zur Karte", "hero_cta": "Was ist los?", "geschlossen": "Ende"},
     "en": {"aktuell": "What's on", "karte": "Map", "entdecken": "Discover", "unterkuenfte": "Stays",
-           "gastgeber": "For hosts", "news_titel": "What's on in {r}?", "news_leer": "The first updates will appear here soon.",
+           "gastgeber": "For hosts", "news_titel": "What's on {ri}?", "news_leer": "The first updates will appear here soon.",
            "stand": "Updated", "quelle": "Source", "karte_titel": "{r} on the map", "karte_laden": "Load map",
            "karte_hinweis": "The map is loaded from OpenStreetMap, which transfers your IP address to the OpenStreetMap Foundation.",
            "beispiel": "Example pointers – more are added over time.", "entdecken_titel": "What awaits you",
            "unterk_titel": "Stays direct from the host", "unterk_frei": "Your holiday home could be here",
            "unterk_frei_text": "Your own page with photos, prices and enquiries straight to you.", "mehr": "Learn more",
-           "g_titel": "Do you rent out in {r}?", "g_text": "Guests look for places to stay here. We build your own page with AI – you tell us about it, upload photos, done.",
+           "g_titel": "Do you rent out {ri}?", "g_text": "Guests look for places to stay here. We build your own page with AI – you tell us about it, upload photos, done.",
            "g_cta": "List your property", "impressum": "Legal notice", "datenschutz": "Privacy", "fotos": "Photos",
            "projekt": "A friesh-stack project", "schwester": "More portals", "burano": "Also in Italy: Burano",
            "start": "Home", "zur_karte": "To the map", "hero_cta": "What's on?", "geschlossen": "Until"},
     "it": {"aktuell": "Novità", "karte": "Mappa", "entdecken": "Scoprire", "unterkuenfte": "Alloggi",
-           "gastgeber": "Per gli host", "news_titel": "Cosa succede in {r}?", "news_leer": "Le prime notizie appariranno qui a breve.",
+           "gastgeber": "Per gli host", "news_titel": "Cosa succede {ri}?", "news_leer": "Le prime notizie appariranno qui a breve.",
            "stand": "Aggiornato", "quelle": "Fonte", "karte_titel": "{r} sulla mappa", "karte_laden": "Carica mappa",
            "karte_hinweis": "La mappa viene caricata da OpenStreetMap; il vostro indirizzo IP viene trasmesso alla OpenStreetMap Foundation.",
            "beispiel": "Indicazioni di esempio – in continuo aggiornamento.", "entdecken_titel": "Cosa vi aspetta",
            "unterk_titel": "Alloggi direttamente dall'host", "unterk_frei": "Qui può comparire la vostra casa vacanze",
            "unterk_frei_text": "Una pagina propria con foto, prezzi e richieste direttamente a voi.", "mehr": "Scopri di più",
-           "g_titel": "Affittate in {r}?", "g_text": "Qui gli ospiti cercano alloggio. Creiamo con l'IA la vostra pagina – raccontate, caricate le foto, fatto.",
+           "g_titel": "Affittate {ri}?", "g_text": "Qui gli ospiti cercano alloggio. Creiamo con l'IA la vostra pagina – raccontate, caricate le foto, fatto.",
            "g_cta": "Inserire l'alloggio", "impressum": "Note legali", "datenschutz": "Privacy", "fotos": "Foto",
            "projekt": "Un progetto friesh-stack", "schwester": "Altri portali", "burano": "Anche a Burano",
            "start": "Home", "zur_karte": "Alla mappa", "hero_cta": "Cosa succede?", "geschlossen": "Fino al"},
     "fr": {"aktuell": "Actualités", "karte": "Carte", "entdecken": "Découvrir", "unterkuenfte": "Logements",
-           "gastgeber": "Pour les hôtes", "news_titel": "Que se passe-t-il en {r} ?", "news_leer": "Les premières actualités apparaîtront ici bientôt.",
+           "gastgeber": "Pour les hôtes", "news_titel": "Que se passe-t-il {ri} ?", "news_leer": "Les premières actualités apparaîtront ici bientôt.",
            "stand": "Mis à jour", "quelle": "Source", "karte_titel": "{r} sur la carte", "karte_laden": "Charger la carte",
            "karte_hinweis": "La carte est chargée depuis OpenStreetMap ; votre adresse IP est transmise à l'OpenStreetMap Foundation.",
            "beispiel": "Repères d'exemple – complétés au fil du temps.", "entdecken_titel": "Ce qui vous attend",
            "unterk_titel": "Logements directement chez l'hôte", "unterk_frei": "Votre location pourrait être ici",
            "unterk_frei_text": "Votre propre page avec photos, prix et demandes directement chez vous.", "mehr": "En savoir plus",
-           "g_titel": "Vous louez en {r} ?", "g_text": "Les voyageurs cherchent ici un logement. Nous créons votre page avec l'IA – vous racontez, ajoutez des photos, c'est prêt.",
+           "g_titel": "Vous louez {ri} ?", "g_text": "Les voyageurs cherchent ici un logement. Nous créons votre page avec l'IA – vous racontez, ajoutez des photos, c'est prêt.",
            "g_cta": "Inscrire mon logement", "impressum": "Mentions légales", "datenschutz": "Confidentialité", "fotos": "Photos",
            "projekt": "Un projet friesh-stack", "schwester": "Autres portails", "burano": "Aussi en Italie : Burano",
            "start": "Accueil", "zur_karte": "Vers la carte", "hero_cta": "Quoi de neuf ?", "geschlossen": "Jusqu'au"},
     "es": {"aktuell": "Novedades", "karte": "Mapa", "entdecken": "Descubrir", "unterkuenfte": "Alojamientos",
-           "gastgeber": "Para anfitriones", "news_titel": "¿Qué pasa en {r}?", "news_leer": "Las primeras novedades aparecerán aquí pronto.",
+           "gastgeber": "Para anfitriones", "news_titel": "¿Qué pasa {ri}?", "news_leer": "Las primeras novedades aparecerán aquí pronto.",
            "stand": "Actualizado", "quelle": "Fuente", "karte_titel": "{r} en el mapa", "karte_laden": "Cargar mapa",
            "karte_hinweis": "El mapa se carga desde OpenStreetMap; su dirección IP se transmite a la OpenStreetMap Foundation.",
            "beispiel": "Indicaciones de ejemplo – se amplían con el tiempo.", "entdecken_titel": "Lo que le espera",
            "unterk_titel": "Alojamientos directamente del anfitrión", "unterk_frei": "Aquí puede aparecer su alojamiento",
            "unterk_frei_text": "Su propia página con fotos, precios y consultas directas.", "mehr": "Más información",
-           "g_titel": "¿Alquila en {r}?", "g_text": "Aquí los viajeros buscan alojamiento. Creamos su página con IA – usted cuenta, sube fotos y listo.",
+           "g_titel": "¿Alquila {ri}?", "g_text": "Aquí los viajeros buscan alojamiento. Creamos su página con IA – usted cuenta, sube fotos y listo.",
            "g_cta": "Publicar mi alojamiento", "impressum": "Aviso legal", "datenschutz": "Privacidad", "fotos": "Fotos",
            "projekt": "Un proyecto friesh-stack", "schwester": "Más portales", "burano": "También en Italia: Burano",
            "start": "Inicio", "zur_karte": "Al mapa", "hero_cta": "¿Qué pasa?", "geschlossen": "Hasta"},
 }
 MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
+PRAEP = {"de": "in", "en": "in", "it": "in", "fr": "en", "es": "en"}
 SPRACHNAME = {"de": "DE", "en": "EN", "it": "IT", "fr": "FR", "es": "ES"}
 
 E = lambda s: html.escape(str(s), quote=True)
@@ -111,10 +112,14 @@ class Seite:
             teile.append(f'<{tag} lang="{s}"{"" if i == 0 else " hidden"}>{E(txt)}</{tag}>')
         return "".join(teile)
 
+    def region_in(self, s):
+        ri = self.p.get("region_in", {})
+        return ri.get(s) or f'{PRAEP[s]} {self.wert(self.p["region"], s)}'
+
     def ui(self, key, **kw):
         out = []
         for i, s in enumerate(self.sp):
-            txt = UI[s][key].format(r=self.wert(self.p["region"], s), **kw)
+            txt = UI[s][key].format(r=self.wert(self.p["region"], s), ri=self.region_in(s), **kw)
             out.append(f'<span lang="{s}"{"" if i == 0 else " hidden"}>{E(txt)}</span>')
         return "".join(out)
 
@@ -270,7 +275,7 @@ class Seite:
     def aktuell(self):
         p = self.p
         s0 = self.sp[0]
-        titel = f'{p["marke"]} – {UI[s0]["news_titel"].format(r=self.wert(p["region"], s0))}'
+        titel = f'{p["marke"]} – {UI[s0]["news_titel"].format(ri=self.region_in(s0))}'
         return (self.kopf(titel, titel, aktiv="aktuell") + "<main>\n" + self.news_block() + self.karte_block()
                 + self.gastgeber_block() + "</main>\n" + self.fuss(self.fotos()))
 
