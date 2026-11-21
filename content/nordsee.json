@@ -3,73 +3,73 @@
  "items": [
   {
    "datum": "2026-11-21",
-   "bis": "2026-11-21",
+   "bis": "2026-11-22",
    "titel": {
-    "de": "Borkum: Adventsmarkt und InselZauber heute",
-    "en": "Borkum: Advent market and InselZauber today"
+    "de": "Sylt-Anreise per Bahn: Ersatzverkehr zwischen Husum und Niebüll",
+    "en": "Getting to Sylt by train: replacement buses between Husum and Niebüll"
    },
    "text": {
-    "de": "Auf Borkum gibt es heute einen Adventsmarkt in der Kulturinsel. Am selben Tag findet im arthotel bakker der InselZauber statt. Am 28. November folgt das nächste Winterbaden.",
-    "en": "Borkum has an Advent market at the Kulturinsel today. The InselZauber event also takes place today at the arthotel bakker. The next winter bathing session follows on 28 November."
+    "de": "Auf der Linie RE 6 nach Westerland fallen die Züge zwischen Husum und Niebüll noch bis einschließlich 22.11. aus, und es fahren Ersatzbusse. Zwischen Niebüll und Westerland gelten geänderte Fahrzeiten. Bitte vor der Anreise die Verbindung bei der Bahn prüfen und etwas mehr Zeit einplanen.",
+    "en": "On the RE 6 line to Westerland, trains between Husum and Niebüll are cancelled through 22 November, and replacement buses run instead. Between Niebüll and Westerland, trains run at changed times. Please check your connection with Deutsche Bahn before travelling and allow some extra time."
    },
-   "quelle": "https://www.borkum.de/en/saisondersinne/",
-   "quelle_name": "Borkum.de"
+   "quelle": "https://www.nordseetourismus.de/mit-der-bahn-in-den-norden",
+   "quelle_name": "Nordsee-Tourismus"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-11-29",
+   "titel": {
+    "de": "Norderney: bade:haus mit warmem Meerwasser noch bis 29. November",
+    "en": "Norderney: bade:haus with warm seawater open until 29 November"
+   },
+   "text": {
+    "de": "Das bade:haus auf Norderney ist noch bis einschließlich 29.11. täglich ab 9:30 Uhr geöffnet. Vom 30.11. bis 25.12. bleibt es geschlossen. Wer die Wärme genießen möchte, sollte also diese Woche nutzen.",
+    "en": "The bade:haus on Norderney is open daily from 9:30 a.m. through 29 November. It then closes from 30 November to 25 December. If you would like a warm seawater break, this week is your chance."
+   },
+   "quelle": "https://www.norderney.org/november/",
+   "quelle_name": "Norderney.org"
+  },
+  {
+   "datum": "2026-11-22",
+   "bis": "2026-11-22",
+   "titel": {
+    "de": "Norderney: Leseabend mit Menü in der Marienhöhe",
+    "en": "Norderney: reading evening with dinner at the Marienhöhe"
+   },
+   "text": {
+    "de": "Am Sonntag, 22.11., liest die Autorin Lucinde Hutzenlaub um 19 Uhr in der Marienhöhe auf Norderney. Der Abend wird als Dinner mit Lesung angeboten. Eine Reservierung empfiehlt sich, Details gibt es beim Veranstalter.",
+    "en": "On Sunday, 22 November, author Lucinde Hutzenlaub reads at the Marienhöhe on Norderney at 7 p.m. The evening is offered as dinner with a reading. Booking ahead is advisable, and details are available from the venue."
+   },
+   "quelle": "https://www.marienhoehe-norderney.de/events/",
+   "quelle_name": "Marienhöhe Norderney"
   },
   {
    "datum": "2026-11-21",
    "bis": "2026-11-21",
    "titel": {
     "de": "Juist: Winter-Wattwanderung für Groß und Klein",
-    "en": "Juist: Winter mudflat hike for all ages"
+    "en": "Juist: winter mudflat hike for all ages"
    },
    "text": {
-    "de": "Heute um 14 Uhr startet auf Juist eine Wattwanderung im Winter für Familien und alle anderen Interessierten. Der Veranstaltungskalender der Insel nennt außerdem Kunstausstellungen, Yoga und eine Klangmeditation. Warme Kleidung ist zu empfehlen.",
-    "en": "A winter mudflat hike for families and other interested guests starts on Juist today at 2 pm. The island's event calendar also lists art exhibitions, yoga and a sound meditation. Warm clothing is recommended."
+    "de": "Am Samstag, 21.11., steht um 14 Uhr eine Wattwanderung im Winter für Familien auf dem Programm der Insel Juist. Im Veranstaltungskalender finden Sie auch Kunstausstellungen und weitere Termine der kommenden Tage. Warme Kleidung und wetterfeste Schuhe sind ratsam.",
+    "en": "On Saturday, 21 November, Juist offers a winter mudflat hike for families at 2 p.m. The island's event calendar also lists art exhibitions and other dates over the coming days. Warm clothing and weatherproof shoes are recommended."
    },
    "quelle": "https://www.juist.de/auf-der-insel/veranstaltungen/veranstaltungskalender",
-   "quelle_name": "Juist.de"
-  },
-  {
-   "datum": "2026-11-27",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Sylt und Amrum: Erste Weihnachtsmärkte am Adventswochenende",
-    "en": "Sylt and Amrum: first Christmas markets on Advent weekend"
-   },
-   "text": {
-    "de": "In List auf Sylt gibt es vom 27. bis 29. November einen Weihnachtsmarkt in der ehemaligen Grundschule. Auf Amrum findet am Samstag, 28. November, in Norddorf der kleine Amrumer Winterzauber statt.",
-    "en": "List on Sylt holds a Christmas market from 27 to 29 November in the former primary school. On Amrum, the small Amrumer Winterzauber takes place in Norddorf on Saturday, 28 November."
-   },
-   "quelle": "https://www.nordseetourismus.de/weihnachten-und-silvester-nordsee?PageSpeed=noscript",
-   "quelle_name": "Nordsee-Tourismus"
-  },
-  {
-   "datum": "2026-11-28",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Föhr: Adventsmärkte in Nieblum und Wrixum",
-    "en": "Föhr: Advent markets in Nieblum and Wrixum"
-   },
-   "text": {
-    "de": "Im Haus des Gastes in Nieblum gibt es am 28. und 29. November jeweils von 12 bis 17 Uhr einen Adventsmarkt. Am 29. November folgt von 11 bis 16 Uhr der Weihnachtsmarkt im Forst in Wrixum. Gegen 15 Uhr kommt dort der Weihnachtsmann.",
-    "en": "An Advent market is held at the Haus des Gastes in Nieblum on 28 and 29 November, from 12 to 5 pm each day. On 29 November the Christmas market in the Forst in Wrixum follows, from 11 am to 4 pm. Santa Claus is expected there around 3 pm."
-   },
-   "quelle": "https://www.foehr.de/jahreswechsel",
-   "quelle_name": "Föhr Tourismus (foehr.de)"
+   "quelle_name": "Juist Veranstaltungskalender"
   },
   {
    "datum": "2026-11-21",
-   "bis": "",
+   "bis": "2026-12-11",
    "titel": {
-    "de": "Juist: Fährfahrplan vor der Anreise prüfen",
-    "en": "Juist: check the ferry timetable before you travel"
+    "de": "Pellworm: Bernstein schleifen im Nationalpark-Haus",
+    "en": "Pellworm: amber grinding workshop at the National Park House"
    },
    "text": {
-    "de": "Bei den Fähren nach Juist kann es wegen Wetter und Tide selten zu Ausfällen kommen. Der Online-Fahrplan zeigt Änderungen tagesaktuell an. Ein Blick vor und während der Anreise lohnt sich.",
-    "en": "Ferries to Juist can occasionally be cancelled because of weather and tides. The online timetable shows changes on the day. It is worth checking before and during your journey."
+    "de": "Im Nationalpark-Haus auf Pellworm können Gäste gemeinsam mit der Schutzstation Wattenmeer ein eigenes Souvenir aus Bernstein schleifen. Dabei gibt es Wissenswertes über das Gold der Nordsee. Der Workshop wird im Zeitraum bis 11.12. angeboten. Genaue Termine am besten vorab erfragen.",
+    "en": "At the National Park House on Pellworm, guests can grind their own amber souvenir together with the Schutzstation Wattenmeer. You will also learn about the gold of the North Sea. The workshop is offered through 11 December. It is best to check the exact dates in advance."
    },
-   "quelle": "https://www.frisonaut.de/de/mobilitaet/juist/faehre/fahrplan",
-   "quelle_name": "Frisonaut"
+   "quelle": "https://nordsee-nordfriesland.de/service/veranstaltungen",
+   "quelle_name": "Nordseeküste Nordfriesland"
   }
  ]
 }

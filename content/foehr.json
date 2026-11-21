@@ -5,71 +5,57 @@
    "datum": "2026-11-28",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Advents- und Weihnachtsmärkte in Nieblum und Wrixum",
-    "en": "Advent and Christmas markets in Nieblum and Wrixum"
+    "de": "Adventsmarkt in Nieblum und Weihnachtsmarkt in Wrixum",
+    "en": "Advent market in Nieblum and Christmas market in Wrixum"
    },
    "text": {
-    "de": "Am letzten Novemberwochenende lädt der Adventsmarkt im Haus des Gastes in Nieblum ein, und zwar am 28. und 29.11. von 12 bis 17 Uhr. Am 29.11. folgt von 11 bis 16 Uhr der Weihnachtsmarkt im Forst in Wrixum, bei dem gegen 15 Uhr der Weihnachtsmann erwartet wird.",
-    "en": "The Advent market at the Haus des Gastes in Nieblum takes place on the last weekend of November, on 28 and 29 Nov from 12 to 5 pm. On 29 Nov the Christmas market in the Forst in Wrixum follows from 11 am to 4 pm. Father Christmas is expected there at around 3 pm."
+    "de": "Am letzten Novemberwochenende lädt der Adventsmarkt im Haus des Gastes in Nieblum ein. Er ist am 28. und 29.11. jeweils von 12 bis 17 Uhr geöffnet. Am 29.11. folgt von 11 bis 16 Uhr der Weihnachtsmarkt im Forst in Wrixum.",
+    "en": "On the last weekend of November, the Advent market at the Haus des Gastes in Nieblum is open. It runs on 28 and 29 November, 12 to 5 pm each day. On 29 November the Christmas market in the Forst in Wrixum follows, from 11 am to 4 pm."
    },
    "quelle": "https://www.foehr.de/jahreswechsel",
-   "quelle_name": "foehr.de (Föhr Tourismus)"
+   "quelle_name": "foehr.de"
   },
   {
-   "datum": "2026-11-26",
-   "bis": "2027-01-03",
+   "datum": "2026-11-29",
+   "bis": "2026-11-29",
    "titel": {
-    "de": "Glühweinhütte „Hüttenzauber“ am Südstrand öffnet",
-    "en": "“Hüttenzauber” mulled wine hut opens at Südstrand"
+    "de": "Kleine Wattwanderung mit der Schutzstation Wattenmeer",
+    "en": "Short mudflat walk with the Schutzstation Wattenmeer"
    },
    "text": {
-    "de": "Ab dem 26.11. gibt es am Südstrand in Wyk bei der Glühweinhütte „Hüttenzauber“ Winterstimmung. Sie ist bis zum 3.1. donnerstags bis sonntags von 15 bis 19 Uhr geöffnet. Am 24.12. und 31.12. bleibt sie geschlossen.",
-    "en": "From 26 Nov the “Hüttenzauber” mulled wine hut brings a wintry mood to the Südstrand in Wyk. It is open Thursday to Sunday from 3 to 7 pm until 3 Jan. It is closed on 24 and 31 Dec."
-   },
-   "quelle": "https://www.foehr.de/jahreswechsel",
-   "quelle_name": "foehr.de (Föhr Tourismus)"
-  },
-  {
-   "datum": "2026-12-05",
-   "bis": "2026-12-06",
-   "titel": {
-    "de": "Festlicher Adventsmarkt im Friesen-Museum Wyk",
-    "en": "Festive Advent market at the Friesen Museum in Wyk"
-   },
-   "text": {
-    "de": "Am 5. und 6.12. ist das Friesen-Museum in Wyk jeweils von 11 bis 18 Uhr Schauplatz des Adventsmarkts. Mehr als vierzig Handwerker, Künstler und Produzenten bieten ihre Waren in den historischen Gebäuden und auf dem Außengelände an. Für Kaffee, Kuchen, Punsch und herzhafte Speisen ist gesorgt.",
-    "en": "On 5 and 6 Dec the Friesen Museum in Wyk hosts its Advent market, open from 11 am to 6 pm each day. More than forty craftspeople, artists and producers sell their goods in the historic buildings and the outdoor grounds. Coffee, cake, punch and savoury food are available."
-   },
-   "quelle": "https://www.foehr.de/festlicher-adventsmarkt-im-friesen-museum-05-06122026?type=5200",
-   "quelle_name": "foehr.de (Föhr Tourismus)"
-  },
-  {
-   "datum": "2026-11-21",
-   "bis": "2026-12-05",
-   "titel": {
-    "de": "Wattwanderungen und Angebote im Nationalpark-Haus",
-    "en": "Mudflat walks and activities at the Nationalpark-Haus"
-   },
-   "text": {
-    "de": "Die Schutzstation Wattenmeer bietet auf Föhr in den kommenden Tagen weiter Veranstaltungen an. Dazu gehören die „Kleine Wattwanderung auf Föhr“ (z. B. am 29.11.) und Programm im Nationalpark-Haus in Wyk (z. B. am 25., 27. und 28.11. sowie am 2. und 5.12.). Die genauen Uhrzeiten stehen in der Terminübersicht.",
-    "en": "The Schutzstation Wattenmeer continues to offer events on Föhr over the coming days. These include the “Kleine Wattwanderung auf Föhr” mudflat walk (e.g. on 29 Nov) and programme at the Nationalpark-Haus in Wyk (e.g. on 25, 27 and 28 Nov and on 2 and 5 Dec). The exact times are in the event overview."
+    "de": "Die Schutzstation Wattenmeer bietet auch im Spätherbst geführte Wattwanderungen auf Föhr an. Am 29.11. startet die Führung um 9:30 Uhr. Weitere Termine und Details stehen in der Terminübersicht der Schutzstation.",
+    "en": "The Schutzstation Wattenmeer also offers guided mudflat walks on Föhr in late autumn. On 29 November the tour starts at 9:30 am. More dates and details are listed in the station's event overview."
    },
    "quelle": "https://www.schutzstation-wattenmeer.de/unsere-stationen/foehr/veranstaltungen-watt-erleben/",
    "quelle_name": "Schutzstation Wattenmeer"
   },
   {
+   "datum": "2026-12-05",
+   "bis": "2026-12-05",
+   "titel": {
+    "de": "Musical Dinner in Wyk auf Föhr",
+    "en": "Musical Dinner in Wyk auf Föhr"
+   },
+   "text": {
+    "de": "Am Samstag, 5.12., gastiert die Dinner-Show Musical Dinner (Das Original) in Wyk. Beginn ist um 19 Uhr. Karten gibt es über den Ticketanbieter.",
+    "en": "The dinner show Musical Dinner (Das Original) comes to Wyk on Saturday, 5 December. It starts at 7 pm. Tickets are available through the ticket provider."
+   },
+   "quelle": "https://www.eventim.de/cityd/wyk-auf-foehr-3553/",
+   "quelle_name": "Eventim"
+  },
+  {
    "datum": "2026-11-21",
    "bis": "2026-12-12",
    "titel": {
-    "de": "Fährfahrplan Dagebüll–Föhr: aktuell gültig bis 12. Dezember",
-    "en": "Dagebüll–Föhr ferry timetable: valid until 12 December"
+    "de": "Fährfahrplan Dagebüll–Föhr: Aktuelle Zeiten vor der Abfahrt prüfen",
+    "en": "Dagebüll–Föhr ferry timetable: check current times before you travel"
    },
    "text": {
-    "de": "Der veröffentlichte Fahrplan der W.D.R. gilt bis zum 12.12.2026, am 13.12. beginnt die nächste Fahrplanperiode. Bei Wind oder Niedrigwasser sind kurzfristige Änderungen möglich. Vor der Anreise lohnt daher ein Blick in die aktuelle Fahrplanauskunft der Reederei.",
-    "en": "The published W.D.R. timetable is valid until 12 Dec 2026, and the next timetable period starts on 13 Dec. Short-notice changes are possible in strong wind or low water. Please check the ferry company's current timetable information before you travel."
+    "de": "Der veröffentlichte Fahrplan der W.D.R. gilt bis zum 12.12.2026, am 13.12. beginnt die nächste Fahrplanperiode. Bei Wind und Niedrigwasser sind kurzfristige Änderungen möglich. Bitte prüfen Sie die Abfahrtszeiten kurz vor der Reise auf faehre.de.",
+    "en": "The published W.D.R. timetable is valid until 12 December 2026, and the next timetable period starts on 13 December. Short-notice changes are possible in strong wind or low water. Please check departure times shortly before you travel on faehre.de."
    },
    "quelle": "https://www.faehre-nordfriesland.de/en/foehr/",
-   "quelle_name": "faehre-nordfriesland.de (W.D.R.-Fahrplan)"
+   "quelle_name": "Fähre Nordfriesland"
   }
  ]
 }

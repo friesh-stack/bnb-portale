@@ -2,104 +2,104 @@
  "stand": "2026-11-21",
  "items": [
   {
-   "datum": "2026-11-23",
-   "bis": "2026-12-29",
+   "datum": "2026-11-27",
+   "bis": "2026-12-24",
    "titel": {
-    "fr": "Marchés de Noël en Alsace : Colmar et Strasbourg ouvrent",
-    "en": "Christmas markets in Alsace: Colmar and Strasbourg open",
-    "de": "Weihnachtsmärkte im Elsass: Colmar und Straßburg öffnen",
-    "nl": "Kerstmarkten in de Elzas: Colmar en Straatsburg gaan open",
-    "es": "Mercadillos navideños en Alsacia: abren Colmar y Estrasburgo"
+    "fr": "Marché de Noël de Strasbourg : ouverture le 27 novembre",
+    "en": "Strasbourg Christmas Market opens on 27 November",
+    "de": "Straßburger Weihnachtsmarkt öffnet am 27. November",
+    "nl": "Kerstmarkt van Straatsburg opent op 27 november",
+    "es": "El mercado de Navidad de Estrasburgo abre el 27 de noviembre"
    },
    "text": {
-    "fr": "Le marché de Noël de Colmar ouvre le 23 novembre et dure jusqu’au 29 décembre. Celui de Strasbourg suit le 27 novembre et reste ouvert jusqu’au 24 décembre, avec une patinoire et une nouvelle arche lumineuse. Les deux soirs d’ouverture, un parcours de feu et de lumière anime le quartier de la Petite France.",
-    "en": "The Christmas market in Colmar opens on 23 November and runs until 29 December. Strasbourg follows on 27 November and stays open until 24 December, with an ice rink and a new illuminated arch. On the two opening evenings, a fire and light show lights up the Petite France district.",
-    "de": "Der Weihnachtsmarkt in Colmar öffnet am 23. November und läuft bis zum 29. Dezember. Straßburg folgt am 27. November und hat bis zum 24. Dezember geöffnet, mit Eisbahn und einem neuen Lichtbogen. An den beiden Eröffnungsabenden verzaubert ein Feuer- und Lichterparcours das Viertel Petite France.",
-    "nl": "De kerstmarkt van Colmar opent op 23 november en loopt tot 29 december. Straatsburg volgt op 27 november en blijft open tot 24 december, met een ijsbaan en een nieuwe verlichte boog. Op de twee openingsavonden zorgt een vuur- en lichtparcours voor sfeer in de wijk Petite France.",
-    "es": "El mercadillo navideño de Colmar abre el 23 de noviembre y dura hasta el 29 de diciembre. El de Estrasburgo comienza el 27 de noviembre y sigue abierto hasta el 24 de diciembre, con pista de hielo y un nuevo arco luminoso. En las dos noches de inauguración, un recorrido de fuego y luz anima el barrio de la Petite France."
+    "fr": "Le marché de Noël de Strasbourg se tient du 27 novembre au 24 décembre 2026, en principe de 11h30 à 21h. Le premier jour, il ouvre à 14h, et le 24 décembre il ferme à 18h. Cette année, la ville propose notamment une nouvelle arche lumineuse place Broglie et une patinoire au Palais Rohan.",
+    "en": "Strasbourg's Christmas market runs from 27 November to 24 December 2026, normally from 11:30 am to 9 pm. It opens at 2 pm on the first day and closes at 6 pm on 24 December. New this year are a light arch on Place Broglie and an ice rink at the Palais Rohan.",
+    "de": "Der Straßburger Weihnachtsmarkt läuft vom 27. November bis 24. Dezember 2026, in der Regel von 11:30 bis 21 Uhr. Am Eröffnungstag startet er um 14 Uhr, am 24. Dezember schließt er um 18 Uhr. Neu in diesem Jahr sind ein Lichterbogen auf der Place Broglie und eine Eisbahn am Palais Rohan.",
+    "nl": "De kerstmarkt van Straatsburg loopt van 27 november tot 24 december 2026, meestal van 11.30 tot 21.00 uur. Op de openingsdag begint hij om 14.00 uur en op 24 december sluit hij om 18.00 uur. Nieuw dit jaar zijn een lichtboog op de Place Broglie en een ijsbaan bij het Palais Rohan.",
+    "es": "El mercado de Navidad de Estrasburgo se celebra del 27 de noviembre al 24 de diciembre de 2026, por lo general de 11:30 a 21:00. El primer día abre a las 14:00 y el 24 de diciembre cierra a las 18:00. Este año hay un nuevo arco luminoso en la plaza Broglie y una pista de hielo en el Palais Rohan."
    },
    "quelle": "https://marches-de-noel.fr/marches-de-noel-2026-ce-qui-change/",
    "quelle_name": "marches-de-noel.fr"
   },
   {
-   "datum": "2026-11-27",
-   "bis": "2027-01-03",
+   "datum": "2026-11-22",
+   "bis": "2027-01-04",
    "titel": {
-    "fr": "Village de Noël à Nice et marché de Noël à Cannes",
-    "en": "Christmas village in Nice and Christmas market in Cannes",
-    "de": "Weihnachtsdorf in Nizza und Weihnachtsmarkt in Cannes",
-    "nl": "Kerstdorp in Nice en kerstmarkt in Cannes",
-    "es": "Pueblo navideño en Niza y mercadillo navideño en Cannes"
+    "fr": "Retour du marché de Noël sur les Champs-Élysées",
+    "en": "Christmas market returns to the Champs-Élysées",
+    "de": "Weihnachtsmarkt kehrt auf die Champs-Élysées zurück",
+    "nl": "Kerstmarkt keert terug op de Champs-Élysées",
+    "es": "El mercado de Navidad vuelve a los Campos Elíseos"
    },
    "text": {
-    "fr": "Sur la Côte d’Azur, le village de Noël de Nice et le marché de Noël de Cannes ouvrent le 27 novembre. Ils restent installés jusqu’au 3 janvier. Une belle occasion de profiter de l’ambiance des fêtes au bord de la Méditerranée.",
-    "en": "On the Côte d’Azur, the Christmas village in Nice and the Christmas market in Cannes open on 27 November. Both stay in place until 3 January. It is a nice chance to enjoy the festive season by the Mediterranean.",
-    "de": "An der Côte d’Azur öffnen am 27. November das Weihnachtsdorf in Nizza und der Weihnachtsmarkt in Cannes. Beide sind bis zum 3. Januar aufgebaut. Eine schöne Gelegenheit, die Festtagsstimmung am Mittelmeer zu genießen.",
-    "nl": "Aan de Côte d’Azur openen op 27 november het kerstdorp van Nice en de kerstmarkt van Cannes. Beide blijven staan tot 3 januari. Een mooie kans om van de feestsfeer aan de Middellandse Zee te genieten.",
-    "es": "En la Costa Azul, el pueblo navideño de Niza y el mercadillo navideño de Cannes abren el 27 de noviembre. Ambos permanecen hasta el 3 de enero. Una buena ocasión para disfrutar del ambiente festivo junto al Mediterráneo."
+    "fr": "À Paris, un marché de Noël revient sur les Champs-Élysées du 22 novembre 2026 au 4 janvier 2027. C'est l'une des nouveautés de la saison dans la capitale. Un autre rendez-vous parisien, La Magie de Noël, occupe le jardin des Tuileries depuis le 14 novembre.",
+    "en": "A Christmas market returns to the Champs-Élysées in Paris from 22 November 2026 to 4 January 2027. It is one of this season's novelties in the capital. Another Paris event, La Magie de Noël, has been running in the Tuileries Garden since 14 November.",
+    "de": "In Paris kehrt vom 22. November 2026 bis 4. Januar 2027 ein Weihnachtsmarkt auf die Champs-Élysées zurück. Er gehört zu den Neuheiten der Saison in der Hauptstadt. Ein weiterer Pariser Termin, La Magie de Noël, findet seit dem 14. November im Tuileriengarten statt.",
+    "nl": "In Parijs keert van 22 november 2026 tot 4 januari 2027 een kerstmarkt terug op de Champs-Élysées. Het is een van de nieuwigheden van het seizoen in de hoofdstad. Een ander Parijs evenement, La Magie de Noël, vindt sinds 14 november plaats in de Tuilerieën.",
+    "es": "En París vuelve un mercado de Navidad a los Campos Elíseos del 22 de noviembre de 2026 al 4 de enero de 2027. Es una de las novedades de la temporada en la capital. Otra cita parisina, La Magie de Noël, ocupa el jardín de las Tullerías desde el 14 de noviembre."
    },
-   "quelle": "https://cacaoapp.fr/blog/marches-de-noel-2026-dates-par-region",
-   "quelle_name": "Cacao"
+   "quelle": "https://marches-de-noel.fr/marches-de-noel-2026-ce-qui-change/",
+   "quelle_name": "marches-de-noel.fr"
   },
   {
-   "datum": "2026-11-26",
-   "bis": "2027-01-03",
+   "datum": "2026-11-20",
+   "bis": "2026-12-27",
    "titel": {
-    "fr": "Paris : marchés de Noël à Notre-Dame et aux Tuileries",
-    "en": "Paris: Christmas markets at Notre-Dame and the Tuileries",
-    "de": "Paris: Weihnachtsmärkte bei Notre-Dame und in den Tuilerien",
-    "nl": "Parijs: kerstmarkten bij Notre-Dame en de Tuilerieën",
-    "es": "París: mercadillos navideños en Notre-Dame y las Tullerías"
+    "fr": "Marché de Noël de Mulhouse : 36e édition en cours",
+    "en": "Mulhouse Christmas Market: 36th edition under way",
+    "de": "Weihnachtsmarkt Mulhouse: 36. Ausgabe läuft",
+    "nl": "Kerstmarkt van Mulhouse: 36e editie loopt",
+    "es": "Mercado de Navidad de Mulhouse: en marcha la 36.ª edición"
    },
    "text": {
-    "fr": "À Paris, le marché de Noël de Notre-Dame ouvre le 26 novembre et dure jusqu’au 27 décembre. Celui des Tuileries est déjà ouvert et reste installé jusqu’au 3 janvier.",
-    "en": "In Paris, the Notre-Dame Christmas market opens on 26 November and runs until 27 December. The Tuileries market is already open and stays until 3 January.",
-    "de": "In Paris öffnet der Weihnachtsmarkt bei Notre-Dame am 26. November und läuft bis zum 27. Dezember. Der Markt in den Tuilerien hat bereits geöffnet und bleibt bis zum 3. Januar.",
-    "nl": "In Parijs opent de kerstmarkt bij Notre-Dame op 26 november en loopt tot 27 december. De markt in de Tuilerieën is al open en blijft tot 3 januari.",
-    "es": "En París, el mercadillo navideño de Notre-Dame abre el 26 de noviembre y dura hasta el 27 de diciembre. El de las Tullerías ya está abierto y permanece hasta el 3 de enero."
+    "fr": "Le marché de Noël de Mulhouse a ouvert le 20 novembre et dure jusqu'au 27 décembre 2026. Cette 36e édition a pour thème l'authenticité. Place de la Concorde, il reste ouvert jusqu'au 29 décembre.",
+    "en": "Mulhouse's Christmas market opened on 20 November and runs until 27 December 2026. This 36th edition is themed around authenticity. According to the source, the Place de la Concorde part stays open until 29 December.",
+    "de": "Der Weihnachtsmarkt in Mulhouse hat am 20. November begonnen und läuft bis 27. Dezember 2026. Die 36. Ausgabe steht unter dem Motto Authentizität. Laut Quelle bleibt der Teil auf der Place de la Concorde bis zum 29. Dezember geöffnet.",
+    "nl": "De kerstmarkt van Mulhouse is op 20 november begonnen en loopt tot 27 december 2026. Deze 36e editie draait om authenticiteit. Volgens de bron blijft het deel op de Place de la Concorde tot 29 december open.",
+    "es": "El mercado de Navidad de Mulhouse abrió el 20 de noviembre y dura hasta el 27 de diciembre de 2026. Esta 36.ª edición gira en torno a la autenticidad. Según la fuente, la parte de la plaza de la Concordia sigue abierta hasta el 29 de diciembre."
    },
-   "quelle": "https://le-guide-des-marches.com/guide/calendrier-ouverture-marches-de-noel-2026/",
-   "quelle_name": "Le Guide des Marchés"
+   "quelle": "https://marches-de-noel.fr/marches-de-noel-2026-ce-qui-change/",
+   "quelle_name": "marches-de-noel.fr"
   },
   {
    "datum": "2026-11-10",
    "bis": "2027-04-25",
    "titel": {
     "fr": "Exposition Bruxelles 1900 au Petit Palais",
-    "en": "Exhibition Brussels 1900 at the Petit Palais",
+    "en": "Brussels 1900 exhibition at the Petit Palais",
     "de": "Ausstellung Brüssel 1900 im Petit Palais",
     "nl": "Tentoonstelling Brussel 1900 in het Petit Palais",
     "es": "Exposición Bruselas 1900 en el Petit Palais"
    },
    "text": {
-    "fr": "Le Petit Palais, à Paris, consacre une exposition à la Bruxelles des années 1900. Elle se visite jusqu’au 25 avril 2027, un bon plan culturel pour les journées fraîches.",
-    "en": "The Petit Palais in Paris is showing an exhibition about Brussels around 1900. It can be visited until 25 April 2027, a good cultural idea for cooler days.",
-    "de": "Das Petit Palais in Paris widmet dem Brüssel der Zeit um 1900 eine Ausstellung. Sie ist bis zum 25. April 2027 zu sehen – ein guter Kulturtipp für kühle Tage.",
-    "nl": "Het Petit Palais in Parijs toont een tentoonstelling over Brussel rond 1900. Ze is te bezoeken tot 25 april 2027, een goede culturele tip voor koelere dagen.",
-    "es": "El Petit Palais de París presenta una exposición sobre la Bruselas de 1900. Se puede visitar hasta el 25 de abril de 2027, un buen plan cultural para los días frescos."
+    "fr": "Le Petit Palais, à Paris (8e), présente l'exposition Bruxelles 1900 jusqu'au 25 avril 2027. Elle emmène les visiteurs dans la capitale belge au tournant du XXe siècle. Elle est donc une bonne idée de visite aussi par temps froid.",
+    "en": "The Petit Palais in Paris (8th arrondissement) is showing the Brussels 1900 exhibition until 25 April 2027. It takes visitors to the Belgian capital at the turn of the 20th century. It makes a good indoor outing on a cold day.",
+    "de": "Das Petit Palais in Paris (8. Arrondissement) zeigt die Ausstellung Brüssel 1900 bis zum 25. April 2027. Sie führt die Besucher in die belgische Hauptstadt um die Jahrhundertwende. Ein guter Tipp für kalte Tage.",
+    "nl": "Het Petit Palais in Parijs (8e arrondissement) toont de tentoonstelling Brussel 1900 tot 25 april 2027. Ze neemt bezoekers mee naar de Belgische hoofdstad rond de eeuwwisseling. Een goede binnenactiviteit voor koude dagen.",
+    "es": "El Petit Palais de París (distrito 8) presenta la exposición Bruselas 1900 hasta el 25 de abril de 2027. Lleva a los visitantes a la capital belga a comienzos del siglo XX. Es un buen plan para los días fríos."
    },
    "quelle": "https://www.paris.fr/quefaire/semaine",
    "quelle_name": "Ville de Paris"
   },
   {
-   "datum": "2026-11-21",
-   "bis": "2026-12-31",
+   "datum": "2026-11-24",
+   "bis": "",
    "titel": {
-    "fr": "Transports : préavis de grève RATP, pas de journée SNCF confirmée",
-    "en": "Transport: RATP strike notice, no SNCF strike day confirmed",
-    "de": "Verkehr: Streikaufruf bei der RATP, kein bestätigter SNCF-Streiktag",
-    "nl": "Vervoer: stakingsaanzegging bij RATP, geen bevestigde SNCF-stakingsdag",
-    "es": "Transporte: preaviso de huelga en RATP, sin jornada confirmada en SNCF"
+    "fr": "Les secrets de l'Alhambra à l'Institut du monde arabe",
+    "en": "The secrets of the Alhambra at the Institut du monde arabe",
+    "de": "Die Geheimnisse der Alhambra im Institut du monde arabe",
+    "nl": "De geheimen van het Alhambra in het Institut du monde arabe",
+    "es": "Los secretos de la Alhambra en el Institut du monde arabe"
    },
    "text": {
-    "fr": "Un préavis de grève couvre la RATP du 16 novembre au 31 décembre, mais cela ne signifie pas que des grèves auront lieu chaque jour. Au 19 novembre, aucune journée nationale de grève SNCF n’était confirmée pour décembre. Il est conseillé de vérifier les horaires avant chaque trajet.",
-    "en": "A strike notice covers the RATP from 16 November to 31 December, but this does not mean strikes will take place every day. As of 19 November, no national SNCF strike day was confirmed for December. Please check timetables before each journey.",
-    "de": "Für die RATP gilt vom 16. November bis 31. Dezember ein Streikaufruf, das heißt aber nicht, dass täglich gestreikt wird. Stand 19. November war für Dezember kein landesweiter SNCF-Streiktag bestätigt. Bitte prüfen Sie vor jeder Fahrt die aktuellen Fahrpläne.",
-    "nl": "Voor de RATP geldt van 16 november tot 31 december een stakingsaanzegging, maar dat betekent niet dat er elke dag gestaakt wordt. Op 19 november was voor december geen nationale SNCF-stakingsdag bevestigd. Controleer vóór elke rit de actuele dienstregeling.",
-    "es": "Un preaviso de huelga afecta a la RATP del 16 de noviembre al 31 de diciembre, pero eso no significa que haya huelga cada día. A 19 de noviembre no había ninguna jornada nacional de huelga de la SNCF confirmada para diciembre. Conviene comprobar los horarios antes de cada trayecto."
+    "fr": "À partir du 24 novembre 2026, l'Institut du monde arabe, à Paris, consacre une exposition à l'art et à l'architecture de l'Alhambra de Grenade. La date de fin n'est pas indiquée dans la source consultée. Nous conseillons de vérifier les horaires auprès de l'institut.",
+    "en": "From 24 November 2026, the Institut du monde arabe in Paris hosts an exhibition on the art and architecture of the Alhambra in Granada. The source does not give an end date. Please check opening hours with the institute.",
+    "de": "Ab dem 24. November 2026 widmet das Institut du monde arabe in Paris der Kunst und Architektur der Alhambra von Granada eine Ausstellung. Ein Enddatum nennt die Quelle nicht. Bitte prüfen Sie die Öffnungszeiten beim Institut.",
+    "nl": "Vanaf 24 november 2026 wijdt het Institut du monde arabe in Parijs een tentoonstelling aan de kunst en architectuur van het Alhambra in Granada. De bron vermeldt geen einddatum. Controleer de openingstijden bij het instituut.",
+    "es": "Desde el 24 de noviembre de 2026, el Institut du monde arabe de París dedica una exposición al arte y la arquitectura de la Alhambra de Granada. La fuente no indica la fecha de cierre. Conviene consultar los horarios en el instituto."
    },
-   "quelle": "https://infostourisme.com/article-du-moment/brouillon-auto-4/2026/",
-   "quelle_name": "InfosTourisme"
+   "quelle": "https://hotelmontblancparis.fr/que-faire-a-paris-en-novembre-2026/",
+   "quelle_name": "Hôtel Mont-Blanc Paris"
   }
  ]
 }

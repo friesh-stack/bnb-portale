@@ -3,23 +3,23 @@
  "items": [
   {
    "datum": "2026-11-21",
-   "bis": "",
+   "bis": "2026-11-23",
    "titel": {
-    "es": "Renfe: huelga de maquinistas del 23 de noviembre desconvocada",
-    "en": "Renfe: train drivers‘ strike on 23 November called off",
+    "es": "Renfe: cancelada la huelga de maquinistas del 23 de noviembre",
+    "en": "Renfe: train drivers’ strike of 23 November called off",
     "de": "Renfe: Lokführerstreik am 23. November abgesagt",
     "fr": "Renfe : la grève des conducteurs du 23 novembre est annulée",
     "it": "Renfe: sciopero dei macchinisti del 23 novembre revocato"
    },
    "text": {
-    "es": "El sindicato Semaf ha desconvocado la huelga prevista para el lunes 23 de noviembre tras un acuerdo con Renfe y el Gobierno. Aun así, conviene consultar el estado del tren antes de ir a la estación.",
-    "en": "The Semaf union has called off the strike planned for Monday, 23 November, after reaching an agreement with Renfe and the government. It is still wise to check your train status before heading to the station.",
-    "de": "Die Gewerkschaft Semaf hat den für Montag, 23. November, geplanten Streik nach einer Einigung mit Renfe und der Regierung abgesagt. Trotzdem lohnt sich vor der Fahrt zum Bahnhof ein Blick auf den Status Ihres Zuges.",
-    "fr": "Le syndicat Semaf a annulé la grève prévue le lundi 23 novembre après un accord avec Renfe et le gouvernement. Il reste conseillé de vérifier l‘état de votre train avant de vous rendre à la gare.",
-    "it": "Il sindacato Semaf ha revocato lo sciopero previsto per lunedì 23 novembre dopo un accordo con Renfe e il governo. Prima di andare in stazione è comunque consigliabile controllare lo stato del proprio treno."
+    "es": "El sindicato Semaf ha desconvocado la huelga prevista para el lunes 23 de noviembre tras llegar a un acuerdo con el Ministerio de Transportes y Renfe. Los trenes deberían circular con normalidad ese día. Aun así, conviene comprobar el estado del servicio antes de viajar.",
+    "en": "The Semaf union has called off the strike planned for Monday, 23 November, after reaching an agreement with the Transport Ministry and Renfe. Trains should therefore run as normal that day. It is still a good idea to check your service before you travel.",
+    "de": "Die Gewerkschaft Semaf hat den für Montag, den 23. November, geplanten Streik abgesagt, nachdem sie sich mit dem Verkehrsministerium und Renfe geeinigt hat. Die Züge sollten an diesem Tag also normal fahren. Prüfen Sie vor der Fahrt trotzdem kurz den Status Ihrer Verbindung.",
+    "fr": "Le syndicat Semaf a annulé la grève prévue le lundi 23 novembre après un accord avec le ministère des Transports et la Renfe. Les trains devraient donc circuler normalement ce jour-là. Vérifiez tout de même l’état de votre liaison avant de partir.",
+    "it": "Il sindacato Semaf ha revocato lo sciopero previsto per lunedì 23 novembre dopo un accordo con il Ministero dei Trasporti e Renfe. I treni dovrebbero quindi circolare regolarmente quel giorno. Prima di partire conviene comunque controllare lo stato della propria corsa."
    },
-   "quelle": "https://www.la7tv.es/actualidad/semaf-desconvoca-huelga-maquinistas-23-noviembre-alcanzar-acuerdo-renfe-gobierno/20261120110334075974.html",
-   "quelle_name": "La7"
+   "quelle": "https://www.eldebate.com/economia/20261120/semaf-desconvoca-huelga-maquinistas-dia-23-alcanzar-acuerdo-transportes-renfe_483131.html",
+   "quelle_name": "El Debate"
   },
   {
    "datum": "2026-11-21",
@@ -27,79 +27,79 @@
    "titel": {
     "es": "Feriarte 2026 en IFEMA Madrid",
     "en": "Feriarte 2026 at IFEMA Madrid",
-    "de": "Feriarte 2026 in der IFEMA Madrid",
-    "fr": "Feriarte 2026 à l‘IFEMA Madrid",
-    "it": "Feriarte 2026 all‘IFEMA di Madrid"
+    "de": "Feriarte 2026 im IFEMA Madrid",
+    "fr": "Feriarte 2026 à l’IFEMA Madrid",
+    "it": "Feriarte 2026 all’IFEMA di Madrid"
    },
    "text": {
-    "es": "Del 21 al 29 de noviembre regresa a IFEMA Madrid esta feria de arte y antigüedades. Una buena idea para un día de lluvia o de otoño en la capital.",
-    "en": "From 21 to 29 November, this art and antiques fair returns to IFEMA Madrid. A nice idea for a rainy or autumn day in the capital.",
-    "de": "Vom 21. bis 29. November findet in der IFEMA Madrid wieder die Messe für Kunst und Antiquitäten statt. Eine schöne Idee für einen regnerischen Herbsttag in der Hauptstadt.",
-    "fr": "Du 21 au 29 novembre, ce salon d‘art et d‘antiquités revient à l‘IFEMA Madrid. Une bonne idée pour une journée d‘automne ou de pluie dans la capitale.",
-    "it": "Dal 21 al 29 novembre torna all‘IFEMA di Madrid la fiera dedicata ad arte e antiquariato. Un‘idea piacevole per una giornata autunnale o piovosa nella capitale."
+    "es": "La feria Feriarte se celebra en IFEMA Madrid (Campo de las Naciones) del 21 al 29 de noviembre. Es una buena opción para un plan cultural en la capital durante el fin de semana.",
+    "en": "The Feriarte fair takes place at IFEMA Madrid (Campo de las Naciones) from 21 to 29 November. It makes a nice cultural outing in the capital, especially at the weekend.",
+    "de": "Die Messe Feriarte findet vom 21. bis 29. November im IFEMA Madrid (Campo de las Naciones) statt. Sie ist ein schöner Kulturtipp für das Wochenende in der Hauptstadt.",
+    "fr": "Le salon Feriarte a lieu à l’IFEMA Madrid (Campo de las Naciones) du 21 au 29 novembre. C’est une bonne idée de sortie culturelle dans la capitale, notamment le week-end.",
+    "it": "La fiera Feriarte si tiene all’IFEMA di Madrid (Campo de las Naciones) dal 21 al 29 novembre. È una bella proposta culturale nella capitale, soprattutto nel fine settimana."
    },
    "quelle": "https://www.laguiago.com/madrid/que-hacer-madrid-fin-de-semana-20-22-noviembre/",
    "quelle_name": "LaGuiaGO"
   },
   {
-   "datum": "2026-11-26",
-   "bis": "2027-01-05",
+   "datum": "2026-11-27",
+   "bis": "2026-12-31",
    "titel": {
-    "es": "Mercadillos navideños en Madrid y Salamanca",
-    "en": "Christmas markets in Madrid and Salamanca",
-    "de": "Weihnachtsmärkte in Madrid und Salamanca",
-    "fr": "Marchés de Noël à Madrid et Salamanque",
-    "it": "Mercatini di Natale a Madrid e Salamanca"
+    "es": "Mercadillo de Navidad en la Plaza Mayor de Madrid",
+    "en": "Christmas market on Madrid’s Plaza Mayor",
+    "de": "Weihnachtsmarkt auf der Plaza Mayor in Madrid",
+    "fr": "Marché de Noël sur la Plaza Mayor de Madrid",
+    "it": "Mercatino di Natale in Plaza Mayor a Madrid"
    },
    "text": {
-    "es": "El mercado de la plaza de Anaya en Salamanca abre del 26 de noviembre al 5 de enero. El de la Plaza Mayor de Madrid abrirá a finales de noviembre y seguirá hasta el 31 de diciembre; el día exacto de apertura aún no está anunciado.",
-    "en": "The market on Plaza de Anaya in Salamanca runs from 26 November to 5 January. Madrid‘s Plaza Mayor market opens in late November and lasts until 31 December; the exact opening day has not yet been announced.",
-    "de": "Der Markt auf der Plaza de Anaya in Salamanca läuft vom 26. November bis 5. Januar. Der Markt auf der Plaza Mayor in Madrid öffnet Ende November und bleibt bis 31. Dezember; der genaue Starttermin ist noch nicht bekannt gegeben.",
-    "fr": "Le marché de la Plaza de Anaya à Salamanque se tient du 26 novembre au 5 janvier. Celui de la Plaza Mayor de Madrid ouvrira fin novembre jusqu‘au 31 décembre ; la date exacte d‘ouverture n‘est pas encore annoncée.",
-    "it": "Il mercatino di Plaza de Anaya a Salamanca è aperto dal 26 novembre al 5 gennaio. Quello di Plaza Mayor a Madrid aprirà a fine novembre e durerà fino al 31 dicembre; la data esatta di apertura non è ancora stata comunicata."
+    "es": "El mercadillo navideño de la Plaza Mayor abre el 27 de noviembre y permanece hasta el 31 de diciembre. Entre semana abre de 10 a 21 h; viernes y fines de semana, de 10 a 22 h.",
+    "en": "The Christmas market on the Plaza Mayor opens on 27 November and runs until 31 December. Opening hours are 10:00–21:00 on weekdays and 10:00–22:00 on Fridays and weekends.",
+    "de": "Der Weihnachtsmarkt auf der Plaza Mayor öffnet am 27. November und läuft bis zum 31. Dezember. Unter der Woche ist von 10 bis 21 Uhr geöffnet, freitags und am Wochenende von 10 bis 22 Uhr.",
+    "fr": "Le marché de Noël de la Plaza Mayor ouvre le 27 novembre et dure jusqu’au 31 décembre. Il est ouvert de 10 h à 21 h en semaine, et de 10 h à 22 h le vendredi et le week-end.",
+    "it": "Il mercatino di Natale di Plaza Mayor apre il 27 novembre e resta aperto fino al 31 dicembre. Durante la settimana l’orario è 10–21, il venerdì e nel fine settimana 10–22."
    },
-   "quelle": "https://www.infobae.com/espana/viajes/2026/10/28/los-mercadillos-navidenos-mas-bonitos-de-espana-en-2026/",
-   "quelle_name": "Infobae"
+   "quelle": "https://viajes.nationalgeographic.com.es/a/llega-navidad-espana-estos-son-mejores-mercados-navidenos-2023_13388",
+   "quelle_name": "National Geographic Viajes"
+  },
+  {
+   "datum": "2026-11-27",
+   "bis": "2026-12-23",
+   "titel": {
+    "es": "Fira de Santa Llúcia en Barcelona",
+    "en": "Fira de Santa Llúcia in Barcelona",
+    "de": "Fira de Santa Llúcia in Barcelona",
+    "fr": "Fira de Santa Llúcia à Barcelone",
+    "it": "Fira de Santa Llúcia a Barcellona"
+   },
+   "text": {
+    "es": "El mercadillo navideño más antiguo de Barcelona, que se celebra desde 1786, empieza el 27 de noviembre y dura hasta el 23 de diciembre. Se instala junto a la Catedral y es ideal para buscar adornos y artesanía tradicional.",
+    "en": "Barcelona’s oldest Christmas market, held since 1786, starts on 27 November and runs until 23 December. It is set up next to the Cathedral and is a great place for decorations and traditional crafts.",
+    "de": "Barcelonas ältester Weihnachtsmarkt, der seit 1786 stattfindet, beginnt am 27. November und dauert bis zum 23. Dezember. Er steht neben der Kathedrale und eignet sich gut für Dekoration und traditionelles Kunsthandwerk.",
+    "fr": "Le plus ancien marché de Noël de Barcelone, organisé depuis 1786, commence le 27 novembre et dure jusqu’au 23 décembre. Installé près de la cathédrale, il est idéal pour trouver décorations et artisanat traditionnel.",
+    "it": "Il più antico mercatino di Natale di Barcellona, che si tiene dal 1786, inizia il 27 novembre e dura fino al 23 dicembre. Si trova accanto alla Cattedrale ed è ideale per decorazioni e artigianato tradizionale."
+   },
+   "quelle": "https://viajes.nationalgeographic.com.es/a/llega-navidad-espana-estos-son-mejores-mercados-navidenos-2023_13388",
+   "quelle_name": "National Geographic Viajes"
   },
   {
    "datum": "2026-11-21",
    "bis": "2026-12-22",
    "titel": {
     "es": "Feria del Belén en Sevilla",
-    "en": "Nativity Scene Fair in Seville",
-    "de": "Krippenmarkt in Sevilla",
-    "fr": "Foire de la Crèche à Séville",
-    "it": "Fiera del Presepe a Siviglia"
+    "en": "Nativity Fair in Seville",
+    "de": "Krippenmarkt Feria del Belén in Sevilla",
+    "fr": "Feria del Belén à Séville",
+    "it": "Feria del Belén a Siviglia"
    },
    "text": {
-    "es": "La tradicional Feria del Belén se celebra en la avenida de la Constitución hasta el 22 de diciembre. Es una cita clásica para quienes buscan figuras de belén y adornos navideños.",
-    "en": "The traditional Feria del Belén takes place on Avenida de la Constitución until 22 December. A classic stop for anyone looking for nativity figures and Christmas decorations.",
-    "de": "Die traditionelle Feria del Belén findet noch bis zum 22. Dezember auf der Avenida de la Constitución statt. Ein Klassiker für alle, die Krippenfiguren und Weihnachtsschmuck suchen.",
-    "fr": "La traditionnelle Feria del Belén se tient avenue de la Constitución jusqu‘au 22 décembre. Un classique pour ceux qui cherchent des santons et des décorations de Noël.",
-    "it": "La tradizionale Feria del Belén si tiene in Avenida de la Constitución fino al 22 dicembre. Un classico per chi cerca statuine del presepe e decorazioni natalizie."
+    "es": "La tradicional Feria del Belén se celebra en la avenida de la Constitución de Sevilla y está abierta hasta el 22 de diciembre. Es una buena forma de empezar el ambiente navideño en la ciudad.",
+    "en": "The traditional Feria del Belén is held on Seville’s Avenida de la Constitución and stays open until 22 December. It is a nice way to get into the Christmas mood in the city.",
+    "de": "Die traditionelle Feria del Belén findet auf der Avenida de la Constitución in Sevilla statt und ist bis zum 22. Dezember geöffnet. So lässt sich die Weihnachtsstimmung in der Stadt schön einläuten.",
+    "fr": "La traditionnelle Feria del Belén se tient sur l’avenue de la Constitución à Séville et reste ouverte jusqu’au 22 décembre. C’est une belle façon de découvrir l’ambiance de Noël dans la ville.",
+    "it": "La tradizionale Feria del Belén si svolge su Avenida de la Constitución a Siviglia ed è aperta fino al 22 dicembre. È un bel modo per entrare nell’atmosfera natalizia della città."
    },
    "quelle": "https://gastronomiaymoda.com/mercadillos-navidad-2026-espana-fechas-ciudades/",
    "quelle_name": "Gastronomía y Moda"
-  },
-  {
-   "datum": "2026-12-05",
-   "bis": "2026-12-08",
-   "titel": {
-    "es": "Puente de diciembre: cuatro días festivos del 5 al 8",
-    "en": "December long weekend: four days off from 5 to 8 December",
-    "de": "Dezember-Brückenwochenende: vier freie Tage vom 5. bis 8. Dezember",
-    "fr": "Pont de décembre : quatre jours du 5 au 8 décembre",
-    "it": "Ponte di dicembre: quattro giorni dal 5 all‘8 dicembre"
-   },
-   "text": {
-    "es": "Del sábado 5 al martes 8 de diciembre hay puente en gran parte de España: el lunes 7 es festivo solo en algunas comunidades y el martes 8 es festivo nacional. Conviene reservar con antelación entradas como la de la Alhambra, que suelen agotarse en estas fechas.",
-    "en": "From Saturday 5 to Tuesday 8 December there is a long weekend in much of Spain: Monday 7 is a holiday only in some regions, while Tuesday 8 is a national holiday. Book tickets such as the Alhambra early, as they tend to sell out.",
-    "de": "Von Samstag, 5., bis Dienstag, 8. Dezember, gibt es in weiten Teilen Spaniens ein langes Wochenende: Der Montag, 7., ist nur in einigen Regionen frei, der Dienstag, 8., ist landesweiter Feiertag. Tickets wie für die Alhambra sollten Sie früh buchen, da sie oft ausverkauft sind.",
-    "fr": "Du samedi 5 au mardi 8 décembre, c‘est le pont dans une grande partie de l‘Espagne : le lundi 7 n‘est férié que dans certaines régions, le mardi 8 est férié dans tout le pays. Réservez tôt des billets comme ceux de l‘Alhambra, souvent épuisés.",
-    "it": "Da sabato 5 a martedì 8 dicembre c‘è il ponte in gran parte della Spagna: lunedì 7 è festivo solo in alcune regioni, martedì 8 è festa nazionale. Conviene prenotare per tempo biglietti come quello dell‘Alhambra, spesso esauriti."
-   },
-   "quelle": "https://triptick.ai/blog/puente-de-diciembre-2026-donde-ir",
-   "quelle_name": "Triptick"
   }
  ]
 }

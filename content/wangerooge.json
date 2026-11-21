@@ -5,54 +5,68 @@
    "datum": "2026-11-21",
    "bis": "",
    "titel": {
-    "de": "Fähre: Fahrplan richtet sich nach den Gezeiten",
-    "en": "Ferry: timetable follows the tides"
+    "de": "Fähre und Inselbahn: aktuell keine Fahrplanänderungen",
+    "en": "Ferry and island railway: no timetable changes at the moment"
    },
    "text": {
-    "de": "Die Schiffe zwischen Harlesiel und Wangerooge fahren nach einem Fahrplan, der sich täglich ändert. Bei Wind und Wetter sind Änderungen vorbehalten. Schauen Sie vor An- und Abreise bitte in den aktuellen Fahrplan der Schiffahrt.",
-    "en": "Ships between Harlesiel and Wangerooge run on a timetable that changes every day with the tides. Changes due to wind and weather are possible. Please check the current timetable before you travel to or from the island."
+    "de": "Laut Schifffahrt und Inselbahn Wangerooge liegen derzeit keine Fahrplanänderungen vor. Die Fahrzeiten richten sich nach den Gezeiten und wechseln täglich. Bitte schauen Sie vor der Abfahrt noch einmal nach. Der Fahrplan Watt Sprinter für November steht zum Download bereit.",
+    "en": "Schifffahrt und Inselbahn Wangerooge currently reports no timetable changes. Departure times follow the tides and change daily, so please check again before you travel. The Watt Sprinter timetable for November is available to download."
    },
-   "quelle": "https://www.siw-wangerooge.de/siw-de/Linienverkehr",
-   "quelle_name": "Schiffahrt und Inselbahn Wangerooge (SIW)"
+   "quelle": "https://www.siw-wangerooge.de/siw-de/Meta/Aktuelles-5978776",
+   "quelle_name": "Schifffahrt und Inselbahn Wangerooge"
   },
   {
-   "datum": "2026-11-21",
-   "bis": "2026-11-21",
+   "datum": "2026-11-16",
+   "bis": "2026-12-25",
    "titel": {
-    "de": "NDR-Beitrag über Wangerooges Inselgeschichte",
-    "en": "NDR TV report on Wangerooge's island history"
+    "de": "Geänderte Öffnungszeiten am Bahnhof Wangerooge",
+    "en": "Changed opening hours at Wangerooge station"
    },
    "text": {
-    "de": "Der NDR zeigt am 21.11. um 18.00 Uhr in der Reihe „Nordtour“ einen Beitrag. Er zeigt, wie auf Wangerooge die Inselgeschichte erlebbar gemacht wird. Einen Link zum Beitrag finden Sie auf der verlinkten Seite.",
-    "en": "On 21 November at 6 pm, NDR is showing a report in its \"Nordtour\" series. It looks at how Wangerooge makes its island history something visitors can experience. The linked page has a link to the report."
+    "de": "Am Bahnhof Wangerooge gelten vom 16.11. bis 25.12.2026 geänderte Öffnungszeiten. Die genauen Zeiten stehen als PDF auf der Seite der Schifffahrt und Inselbahn Wangerooge. Ein Blick darauf lohnt sich vor der Abreise.",
+    "en": "Wangerooge station has changed opening hours from 16 Nov to 25 Dec 2026. The exact times are in a PDF on the Schifffahrt und Inselbahn Wangerooge website. It is worth a look before you travel."
    },
-   "quelle": "https://wangerooge-aktuell.de/leute/20-11-2026-regenbogen-am-nordstrand-auf-wangerooge/",
-   "quelle_name": "wangerooge-aktuell.de"
+   "quelle": "https://www.siw-wangerooge.de/siw-de/Meta/Aktuelles-5978776",
+   "quelle_name": "Schifffahrt und Inselbahn Wangerooge"
   },
   {
    "datum": "2026-11-21",
    "bis": "",
    "titel": {
-    "de": "Wetter: kühl, regnerisch und windig",
-    "en": "Weather: cool, rainy and windy"
+    "de": "Baustelle an der Schleuse in Harlesiel: Fähre nicht betroffen",
+    "en": "Lock construction site in Harlesiel: ferry not affected"
    },
    "text": {
-    "de": "Die Vorhersage nennt für heute 5 bis 9 °C, Regen und Wind bis etwa 51 km/h. Wetterfeste Kleidung ist für Spaziergänge am Strand und im Dorf empfehlenswert. Das Wetter kann sich auf der Insel schnell ändern.",
-    "en": "The forecast for today shows 5 to 9 °C, rain and wind of up to about 51 km/h. Weatherproof clothing is a good idea for walks on the beach and in the village. Conditions on the island can change quickly."
+    "de": "Wegen der Baustelle an der Schleuse in Harlesiel bleibt die Zufahrt zum Ostanleger frei. Von dort fährt die Fähre nach Wangerooge. Wer mit dem Auto zu den Ausflugsfahrten ab dem Westhafen möchte, folgt der Umleitung ab der Friedrichschleuse in Carolinensiel.",
+    "en": "Despite the lock construction in Harlesiel, access to the east pier stays open. This is where the Wangerooge ferry departs. If you drive to the day trips from the west harbour, follow the detour from the Friedrichschleuse in Carolinensiel."
    },
-   "quelle": "https://www.wetter.net/wetter/deutschland/wangerooge",
-   "quelle_name": "wetter.net"
+   "quelle": "https://www.siw-wangerooge.de/siw-de/Meta/Aktuelles-5978776",
+   "quelle_name": "Schifffahrt und Inselbahn Wangerooge"
   },
   {
-   "datum": "2026-10-27",
+   "datum": "2026-11-21",
    "bis": "",
    "titel": {
-    "de": "Strandhinweis: Sturm hat Sandstrand abgetragen",
-    "en": "Beach notice: storm has eroded the sandy beach"
+    "de": "Neue Busverbindungen nach Harlesiel",
+    "en": "New bus connections to Harlesiel"
    },
    "text": {
-    "de": "Ein NDR-Beitrag vom 27. Oktober berichtet, dass ein Sturm Sandstrand auf Wangerooge abgetragen hat. Die Strandverhältnisse können sich daher verändert haben. Bitte achten Sie bei Strandspaziergängen auf Hinweise vor Ort.",
-    "en": "An NDR report from 27 October says a storm washed away sandy beach on Wangerooge. Beach conditions may therefore have changed. Please follow any signs on site when walking on the beach."
+    "de": "Für die Anreise zur Fähre gibt es seit 2026 neue Busverbindungen nach Harlesiel. Die Fahrpläne der Linien 211, 212, 343 und 480 sind auf der Anreise-Seite von wangerooge.de verlinkt.",
+    "en": "New bus connections to Harlesiel have been available since 2026 for getting to the ferry. The timetables for lines 211, 212, 343 and 480 are linked on the arrival page of wangerooge.de."
+   },
+   "quelle": "https://www.wangerooge.de/anreise-auf-die-nordseeinsel",
+   "quelle_name": "wangerooge.de"
+  },
+  {
+   "datum": "2026-10-26",
+   "bis": "",
+   "titel": {
+    "de": "Strandhinweis: Sandverluste nach Herbststurm Manja",
+    "en": "Beach note: sand losses after autumn storm Manja"
+   },
+   "text": {
+    "de": "Das Sturmtief Manja hat in der Nacht zum 26. Oktober auf Wangerooge zu starken Sandverlusten geführt. Der Strand kann daher anders aussehen als gewohnt. Aktuelle Informationen finden Sie bei der Kurverwaltung.",
+    "en": "Storm Manja caused heavy sand losses on Wangerooge in the night leading up to 26 October. The beach may therefore look different than usual. Current information is available from the Kurverwaltung."
    },
    "quelle": "https://wangerooge-aktuell.de/",
    "quelle_name": "wangerooge-aktuell.de"

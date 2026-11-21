@@ -2,74 +2,74 @@
  "stand": "2026-11-21",
  "items": [
   {
-   "datum": "2026-11-28",
-   "bis": "2027-01-03",
+   "datum": "2026-11-23",
+   "bis": "2026-12-22",
    "titel": {
-    "de": "Warnemünder Weihnachts- und Neujahrsmarkt startet",
-    "en": "Warnemünde Christmas and New Year market opens"
+    "de": "Rostocker Weihnachtsmarkt öffnet am Montag",
+    "en": "Rostock Christmas Market opens on Monday"
    },
    "text": {
-    "de": "Am Samstag, 28. November, öffnet der kleine Weihnachtsmarkt auf dem Kirchenplatz in Warnemünde. Er läuft bis zum 3. Januar 2027. In den ersten Wochen sind Ruhetage eingeplant, die genauen Öffnungszeiten stehen auf der Quellseite.",
-    "en": "On Saturday, 28 November, the small Christmas market on Warnemünde's Kirchenplatz opens. It runs until 3 January 2027. Some rest days are planned in the first weeks, so please check the opening hours on the source page."
+    "de": "Am 23. November startet in der Rostocker Innenstadt der größte Weihnachtsmarkt Norddeutschlands. Er läuft bis zum 22. Dezember. Die offizielle Eröffnung mit Weihnachtsmann und Märchentante ist in diesem Jahr auf dem Universitätsplatz. Von Warnemünde aus kommt man bequem mit der S-Bahn hin.",
+    "en": "On 23 November, northern Germany's largest Christmas market opens in Rostock's city centre and runs until 22 December. This year the official opening with Santa Claus and the Fairy-tale Aunt takes place on Universitätsplatz. From Warnemünde you can easily get there by S-Bahn."
    },
-   "quelle": "https://wmnde.de/weihnachtsmarkt-warnemuende-2026/",
-   "quelle_name": "WMNDE Warnemünde-Portal"
+   "quelle": "https://www.rostocker-weihnachtsmarkt.de/de/unser-weihnachtsmarkt/ihr-besuch/",
+   "quelle_name": "Rostocker Weihnachtsmarkt"
   },
   {
-   "datum": "2026-11-21",
+   "datum": "2026-11-28",
+   "bis": "2026-12-31",
+   "titel": {
+    "de": "Warnemünder Weihnachts- und Neujahrsmarkt startet am 28. November",
+    "en": "Warnemünde Christmas and New Year Market starts on 28 November"
+   },
+   "text": {
+    "de": "Auf dem Kirchenplatz in Warnemünde öffnet am 28. November der Weihnachts- und Neujahrsmarkt. In den ersten drei Wochen ist er montags und dienstags geschlossen. Das Programm reicht laut Veranstalterinfo bis Silvester.",
+    "en": "The Christmas and New Year Market opens on Kirchenplatz in Warnemünde on 28 November. During the first three weeks it is closed on Mondays and Tuesdays. According to the organisers, the programme runs until New Year's Eve."
+   },
+   "quelle": "https://der-warnemuender.de/dwmnewslesen,Warnemuender-Weihnachtsmarkt-2026:-Neuer-Verein,-Programm-und-Silvesterparty,showNews-10977.html",
+   "quelle_name": "Der Warnemünder"
+  },
+  {
+   "datum": "2026-11-28",
+   "bis": "2026-11-29",
+   "titel": {
+    "de": "Erste kleine Weihnachtsmärkte auf Rügen am 1. Advent-Wochenende",
+    "en": "First small Christmas markets on Rügen on the first Advent weekend"
+   },
+   "text": {
+    "de": "Am 28. und 29. November öffnet der Weihnachtsmarkt auf dem Rügenhof in Putgarten am Kap Arkona, jeweils von 15 bis 20 Uhr. Am 28. November findet außerdem der Göhrener Weihnachtsmarkt am Kurpavillon statt. In Bergen gibt es einen DRK-Weihnachtsmarkt.",
+    "en": "On 28 and 29 November the Christmas market at Rügenhof in Putgarten near Cape Arkona is open from 3 to 8 pm. The Göhren Christmas market at the Kurpavillon also takes place on 28 November. Bergen hosts a Christmas market run by the German Red Cross."
+   },
+   "quelle": "https://ostseemagazin.net/advent-ruegen-weihnachtsmaerkte/",
+   "quelle_name": "Ostseemagazin"
+  },
+  {
+   "datum": "2026-11-16",
    "bis": "2026-11-27",
    "titel": {
-    "de": "Sellin: Bushaltestelle Hauptstraße zeitweise nicht bedient",
-    "en": "Sellin: Hauptstraße bus stop temporarily out of service"
+    "de": "Sellin: Bushaltestelle Hauptstraße wegen Straßensperrung nicht bedient",
+    "en": "Sellin: Hauptstraße bus stop not served due to road closure"
    },
    "text": {
-    "de": "Wegen Einschränkungen im Fahrplan hält der Bus vom 16. bis 27. November in beiden Richtungen nicht an der Haltestelle Sellin Hauptstraße. Bitte planen Sie für Ihre Busfahrt etwas mehr Zeit ein und schauen Sie vorab in die aktuellen Meldungen der Verkehrsgesellschaft.",
-    "en": "Due to timetable restrictions, buses will not stop at the Sellin Hauptstraße stop in either direction from 16 to 27 November. Please allow a little extra time for your bus trip and check the operator's latest notices beforehand."
+    "de": "Wegen einer Vollsperrung der Hauptstraße in Sellin wird die Haltestelle Sellin Hauptstraße bis zum 27. November in beide Richtungen nicht angefahren. Bitte plant für Busfahrten etwas mehr Zeit ein. Aktuelle Hinweise gibt die Verkehrsgesellschaft Vorpommern-Rügen.",
+    "en": "Because of a full closure of Hauptstraße in Sellin, the Sellin Hauptstraße bus stop is not served in either direction until 27 November. Please allow some extra time for bus journeys. The Vorpommern-Rügen transport company publishes current updates."
    },
-   "quelle": "https://vvr-bus.de/aktuelle-verkehrsmeldungen/",
-   "quelle_name": "VVR – Verkehrsgesellschaft Vorpommern-Rügen"
+   "quelle": "https://vvr-bus.de/",
+   "quelle_name": "VVR Verkehrsgesellschaft Vorpommern-Rügen"
   },
   {
-   "datum": "2026-11-21",
-   "bis": "2026-11-30",
+   "datum": "2026-11-09",
+   "bis": "2027-03-31",
    "titel": {
-    "de": "B 196 auf Rügen: Bauarbeiten Richtung Mönchgut",
-    "en": "B 196 on Rügen: roadworks towards Mönchgut"
+    "de": "Wittower Fähre fährt im Winterfahrplan",
+    "en": "Wittow ferry on winter timetable"
    },
    "text": {
-    "de": "Auf der B 196 laufen noch Straßenbauarbeiten, die laut Straßenbauamt voraussichtlich bis zum 30. November dauern. Tagsüber wird der Verkehr halbseitig vorbeigeführt. Wer nach Mönchgut fährt, sollte etwas Zeit mehr einplanen.",
-    "en": "Roadworks continue on the B 196, and the road authority expects them to last until 30 November. During the day, traffic is routed past the site on one lane. If you are heading to Mönchgut, allow some extra time."
+    "de": "Seit dem 9. November gilt für die Wittower Fähre auf Rügen der Winterfahrplan, der bis zum 31. März 2027 läuft. Gefahren wird von 6:30 bis 18:00 Uhr, mit Pausen im Tagesverlauf. Die Überfahrt dauert etwa 8 Minuten.",
+    "en": "The Wittow ferry on Rügen has been on its winter timetable since 9 November, valid until 31 March 2027. It runs from 6:30 am to 6:00 pm, with breaks during the day. The crossing takes about 8 minutes."
    },
-   "quelle": "https://ms-aktuell.de/welt/b196-sperrung-ruegen-26-10-2026/",
-   "quelle_name": "MS-Aktuell"
-  },
-  {
-   "datum": "2026-11-27",
-   "bis": "2026-11-28",
-   "titel": {
-    "de": "Rügen: Adventsmarkt Sassnitz und Weihnachtsmarkt Göhren",
-    "en": "Rügen: Sassnitz Advent market and Göhren Christmas market"
-   },
-   "text": {
-    "de": "Die Adventszeit beginnt auf Rügen mit zwei Märkten. Am 27. November findet der Adventsmarkt in Sassnitz statt. Am 28. November folgt der Göhrener Weihnachtsmarkt, der ab 11 Uhr bei freiem Eintritt öffnet.",
-    "en": "Advent season on Rügen begins with two markets. The Advent market in Sassnitz takes place on 27 November. The Göhren Christmas market follows on 28 November, opening at 11 am with free admission."
-   },
-   "quelle": "https://www.ruegen-abc.de/inseltipps/veranstaltungen",
-   "quelle_name": "Rügen ABC"
-  },
-  {
-   "datum": "2026-11-21",
-   "bis": "2026-11-21",
-   "titel": {
-    "de": "Usedom: Lichterfest auf dem Markt",
-    "en": "Usedom: Festival of Lights on the market square"
-   },
-   "text": {
-    "de": "Heute um 12 Uhr startet auf dem Markt der Inselstadt Usedom das Lichterfest. In der Galerie Kaleidoskop in der Swinemünder Straße ist heute von 10 bis 16 Uhr außerdem eine Ausstellung regionaler Künstlerinnen und Künstler zu sehen.",
-    "en": "The Festival of Lights begins today at noon on the market square in Usedom town. Today from 10 am to 4 pm, the Kaleidoskop gallery on Swinemünder Straße is also showing an exhibition of regional artists."
-   },
-   "quelle": "https://www.stadtinfo-usedom.de/m/veranstaltungen/index.php",
-   "quelle_name": "Stadtinfo Usedom"
+   "quelle": "https://ostseemagazin.net/wittower-faehre-ruegen/",
+   "quelle_name": "Ostseemagazin"
   }
  ]
 }

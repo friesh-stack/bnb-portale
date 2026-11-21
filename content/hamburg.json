@@ -5,71 +5,71 @@
    "datum": "2026-11-23",
    "bis": "2026-12-23",
    "titel": {
-    "de": "Historischer Weihnachtsmarkt am Rathausmarkt startet am Montag",
-    "en": "Historic Christmas Market at Rathausmarkt opens on Monday"
+    "de": "Weihnachtsmarkt am Rathausmarkt startet am Montag",
+    "en": "Rathausmarkt Christmas Market opens on Monday"
    },
    "text": {
-    "de": "Am 23. November öffnet der Historische Weihnachtsmarkt vor dem Rathaus und läuft bis zum 23. Dezember. Er ist täglich von 11 bis 21 Uhr geöffnet. Ein Höhepunkt ist der fliegende Weihnachtsmann über dem Markt.",
-    "en": "The Historic Christmas Market in front of City Hall opens on 23 November and runs until 23 December. It is open daily from 11 am to 9 pm. A highlight is the flying Santa Claus above the market."
+    "de": "Der historische Weihnachtsmarkt vor dem Rathaus öffnet am 23. November seine Buden. Er läuft bis zum 23. Dezember und gehört für viele Gäste zum Pflichtprogramm im Advent.",
+    "en": "The historic Christmas market in front of City Hall opens on 23 November. It runs until 23 December and is a highlight of Advent for many visitors."
    },
-   "quelle": "https://www.hamburg.de/tourismus/weihnachten-hamburg/weihnachtsmarkt-hamburg/weihnachtsmarkt-rathausmarkt-301092",
+   "quelle": "https://hamburg.t-online.de/region/hamburg/id_100987186/hamburg-weihnachtsmarkt-2026-alle-termine-und-winter-maerkte-im-ueberblick.html",
+   "quelle_name": "t-online Hamburg"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-12-23",
+   "titel": {
+    "de": "Weißerzauber am Jungfernstieg: weiße Zelte und Märchenschiffe",
+    "en": "Weißerzauber at Jungfernstieg: white tents and fairy-tale ships"
+   },
+   "text": {
+    "de": "Der Weihnachtsmarkt an der Binnenalster ist bereits geöffnet und setzt auf weiße Pagodenzelte, ein historisches Riesenrad und Lichterglanz. Am Totensonntag (22. November) bleibt er geschlossen. Die Märchenschiffe am Alsterufer legen ab dem 26. November an.",
+    "en": "The Christmas market by the Inner Alster is already open, with white pagoda tents, a historic Ferris wheel and festive lights. It is closed on Sunday 22 November (Totensonntag). The fairy-tale ships on the waterfront open from 26 November."
+   },
+   "quelle": "https://www.hamburg.de/tourismus/weihnachten-hamburg/weihnachtsmarkt-hamburg/weihnachtsmarkt-jungfernstieg-301080",
    "quelle_name": "hamburg.de"
   },
   {
    "datum": "2026-11-21",
    "bis": "2026-12-30",
    "titel": {
-    "de": "Weihnachtsmarkt HafenCity: Sonntag geschlossen",
-    "en": "HafenCity Christmas Market: closed on Sunday"
+    "de": "HafenCity Weihnachtsmarkt am Überseeboulevard",
+    "en": "HafenCity Christmas Market at Überseeboulevard"
    },
    "text": {
-    "de": "Der Weihnachtsmarkt auf dem Überseeboulevard läuft noch bis zum 30. Dezember. Am Samstag ist von 12 bis 20 Uhr geöffnet. Am Totensonntag (22. November) bleibt der Markt geschlossen, ebenso am 24. und 25. Dezember.",
-    "en": "The Christmas market on Überseeboulevard runs until 30 December. On Saturday it is open from 12 to 8 pm. It is closed on Totensonntag (22 November) and on 24 and 25 December."
+    "de": "Zwischen moderner Architektur gibt es Glühwein, Waffeln und Mitmachangebote wie Wintergolf und Eisstockschießen. Am Wochenende ist von 12 bis 20 Uhr geöffnet. Am Totensonntag bleibt der Markt zu.",
+    "en": "Among the modern architecture you will find mulled wine, waffles and activities such as winter golf and ice stock shooting. At the weekend it is open from 12 to 8 pm. The market is closed on Totensonntag (22 November)."
    },
    "quelle": "https://www.hamburg.de/tourismus/weihnachten-hamburg/weihnachtsmarkt-hamburg/weihnachtsmarkt-hafencity-307512",
    "quelle_name": "hamburg.de"
   },
   {
    "datum": "2026-11-21",
-   "bis": "2026-11-27",
-   "titel": {
-    "de": "U3: Werktags gesperrt zwischen Berliner Tor und Barmbek",
-    "en": "U3: closed on weekdays between Berliner Tor and Barmbek"
-   },
-   "text": {
-    "de": "Bis zum 27. November fährt die U3 montags bis freitags nicht zwischen Berliner Tor und Barmbek. Die S1 ist eine Alternative, außerdem gibt es Ersatzbusse. Seit dem 20. November (21 Uhr) halten die Ersatzbusse nicht am Berliner Tor. Aktuelle Verbindungen zeigen die hvv-App und hvv.de.",
-    "en": "Until 27 November, the U3 does not run between Berliner Tor and Barmbek from Monday to Friday. The S1 is an alternative, and replacement buses are also running. Since 20 November (9 pm), the replacement buses do not stop at Berliner Tor. Current connections are shown in the hvv app and on hvv.de."
-   },
-   "quelle": "https://www.hochbahn.de/de/presse/pressemitteilungen/u3-umfangreicher-gleisbau-im-herbst-120044",
-   "quelle_name": "HOCHBAHN"
-  },
-  {
-   "datum": "2026-11-21",
    "bis": "2026-12-06",
    "titel": {
-    "de": "Winterdom auf dem Heiligengeistfeld",
-    "en": "Winterdom funfair at Heiligengeistfeld"
+    "de": "Winterdom in Hamburg",
+    "en": "Winter Dom in Hamburg"
    },
    "text": {
-    "de": "Hamburgs Winter-Volksfest ist noch bis zum 6. Dezember 2026 auf dem Heiligengeistfeld zu Gast. Es gibt Fahrgeschäfte und Volksfestatmosphäre. Das ist ein guter Programmpunkt für einen Abend in der kalten Jahreszeit.",
-    "en": "Hamburg's winter funfair is at Heiligengeistfeld until 6 December 2026. It offers rides and a lively fair atmosphere. It makes a good evening outing in the cold season."
+    "de": "Der Winterdom läuft noch bis zum 6. Dezember. Das Volksfest ist ein beliebtes Ausflugsziel für Familien und Gäste, die Hamburger Rummel-Atmosphäre erleben möchten.",
+    "en": "The Winter Dom funfair continues until 6 December. It is a popular outing for families and for visitors who want to enjoy Hamburg's traditional fairground atmosphere."
    },
    "quelle": "https://szene-hamburg.com/veranstaltungen-november/",
    "quelle_name": "Szene Hamburg"
   },
   {
    "datum": "2026-11-21",
-   "bis": "2026-12-23",
+   "bis": "2026-11-22",
    "titel": {
-    "de": "Santa Pauli: Der besondere Weihnachtsmarkt auf dem Kiez",
-    "en": "Santa Pauli: the unconventional Christmas market on the Kiez"
+    "de": "Bahn-Vollsperrung zwischen Hauptbahnhof und Harburg endet am Sonntag",
+    "en": "Rail closure between Hauptbahnhof and Harburg ends on Sunday"
    },
    "text": {
-    "de": "Der Weihnachtsmarkt Santa Pauli in St. Pauli hat seit dem 9. November geöffnet und läuft bis zum 23. Dezember. Am Sonntag, 22. November, öffnet er erst um 17 Uhr. Bitte beachten: Der Markt ist nichts für Kinder und eher für Erwachsene gedacht.",
-    "en": "The Santa Pauli Christmas market in St. Pauli has been open since 9 November and runs until 23 December. On Sunday, 22 November, it opens only at 5 pm."
+    "de": "Wegen Bauarbeiten der Deutschen Bahn ist die Strecke zwischen Hamburg Hauptbahnhof und Harburg noch bis Sonntag, 22. November, voll gesperrt. Wer Richtung Harburg oder Altona unterwegs ist, sollte mehr Zeit einplanen und sich vor der Fahrt über die aktuellen Verbindungen informieren.",
+    "en": "Due to Deutsche Bahn construction work, the line between Hamburg Hauptbahnhof and Harburg is fully closed until Sunday, 22 November. If you are travelling towards Harburg or Altona, allow extra time and check current connections before you set off."
    },
-   "quelle": "https://hamburgtourist.info/hamburg-jetzt/hamburg-am-wochenende-welche-weihnachtsmaerkte-geoeffnet-sind-und-was-am-totensonntag-anders-laeuft/",
-   "quelle_name": "Hamburgtourist.info"
+   "quelle": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bvm/aktuelles/pressemeldungen/hamburg-organisiert-ergaenzende-busverkehre-waehrend-vierwoechiger-bahnsperrung-1230784",
+   "quelle_name": "hamburg.de (Behörde für Verkehr und Mobilitätswende)"
   }
  ]
 }
