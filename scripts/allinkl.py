@@ -172,7 +172,7 @@ def main(argv):
     anwenden = "--anwenden" in argv
     slugs = [a for a in argv if not a.startswith("--")]
     cfg = json.loads((ROOT / "portale.json").read_text(encoding="utf-8"))
-    kas = Kas(os.environ["KAS_LOGIN"], os.environ["KAS_PASSWORT"])
+    kas = Kas(os.environ["KAS_LOGIN"].strip(), os.environ["KAS_PASSWORT"].strip())
     if not anwenden:
         print("PROBELAUF – es wird nichts geändert. Zum Ausführen: --anwenden\n")
     fehler = 0
@@ -185,6 +185,13 @@ def main(argv):
                 dns_einrichten(kas, p, cfg["github_owner"], anwenden)
             else:
                 weiterleitung_einrichten(kas, p, cfg["github_owner"], anwenden)
+        except KasFehler as e:
+            fehler += 1
+            print(f"  ! {e}")
+            if any(w in str(e) for w in ("password", "login", "auth", "session")):
+                # Anmeldung falsch: sofort aufhören, damit das KAS-Konto nicht gesperrt wird
+                print("\nAbbruch: KAS-Anmeldung fehlgeschlagen – bitte KAS_LOGIN / KAS_PASSWORT prüfen.")
+                break
         except Exception as e:  # noqa: BLE001
             fehler += 1
             print(f"  ! {e}")
