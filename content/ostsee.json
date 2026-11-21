@@ -1,0 +1,75 @@
+{
+ "stand": "2026-11-21",
+ "items": [
+  {
+   "datum": "2026-11-28",
+   "bis": "2027-01-03",
+   "titel": {
+    "de": "Warnemünder Weihnachts- und Neujahrsmarkt startet",
+    "en": "Warnemünde Christmas and New Year market opens"
+   },
+   "text": {
+    "de": "Am Samstag, 28. November, öffnet der kleine Weihnachtsmarkt auf dem Kirchenplatz in Warnemünde. Er läuft bis zum 3. Januar 2027. In den ersten Wochen sind Ruhetage eingeplant, die genauen Öffnungszeiten stehen auf der Quellseite.",
+    "en": "On Saturday, 28 November, the small Christmas market on Warnemünde's Kirchenplatz opens. It runs until 3 January 2027. Some rest days are planned in the first weeks, so please check the opening hours on the source page."
+   },
+   "quelle": "https://wmnde.de/weihnachtsmarkt-warnemuende-2026/",
+   "quelle_name": "WMNDE Warnemünde-Portal"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-11-27",
+   "titel": {
+    "de": "Sellin: Bushaltestelle Hauptstraße zeitweise nicht bedient",
+    "en": "Sellin: Hauptstraße bus stop temporarily out of service"
+   },
+   "text": {
+    "de": "Wegen Einschränkungen im Fahrplan hält der Bus vom 16. bis 27. November in beiden Richtungen nicht an der Haltestelle Sellin Hauptstraße. Bitte planen Sie für Ihre Busfahrt etwas mehr Zeit ein und schauen Sie vorab in die aktuellen Meldungen der Verkehrsgesellschaft.",
+    "en": "Due to timetable restrictions, buses will not stop at the Sellin Hauptstraße stop in either direction from 16 to 27 November. Please allow a little extra time for your bus trip and check the operator's latest notices beforehand."
+   },
+   "quelle": "https://vvr-bus.de/aktuelle-verkehrsmeldungen/",
+   "quelle_name": "VVR – Verkehrsgesellschaft Vorpommern-Rügen"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-11-30",
+   "titel": {
+    "de": "B 196 auf Rügen: Bauarbeiten Richtung Mönchgut",
+    "en": "B 196 on Rügen: roadworks towards Mönchgut"
+   },
+   "text": {
+    "de": "Auf der B 196 laufen noch Straßenbauarbeiten, die laut Straßenbauamt voraussichtlich bis zum 30. November dauern. Tagsüber wird der Verkehr halbseitig vorbeigeführt. Wer nach Mönchgut fährt, sollte etwas Zeit mehr einplanen.",
+    "en": "Roadworks continue on the B 196, and the road authority expects them to last until 30 November. During the day, traffic is routed past the site on one lane. If you are heading to Mönchgut, allow some extra time."
+   },
+   "quelle": "https://ms-aktuell.de/welt/b196-sperrung-ruegen-26-10-2026/",
+   "quelle_name": "MS-Aktuell"
+  },
+  {
+   "datum": "2026-11-27",
+   "bis": "2026-11-28",
+   "titel": {
+    "de": "Rügen: Adventsmarkt Sassnitz und Weihnachtsmarkt Göhren",
+    "en": "Rügen: Sassnitz Advent market and Göhren Christmas market"
+   },
+   "text": {
+    "de": "Die Adventszeit beginnt auf Rügen mit zwei Märkten. Am 27. November findet der Adventsmarkt in Sassnitz statt. Am 28. November folgt der Göhrener Weihnachtsmarkt, der ab 11 Uhr bei freiem Eintritt öffnet.",
+    "en": "Advent season on Rügen begins with two markets. The Advent market in Sassnitz takes place on 27 November. The Göhren Christmas market follows on 28 November, opening at 11 am with free admission."
+   },
+   "quelle": "https://www.ruegen-abc.de/inseltipps/veranstaltungen",
+   "quelle_name": "Rügen ABC"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-11-21",
+   "titel": {
+    "de": "Usedom: Lichterfest auf dem Markt",
+    "en": "Usedom: Festival of Lights on the market square"
+   },
+   "text": {
+    "de": "Heute um 12 Uhr startet auf dem Markt der Inselstadt Usedom das Lichterfest. In der Galerie Kaleidoskop in der Swinemünder Straße ist heute von 10 bis 16 Uhr außerdem eine Ausstellung regionaler Künstlerinnen und Künstler zu sehen.",
+    "en": "The Festival of Lights begins today at noon on the market square in Usedom town. Today from 10 am to 4 pm, the Kaleidoskop gallery on Swinemünder Straße is also showing an exhibition of regional artists."
+   },
+   "quelle": "https://www.stadtinfo-usedom.de/m/veranstaltungen/index.php",
+   "quelle_name": "Stadtinfo Usedom"
+  }
+ ]
+}

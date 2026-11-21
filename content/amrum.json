@@ -1,0 +1,75 @@
+{
+ "stand": "2026-11-21",
+ "items": [
+  {
+   "datum": "2026-11-28",
+   "bis": "2026-12-31",
+   "titel": {
+    "de": "Amrumer Winterzauber in Norddorf startet",
+    "en": "Amrum Winterzauber market starts in Norddorf"
+   },
+   "text": {
+    "de": "Der kleine Weihnachtsmarkt findet auf der Terrasse des Seeblick Resorts in Norddorf statt. Termine in den nächsten Tagen sind der 28. und 29. November sowie der 5. und 6. Dezember, jeweils ab 13 Uhr. Es gibt Stände zum Stöbern sowie Glühwein und Leckereien. Weitere Termine reichen bis zum Jahreswechsel.",
+    "en": "The small Christmas market takes place on the terrace of the Seeblick Resort in Norddorf. Upcoming dates are 28 and 29 November and 5 and 6 December, from 1 pm. There are stalls to browse, mulled wine and treats. More dates run through to New Year."
+   },
+   "quelle": "https://www.moin.de/norddeutschland/nordsee/weihnachtsmaerkte-foehr-amrum-pellworm-faehre-id300897099.html",
+   "quelle_name": "moin.de"
+  },
+  {
+   "datum": "2026-11-25",
+   "bis": "2026-12-04",
+   "titel": {
+    "de": "Wattwanderungen und Dünenführungen der Schutzstation Wattenmeer",
+    "en": "Mudflat hikes and dune tours with Schutzstation Wattenmeer"
+   },
+   "text": {
+    "de": "Die Schutzstation Wattenmeer bietet auf Amrum weiterhin Führungen an. Dazu zählen Dünenführungen, kleine Wattwanderungen und Familienwattwanderungen mit Schatzsuche, zum Beispiel am 25., 26. und 28. November sowie am 3. und 4. Dezember. Uhrzeiten und Details stehen im Veranstaltungskalender.",
+    "en": "The Schutzstation Wattenmeer continues to offer guided tours on Amrum. They include dune tours, short mudflat hikes and family hikes with a treasure hunt, for example on 25, 26 and 28 November and on 3 and 4 December. Times and details are in the event calendar."
+   },
+   "quelle": "https://www.schutzstation-wattenmeer.de/unsere-stationen/amrum/veranstaltungen-watt-erleben/",
+   "quelle_name": "Schutzstation Wattenmeer"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-12-12",
+   "titel": {
+    "de": "Winterfahrplan der Fähre Dagebüll–Föhr–Amrum",
+    "en": "Winter ferry timetable Dagebüll–Föhr–Amrum"
+   },
+   "text": {
+    "de": "Bis zum 12. Dezember 2026 gilt der Winterfahrplan der W.D.R. auf der Strecke Dagebüll–Föhr–Amrum. Bei Sturm oder Niedrigwasser kann es kurzfristig Änderungen geben. Aktuelle Hinweise stehen auf faehre.de.",
+    "en": "The W.D.R. winter timetable for Dagebüll–Föhr–Amrum applies until 12 December 2026. Storms or low water can bring short-notice changes. Current notices are on faehre.de."
+   },
+   "quelle": "https://www.faehre.de/fileadmin/content/pdf_downloads_termine_faltblaetter/pdf_fahrplan/WDR_Faehre_Fahrplanflyer_2026.pdf",
+   "quelle_name": "W.D.R. Föhr-Amrum (faehre.de)"
+  },
+  {
+   "datum": "2026-11-16",
+   "bis": "2026-11-26",
+   "titel": {
+    "de": "Bauarbeiten in Wittdün: Straße Achtern Strand",
+    "en": "Roadworks in Wittdün: Achtern Strand street"
+   },
+   "text": {
+    "de": "Bis zum 26. November ist in Wittdün der Gehweg in der Straße Achtern Strand gesperrt. Die Fahrbahn ist dort verengt. Bitte planen Sie auf Spaziergängen und Fahrten etwas mehr Zeit ein.",
+    "en": "Until 26 November the pavement on Achtern Strand street in Wittdün is closed. The road is narrowed there. Please allow a little extra time for walks and trips."
+   },
+   "quelle": "https://www.amrum-news.de/",
+   "quelle_name": "AmrumNews"
+  },
+  {
+   "datum": "2026-09-21",
+   "bis": "2026-11-30",
+   "titel": {
+    "de": "Wanderbaustellen in Norddorf",
+    "en": "Moving roadworks in Norddorf"
+   },
+   "text": {
+    "de": "Im Gebiet der Gemeinde Norddorf gibt es noch bis zum 30. November 2026 wechselnde Baustellen. Das Amt Föhr-Amrum hat sie angekündigt. Unterwegs kann es deshalb kleinere Einschränkungen geben.",
+    "en": "Moving roadworks are in place across the Norddorf municipality until 30 November 2026, as announced by the Amt Föhr-Amrum. You may meet minor restrictions along the way."
+   },
+   "quelle": "https://www.amrum-nebel.de/news/",
+   "quelle_name": "Insel Amrum News (amrum-nebel.de)"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "stand": "2026-11-21",
+ "items": [
+  {
+   "datum": "2026-11-19",
+   "bis": "2026-12-30",
+   "titel": {
+    "de": "Düsseldorfer Weihnachtsmarkt ist eröffnet",
+    "en": "Düsseldorf Christmas Market is open"
+   },
+   "text": {
+    "de": "Der Düsseldorfer Weihnachtsmarkt hat am 19. November eröffnet und ist täglich bis zum 30. Dezember geöffnet. Sonntags bis donnerstags ist von 11 bis 20 Uhr geöffnet, freitags und samstags bis 21 Uhr. Einzelne Händler können länger geöffnet haben.",
+    "en": "Düsseldorf's Christmas market opened on 19 November and runs daily until 30 December. Opening hours are 11 am to 8 pm from Sunday to Thursday, and until 9 pm on Fridays and Saturdays. Some vendors may stay open longer."
+   },
+   "quelle": "https://www.duesseldorf.de/aktuelles/news/detailansicht/newsdetail/der-duesseldorfer-weihnachtsmarkt-2026-ist-eroeffnet",
+   "quelle_name": "Landeshauptstadt Düsseldorf"
+  },
+  {
+   "datum": "2026-11-22",
+   "bis": "2026-11-22",
+   "titel": {
+    "de": "Totensonntag: Stiller Feiertag am 22. November",
+    "en": "Totensonntag: quiet day of remembrance on 22 November"
+   },
+   "text": {
+    "de": "Am Sonntag, 22. November, ist Totensonntag. In vielen Bundesländern gilt er als stiller Feiertag. Die meisten Weihnachtsmärkte öffnen erst danach, zwischen dem 23. und 28. November.",
+    "en": "Sunday, 22 November, is Totensonntag, a quiet day of remembrance in many federal states. Most Christmas markets open only after it, between 23 and 28 November."
+   },
+   "quelle": "https://www.deutsche-weihnachtsmaerkte.de/weihnachtsmarkt/termine",
+   "quelle_name": "Deutsche Weihnachtsmärkte"
+  },
+  {
+   "datum": "2026-11-25",
+   "bis": "2026-12-24",
+   "titel": {
+    "de": "Dresdner Striezelmarkt und Nürnberger Christkindlesmarkt starten",
+    "en": "Dresden Striezelmarkt and Nuremberg Christkindlesmarkt are about to start"
+   },
+   "text": {
+    "de": "Der Dresdner Striezelmarkt öffnet am Mittwoch, 25. November, am Nachmittag auf dem Altmarkt und läuft bis zum 24. Dezember. Der Nürnberger Christkindlesmarkt beginnt am 27. November und endet ebenfalls am 24. Dezember.",
+    "en": "Dresden's Striezelmarkt opens on Wednesday, 25 November, in the afternoon on the Altmarkt and runs until 24 December. Nuremberg's Christkindlesmarkt starts on 27 November and also ends on 24 December."
+   },
+   "quelle": "https://deutschtime.de/weihnachtsmaerkte-deutschland/",
+   "quelle_name": "deutschtime.de"
+  },
+  {
+   "datum": "2026-11-20",
+   "bis": "",
+   "titel": {
+    "de": "RE1 Berlin–Fürstenwalde: Ersatzverkehr ab 20. November",
+    "en": "RE1 Berlin–Fürstenwalde: replacement service from 20 November"
+   },
+   "text": {
+    "de": "Wegen Bauarbeiten fallen die RE1-Züge zwischen Berlin und Fürstenwalde ab dem 20. November für rund drei Wochen aus. Es gibt Ersatzbusse und Umleitungen. Zwischendurch ist die S-Bahn eine Alternative. Bitte planen Sie etwas mehr Reisezeit ein und prüfen Sie Ihre Verbindung vorab.",
+    "en": "Due to construction work, RE1 trains between Berlin and Fürstenwalde are cancelled for about three weeks from 20 November. Replacement buses and diversions are in place, and the S-Bahn is an alternative on part of the route. Please allow extra travel time and check your connection beforehand."
+   },
+   "quelle": "https://www.entwicklungsstadt.de/re1-faellt-wochenlang-aus-reisende-muessen-mehrfach-umsteigen/",
+   "quelle_name": "entwicklungsstadt.de"
+  },
+  {
+   "datum": "2026-11-14",
+   "bis": "2026-12-10",
+   "titel": {
+    "de": "RE1 Oldenburg–Leer: Busse statt Bahn bis 10. Dezember",
+    "en": "RE1 Oldenburg–Leer: buses replace trains until 10 December"
+   },
+   "text": {
+    "de": "Auf der Linie RE 1 (Norddeich Mole – Hannover) fahren voraussichtlich bis zum 10. Dezember keine Züge zwischen Oldenburg Hbf und Leer. Die Deutsche Bahn setzt Ersatzbusse ein. Wer nach Ostfriesland reist, sollte den Ersatzfahrplan im DB Navigator prüfen.",
+    "en": "On the RE 1 line (Norddeich Mole – Hannover), trains are expected not to run between Oldenburg Hbf and Leer until 10 December. Deutsche Bahn is providing replacement buses. If you are travelling to East Frisia, check the replacement timetable in the DB Navigator."
+   },
+   "quelle": "https://www.juistnews.de/artikel/2026/11/13/streckensperrung-im-netz-der-deutschen-bahn",
+   "quelle_name": "Juist News"
+  }
+ ]
+}

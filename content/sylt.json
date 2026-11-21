@@ -1,0 +1,75 @@
+{
+ "stand": "2026-11-21",
+ "items": [
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-11-22",
+   "titel": {
+    "de": "Keitumer Scheunenmarkt in der Landschlachterei",
+    "en": "Keitum Barn Market at the Sylter Landschlachterei"
+   },
+   "text": {
+    "de": "Am Wochenende lädt der Scheunenmarkt in die Halle der Sylter Landschlachterei in Keitum ein. Geöffnet ist am Samstag von 11 bis 18 Uhr und am Sonntag von 12 bis 17 Uhr. Es gibt herzhafte Spezialitäten und Geschenkideen.",
+    "en": "This weekend the barn market takes place in the Sylter Landschlachterei hall in Keitum. It is open on Saturday from 11 am to 6 pm and on Sunday from 12 noon to 5 pm. Visitors can find hearty food and gift ideas."
+   },
+   "quelle": "https://www.insel-sylt.de/weihnachtsmaerkte-auf-sylt/",
+   "quelle_name": "Insel Sylt Tourismus-Service (insel-sylt.de)"
+  },
+  {
+   "datum": "2026-11-20",
+   "bis": "2027-01-02",
+   "titel": {
+    "de": "Winterzauber am Meer in Kampen",
+    "en": "Winter Magic by the Sea in Kampen"
+   },
+   "text": {
+    "de": "Seit dem 20. November läuft an der Sturmhaube in Kampen der „Winterzauber am Meer“. Die Veranstaltung ist im Sylter Veranstaltungskalender als Fest bzw. Markt gelistet und geht bis zum 2. Januar 2027. Der Veranstaltungsbeginn ist dort mit 12 Uhr angegeben.",
+    "en": "The \"Winterzauber am Meer\" has been running at the Sturmhaube in Kampen since 20 November. It is listed in the Sylt events calendar as a festival/market and continues until 2 January 2027. The listed start time is 12 noon."
+   },
+   "quelle": "https://www.sylt.de/veranstaltungen/highlights-des-jahres",
+   "quelle_name": "sylt.de (Sylt Marketing)"
+  },
+  {
+   "datum": "2026-11-27",
+   "bis": "2026-11-29",
+   "titel": {
+    "de": "Adventsmärkte in Morsum und List",
+    "en": "Advent markets in Morsum and List"
+   },
+   "text": {
+    "de": "Am kommenden Freitag starten zwei Märkte: „Jööltir ön Muasem“ im Muasem Hüs in Morsum und der Lister Weihnachtsmarkt an der Kurverwaltung. Beide laufen bis Sonntag, 29. November. Wer früh in Adventsstimmung kommen möchte, kann sich den Termin vormerken.",
+    "en": "Two markets start next Friday: \"Jööltir ön Muasem\" at the Muasem Hüs in Morsum and the List Christmas Market at the Kurverwaltung. Both run until Sunday, 29 November. It is a good date to note if you want an early start to the Advent season."
+   },
+   "quelle": "https://www.sylt.de/veranstaltungen/highlights-des-jahres",
+   "quelle_name": "sylt.de (Sylt Marketing)"
+  },
+  {
+   "datum": "2026-11-09",
+   "bis": "2026-12-12",
+   "titel": {
+    "de": "Blauer Autozug: Übergangsfahrplan mit früheren Verladezeiten",
+    "en": "Blue Autozug: transitional timetable with earlier loading times"
+   },
+   "text": {
+    "de": "Der blaue Autozug Sylt fährt noch bis einschließlich 12. Dezember nach einem Übergangsfahrplan. Abends gibt es weniger Fahrten, die letzte Abfahrt ab Westerland hat Verladeschluss um 17.55 Uhr. Bitte vor der Fahrt die aktuellen Zeiten beim Betreiber prüfen.",
+    "en": "The blue Autozug Sylt is running on a transitional timetable through 12 December. There are fewer evening departures, and the last departure from Westerland has a loading deadline of 5:55 pm. Please check the current times with the operator before travelling."
+   },
+   "quelle": "https://www.dein-sylt.online/artikel/2026/2077/blauer-autozug-sylt-neuer-uebergangsfahrplan-gilt-ab-9-november-2026",
+   "quelle_name": "dein-sylt.online"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-11-28",
+   "titel": {
+    "de": "Wetter: kalt, überwiegend grau, kein Sturm erwartet",
+    "en": "Weather: cold, mostly grey, no storm expected"
+   },
+   "text": {
+    "de": "Laut Deutschem Wetterdienst wird es in der letzten Novemberwoche kalt, meist wolkig und eher trocken, mit Ostwind und Höchstwerten um 2 bis 3 Grad. Am Samstag ziehen noch Schauer über die Insel, am Sonntag ist der Vormittag für einen Strandspaziergang die bessere Wahl. Warme Kleidung ist empfehlenswert.",
+    "en": "According to the German Weather Service, the last week of November will be cold, mostly cloudy and fairly dry, with east wind and highs around 2 to 3 degrees. Some showers are still passing over the island on Saturday, and Sunday morning is the better time for a beach walk. Warm clothing is recommended."
+   },
+   "quelle": "https://sylt1.tv/muetzenwetter-statt-sturmwarnung-so-wird-das-sylt-wetter-in-der-letzten-novemberwoche",
+   "quelle_name": "SYLT1 Sylt News"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "stand": "2026-11-21",
+ "items": [
+  {
+   "datum": "2026-11-21",
+   "bis": "",
+   "titel": {
+    "de": "Fähre: Fahrplan richtet sich nach den Gezeiten",
+    "en": "Ferry: timetable follows the tides"
+   },
+   "text": {
+    "de": "Die Schiffe zwischen Harlesiel und Wangerooge fahren nach einem Fahrplan, der sich täglich ändert. Bei Wind und Wetter sind Änderungen vorbehalten. Schauen Sie vor An- und Abreise bitte in den aktuellen Fahrplan der Schiffahrt.",
+    "en": "Ships between Harlesiel and Wangerooge run on a timetable that changes every day with the tides. Changes due to wind and weather are possible. Please check the current timetable before you travel to or from the island."
+   },
+   "quelle": "https://www.siw-wangerooge.de/siw-de/Linienverkehr",
+   "quelle_name": "Schiffahrt und Inselbahn Wangerooge (SIW)"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-11-21",
+   "titel": {
+    "de": "NDR-Beitrag über Wangerooges Inselgeschichte",
+    "en": "NDR TV report on Wangerooge's island history"
+   },
+   "text": {
+    "de": "Der NDR zeigt am 21.11. um 18.00 Uhr in der Reihe „Nordtour“ einen Beitrag. Er zeigt, wie auf Wangerooge die Inselgeschichte erlebbar gemacht wird. Einen Link zum Beitrag finden Sie auf der verlinkten Seite.",
+    "en": "On 21 November at 6 pm, NDR is showing a report in its \"Nordtour\" series. It looks at how Wangerooge makes its island history something visitors can experience. The linked page has a link to the report."
+   },
+   "quelle": "https://wangerooge-aktuell.de/leute/20-11-2026-regenbogen-am-nordstrand-auf-wangerooge/",
+   "quelle_name": "wangerooge-aktuell.de"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "",
+   "titel": {
+    "de": "Wetter: kühl, regnerisch und windig",
+    "en": "Weather: cool, rainy and windy"
+   },
+   "text": {
+    "de": "Die Vorhersage nennt für heute 5 bis 9 °C, Regen und Wind bis etwa 51 km/h. Wetterfeste Kleidung ist für Spaziergänge am Strand und im Dorf empfehlenswert. Das Wetter kann sich auf der Insel schnell ändern.",
+    "en": "The forecast for today shows 5 to 9 °C, rain and wind of up to about 51 km/h. Weatherproof clothing is a good idea for walks on the beach and in the village. Conditions on the island can change quickly."
+   },
+   "quelle": "https://www.wetter.net/wetter/deutschland/wangerooge",
+   "quelle_name": "wetter.net"
+  },
+  {
+   "datum": "2026-10-27",
+   "bis": "",
+   "titel": {
+    "de": "Strandhinweis: Sturm hat Sandstrand abgetragen",
+    "en": "Beach notice: storm has eroded the sandy beach"
+   },
+   "text": {
+    "de": "Ein NDR-Beitrag vom 27. Oktober berichtet, dass ein Sturm Sandstrand auf Wangerooge abgetragen hat. Die Strandverhältnisse können sich daher verändert haben. Bitte achten Sie bei Strandspaziergängen auf Hinweise vor Ort.",
+    "en": "An NDR report from 27 October says a storm washed away sandy beach on Wangerooge. Beach conditions may therefore have changed. Please follow any signs on site when walking on the beach."
+   },
+   "quelle": "https://wangerooge-aktuell.de/",
+   "quelle_name": "wangerooge-aktuell.de"
+  }
+ ]
+}

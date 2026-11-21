@@ -1,0 +1,75 @@
+{
+ "stand": "2026-11-21",
+ "items": [
+  {
+   "datum": "2026-11-23",
+   "bis": "2026-12-23",
+   "titel": {
+    "de": "Historischer Weihnachtsmarkt am Rathausmarkt startet am Montag",
+    "en": "Historic Christmas Market at Rathausmarkt opens on Monday"
+   },
+   "text": {
+    "de": "Am 23. November öffnet der Historische Weihnachtsmarkt vor dem Rathaus und läuft bis zum 23. Dezember. Er ist täglich von 11 bis 21 Uhr geöffnet. Ein Höhepunkt ist der fliegende Weihnachtsmann über dem Markt.",
+    "en": "The Historic Christmas Market in front of City Hall opens on 23 November and runs until 23 December. It is open daily from 11 am to 9 pm. A highlight is the flying Santa Claus above the market."
+   },
+   "quelle": "https://www.hamburg.de/tourismus/weihnachten-hamburg/weihnachtsmarkt-hamburg/weihnachtsmarkt-rathausmarkt-301092",
+   "quelle_name": "hamburg.de"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-12-30",
+   "titel": {
+    "de": "Weihnachtsmarkt HafenCity: Sonntag geschlossen",
+    "en": "HafenCity Christmas Market: closed on Sunday"
+   },
+   "text": {
+    "de": "Der Weihnachtsmarkt auf dem Überseeboulevard läuft noch bis zum 30. Dezember. Am Samstag ist von 12 bis 20 Uhr geöffnet. Am Totensonntag (22. November) bleibt der Markt geschlossen, ebenso am 24. und 25. Dezember.",
+    "en": "The Christmas market on Überseeboulevard runs until 30 December. On Saturday it is open from 12 to 8 pm. It is closed on Totensonntag (22 November) and on 24 and 25 December."
+   },
+   "quelle": "https://www.hamburg.de/tourismus/weihnachten-hamburg/weihnachtsmarkt-hamburg/weihnachtsmarkt-hafencity-307512",
+   "quelle_name": "hamburg.de"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-11-27",
+   "titel": {
+    "de": "U3: Werktags gesperrt zwischen Berliner Tor und Barmbek",
+    "en": "U3: closed on weekdays between Berliner Tor and Barmbek"
+   },
+   "text": {
+    "de": "Bis zum 27. November fährt die U3 montags bis freitags nicht zwischen Berliner Tor und Barmbek. Die S1 ist eine Alternative, außerdem gibt es Ersatzbusse. Seit dem 20. November (21 Uhr) halten die Ersatzbusse nicht am Berliner Tor. Aktuelle Verbindungen zeigen die hvv-App und hvv.de.",
+    "en": "Until 27 November, the U3 does not run between Berliner Tor and Barmbek from Monday to Friday. The S1 is an alternative, and replacement buses are also running. Since 20 November (9 pm), the replacement buses do not stop at Berliner Tor. Current connections are shown in the hvv app and on hvv.de."
+   },
+   "quelle": "https://www.hochbahn.de/de/presse/pressemitteilungen/u3-umfangreicher-gleisbau-im-herbst-120044",
+   "quelle_name": "HOCHBAHN"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-12-06",
+   "titel": {
+    "de": "Winterdom auf dem Heiligengeistfeld",
+    "en": "Winterdom funfair at Heiligengeistfeld"
+   },
+   "text": {
+    "de": "Hamburgs Winter-Volksfest ist noch bis zum 6. Dezember 2026 auf dem Heiligengeistfeld zu Gast. Es gibt Fahrgeschäfte und Volksfestatmosphäre. Das ist ein guter Programmpunkt für einen Abend in der kalten Jahreszeit.",
+    "en": "Hamburg's winter funfair is at Heiligengeistfeld until 6 December 2026. It offers rides and a lively fair atmosphere. It makes a good evening outing in the cold season."
+   },
+   "quelle": "https://szene-hamburg.com/veranstaltungen-november/",
+   "quelle_name": "Szene Hamburg"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-12-23",
+   "titel": {
+    "de": "Santa Pauli: Der besondere Weihnachtsmarkt auf dem Kiez",
+    "en": "Santa Pauli: the unconventional Christmas market on the Kiez"
+   },
+   "text": {
+    "de": "Der Weihnachtsmarkt Santa Pauli in St. Pauli hat seit dem 9. November geöffnet und läuft bis zum 23. Dezember. Am Sonntag, 22. November, öffnet er erst um 17 Uhr. Bitte beachten: Der Markt ist nichts für Kinder und eher für Erwachsene gedacht.",
+    "en": "The Santa Pauli Christmas market in St. Pauli has been open since 9 November and runs until 23 December. On Sunday, 22 November, it opens only at 5 pm."
+   },
+   "quelle": "https://hamburgtourist.info/hamburg-jetzt/hamburg-am-wochenende-welche-weihnachtsmaerkte-geoeffnet-sind-und-was-am-totensonntag-anders-laeuft/",
+   "quelle_name": "Hamburgtourist.info"
+  }
+ ]
+}
