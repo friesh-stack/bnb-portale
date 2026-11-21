@@ -1,0 +1,328 @@
+{
+  "_hinweis": "Zentrale Liste aller Gästeportale. Neue Domain = neuen Block kopieren und anpassen. modus 'neu' = Seite wird komplett erzeugt; 'bestand' = vorhandene index.html bleibt unangetastet, es kommt nur die Seite aktuell.html (News + Karte) dazu. allinkl 'dns' = Domain zeigt direkt auf GitHub Pages (empfohlen); 'weiterleitung' = 301-Weiterleitung auf die github.io-Adresse.",
+  "github_owner": "friesh-stack",
+  "kontakt_email": "dbuchung@gmail.com",
+  "betreiber": {
+    "name": "Hans Fries",
+    "auftritt": "Familie Fries",
+    "strasse": "Im Dünenwald 4a",
+    "ort": "18586 Ostseebad Mönchgut",
+    "land": "Deutschland",
+    "email": "friesh@gmx.de"
+  },
+  "angebote": {
+    "nordsee": {
+      "url": "https://nordsee-webdesign.de",
+      "preis": {"de": "Ihre eigene Unterseite auf diesem Portal: 99 € im ersten Jahr, danach 20 € pro Jahr. Keine Provision."}
+    },
+    "ostsee": {
+      "url": "https://ruegenwebdesign.de",
+      "preis": {"de": "Landingpage mit 3 Unterseiten: 14 Tage gratis testen, danach 9 € im Monat. Keine Provision."}
+    },
+    "allgemein": {
+      "url": "mailto:dbuchung@gmail.com?subject=Meine%20Unterkunft%20im%20Portal",
+      "preis": {
+        "de": "Ihre Unterkunft mit eigener, KI-erstellter Unterseite – 14 Tage gratis testen. Keine Provision.",
+        "en": "Your property with its own AI-built page – try it free for 14 days. No commission.",
+        "it": "La vostra struttura con una pagina propria creata con l'IA – 14 giorni di prova gratuita. Nessuna commissione.",
+        "fr": "Votre logement avec sa propre page créée par IA – 14 jours d'essai gratuit. Sans commission.",
+        "es": "Su alojamiento con su propia página creada con IA – 14 días de prueba gratis. Sin comisión."
+      }
+    }
+  },
+  "portale": [
+    {
+      "slug": "sylt", "domain": "syltbnb.de", "repo": "syltbnb", "modus": "bestand", "allinkl": "dns",
+      "marke": "SyltBnB", "sprachen": ["de", "en"], "angebot": "nordsee", "news": "taeglich",
+      "region": {"de": "Sylt", "en": "Sylt"},
+      "karte": {"lat": 54.90, "lon": 8.33, "zoom": 10},
+      "foto_suche": ["Sylt Rotes Kliff", "Sylt Strand Westerland", "Sylt Lister Ellenbogen", "Sylt Keitum Reetdach", "Hörnum Leuchtturm"],
+      "news_suche": "Sylt Veranstaltungen, Sylt aktuell Gäste, Syltfähre und Autozug Änderungen, Sylt Wetter Strand",
+      "pfeile": [
+        {"name": "Westerland", "lat": 54.907, "lon": 8.310, "text": {"de": "Promenade & Hauptstrand", "en": "Promenade & main beach"}},
+        {"name": "Rotes Kliff", "lat": 54.957, "lon": 8.340, "text": {"de": "Sonnenuntergang am Kliff", "en": "Sunset at the cliff"}},
+        {"name": "List", "lat": 55.017, "lon": 8.433, "text": {"de": "Hafen & Fischbrötchen", "en": "Harbour & fish rolls"}},
+        {"name": "Keitum", "lat": 54.892, "lon": 8.369, "text": {"de": "Friesendorf am Watt", "en": "Frisian village by the mudflats"}},
+        {"name": "Hörnum", "lat": 54.758, "lon": 8.296, "text": {"de": "Leuchtturm & Südspitze", "en": "Lighthouse & southern tip"}}
+      ]
+    },
+    {
+      "slug": "amrum", "domain": "amrumbnb.de", "repo": "amrumbnb", "modus": "bestand", "allinkl": "dns",
+      "marke": "AmrumBnB", "sprachen": ["de", "en"], "angebot": "nordsee", "news": "woechentlich",
+      "region": {"de": "Amrum", "en": "Amrum"},
+      "karte": {"lat": 54.655, "lon": 8.355, "zoom": 12},
+      "foto_suche": ["Amrum Kniepsand", "Amrum Leuchtturm", "Amrum Dünen Bohlenweg", "Nebel Amrum"],
+      "news_suche": "Amrum Veranstaltungen, Amrum aktuell, WDR Fähre Amrum Fahrplan Änderungen",
+      "pfeile": [
+        {"name": "Kniepsand", "lat": 54.645, "lon": 8.330, "text": {"de": "Einer der breitesten Strände Europas", "en": "One of Europe's widest beaches"}},
+        {"name": "Leuchtturm", "lat": 54.632, "lon": 8.355, "text": {"de": "Aussicht über die Insel", "en": "View over the island"}},
+        {"name": "Nebel", "lat": 54.653, "lon": 8.358, "text": {"de": "Reetdachdorf & Kirche St. Clemens", "en": "Thatched village & church"}},
+        {"name": "Norddorf", "lat": 54.678, "lon": 8.373, "text": {"de": "Ruhig, nah an Dünen und Watt", "en": "Quiet, close to dunes and mudflats"}},
+        {"name": "Wittdün", "lat": 54.628, "lon": 8.390, "text": {"de": "Fähranleger", "en": "Ferry terminal"}}
+      ]
+    },
+    {
+      "slug": "foehr", "domain": "foehrbnb.de", "repo": "foehrbnb", "modus": "bestand", "allinkl": "dns",
+      "marke": "FöhrBnB", "sprachen": ["de", "en"], "angebot": "nordsee", "news": "woechentlich",
+      "region": {"de": "Föhr", "en": "Föhr"},
+      "karte": {"lat": 54.71, "lon": 8.50, "zoom": 11},
+      "foto_suche": ["Wyk auf Föhr Strand", "Föhr Nieblum", "Föhr Marsch Windmühle", "Utersum Föhr"],
+      "news_suche": "Föhr Veranstaltungen, Wyk auf Föhr aktuell, WDR Fähre Föhr Fahrplan Änderungen",
+      "pfeile": [
+        {"name": "Wyk", "lat": 54.692, "lon": 8.567, "text": {"de": "Sandwall-Promenade & Hafen", "en": "Promenade & harbour"}},
+        {"name": "Nieblum", "lat": 54.689, "lon": 8.488, "text": {"de": "„Friesendom“ St. Johannis", "en": "St. Johannis church"}},
+        {"name": "Utersum", "lat": 54.715, "lon": 8.405, "text": {"de": "Westerstrand mit Blick nach Amrum", "en": "West beach facing Amrum"}}
+      ]
+    },
+    {
+      "slug": "wangerooge", "domain": "wangeroogebnb.de", "repo": "wangeroogebnb", "modus": "bestand", "allinkl": "dns",
+      "marke": "WangeroogeBnB", "sprachen": ["de", "en"], "angebot": "nordsee", "news": "woechentlich",
+      "region": {"de": "Wangerooge", "en": "Wangerooge"},
+      "karte": {"lat": 53.79, "lon": 7.90, "zoom": 13},
+      "foto_suche": ["Wangerooge Strand", "Wangerooge Leuchtturm", "Wangerooge Inselbahn", "Wangerooge Dünen"],
+      "news_suche": "Wangerooge Veranstaltungen, Wangerooge aktuell, Wangerooge Fähre Tide Fahrplan",
+      "pfeile": [
+        {"name": "Alter Leuchtturm", "lat": 53.7895, "lon": 7.899, "text": {"de": "Wahrzeichen im Ortskern", "en": "Landmark in the village"}},
+        {"name": "Hauptstrand", "lat": 53.795, "lon": 7.905, "text": {"de": "Strand & Promenade", "en": "Beach & promenade"}},
+        {"name": "Westturm", "lat": 53.789, "lon": 7.857, "text": {"de": "Ruhiger Westen der Insel", "en": "Quiet western end"}}
+      ]
+    },
+    {
+      "slug": "nordsee", "domain": "nordseebnb.de", "repo": "nordseebnb", "modus": "bestand", "allinkl": "dns",
+      "marke": "NordseeBnB", "sprachen": ["de", "en"], "angebot": "nordsee", "news": "taeglich",
+      "region": {"de": "die Nordseeinseln", "en": "the North Sea islands"},
+      "karte": {"lat": 54.15, "lon": 8.10, "zoom": 7},
+      "foto_suche": ["Wattenmeer Nordsee", "Nordsee Strandkorb", "Helgoland Lange Anna", "Norderney Strand"],
+      "news_suche": "Nordseeinseln Veranstaltungen, Nordsee Fähren Fahrplan Änderungen, Wattenmeer Nationalpark aktuell",
+      "pfeile": [
+        {"name": "Sylt", "lat": 54.90, "lon": 8.31, "text": {"de": "→ syltbnb.de", "en": "→ syltbnb.de"}, "link": "https://syltbnb.de"},
+        {"name": "Föhr", "lat": 54.71, "lon": 8.50, "text": {"de": "→ foehrbnb.de", "en": "→ foehrbnb.de"}, "link": "https://foehrbnb.de"},
+        {"name": "Amrum", "lat": 54.65, "lon": 8.36, "text": {"de": "→ amrumbnb.de", "en": "→ amrumbnb.de"}, "link": "https://amrumbnb.de"},
+        {"name": "Helgoland", "lat": 54.18, "lon": 7.89, "text": {"de": "Hochseeinsel", "en": "Offshore island"}},
+        {"name": "Wangerooge", "lat": 53.79, "lon": 7.90, "text": {"de": "→ wangeroogebnb.de", "en": "→ wangeroogebnb.de"}, "link": "https://wangeroogebnb.de"},
+        {"name": "Norderney", "lat": 53.70, "lon": 7.15, "text": {"de": "Ostfriesische Inseln", "en": "East Frisian Islands"}}
+      ]
+    },
+    {
+      "slug": "ostsee", "domain": "ostseebnb.de", "repo": "ostseebnb", "modus": "neu", "allinkl": "dns",
+      "marke": "OstseeBnB", "sprachen": ["de", "en"], "angebot": "ostsee", "news": "taeglich",
+      "karte": {"lat": 54.3, "lon": 12.6, "zoom": 7},
+      "region": {"de": "die Ostsee", "en": "the Baltic Sea"},
+      "titel": {"de": "Ferienwohnungen an der Ostsee – direkt vom Gastgeber", "en": "Holiday homes on the Baltic coast – direct from the host"},
+      "intro": {
+        "de": "Von der Lübecker Bucht bis nach Usedom: Kreidefelsen, Seebrücken, Bäderarchitektur und kilometerlange Sandstrände. Hier finden Sie Unterkünfte direkt beim Gastgeber – ohne Portalgebühr – und jede Woche, was an der Küste los ist.",
+        "en": "From the Bay of Lübeck to Usedom: chalk cliffs, piers, seaside architecture and miles of sandy beaches. Book directly with the host – no platform fee – and see what's on along the coast every week."
+      },
+      "highlights": [
+        {"titel": {"de": "Rügen", "en": "Rügen"}, "text": {"de": "Kreideküste, Mönchgut und die Seebäder Binz, Sellin, Göhren.", "en": "Chalk coast, Mönchgut and the resorts Binz, Sellin, Göhren."}},
+        {"titel": {"de": "Usedom", "en": "Usedom"}, "text": {"de": "Kaiserbäder mit langer Promenade bis nach Polen.", "en": "Imperial spas with a promenade stretching into Poland."}},
+        {"titel": {"de": "Warnemünde & Kühlungsborn", "en": "Warnemünde & Kühlungsborn"}, "text": {"de": "Leuchtturm, Alter Strom und weiße Bäderarchitektur.", "en": "Lighthouse, old canal and white seaside villas."}},
+        {"titel": {"de": "Lübecker Bucht", "en": "Bay of Lübeck"}, "text": {"de": "Timmendorfer Strand und Scharbeutz – kurze Wege aus Hamburg.", "en": "Timmendorfer Strand and Scharbeutz – close to Hamburg."}}
+      ],
+      "foto_suche": ["Kreidefelsen Rügen Königsstuhl", "Seebrücke Sellin", "Ahlbeck Seebrücke Usedom", "Warnemünde Leuchtturm", "Thiessow Strand Rügen"],
+      "news_suche": "Ostsee Veranstaltungen Rügen Usedom Warnemünde, Ostsee Bäder aktuell Gäste, Rügen Verkehr Baustellen Fähre",
+      "pfeile": [
+        {"name": "Thiessow / Mönchgut", "lat": 54.28, "lon": 13.71, "text": {"de": "Dünenvilla & Strandvilla", "en": "Dünenvilla & Strandvilla"}, "link": "https://xn--ostseebad-mnchgut-9zb.de"},
+        {"name": "Binz", "lat": 54.40, "lon": 13.61, "text": {"de": "Seebrücke & Bäderarchitektur", "en": "Pier & seaside villas"}},
+        {"name": "Hiddensee", "lat": 54.585, "lon": 13.11, "text": {"de": "Autofreie Insel", "en": "Car-free island"}},
+        {"name": "Heringsdorf", "lat": 53.955, "lon": 14.17, "text": {"de": "Kaiserbäder auf Usedom", "en": "Imperial spas on Usedom"}},
+        {"name": "Warnemünde", "lat": 54.177, "lon": 12.08, "text": {"de": "Leuchtturm & Alter Strom", "en": "Lighthouse & old canal"}},
+        {"name": "Timmendorfer Strand", "lat": 53.995, "lon": 10.78, "text": {"de": "Lübecker Bucht", "en": "Bay of Lübeck"}}
+      ]
+    },
+    {
+      "slug": "deutschland", "domain": "debnb.de", "repo": "debnb", "modus": "neu", "allinkl": "dns",
+      "marke": "DeBnB", "sprachen": ["de", "en"], "angebot": "allgemein", "news": "woechentlich",
+      "karte": {"lat": 51.2, "lon": 10.4, "zoom": 6},
+      "region": {"de": "Deutschland", "en": "Germany"},
+      "titel": {"de": "Ferienwohnungen in ganz Deutschland – direkt vom Gastgeber", "en": "Holiday homes all over Germany – direct from the host"},
+      "intro": {
+        "de": "Meer, Berge, Großstadt: Von Sylt bis an die Zugspitze finden Sie hier Unterkünfte direkt bei privaten Gastgebern – und jede Woche Reisetipps und Termine.",
+        "en": "Sea, mountains, cities: from Sylt to the Zugspitze, find homes directly from private hosts – plus weekly travel tips and events."
+      },
+      "highlights": [
+        {"titel": {"de": "Nordsee", "en": "North Sea"}, "text": {"de": "Inseln, Watt und Weite – nordseebnb.de", "en": "Islands, mudflats and space – nordseebnb.de"}},
+        {"titel": {"de": "Ostsee", "en": "Baltic Sea"}, "text": {"de": "Kreidefelsen und Seebäder – ostseebnb.de", "en": "Chalk cliffs and resorts – ostseebnb.de"}},
+        {"titel": {"de": "Städte", "en": "Cities"}, "text": {"de": "Hamburg, Berlin, München – mit eigenen Portalen.", "en": "Hamburg, Berlin, Munich – each with its own portal."}},
+        {"titel": {"de": "Alpen & Süden", "en": "Alps & South"}, "text": {"de": "Berge, Seen und Wanderwege.", "en": "Mountains, lakes and hiking trails."}}
+      ],
+      "foto_suche": ["Neuschwanstein", "Sylt Strand", "Elbphilharmonie Hamburg", "Brandenburger Tor", "Königssee"],
+      "news_suche": "Deutschland Reisen aktuell Feiertage Ferien, Deutsche Bahn Streckensperrungen Reisende, große Veranstaltungen Deutschland diese Woche",
+      "pfeile": [
+        {"name": "Hamburg", "lat": 53.55, "lon": 9.99, "text": {"de": "→ hamburgbnb.de", "en": "→ hamburgbnb.de"}, "link": "https://hamburgbnb.de"},
+        {"name": "Berlin", "lat": 52.52, "lon": 13.405, "text": {"de": "→ berlin-bnb.de", "en": "→ berlin-bnb.de"}, "link": "https://berlin-bnb.de"},
+        {"name": "München", "lat": 48.137, "lon": 11.575, "text": {"de": "→ muenchenbnb.de", "en": "→ muenchenbnb.de"}, "link": "https://muenchenbnb.de"},
+        {"name": "Sylt", "lat": 54.90, "lon": 8.31, "text": {"de": "→ syltbnb.de", "en": "→ syltbnb.de"}, "link": "https://syltbnb.de"},
+        {"name": "Rügen", "lat": 54.40, "lon": 13.45, "text": {"de": "→ ostseebnb.de", "en": "→ ostseebnb.de"}, "link": "https://ostseebnb.de"},
+        {"name": "Bodensee", "lat": 47.546, "lon": 9.684, "text": {"de": "Lindau & Seeufer", "en": "Lindau & lakeside"}}
+      ]
+    },
+    {
+      "slug": "hamburg", "domain": "hamburgbnb.de", "repo": "hamburgbnb", "modus": "neu", "allinkl": "dns",
+      "marke": "HamburgBnB", "sprachen": ["de", "en"], "angebot": "allgemein", "news": "taeglich",
+      "karte": {"lat": 53.55, "lon": 9.93, "zoom": 12},
+      "region": {"de": "Hamburg", "en": "Hamburg"},
+      "titel": {"de": "Ferienwohnungen in Hamburg – direkt vom Gastgeber", "en": "Holiday flats in Hamburg – direct from the host"},
+      "intro": {
+        "de": "Hafen, Elbe, Alster: Wohnen Sie wie die Hamburger – in Ferienwohnungen direkt beim Gastgeber. Dazu jeden Tag, was in der Stadt los ist.",
+        "en": "Harbour, Elbe, Alster: stay like a local in flats booked directly with the host – plus what's on in the city every day."
+      },
+      "highlights": [
+        {"titel": {"de": "Hafen & Elbe", "en": "Harbour & Elbe"}, "text": {"de": "Landungsbrücken, Hafenfähre 62, Elbstrand.", "en": "Landungsbrücken, ferry line 62, Elbe beach."}},
+        {"titel": {"de": "Speicherstadt & HafenCity", "en": "Speicherstadt & HafenCity"}, "text": {"de": "Welterbe aus Backstein und die Elbphilharmonie.", "en": "Brick World Heritage and the Elbphilharmonie."}},
+        {"titel": {"de": "Alster", "en": "Alster"}, "text": {"de": "Spaziergang, Tretboot, Alsterdampfer.", "en": "Walks, pedal boats, Alster steamers."}},
+        {"titel": {"de": "Viertel", "en": "Neighbourhoods"}, "text": {"de": "Schanze, Ottensen, Blankenese.", "en": "Schanze, Ottensen, Blankenese."}}
+      ],
+      "foto_suche": ["Elbphilharmonie", "Speicherstadt Hamburg", "Binnenalster Hamburg", "Landungsbrücken Hamburg", "Blankenese Treppenviertel"],
+      "news_suche": "Hamburg Veranstaltungen heute diese Woche, Hamburg Tourismus aktuell, HVV Sperrungen Ersatzverkehr",
+      "pfeile": [
+        {"name": "Elbphilharmonie", "lat": 53.5413, "lon": 9.9841, "text": {"de": "Plaza mit Rundblick", "en": "Plaza with panoramic view"}},
+        {"name": "Speicherstadt", "lat": 53.5436, "lon": 9.9930, "text": {"de": "UNESCO-Welterbe", "en": "UNESCO World Heritage"}},
+        {"name": "Landungsbrücken", "lat": 53.5459, "lon": 9.9692, "text": {"de": "Hafenrundfahrt & Fähre 62", "en": "Harbour tours & ferry 62"}},
+        {"name": "Jungfernstieg", "lat": 53.5526, "lon": 9.9931, "text": {"de": "Alsterdampfer", "en": "Alster steamers"}},
+        {"name": "Fischmarkt", "lat": 53.5455, "lon": 9.9535, "text": {"de": "Sonntag früh", "en": "Sunday mornings"}},
+        {"name": "Blankenese", "lat": 53.557, "lon": 9.80, "text": {"de": "Treppenviertel & Elbstrand", "en": "Stair quarter & Elbe beach"}}
+      ]
+    },
+    {
+      "slug": "berlin", "domain": "berlin-bnb.de", "repo": "berlin-bnb", "modus": "neu", "allinkl": "dns",
+      "marke": "Berlin-BnB", "sprachen": ["de", "en"], "angebot": "allgemein", "news": "taeglich",
+      "karte": {"lat": 52.515, "lon": 13.39, "zoom": 13},
+      "region": {"de": "Berlin", "en": "Berlin"},
+      "titel": {"de": "Ferienwohnungen in Berlin – direkt vom Gastgeber", "en": "Holiday flats in Berlin – direct from the host"},
+      "intro": {
+        "de": "Geschichte, Museen, Kieze: Wohnen Sie in Berlin direkt beim Gastgeber – und sehen Sie jeden Tag, was in der Hauptstadt los ist.",
+        "en": "History, museums, neighbourhoods: stay in Berlin directly with the host – and see what's on in the capital every day."
+      },
+      "highlights": [
+        {"titel": {"de": "Mitte", "en": "Mitte"}, "text": {"de": "Brandenburger Tor, Reichstag, Museumsinsel.", "en": "Brandenburg Gate, Reichstag, Museum Island."}},
+        {"titel": {"de": "Mauer-Geschichte", "en": "Wall history"}, "text": {"de": "East Side Gallery und Gedenkstätte Bernauer Straße.", "en": "East Side Gallery and Bernauer Straße memorial."}},
+        {"titel": {"de": "Kieze", "en": "Neighbourhoods"}, "text": {"de": "Prenzlauer Berg, Kreuzberg, Friedrichshain.", "en": "Prenzlauer Berg, Kreuzberg, Friedrichshain."}},
+        {"titel": {"de": "Grünes Berlin", "en": "Green Berlin"}, "text": {"de": "Tiergarten, Tempelhofer Feld, Wannsee.", "en": "Tiergarten, Tempelhof field, Wannsee."}}
+      ],
+      "foto_suche": ["Brandenburger Tor", "Museumsinsel Berlin", "East Side Gallery", "Berliner Dom Spree", "Reichstagsgebäude Kuppel"],
+      "news_suche": "Berlin Veranstaltungen heute diese Woche, Berlin Tourismus aktuell, BVG S-Bahn Berlin Sperrungen",
+      "pfeile": [
+        {"name": "Brandenburger Tor", "lat": 52.5163, "lon": 13.3777, "text": {"de": "Wahrzeichen", "en": "Landmark"}},
+        {"name": "Reichstag", "lat": 52.5186, "lon": 13.3762, "text": {"de": "Kuppel – vorher anmelden", "en": "Dome – register in advance"}},
+        {"name": "Museumsinsel", "lat": 52.5169, "lon": 13.4019, "text": {"de": "Fünf Museen, UNESCO-Welterbe", "en": "Five museums, UNESCO site"}},
+        {"name": "Alexanderplatz", "lat": 52.5219, "lon": 13.4132, "text": {"de": "Fernsehturm", "en": "TV tower"}},
+        {"name": "East Side Gallery", "lat": 52.5050, "lon": 13.4397, "text": {"de": "Längstes Mauerstück", "en": "Longest Wall section"}},
+        {"name": "Checkpoint Charlie", "lat": 52.5075, "lon": 13.3904, "text": {"de": "Ehemaliger Grenzübergang", "en": "Former border crossing"}}
+      ]
+    },
+    {
+      "slug": "muenchen", "domain": "muenchenbnb.de", "repo": "muenchenbnb", "modus": "neu", "allinkl": "dns",
+      "marke": "MünchenBnB", "sprachen": ["de", "en"], "angebot": "allgemein", "news": "taeglich",
+      "karte": {"lat": 48.145, "lon": 11.56, "zoom": 13},
+      "region": {"de": "München", "en": "Munich"},
+      "titel": {"de": "Ferienwohnungen in München – direkt vom Gastgeber", "en": "Holiday flats in Munich – direct from the host"},
+      "intro": {
+        "de": "Altstadt, Biergärten, Berge in Sichtweite: Wohnen Sie in München direkt beim Gastgeber – mit täglichen Tipps aus der Stadt.",
+        "en": "Old town, beer gardens, mountains in view: stay in Munich directly with the host – with daily tips from the city."
+      },
+      "highlights": [
+        {"titel": {"de": "Altstadt", "en": "Old town"}, "text": {"de": "Marienplatz, Frauenkirche, Viktualienmarkt.", "en": "Marienplatz, Frauenkirche, Viktualienmarkt."}},
+        {"titel": {"de": "Englischer Garten", "en": "English Garden"}, "text": {"de": "Eisbachwelle und Chinesischer Turm.", "en": "Eisbach surfers and Chinese Tower."}},
+        {"titel": {"de": "Museen", "en": "Museums"}, "text": {"de": "Deutsches Museum, Pinakotheken.", "en": "Deutsches Museum, Pinakotheken."}},
+        {"titel": {"de": "Ausflüge", "en": "Day trips"}, "text": {"de": "Starnberger See, Alpen, Schlösser.", "en": "Lake Starnberg, Alps, castles."}}
+      ],
+      "foto_suche": ["Marienplatz München", "Frauenkirche München", "Englischer Garten Monopteros", "Schloss Nymphenburg", "Viktualienmarkt"],
+      "news_suche": "München Veranstaltungen heute diese Woche, München Tourismus aktuell, MVG S-Bahn München Sperrungen",
+      "pfeile": [
+        {"name": "Marienplatz", "lat": 48.1374, "lon": 11.5755, "text": {"de": "Glockenspiel", "en": "Glockenspiel"}},
+        {"name": "Viktualienmarkt", "lat": 48.1351, "lon": 11.5762, "text": {"de": "Markt & Brotzeit", "en": "Market & snacks"}},
+        {"name": "Englischer Garten", "lat": 48.152, "lon": 11.592, "text": {"de": "Biergarten am Chinesischen Turm", "en": "Beer garden at the Chinese Tower"}},
+        {"name": "Deutsches Museum", "lat": 48.1299, "lon": 11.5834, "text": {"de": "Technik & Naturwissenschaft", "en": "Science & technology"}},
+        {"name": "Schloss Nymphenburg", "lat": 48.1583, "lon": 11.5033, "text": {"de": "Schloss & Park", "en": "Palace & park"}},
+        {"name": "Olympiapark", "lat": 48.1731, "lon": 11.5466, "text": {"de": "Olympiaberg mit Aussicht", "en": "Olympic hill with a view"}}
+      ]
+    },
+    {
+      "slug": "italia", "domain": "itbnb.com", "repo": "itbnb", "modus": "neu", "allinkl": "dns",
+      "marke": "ItBnB", "sprachen": ["it", "en", "de"], "angebot": "allgemein", "news": "woechentlich",
+      "karte": {"lat": 42.8, "lon": 12.0, "zoom": 6},
+      "region": {"it": "Italia", "en": "Italy", "de": "Italien"},
+      "titel": {"it": "Case vacanza in Italia – direttamente dall'host", "en": "Holiday homes in Italy – direct from the host", "de": "Ferienwohnungen in Italien – direkt vom Gastgeber"},
+      "intro": {
+        "it": "Dalla laguna di Venezia alla costiera amalfitana: alloggi prenotati direttamente con chi li gestisce, senza commissioni di portale – e ogni settimana le novità per chi viaggia.",
+        "en": "From the Venetian lagoon to the Amalfi Coast: stays booked directly with the host, no platform fees – plus weekly news for travellers.",
+        "de": "Von der Lagune Venedigs bis zur Amalfiküste: Unterkünfte direkt beim Gastgeber, ohne Portalgebühr – und jede Woche Neues für Reisende."
+      },
+      "highlights": [
+        {"titel": {"it": "Venezia & Burano", "en": "Venice & Burano", "de": "Venedig & Burano"}, "text": {"it": "Canali, isole colorate, merletti.", "en": "Canals, colourful islands, lace.", "de": "Kanäle, bunte Inseln, Spitze."}, "link": "https://myburano.com"},
+        {"titel": {"it": "Toscana", "en": "Tuscany", "de": "Toskana"}, "text": {"it": "Firenze, colline e borghi.", "en": "Florence, hills and villages.", "de": "Florenz, Hügel und Dörfer."}},
+        {"titel": {"it": "Roma", "en": "Rome", "de": "Rom"}, "text": {"it": "Storia a ogni angolo.", "en": "History on every corner.", "de": "Geschichte an jeder Ecke."}},
+        {"titel": {"it": "Laghi & mare", "en": "Lakes & sea", "de": "Seen & Meer"}, "text": {"it": "Lago di Garda, Cinque Terre, Amalfi.", "en": "Lake Garda, Cinque Terre, Amalfi.", "de": "Gardasee, Cinque Terre, Amalfi."}}
+      ],
+      "foto_suche": ["Burano colorful houses", "Venice Grand Canal", "Florence Duomo panorama", "Cinque Terre Manarola", "Positano Amalfi Coast"],
+      "news_suche": "Italia eventi turisti questa settimana, Venezia contributo di accesso date, scioperi trasporti Italia",
+      "pfeile": [
+        {"name": "Burano", "lat": 45.4853, "lon": 12.4167, "text": {"it": "Case colorate – myburano.com", "en": "Colourful houses – myburano.com", "de": "Bunte Häuser – myburano.com"}, "link": "https://myburano.com"},
+        {"name": "Venezia", "lat": 45.4408, "lon": 12.3155, "text": {"it": "Laguna & canali", "en": "Lagoon & canals", "de": "Lagune & Kanäle"}},
+        {"name": "Lago di Garda", "lat": 45.4927, "lon": 10.6068, "text": {"it": "Sirmione", "en": "Sirmione", "de": "Sirmione"}},
+        {"name": "Cinque Terre", "lat": 44.128, "lon": 9.71, "text": {"it": "Borghi sul mare", "en": "Seaside villages", "de": "Dörfer am Meer"}},
+        {"name": "Firenze", "lat": 43.7696, "lon": 11.2558, "text": {"it": "Rinascimento", "en": "Renaissance", "de": "Renaissance"}},
+        {"name": "Roma", "lat": 41.9028, "lon": 12.4964, "text": {"it": "Città eterna", "en": "Eternal City", "de": "Ewige Stadt"}},
+        {"name": "Amalfi", "lat": 40.634, "lon": 14.602, "text": {"it": "Costiera", "en": "Coast", "de": "Küste"}}
+      ]
+    },
+    {
+      "slug": "france", "domain": "frbnb.com", "repo": "frbnb", "modus": "neu", "allinkl": "dns",
+      "marke": "FrBnB", "sprachen": ["fr", "en", "de"], "angebot": "allgemein", "news": "woechentlich",
+      "karte": {"lat": 46.6, "lon": 2.4, "zoom": 6},
+      "region": {"fr": "France", "en": "France", "de": "Frankreich"},
+      "titel": {"fr": "Locations de vacances en France – directement chez l'hôte", "en": "Holiday homes in France – direct from the host", "de": "Ferienwohnungen in Frankreich – direkt vom Gastgeber"},
+      "intro": {
+        "fr": "De Paris à la Côte d'Azur, de la Bretagne aux Alpes : réservez directement chez l'hôte, sans frais de plateforme – et retrouvez chaque semaine les infos utiles aux voyageurs.",
+        "en": "From Paris to the Riviera, from Brittany to the Alps: book directly with the host, no platform fees – plus weekly news for travellers.",
+        "de": "Von Paris bis an die Côte d'Azur, von der Bretagne bis in die Alpen: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche Neues für Reisende."
+      },
+      "highlights": [
+        {"titel": {"fr": "Paris", "en": "Paris", "de": "Paris"}, "text": {"fr": "Musées, quais de Seine, quartiers.", "en": "Museums, Seine banks, neighbourhoods.", "de": "Museen, Seine-Ufer, Viertel."}},
+        {"titel": {"fr": "Provence & Côte d'Azur", "en": "Provence & Riviera", "de": "Provence & Côte d'Azur"}, "text": {"fr": "Lavande, villages perchés, mer.", "en": "Lavender, hilltop villages, sea.", "de": "Lavendel, Bergdörfer, Meer."}},
+        {"titel": {"fr": "Bretagne & Normandie", "en": "Brittany & Normandy", "de": "Bretagne & Normandie"}, "text": {"fr": "Marées, falaises, Mont-Saint-Michel.", "en": "Tides, cliffs, Mont-Saint-Michel.", "de": "Gezeiten, Klippen, Mont-Saint-Michel."}},
+        {"titel": {"fr": "Alpes", "en": "Alps", "de": "Alpen"}, "text": {"fr": "Chamonix et le Mont-Blanc.", "en": "Chamonix and Mont Blanc.", "de": "Chamonix und der Mont Blanc."}}
+      ],
+      "foto_suche": ["Paris Seine Eiffel Tower", "Provence lavender field", "Mont-Saint-Michel", "Nice Promenade des Anglais", "Chamonix Mont Blanc"],
+      "news_suche": "France événements touristes cette semaine, grèves SNCF transports, actualité tourisme France",
+      "pfeile": [
+        {"name": "Paris", "lat": 48.8566, "lon": 2.3522, "text": {"fr": "Capitale", "en": "Capital", "de": "Hauptstadt"}},
+        {"name": "Mont-Saint-Michel", "lat": 48.636, "lon": -1.5115, "text": {"fr": "Marées", "en": "Tides", "de": "Gezeiten"}},
+        {"name": "Bordeaux", "lat": 44.8378, "lon": -0.5792, "text": {"fr": "Vignobles", "en": "Vineyards", "de": "Weinberge"}},
+        {"name": "Avignon", "lat": 43.9493, "lon": 4.8055, "text": {"fr": "Provence", "en": "Provence", "de": "Provence"}},
+        {"name": "Nice", "lat": 43.7102, "lon": 7.262, "text": {"fr": "Côte d'Azur", "en": "Riviera", "de": "Côte d'Azur"}},
+        {"name": "Chamonix", "lat": 45.9237, "lon": 6.8694, "text": {"fr": "Mont-Blanc", "en": "Mont Blanc", "de": "Mont Blanc"}}
+      ]
+    },
+    {
+      "slug": "espana", "domain": "esbnb.com", "repo": "esbnb", "modus": "neu", "allinkl": "dns",
+      "marke": "EsBnB", "sprachen": ["es", "en", "de"], "angebot": "allgemein", "news": "woechentlich",
+      "karte": {"lat": 40.0, "lon": -3.0, "zoom": 6},
+      "region": {"es": "España", "en": "Spain", "de": "Spanien"},
+      "titel": {"es": "Alojamientos vacacionales en España – directamente con el anfitrión", "en": "Holiday homes in Spain – direct from the host", "de": "Ferienwohnungen in Spanien – direkt vom Gastgeber"},
+      "intro": {
+        "es": "De Barcelona a Andalucía, de Madrid a Mallorca: reserve directamente con el anfitrión, sin comisiones de plataforma – y cada semana, novedades útiles para viajeros.",
+        "en": "From Barcelona to Andalusia, from Madrid to Mallorca: book directly with the host, no platform fees – plus weekly news for travellers.",
+        "de": "Von Barcelona bis Andalusien, von Madrid bis Mallorca: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche Neues für Reisende."
+      },
+      "highlights": [
+        {"titel": {"es": "Barcelona", "en": "Barcelona", "de": "Barcelona"}, "text": {"es": "Gaudí, playa y barrios.", "en": "Gaudí, beach and neighbourhoods.", "de": "Gaudí, Strand und Viertel."}},
+        {"titel": {"es": "Andalucía", "en": "Andalusia", "de": "Andalusien"}, "text": {"es": "Sevilla, Granada, Málaga.", "en": "Seville, Granada, Málaga.", "de": "Sevilla, Granada, Málaga."}},
+        {"titel": {"es": "Islas", "en": "Islands", "de": "Inseln"}, "text": {"es": "Mallorca, Canarias.", "en": "Mallorca, Canary Islands.", "de": "Mallorca, Kanaren."}},
+        {"titel": {"es": "Madrid", "en": "Madrid", "de": "Madrid"}, "text": {"es": "Museos y vida en la calle.", "en": "Museums and street life.", "de": "Museen und Straßenleben."}}
+      ],
+      "foto_suche": ["Sagrada Familia Barcelona", "Alhambra Granada", "Plaza de España Sevilla", "Mallorca cala beach", "Madrid Gran Via"],
+      "news_suche": "España eventos turistas esta semana, huelgas transporte Renfe, novedades turismo España",
+      "pfeile": [
+        {"name": "Barcelona", "lat": 41.3874, "lon": 2.1686, "text": {"es": "Gaudí & mar", "en": "Gaudí & sea", "de": "Gaudí & Meer"}},
+        {"name": "Madrid", "lat": 40.4168, "lon": -3.7038, "text": {"es": "Capital", "en": "Capital", "de": "Hauptstadt"}},
+        {"name": "Valencia", "lat": 39.4699, "lon": -0.3763, "text": {"es": "Paella & playa", "en": "Paella & beach", "de": "Paella & Strand"}},
+        {"name": "Palma", "lat": 39.5696, "lon": 2.6502, "text": {"es": "Mallorca", "en": "Mallorca", "de": "Mallorca"}},
+        {"name": "Sevilla", "lat": 37.3891, "lon": -5.9845, "text": {"es": "Flamenco", "en": "Flamenco", "de": "Flamenco"}},
+        {"name": "Granada", "lat": 37.1773, "lon": -3.5986, "text": {"es": "Alhambra", "en": "Alhambra", "de": "Alhambra"}},
+        {"name": "Bilbao", "lat": 43.263, "lon": -2.935, "text": {"es": "Guggenheim", "en": "Guggenheim", "de": "Guggenheim"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+name: Gästeportale
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # täglich ~5:17 Uhr (Winter) / 6:17 Uhr (Sommer) deutscher Zeit
+  push:
+    branches: [main]
+    paths: ["portale.json", "scripts/**", "assets/**", "photos/**"]
+  workflow_dispatch:
+    inputs:
+      portale:
+        description: "Nur diese Portale (Slugs mit Leerzeichen, leer = alle)"
+        required: false
+        default: ""
+      news_alle:
+        description: "News für alle sofort neu holen"
+        type: boolean
+        default: false
+      fotos_neu:
+        description: "Fotos neu holen (für die gewählten Portale)"
+        type: boolean
+        default: false
+      allinkl:
+        description: "All-Inkl: Domains einrichten"
+        type: choice
+        options: ["aus", "probelauf", "anwenden"]
+        default: "aus"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: portale
+  cancel-in-progress: false
+
+jobs:
+  portale:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fotos (nur fehlende, oder auf Wunsch neu)
+        run: python scripts/fotos.py ${{ inputs.fotos_neu && '--neu' || '' }} ${{ inputs.portale }}
+
+      - name: News aktualisieren
+        if: env.ANTHROPIC_API_KEY != ''
+        run: python scripts/news.py ${{ inputs.news_alle && '--alle' || '' }} ${{ inputs.portale }}
+
+      - name: Seiten bauen
+        run: python scripts/build.py ${{ inputs.portale }}
+
+      - name: Fotos und News im Steuer-Repo sichern
+        run: |
+          git config user.name "portale-bot"
+          git config user.email "portale-bot@users.noreply.github.com"
+          git add content photos
+          git diff --cached --quiet || git commit -m "auto: Inhalte $(date +%F)"
+          git push
+
+      - name: Zu GitHub hochladen (je Domain ein Repo)
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: python scripts/github_deploy.py ${{ inputs.portale }}
+
+      - name: All-Inkl Domains einrichten
+        if: inputs.allinkl == 'probelauf' || inputs.allinkl == 'anwenden'
+        env:
+          KAS_LOGIN: ${{ secrets.KAS_LOGIN }}
+          KAS_PASSWORT: ${{ secrets.KAS_PASSWORT }}
+        run: python scripts/allinkl.py ${{ inputs.allinkl == 'anwenden' && '--anwenden' || '' }} ${{ inputs.portale }}
