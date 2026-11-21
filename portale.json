@@ -1116,11 +1116,11 @@
     },
     {
       "slug": "italia",
-      "domain": "itbnb.com",
-      "repo": "itbnb",
+      "domain": "it-bnb.com",
+      "repo": "it-bnb",
       "modus": "neu",
       "allinkl": "dns",
-      "marke": "ItBnB",
+      "marke": "IT-BnB",
       "sprachen": [
         "it",
         "en",
@@ -1329,11 +1329,11 @@
     },
     {
       "slug": "france",
-      "domain": "frbnb.com",
-      "repo": "frbnb",
+      "domain": "fr-bnb.com",
+      "repo": "fr-bnb",
       "modus": "neu",
       "allinkl": "dns",
-      "marke": "FrBnB",
+      "marke": "FR-BnB",
       "sprachen": [
         "fr",
         "en",
@@ -1530,11 +1530,11 @@
     },
     {
       "slug": "espana",
-      "domain": "esbnb.com",
-      "repo": "esbnb",
+      "domain": "es-bnb.com",
+      "repo": "es-bnb",
       "modus": "neu",
       "allinkl": "dns",
-      "marke": "EsBnB",
+      "marke": "ES-BnB",
       "sprachen": [
         "es",
         "en",
