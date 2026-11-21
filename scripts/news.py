@@ -36,13 +36,7 @@ def faellig(p):
     return (HEUTE - stand).days >= tage
 
 
-def frage_claude(prompt):
-    body = {
-        "model": MODELL,
-        "max_tokens": 4000,
-        "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}],
-        "messages": [{"role": "user", "content": prompt}],
-    }
+def _api(body):
     req = urllib.request.Request(
         "https://api.anthropic.com/v1/messages",
         data=json.dumps(body).encode(),
@@ -51,11 +45,34 @@ def frage_claude(prompt):
     )
     with urllib.request.urlopen(req, timeout=300) as r:
         antwort = json.loads(r.read())
-    text = "".join(b.get("text", "") for b in antwort.get("content", []) if b.get("type") == "text")
+    return "".join(b.get("text", "") for b in antwort.get("content", []) if b.get("type") == "text")
+
+
+def _json(text):
     m = re.search(r"\{.*\}", text, re.S)
     if not m:
         raise ValueError("Keine JSON-Antwort: " + text[:300])
     return json.loads(m.group(0))
+
+
+def frage_claude(prompt):
+    text = _api({
+        "model": MODELL,
+        "max_tokens": 12000,
+        "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}],
+        "messages": [{"role": "user", "content": prompt}],
+    })
+    try:
+        return _json(text)
+    except ValueError:  # json.JSONDecodeError ist ein ValueError – einmal reparieren lassen
+        repariert = _api({
+            "model": MODELL,
+            "max_tokens": 12000,
+            "messages": [{"role": "user", "content":
+                          "Repariere dieses JSON, sodass es gültig ist (Anführungszeichen in Texten escapen oder durch typografische ersetzen). "
+                          "Inhalt nicht ändern. Antworte NUR mit dem JSON:\n\n" + text}],
+        })
+        return _json(repariert)
 
 
 def prompt_fuer(p):
@@ -73,6 +90,7 @@ Regeln:
 - Keine Werbung für Konkurrenzportale, keine politischen Themen, keine Unglücke/Kriminalität.
 - Abgelaufene Termine weglassen. Gib für Termine "bis" (letzter Tag) an.
 - Titel und Text in diesen Sprachen: {sprachen}.
+- Innerhalb von Titeln und Texten KEINE geraden Anführungszeichen (") verwenden – nur typografische („“ «»).
 
 Antworte NUR mit diesem JSON, ohne weiteren Text:
 {{"items":[{{"datum":"YYYY-MM-DD","bis":"YYYY-MM-DD oder leer","titel":{{"de":"..."}},"text":{{"de":"..."}},"quelle":"https://...","quelle_name":"Name der Website"}}]}}"""
