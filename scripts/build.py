@@ -75,10 +75,21 @@ UI = {
            "g_cta": "Publicar mi alojamiento", "impressum": "Aviso legal", "datenschutz": "Privacidad", "fotos": "Fotos",
            "projekt": "Un proyecto friesh-stack", "schwester": "Más portales", "burano": "También en Italia: Burano",
            "start": "Inicio", "zur_karte": "Al mapa", "hero_cta": "¿Qué pasa?", "geschlossen": "Hasta"},
+    "nl": {"aktuell": "Actueel", "karte": "Kaart", "entdecken": "Ontdekken", "unterkuenfte": "Accommodaties",
+           "gastgeber": "Voor verhuurders", "news_titel": "Wat is er te doen {ri}?", "news_leer": "De eerste berichten verschijnen hier binnenkort.",
+           "stand": "Bijgewerkt", "quelle": "Bron", "karte_titel": "{r} op de kaart", "karte_laden": "Kaart laden",
+           "karte_hinweis": "De kaart wordt geladen van OpenStreetMap; daarbij wordt uw IP-adres doorgegeven aan de OpenStreetMap Foundation.",
+           "beispiel": "Voorbeeldmarkeringen – worden steeds aangevuld.", "entdecken_titel": "Wat u te wachten staat",
+           "unterk_titel": "Accommodaties direct van de verhuurder", "unterk_frei": "Hier kan uw vakantiewoning staan",
+           "unterk_frei_text": "Een eigen pagina met foto's, prijzen en aanvragen rechtstreeks naar u.", "mehr": "Meer informatie",
+           "g_titel": "Verhuurt u {ri}?", "g_text": "Gasten zoeken hier een verblijf. Wij maken met AI uw eigen pagina – u vertelt, uploadt foto's, klaar.",
+           "g_cta": "Accommodatie aanmelden", "impressum": "Colofon", "datenschutz": "Privacy", "fotos": "Foto's",
+           "projekt": "Een friesh-stack project", "schwester": "Meer portalen", "burano": "Ook in Italië: Burano",
+           "start": "Home", "zur_karte": "Naar de kaart", "hero_cta": "Wat is er te doen?", "geschlossen": "Tot"},
 }
 MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
-PRAEP = {"de": "in", "en": "in", "it": "in", "fr": "en", "es": "en"}
-SPRACHNAME = {"de": "DE", "en": "EN", "it": "IT", "fr": "FR", "es": "ES"}
+PRAEP = {"de": "in", "en": "in", "it": "in", "fr": "en", "es": "en", "nl": "in"}
+SPRACHNAME = {"de": "DE", "en": "EN", "it": "IT", "fr": "FR", "es": "ES", "nl": "NL"}
 
 E = lambda s: html.escape(str(s), quote=True)
 
@@ -94,19 +105,27 @@ class Seite:
     def __init__(self, cfg, p, alle):
         self.cfg, self.p, self.alle = cfg, p, alle
         self.sp = p["sprachen"]
+        # Vermieter-Bereich: eigene Sprachreihenfolge (z. B. Landessprache, Englisch, Deutsch);
+        # wählt der Gast eine andere Sprache, sieht er diesen Bereich auf Englisch
+        self.vsp = p.get("sprachen_vermieter", self.sp)
+
+    def eff(self, s, vermieter):
+        if not vermieter or s in self.vsp:
+            return s
+        return "en" if "en" in self.vsp else self.vsp[0]
 
     def wert(self, obj, sprache):
         if isinstance(obj, str):
             return obj
         return obj.get(sprache) or obj.get("de") or obj.get("en") or next(iter(obj.values()), "")
 
-    def t(self, obj, tag="span", fmt=None):
+    def t(self, obj, tag="span", fmt=None, vermieter=False):
         """Mehrsprachiger Text: je Sprache ein Element, nur die erste ist sichtbar."""
         if isinstance(obj, str) and fmt is None:
             return E(obj)
         teile = []
         for i, s in enumerate(self.sp):
-            txt = self.wert(obj, s) if not isinstance(obj, str) else obj
+            txt = self.wert(obj, self.eff(s, vermieter)) if not isinstance(obj, str) else obj
             if fmt:
                 txt = fmt(s, txt)
             teile.append(f'<{tag} lang="{s}"{"" if i == 0 else " hidden"}>{E(txt)}</{tag}>')
@@ -116,10 +135,11 @@ class Seite:
         ri = self.p.get("region_in", {})
         return ri.get(s) or f'{PRAEP[s]} {self.wert(self.p["region"], s)}'
 
-    def ui(self, key, **kw):
+    def ui(self, key, vermieter=False, **kw):
         out = []
         for i, s in enumerate(self.sp):
-            txt = UI[s][key].format(r=self.wert(self.p["region"], s), ri=self.region_in(s), **kw)
+            v = self.eff(s, vermieter)
+            txt = UI[v][key].format(r=self.wert(self.p["region"], v), ri=self.region_in(v), **kw)
             out.append(f'<span lang="{s}"{"" if i == 0 else " hidden"}>{E(txt)}</span>')
         return "".join(out)
 
@@ -132,7 +152,7 @@ class Seite:
                if aktiv != "aktuell" else f'<a href="#aktuell">{self.ui("aktuell")}</a><a href="#karte">{self.ui("karte")}</a>')
         if p["modus"] == "neu" and aktiv == "index":
             nav += f'<a href="#entdecken">{self.ui("entdecken")}</a><a href="#unterkuenfte">{self.ui("unterkuenfte")}</a>'
-        nav += f'<a class="nav-cta" href="{"#gastgeber" if aktiv != "recht" else start + "#gastgeber"}">{self.ui("gastgeber")}</a>'
+        nav += f'<a class="nav-cta" href="{"#gastgeber" if aktiv != "recht" else start + "#gastgeber"}">{self.ui("gastgeber", vermieter=True)}</a>'
         return f"""<!DOCTYPE html>
 <html lang="{self.sp[0]}">
 <head>
@@ -203,10 +223,10 @@ class Seite:
         ang = self.cfg["angebote"][self.p["angebot"]]
         return f"""<section id="gastgeber" class="gastgeber">
   <div class="block">
-    <h2>{self.ui("g_titel")}</h2>
-    <p>{self.ui("g_text")}</p>
-    <p class="preis">{self.t(ang["preis"])}</p>
-    <a class="btn btn-hell" href="{E(ang["url"])}">{self.ui("g_cta")}</a>
+    <h2>{self.ui("g_titel", vermieter=True)}</h2>
+    <p>{self.ui("g_text", vermieter=True)}</p>
+    <p class="preis">{self.t(ang["preis"], vermieter=True)}</p>
+    <a class="btn btn-hell" href="{E(ang["url"])}">{self.ui("g_cta", vermieter=True)}</a>
   </div>
 </section>
 """
@@ -252,7 +272,7 @@ class Seite:
             link = f' <a href="{E(h["link"])}">{self.ui("mehr")} →</a>' if h.get("link") else ""
             hl.append(f'<article class="hl">{bildtag}<div class="hl-text"><h3>{self.t(h["titel"])}</h3><p>{self.t(h["text"])}{link}</p></div></article>')
         ang_url = self.cfg["angebote"][p["angebot"]]["url"]
-        frei = "".join(f'<a class="frei" href="{E(ang_url)}"><span class="plus">+</span><h3>{self.ui("unterk_frei")}</h3><p>{self.ui("unterk_frei_text")}</p></a>' for _ in range(3))
+        frei = "".join(f'<a class="frei" href="{E(ang_url)}"><span class="plus">+</span><h3>{self.ui("unterk_frei", vermieter=True)}</h3><p>{self.ui("unterk_frei_text", vermieter=True)}</p></a>' for _ in range(3))
         return (self.kopf(f'{p["marke"]} – {titel}', intro0) + f"""<main>
 <section class="hero">
   <div class="slides">{slides}</div>
