@@ -3,73 +3,73 @@
  "items": [
   {
    "datum": "2026-11-21",
-   "bis": "2026-11-22",
+   "bis": "2027-01-02",
    "titel": {
-    "de": "Sylt-Anreise per Bahn: Ersatzverkehr zwischen Husum und Niebüll",
-    "en": "Getting to Sylt by train: replacement buses between Husum and Niebüll"
+    "de": "Winterzauber am Meer in Kampen auf Sylt",
+    "en": "Winter magic by the sea in Kampen on Sylt"
    },
    "text": {
-    "de": "Auf der Linie RE 6 nach Westerland fallen die Züge zwischen Husum und Niebüll noch bis einschließlich 22.11. aus, und es fahren Ersatzbusse. Zwischen Niebüll und Westerland gelten geänderte Fahrzeiten. Bitte vor der Anreise die Verbindung bei der Bahn prüfen und etwas mehr Zeit einplanen.",
-    "en": "On the RE 6 line to Westerland, trains between Husum and Niebüll are cancelled through 22 November, and replacement buses run instead. Between Niebüll and Westerland, trains run at changed times. Please check your connection with Deutsche Bahn before travelling and allow some extra time."
+    "de": "An der Sturmhaube in Kampen läuft seit dem 20. November der Winterzauber am Meer. Er ist täglich ab 12 Uhr geöffnet, an insgesamt 26 Terminen bis zum 2. Januar 2027. Passend zum nahenden Advent ist das ein gemütlicher Programmpunkt für einen Inselspaziergang.",
+    "en": "The Winter magic by the sea has been running at the Sturmhaube in Kampen since 20 November. It opens from 12 noon on 26 dates until 2 January 2027. It makes a cosy stop on a walk around the island as Advent approaches."
    },
-   "quelle": "https://www.nordseetourismus.de/mit-der-bahn-in-den-norden",
-   "quelle_name": "Nordsee-Tourismus"
+   "quelle": "https://www.sylt.de/veranstaltungen/highlights-des-jahres",
+   "quelle_name": "Sylt Marketing (sylt.de)"
   },
   {
    "datum": "2026-11-21",
-   "bis": "2026-11-29",
+   "bis": "2026-11-24",
    "titel": {
-    "de": "Norderney: bade:haus mit warmem Meerwasser noch bis 29. November",
-    "en": "Norderney: bade:haus with warm seawater open until 29 November"
+    "de": "Juist: Winter-Wattwanderung und Museumsführung",
+    "en": "Juist: winter mudflat walk and museum tour"
    },
    "text": {
-    "de": "Das bade:haus auf Norderney ist noch bis einschließlich 29.11. täglich ab 9:30 Uhr geöffnet. Vom 30.11. bis 25.12. bleibt es geschlossen. Wer die Wärme genießen möchte, sollte also diese Woche nutzen.",
-    "en": "The bade:haus on Norderney is open daily from 9:30 a.m. through 29 November. It then closes from 30 November to 25 December. If you would like a warm seawater break, this week is your chance."
+    "de": "Heute um 14 Uhr startet auf Juist eine Wattwanderung im Winter, die für Groß und Klein gedacht ist. Am Dienstag, 24. November, folgt um 14:30 Uhr die Museumsführung „Von Schiffen und Badefreuden“. Das Inselmuseum zeigt außerdem die Sonderausstellung „Ein dreifach Gode Wind!“.",
+    "en": "A winter mudflat walk for all ages starts on Juist today at 2 pm. On Tuesday, 24 November, the museum tour „Von Schiffen und Badefreuden“ follows at 2:30 pm. The island museum also has the special exhibition „Ein dreifach Gode Wind!“ on show."
+   },
+   "quelle": "https://www.juist.de/auf-der-insel/veranstaltungen/veranstaltungskalender",
+   "quelle_name": "Juist – Veranstaltungskalender"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "2026-11-25",
+   "titel": {
+    "de": "Norderney: Watt, Vögel und Abendspaziergang",
+    "en": "Norderney: mudflats, birds and an evening beach walk"
+   },
+   "text": {
+    "de": "Diese Woche stehen auf Norderney mehrere Naturführungen an: ein geführter Abendspaziergang am Strand am 23. November um 16:45 Uhr, die Wattführung „Watt für Alle“ am 24. November und eine Vogelführung mit Leihfernglas am 25. November. Treffpunkt ist jeweils der Wattensteg an der Surferbucht, beim Abendspaziergang laut Buchung. Eine Weihnachtsmarkt-Eintrag gab es im Staatsbad-Kalender für November nicht.",
+    "en": "Norderney offers several nature tours this week: a guided evening beach walk on 23 November at 4:45 pm, the mudflat tour „Watt für Alle“ on 24 November and a bird tour with loan binoculars on 25 November. The meeting point is the Wattensteg at Surferbucht, or as per booking for the evening walk. The spa calendar listed no Christmas market for November."
    },
    "quelle": "https://www.norderney.org/november/",
    "quelle_name": "Norderney.org"
   },
   {
-   "datum": "2026-11-22",
-   "bis": "2026-11-22",
+   "datum": "2026-11-21",
+   "bis": "2026-12-12",
    "titel": {
-    "de": "Norderney: Leseabend mit Menü in der Marienhöhe",
-    "en": "Norderney: reading evening with dinner at the Marienhöhe"
+    "de": "Fähren zu Föhr, Amrum und den Halligen: Fahrplan bis 12. Dezember",
+    "en": "Ferries to Föhr, Amrum and the Halligen: timetable until 12 December"
    },
    "text": {
-    "de": "Am Sonntag, 22.11., liest die Autorin Lucinde Hutzenlaub um 19 Uhr in der Marienhöhe auf Norderney. Der Abend wird als Dinner mit Lesung angeboten. Eine Reservierung empfiehlt sich, Details gibt es beim Veranstalter.",
-    "en": "On Sunday, 22 November, author Lucinde Hutzenlaub reads at the Marienhöhe on Norderney at 7 p.m. The evening is offered as dinner with a reading. Booking ahead is advisable, and details are available from the venue."
+    "de": "Der veröffentlichte Fahrplan der Wyker Dampfschiffs-Reederei gilt bis zum 12. Dezember, ab dem 13. Dezember beginnt ein neuer Fahrplanabschnitt. Ganzjährig verkehren Dagebüll–Föhr–Amrum, die Halligrouten ab Schlüttsiel und die Fähre Nordstrand–Pellworm. Der Verkehr zwischen den Inseln ruht seit Anfang November bis etwa Ende März.",
+    "en": "The published timetable of the Wyker Dampfschiffs-Reederei runs until 12 December, and a new timetable period starts on 13 December. Year-round services are Dagebüll–Föhr–Amrum, the Hallig routes from Schlüttsiel and the Nordstrand–Pellworm ferry. Services between the islands have paused since early November until around late March."
    },
-   "quelle": "https://www.marienhoehe-norderney.de/events/",
-   "quelle_name": "Marienhöhe Norderney"
+   "quelle": "https://www.faehre-nordfriesland.de/en/timetable/",
+   "quelle_name": "Fähren Nordfriesland – Fahrplan"
   },
   {
    "datum": "2026-11-21",
-   "bis": "2026-11-21",
+   "bis": "2026-11-27",
    "titel": {
-    "de": "Juist: Winter-Wattwanderung für Groß und Klein",
-    "en": "Juist: winter mudflat hike for all ages"
+    "de": "Amrum: Halbseitige Sperrungen an Geh- und Radwegen",
+    "en": "Amrum: partial closures of footpaths and cycle paths"
    },
    "text": {
-    "de": "Am Samstag, 21.11., steht um 14 Uhr eine Wattwanderung im Winter für Familien auf dem Programm der Insel Juist. Im Veranstaltungskalender finden Sie auch Kunstausstellungen und weitere Termine der kommenden Tage. Warme Kleidung und wetterfeste Schuhe sind ratsam.",
-    "en": "On Saturday, 21 November, Juist offers a winter mudflat hike for families at 2 p.m. The island's event calendar also lists art exhibitions and other dates over the coming days. Warm clothing and weatherproof shoes are recommended."
+    "de": "In Wittdün, Nebel und Norddorf gibt es bis zum 27. November Wanderbaustellen mit halbseitigen Sperrungen der Geh- und Radwege. Wer auf Amrum zu Fuß oder mit dem Rad unterwegs ist, sollte etwas mehr Zeit einplanen und auf die Beschilderung achten.",
+    "en": "Until 27 November, moving roadworks with half-width closures of footpaths and cycle paths are in place in Wittdün, Nebel and Norddorf on Amrum. If you are out on foot or by bike, allow a little extra time and follow the signs."
    },
-   "quelle": "https://www.juist.de/auf-der-insel/veranstaltungen/veranstaltungskalender",
-   "quelle_name": "Juist Veranstaltungskalender"
-  },
-  {
-   "datum": "2026-11-21",
-   "bis": "2026-12-11",
-   "titel": {
-    "de": "Pellworm: Bernstein schleifen im Nationalpark-Haus",
-    "en": "Pellworm: amber grinding workshop at the National Park House"
-   },
-   "text": {
-    "de": "Im Nationalpark-Haus auf Pellworm können Gäste gemeinsam mit der Schutzstation Wattenmeer ein eigenes Souvenir aus Bernstein schleifen. Dabei gibt es Wissenswertes über das Gold der Nordsee. Der Workshop wird im Zeitraum bis 11.12. angeboten. Genaue Termine am besten vorab erfragen.",
-    "en": "At the National Park House on Pellworm, guests can grind their own amber souvenir together with the Schutzstation Wattenmeer. You will also learn about the gold of the North Sea. The workshop is offered through 11 December. It is best to check the exact dates in advance."
-   },
-   "quelle": "https://nordsee-nordfriesland.de/service/veranstaltungen",
-   "quelle_name": "Nordseeküste Nordfriesland"
+   "quelle": "https://amrum.insel-leben.de/news/",
+   "quelle_name": "Amrum-News (Amt Föhr-Amrum)"
   }
  ]
 }

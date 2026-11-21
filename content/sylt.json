@@ -2,57 +2,57 @@
  "stand": "2026-11-21",
  "items": [
   {
-   "datum": "2026-11-21",
-   "bis": "2026-11-22",
-   "titel": {
-    "de": "Keitumer Scheunenmarkt in der Landschlachterei",
-    "en": "Keitum barn market at the Sylter Landschlachterei"
-   },
-   "text": {
-    "de": "Am Wochenende lädt der Scheunenmarkt in Keitum zum Bummeln ein. Geboten werden herzhafte Spezialitäten und Geschenkideen. Samstag ist von 11 bis 18 Uhr geöffnet, Sonntag von 12 bis 17 Uhr (Bäderstraße 2).",
-    "en": "The barn market in Keitum invites you to browse this weekend. Expect hearty specialities and gift ideas. It is open Saturday from 11 am to 6 pm and Sunday from noon to 5 pm (Bäderstraße 2)."
-   },
-   "quelle": "https://www.insel-sylt.de/weihnachtsmaerkte-auf-sylt/",
-   "quelle_name": "Insel Sylt Tourismus-Service (ISTS)"
-  },
-  {
    "datum": "2026-11-20",
    "bis": "2027-01-02",
    "titel": {
     "de": "Winterzauber am Meer in Kampen",
-    "en": "Winter magic by the sea in Kampen"
+    "en": "Winter Magic by the Sea in Kampen"
    },
    "text": {
-    "de": "An der Sturmhaube in Kampen (Riperstieg 1) läuft seit dem 20. November die Veranstaltung Winterzauber am Meer. Sie ist im Veranstaltungskalender als Fest bzw. Markt mit 26 Terminen bis zum 2. Januar gelistet. Start ist laut Kalender jeweils um 12 Uhr.",
-    "en": "Winter magic by the sea has been running at the Sturmhaube in Kampen (Riperstieg 1) since 20 November. The event calendar lists it as a festival or market with 26 dates until 2 January. Each date starts at 12 noon."
+    "de": "Seit dem 20. November läuft an der Sturmhaube in Kampen der Winterzauber am Meer. Die Reihe umfasst 26 Termine, jeweils ab 12 Uhr, und endet am 2. Januar 2027. Ein schöner Programmpunkt für kalte Novembertage.",
+    "en": "Winter Magic by the Sea has been running at the Sturmhaube in Kampen since 20 November. The series has 26 dates, each starting at 12 noon, and ends on 2 January 2027. A nice idea for chilly November days."
    },
    "quelle": "https://www.sylt.de/veranstaltungen/highlights-des-jahres",
    "quelle_name": "sylt.de"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-11-22",
+   "titel": {
+    "de": "Keitumer Scheunenmarkt in der Landschlachterei",
+    "en": "Keitum Barn Market at the Landschlachterei"
+   },
+   "text": {
+    "de": "Am Wochenende lädt der Keitumer Scheunenmarkt in die Halle der Sylter Landschlachterei in der Bäderstraße ein. Geöffnet ist am Samstag von 11 bis 18 Uhr und am Sonntag von 12 bis 17 Uhr. Es gibt Herzhaftes vom Grill und viele Geschenkideen.",
+    "en": "This weekend the Keitum Barn Market takes place in the hall of the Sylter Landschlachterei on Bäderstraße. It is open on Saturday from 11 am to 6 pm and on Sunday from 12 noon to 5 pm. Expect hearty grill specialities and plenty of gift ideas."
+   },
+   "quelle": "https://www.insel-sylt.de/weihnachtsmaerkte-auf-sylt/",
+   "quelle_name": "Insel Sylt Tourismus-Service"
   },
   {
    "datum": "2026-11-27",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Weihnachtsmärkte in Morsum und List",
-    "en": "Christmas markets in Morsum and List"
+    "de": "Weihnachtsmärkte in List und Morsum starten",
+    "en": "Christmas Markets Open in List and Morsum"
    },
    "text": {
-    "de": "Am letzten Novemberwochenende starten zwei Märkte: Jööltir ön Muasem im Muasem Hüs in Morsum und der Lister Weihnachtsmarkt an der Kurverwaltung List. Beide laufen von Freitag, 27., bis Sonntag, 29. November. Die genauen Zeiten stehen auf den Veranstaltungsseiten.",
-    "en": "Two markets open on the last weekend of November: Jööltir ön Muasem at the Muasem Hüs in Morsum and the Lister Weihnachtsmarkt at the Kurverwaltung in List. Both run from Friday 27 to Sunday 29 November. Exact opening times are on the event pages."
+    "de": "Von Freitag, 27., bis Sonntag, 29. November, findet der Lister Weihnachtsmarkt an der Kurverwaltung statt. Im Morsumer Muasem Hüs läuft im gleichen Zeitraum das Fest Jööltir ön Muasem. Beide Märkte sind ein guter Auftakt in die Adventszeit.",
+    "en": "The List Christmas Market takes place at the Kurverwaltung from Friday 27 to Sunday 29 November. Over the same days, the Jööltir ön Muasem festival runs at the Muasem Hüs in Morsum. Both markets are a good start to the Advent season."
    },
    "quelle": "https://www.sylt.de/veranstaltungen/highlights-des-jahres",
    "quelle_name": "sylt.de"
   },
   {
-   "datum": "2026-11-09",
+   "datum": "2026-11-21",
    "bis": "2026-12-12",
    "titel": {
-    "de": "Blauer Autozug: Übergangsfahrplan mit früheren Verladezeiten",
-    "en": "Blue Autozug: transition timetable with earlier loading times"
+    "de": "Blauer Autozug fährt nach Übergangsfahrplan",
+    "en": "Blue Car Shuttle Runs on Transitional Timetable"
    },
    "text": {
-    "de": "Beim blauen Autozug Sylt gilt noch bis 12. Dezember ein Übergangsfahrplan, der abends weniger Fahrten bietet. Die letzte Fahrt ab Westerland hat Verladeschluss um 17.55 Uhr. Bitte vor der Anreise die Zeiten auf autozug-sylt.de prüfen.",
-    "en": "The blue Autozug Sylt runs a transition timetable until 12 December, with fewer evening departures. The last departure from Westerland has a loading deadline of 5.55 pm. Please check the times on autozug-sylt.de before you travel."
+    "de": "Der blaue Autozug Sylt fährt noch bis einschließlich 12. Dezember nach dem Übergangsfahrplan. Abends gibt es weniger Verbindungen, die letzte Abfahrt ab Westerland hat Verladeschluss um 17.55 Uhr. Bitte vor der Fahrt die Zeiten auf autozug-sylt.de prüfen.",
+    "en": "The blue Autozug Sylt runs on a transitional timetable until 12 December inclusive. There are fewer evening departures, and the last train from Westerland has a loading deadline of 5.55 pm. Please check the times on autozug-sylt.de before you travel."
    },
    "quelle": "https://www.dein-sylt.online/artikel/2026/2077/blauer-autozug-sylt-neuer-uebergangsfahrplan-gilt-ab-9-november-2026",
    "quelle_name": "dein-sylt.online"
@@ -61,12 +61,12 @@
    "datum": "2026-11-21",
    "bis": "2026-11-28",
    "titel": {
-    "de": "Kühle Novemberwoche: Strandspaziergang am besten vormittags",
-    "en": "Cool November week: beach walks are best in the morning"
+    "de": "Kühles Wetter: Strandspaziergang am besten vormittags",
+    "en": "Cold Weather: Best to Walk on the Beach in the Morning"
    },
    "text": {
-    "de": "Laut Deutschem Wetterdienst wird es auf Sylt kalt und meist grau, aber ohne Sturm. Erwartet werden Höchstwerte um 2 bis 3 Grad und Ostwind. Am Sonntag sind Strandspaziergänge vormittags am angenehmsten, danach ziehen Wolken und einzelne Schauer heran.",
-    "en": "According to the German Weather Service, Sylt will be cold and mostly grey, but without storms. Highs of around 2 to 3 degrees and an easterly wind are expected. On Sunday, a beach walk is most pleasant in the morning, as clouds and a few showers move in later."
+    "de": "Der Deutsche Wetterdienst erwartet für Sylt in der letzten Novemberwoche kaltes, meist graues Wetter mit Ostwind. Am Sonntag lohnt sich der Strand besonders am Vormittag, da später Wolken und einzelne Schauer aufziehen. Warme Kleidung und Mütze einpacken.",
+    "en": "The German Weather Service expects cold, mostly grey weather with an easterly wind on Sylt in the last week of November. On Sunday the beach is best visited in the morning, as clouds and a few showers move in later. Pack warm clothes and a hat."
    },
    "quelle": "https://sylt1.tv/muetzenwetter-statt-sturmwarnung-so-wird-das-sylt-wetter-in-der-letzten-novemberwoche",
    "quelle_name": "SYLT1"

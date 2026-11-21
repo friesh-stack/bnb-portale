@@ -2,18 +2,32 @@
  "stand": "2026-11-21",
  "items": [
   {
+   "datum": "2026-11-21",
+   "bis": "2026-11-22",
+   "titel": {
+    "de": "S-Bahn-Sperrung auf der Stadtbahn am Wochenende",
+    "en": "S-Bahn closure on the Stadtbahn this weekend"
+   },
+   "text": {
+    "de": "Von Samstag, 21.11., gegen 15:45 Uhr bis Montagmorgen fahren die S3, S5, S7 und S9 nicht zwischen Friedrichstraße und Tiergarten. Barrierefreie Ersatzbusse (S7A und S7B) fahren zum Zoologischen Garten, die S7B nur bis 23 Uhr. Auch im Regionalverkehr zwischen Charlottenburg und Ostbahnhof fallen weiter Züge aus. Bitte etwas mehr Zeit einplanen.",
+    "en": "From Saturday 21 Nov at about 3:45 pm until Monday morning, lines S3, S5, S7 and S9 do not run between Friedrichstraße and Tiergarten. Accessible replacement buses (S7A and S7B) serve Zoologischer Garten, and the S7B stops at 11 pm. Regional trains between Charlottenburg and Ostbahnhof are also still affected. Please allow some extra travel time."
+   },
+   "quelle": "https://www.berliner-zeitung.de/article/s-bahn-berlin-vier-linien-am-wochenende-unterbrochen-10620044",
+   "quelle_name": "Berliner Zeitung"
+  },
+  {
    "datum": "2026-11-23",
    "bis": "",
    "titel": {
-    "de": "Weihnachtsmarkt-Saison startet am Montag",
-    "en": "Christmas market season kicks off on Monday"
+    "de": "Start der Berliner Weihnachtsmarkt-Saison am 23. November",
+    "en": "Berlin Christmas market season starts on 23 November"
    },
    "text": {
-    "de": "Am Montag, 23. November, öffnen die meisten großen Berliner Weihnachtsmärkte. Dazu gehören laut berlin.de der Gendarmenmarkt, der Breitscheidplatz, das Rote Rathaus, Schloss Charlottenburg, die Spandauer Altstadt und der Lucia-Markt in der Kulturbrauerei.",
-    "en": "Most of Berlin's major Christmas markets open on Monday, 23 November. According to berlin.de, these include Gendarmenmarkt, Breitscheidplatz, Rotes Rathaus, Schloss Charlottenburg, Spandau Old Town and the Lucia market at Kulturbrauerei."
+    "de": "Am Montag, 23.11., öffnen die meisten großen Weihnachtsmärkte der Stadt. Dazu zählen laut berlin.de Gendarmenmarkt, Breitscheidplatz, Rotes Rathaus, Schloss Charlottenburg, Spandauer Altstadt und Lucia in der Kulturbrauerei. Die Laufzeiten sind je nach Markt unterschiedlich.",
+    "en": "On Monday 23 Nov, most of the city's major Christmas markets open. According to berlin.de, these include Gendarmenmarkt, Breitscheidplatz, Rotes Rathaus, Schloss Charlottenburg, Spandau Old Town and Lucia at Kulturbrauerei. Closing dates differ from market to market."
    },
    "quelle": "https://berlinecho.de/berliner-weihnachtsmaerkte-termine-2026/",
-   "quelle_name": "Berliner Echo"
+   "quelle_name": "Berlin Echo"
   },
   {
    "datum": "2026-11-18",
@@ -23,50 +37,36 @@
     "en": "Christmas Garden at the Botanical Garden"
    },
    "text": {
-    "de": "Seit dem 18. November verwandelt sich der Botanische Garten wieder in eine winterliche Lichterwelt mit Musik. Die Tickets für den Rundgang gibt es online ab 16,90 Euro.",
-    "en": "Since 18 November, the Botanical Garden has once again been turned into a winter wonderland of lights and music. Online tickets for the trail start at 16.90 euros."
+    "de": "Seit dem 18.11. verwandelt sich der Botanische Garten wieder in eine winterliche Lichterwelt mit Musik. Der Christmas Garden läuft bis zum 10. Januar 2027. Tickets gibt es online ab 16,90 Euro.",
+    "en": "Since 18 Nov, the Botanical Garden has once again been turned into a winter world of lights and music. Christmas Garden runs until 10 January 2027. Online tickets start at 16.90 euros."
    },
    "quelle": "https://www.visitberlin.de/de/weihnachtsmaerkte-berlin/karte?items_per_page=100",
    "quelle_name": "visitBerlin"
   },
   {
    "datum": "2026-11-21",
-   "bis": "2026-11-23",
-   "titel": {
-    "de": "S-Bahn: Einschränkungen zwischen Friedrichstraße und Tiergarten",
-    "en": "S-Bahn: Disruption between Friedrichstraße and Tiergarten"
-   },
-   "text": {
-    "de": "Laut Meldung ist der S-Bahn-Verkehr zwischen Friedrichstraße und Tiergarten von Samstag, 15:45 Uhr, bis Montag, 1:30 Uhr unterbrochen. Betroffen sind die Linien S3, S5, S7 und S9. Auch die Regionalzüge RE1, RE2 und RE7 fahren wegen Bauarbeiten zwischen Ostbahnhof und Charlottenburg nicht. Bitte prüfen Sie vor der Fahrt die aktuellen Auskünfte.",
-    "en": "According to the report, S-Bahn service between Friedrichstraße and Tiergarten is suspended from Saturday 3:45 pm until Monday 1:30 am. Lines S3, S5, S7 and S9 are affected. The regional trains RE1, RE2 and RE7 are also not running between Ostbahnhof and Charlottenburg due to construction work. Please check current travel information before you set off."
-   },
-   "quelle": "https://www.volksstimme.de/panorama/s-bahnverkehr-in-berlin-am-wochenende-unterbrochen-4360277",
-   "quelle_name": "Volksstimme"
-  },
-  {
-   "datum": "2026-11-21",
    "bis": "2026-11-22",
    "titel": {
-    "de": "Abschiedswochenende im PalaisPopulaire und Artbook Berlin",
-    "en": "Farewell weekend at PalaisPopulaire and Artbook Berlin"
+    "de": "MerciPalais: Abschiedswochenende im PalaisPopulaire",
+    "en": "MerciPalais: farewell weekend at PalaisPopulaire"
    },
    "text": {
-    "de": "Das PalaisPopulaire verabschiedet sich an diesem Wochenende, 21. und 22. November, mit Kunst, Musik, Workshops und einer Party von seinem Publikum. Außerdem läuft noch bis zum 22. November die Artbook Berlin.",
-    "en": "PalaisPopulaire says goodbye to its audience this weekend, 21 and 22 November, with art, music, workshops and a party. Artbook Berlin is also on until 22 November."
+    "de": "Das PalaisPopulaire verabschiedet sich an diesem Wochenende von seinem Publikum. Geboten werden Kunst, Musik, Workshops und eine Party. Termin ist der 21. und 22. November.",
+    "en": "PalaisPopulaire says goodbye to its audience this weekend with art, music, workshops and a party. It takes place on 21 and 22 November."
    },
    "quelle": "https://www.berlin.de/en/weekend-tips/",
    "quelle_name": "berlin.de"
   },
   {
-   "datum": "2026-11-21",
-   "bis": "2026-11-25",
+   "datum": "2026-11-20",
+   "bis": "2026-11-22",
    "titel": {
-    "de": "Französische Filmwoche in Berlin",
-    "en": "French Film Week in Berlin"
+    "de": "Artbook Berlin in Kreuzberg",
+    "en": "Artbook Berlin in Kreuzberg"
    },
    "text": {
-    "de": "Noch bis zum 25. November läuft die Französische Filmwoche. Bis zum 24. November ist zudem das Festival FrauenWelten zu erleben, ein guter Tipp für kühle Herbstabende.",
-    "en": "The French Film Week continues until 25 November. The FrauenWelten film festival also runs until 24 November, which makes for a nice option on chilly autumn evenings."
+    "de": "Bei dieser Besuchermesse in Kreuzberg stellen Buchkünstler und Verlage ihre neuesten Publikationen und Editionen vor. Sie läuft noch bis Sonntag, 22. November.",
+    "en": "At this visitors' fair in Kreuzberg, book artists and publishers present their latest publications and editions. It runs until Sunday 22 November."
    },
    "quelle": "https://www.berlin.de/en/weekend-tips/",
    "quelle_name": "berlin.de"
