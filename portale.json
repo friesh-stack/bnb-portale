@@ -31,7 +31,11 @@
         "it": "La vostra struttura con una pagina propria creata con l'IA – 14 giorni di prova gratuita. Nessuna commissione.",
         "fr": "Votre logement avec sa propre page créée par IA – 14 jours d'essai gratuit. Sans commission.",
         "es": "Su alojamiento con su propia página creada con IA – 14 días de prueba gratis. Sin comisión.",
-        "nl": "Uw accommodatie met een eigen, door AI gemaakte pagina – 14 dagen gratis proberen. Geen commissie."
+        "nl": "Uw accommodatie met een eigen, door AI gemaakte pagina – 14 dagen gratis proberen. Geen commissie.",
+        "da": "Din bolig med egen AI-lavet side – prøv gratis i 14 dage. Ingen provision.",
+        "sv": "Ditt boende med en egen AI-skapad sida – testa gratis i 14 dagar. Ingen provision.",
+        "nb": "Boligen din med egen KI-laget side – prøv gratis i 14 dager. Ingen provisjon.",
+        "fi": "Kohteesi omalla tekoälyn tekemällä sivulla – kokeile 14 päivää maksutta. Ei välityspalkkiota."
       }
     }
   },
@@ -1742,6 +1746,972 @@
         "fr": "en Espagne",
         "it": "in Spagna"
       }
+    },
+    {
+      "slug": "danmark",
+      "domain": "dkbnb.com",
+      "repo": "dkbnb",
+      "modus": "neu",
+      "allinkl": "dns",
+      "marke": "DK-BnB",
+      "sprachen": [
+        "da",
+        "en",
+        "de",
+        "sv",
+        "nb",
+        "fi"
+      ],
+      "sprachen_vermieter": [
+        "da",
+        "en",
+        "de"
+      ],
+      "angebot": "allgemein",
+      "news": "woechentlich",
+      "karte": {
+        "lat": 56.0,
+        "lon": 10.5,
+        "zoom": 6
+      },
+      "region": {
+        "da": "Danmark",
+        "sv": "Danmark",
+        "nb": "Danmark",
+        "fi": "Tanska",
+        "en": "Denmark",
+        "de": "Dänemark"
+      },
+      "region_in": {
+        "da": "i Danmark",
+        "sv": "i Danmark",
+        "nb": "i Danmark",
+        "fi": "Tanskassa",
+        "en": "in Denmark",
+        "de": "in Dänemark"
+      },
+      "titel": {
+        "da": "Feriehuse i Danmark – direkte fra værten",
+        "sv": "Fritidsboenden i Danmark – direkt från värden",
+        "nb": "Feriehus i Danmark – direkte fra utleier",
+        "fi": "Lomamajoitus Tanskassa – suoraan vuokranantajalta",
+        "en": "Holiday homes in Denmark – direct from the host",
+        "de": "Ferienhäuser in Dänemark – direkt vom Gastgeber"
+      },
+      "intro": {
+        "da": "Fra Vesterhavets klitter til København og Bornholm: book direkte hos værten uden platformsgebyr – og se hver uge, hvad der sker.",
+        "sv": "Från Västerhavets dyner till Köpenhamn och Bornholm: boka direkt hos värden utan plattformsavgift – och se varje vecka vad som händer.",
+        "nb": "Fra Vesterhavets sanddyner til København og Bornholm: bestill direkte hos utleier uten plattformgebyr – og se hver uke hva som skjer.",
+        "fi": "Länsirannikon dyyneiltä Kööpenhaminaan ja Bornholmiin: varaa suoraan vuokranantajalta ilman välityspalkkioita – ja katso viikoittain, mitä on tekeillä.",
+        "en": "From the North Sea dunes to Copenhagen and Bornholm: book directly with the host, no platform fees – and see what's on every week.",
+        "de": "Von den Dünen der Nordsee bis Kopenhagen und Bornholm: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche sehen, was los ist."
+      },
+      "highlights": [
+        {
+          "titel": {
+            "da": "Vesterhavet",
+            "sv": "Västerhavet",
+            "nb": "Vesterhavet",
+            "fi": "Länsirannikko",
+            "en": "North Sea coast",
+            "de": "Nordseeküste"
+          },
+          "text": {
+            "da": "Klitter, brede strande og sommerhuse.",
+            "sv": "Dyner, breda stränder och sommarhus.",
+            "nb": "Sanddyner, brede strender og hytter.",
+            "fi": "Dyynejä, leveitä rantoja ja kesämökkejä.",
+            "en": "Dunes, wide beaches and summer houses.",
+            "de": "Dünen, breite Strände und Ferienhäuser."
+          }
+        },
+        {
+          "titel": {
+            "da": "København",
+            "sv": "Köpenhamn",
+            "nb": "København",
+            "fi": "Kööpenhamina",
+            "en": "Copenhagen",
+            "de": "Kopenhagen"
+          },
+          "text": {
+            "da": "Nyhavn, cykelbyen og design.",
+            "sv": "Nyhavn, cykelstaden och design.",
+            "nb": "Nyhavn, sykkelbyen og design.",
+            "fi": "Nyhavn, pyöräilykaupunki ja design.",
+            "en": "Nyhavn, the cycling city and design.",
+            "de": "Nyhavn, Fahrradstadt und Design."
+          }
+        },
+        {
+          "titel": {
+            "da": "Skagen",
+            "sv": "Skagen",
+            "nb": "Skagen",
+            "fi": "Skagen",
+            "en": "Skagen",
+            "de": "Skagen"
+          },
+          "text": {
+            "da": "Hvor to have mødes.",
+            "sv": "Där två hav möts.",
+            "nb": "Der to hav møtes.",
+            "fi": "Missä kaksi merta kohtaa.",
+            "en": "Where two seas meet.",
+            "de": "Wo zwei Meere aufeinandertreffen."
+          }
+        },
+        {
+          "titel": {
+            "da": "Bornholm",
+            "sv": "Bornholm",
+            "nb": "Bornholm",
+            "fi": "Bornholm",
+            "en": "Bornholm",
+            "de": "Bornholm"
+          },
+          "text": {
+            "da": "Klipper, rundkirker og røgerier.",
+            "sv": "Klippor, rundkyrkor och rökerier.",
+            "nb": "Klipper, rundkirker og røykerier.",
+            "fi": "Kallioita, pyörökirkkoja ja savustamoja.",
+            "en": "Cliffs, round churches and smokehouses.",
+            "de": "Felsen, Rundkirchen und Räuchereien."
+          }
+        }
+      ],
+      "foto_suche": [
+        "Nyhavn Copenhagen",
+        "Skagen Grenen beach",
+        "Møns Klint",
+        "Bornholm Gudhjem",
+        "Rømø beach"
+      ],
+      "news_suche": "Danmark begivenheder turister denne uge, Visit Denmark nyheder, DSB trafikinformation, færger Bornholm",
+      "pfeile": [
+        {
+          "name": "København",
+          "lat": 55.6798,
+          "lon": 12.5907,
+          "text": {
+            "da": "Nyhavn",
+            "sv": "Nyhavn",
+            "nb": "Nyhavn",
+            "fi": "Nyhavn",
+            "en": "Nyhavn",
+            "de": "Nyhavn"
+          }
+        },
+        {
+          "name": "Skagen",
+          "lat": 57.7443,
+          "lon": 10.6363,
+          "text": {
+            "da": "Grenen",
+            "sv": "Grenen",
+            "nb": "Grenen",
+            "fi": "Grenen",
+            "en": "Grenen",
+            "de": "Grenen"
+          }
+        },
+        {
+          "name": "Aarhus",
+          "lat": 56.1572,
+          "lon": 10.2107,
+          "text": {
+            "da": "Kunst & by",
+            "sv": "Konst & stad",
+            "nb": "Kunst & by",
+            "fi": "Taide & kaupunki",
+            "en": "Art & city",
+            "de": "Kunst & Stadt"
+          }
+        },
+        {
+          "name": "Ribe",
+          "lat": 55.3285,
+          "lon": 8.7613,
+          "text": {
+            "da": "Danmarks ældste by",
+            "sv": "Danmarks äldsta stad",
+            "nb": "Danmarks eldste by",
+            "fi": "Tanskan vanhin kaupunki",
+            "en": "Denmark's oldest town",
+            "de": "Älteste Stadt Dänemarks"
+          }
+        },
+        {
+          "name": "Rømø",
+          "lat": 55.13,
+          "lon": 8.5,
+          "text": {
+            "da": "Bred sandstrand",
+            "sv": "Bred sandstrand",
+            "nb": "Bred sandstrand",
+            "fi": "Leveä hiekkaranta",
+            "en": "Wide sandy beach",
+            "de": "Breiter Sandstrand"
+          }
+        },
+        {
+          "name": "Møns Klint",
+          "lat": 54.9666,
+          "lon": 12.5446,
+          "text": {
+            "da": "Kridtklinter",
+            "sv": "Kritklippor",
+            "nb": "Kritklipper",
+            "fi": "Liitukalliot",
+            "en": "Chalk cliffs",
+            "de": "Kreidefelsen"
+          }
+        },
+        {
+          "name": "Bornholm",
+          "lat": 55.2128,
+          "lon": 14.9718,
+          "text": {
+            "da": "Gudhjem",
+            "sv": "Gudhjem",
+            "nb": "Gudhjem",
+            "fi": "Gudhjem",
+            "en": "Gudhjem",
+            "de": "Gudhjem"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "sverige",
+      "domain": "sebnb.com",
+      "repo": "sebnb",
+      "modus": "neu",
+      "allinkl": "dns",
+      "marke": "SE-BnB",
+      "sprachen": [
+        "sv",
+        "en",
+        "de",
+        "nb",
+        "da",
+        "fi"
+      ],
+      "sprachen_vermieter": [
+        "sv",
+        "en",
+        "de"
+      ],
+      "angebot": "allgemein",
+      "news": "woechentlich",
+      "karte": {
+        "lat": 61.5,
+        "lon": 16.0,
+        "zoom": 5
+      },
+      "region": {
+        "da": "Sverige",
+        "sv": "Sverige",
+        "nb": "Sverige",
+        "fi": "Ruotsi",
+        "en": "Sweden",
+        "de": "Schweden"
+      },
+      "region_in": {
+        "da": "i Sverige",
+        "sv": "i Sverige",
+        "nb": "i Sverige",
+        "fi": "Ruotsissa",
+        "en": "in Sweden",
+        "de": "in Schweden"
+      },
+      "titel": {
+        "da": "Feriehuse i Sverige – direkte fra værten",
+        "sv": "Fritidsboenden i Sverige – direkt från värden",
+        "nb": "Feriehus i Sverige – direkte fra utleier",
+        "fi": "Lomamajoitus Ruotsissa – suoraan vuokranantajalta",
+        "en": "Holiday homes in Sweden – direct from the host",
+        "de": "Ferienhäuser in Schweden – direkt vom Gastgeber"
+      },
+      "intro": {
+        "da": "Fra skærgården til Lapland: book direkte hos værten uden platformsgebyr – og se hver uge, hvad der sker.",
+        "sv": "Från skärgården till Lappland: boka direkt hos värden utan plattformsavgift – och se varje vecka vad som händer.",
+        "nb": "Fra skjærgården til Lappland: bestill direkte hos utleier uten plattformgebyr – og se hver uke hva som skjer.",
+        "fi": "Saaristosta Lappiin: varaa suoraan vuokranantajalta ilman välityspalkkioita – ja katso viikoittain, mitä on tekeillä.",
+        "en": "From the archipelago to Lapland: book directly with the host, no platform fees – and see what's on every week.",
+        "de": "Von den Schären bis nach Lappland: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche sehen, was los ist."
+      },
+      "highlights": [
+        {
+          "titel": {
+            "da": "Stockholm",
+            "sv": "Stockholm",
+            "nb": "Stockholm",
+            "fi": "Tukholma",
+            "en": "Stockholm",
+            "de": "Stockholm"
+          },
+          "text": {
+            "da": "Gamla stan og skærgården.",
+            "sv": "Gamla stan och skärgården.",
+            "nb": "Gamla stan og skjærgården.",
+            "fi": "Gamla stan ja saaristo.",
+            "en": "Old town and archipelago.",
+            "de": "Altstadt und Schären."
+          }
+        },
+        {
+          "titel": {
+            "da": "Vestkysten",
+            "sv": "Västkusten",
+            "nb": "Vestkysten",
+            "fi": "Länsirannikko",
+            "en": "West coast",
+            "de": "Westküste"
+          },
+          "text": {
+            "da": "Fiskelejer og skaldyr.",
+            "sv": "Fiskelägen och skaldjur.",
+            "nb": "Fiskevær og skalldyr.",
+            "fi": "Kalastajakyliä ja äyriäisiä.",
+            "en": "Fishing villages and seafood.",
+            "de": "Fischerdörfer und Meeresfrüchte."
+          }
+        },
+        {
+          "titel": {
+            "da": "Søer & skove",
+            "sv": "Sjöar & skogar",
+            "nb": "Sjøer & skoger",
+            "fi": "Järvet & metsät",
+            "en": "Lakes & forests",
+            "de": "Seen & Wälder"
+          },
+          "text": {
+            "da": "Kano, rødt hus og allemandsret.",
+            "sv": "Kanot, röd stuga och allemansrätt.",
+            "nb": "Kano, rød hytte og allemannsrett.",
+            "fi": "Kanootti, punainen mökki ja jokamiehenoikeus.",
+            "en": "Canoe, red cottage and right to roam.",
+            "de": "Kanu, rotes Haus und Jedermannsrecht."
+          }
+        },
+        {
+          "titel": {
+            "da": "Lapland",
+            "sv": "Lappland",
+            "nb": "Lappland",
+            "fi": "Lappi",
+            "en": "Lapland",
+            "de": "Lappland"
+          },
+          "text": {
+            "da": "Nordlys og midnatssol.",
+            "sv": "Norrsken och midnattssol.",
+            "nb": "Nordlys og midnattssol.",
+            "fi": "Revontulet ja keskiyön aurinko.",
+            "en": "Northern lights and midnight sun.",
+            "de": "Nordlicht und Mitternachtssonne."
+          }
+        }
+      ],
+      "foto_suche": [
+        "Gamla stan Stockholm",
+        "Smögen harbour",
+        "Visby city wall",
+        "Swedish red cottage lake",
+        "Abisko aurora"
+      ],
+      "news_suche": "Sverige evenemang turister denna vecka, Visit Sweden nyheter, SJ trafikinformation, Gotlandsfärjan",
+      "pfeile": [
+        {
+          "name": "Stockholm",
+          "lat": 59.3251,
+          "lon": 18.0711,
+          "text": {
+            "da": "Gamla stan",
+            "sv": "Gamla stan",
+            "nb": "Gamla stan",
+            "fi": "Gamla stan",
+            "en": "Old town",
+            "de": "Altstadt"
+          }
+        },
+        {
+          "name": "Göteborg",
+          "lat": 57.7089,
+          "lon": 11.9746,
+          "text": {
+            "da": "Vestkysten",
+            "sv": "Västkusten",
+            "nb": "Vestkysten",
+            "fi": "Länsirannikko",
+            "en": "West coast",
+            "de": "Westküste"
+          }
+        },
+        {
+          "name": "Smögen",
+          "lat": 58.3536,
+          "lon": 11.2186,
+          "text": {
+            "da": "Fiskeleje",
+            "sv": "Fiskeläge",
+            "nb": "Fiskevær",
+            "fi": "Kalastajakylä",
+            "en": "Fishing village",
+            "de": "Fischerdorf"
+          }
+        },
+        {
+          "name": "Malmö",
+          "lat": 55.605,
+          "lon": 13.0038,
+          "text": {
+            "da": "Øresundsbroen",
+            "sv": "Öresundsbron",
+            "nb": "Øresundsbroen",
+            "fi": "Juutinrauman silta",
+            "en": "Øresund Bridge",
+            "de": "Öresundbrücke"
+          }
+        },
+        {
+          "name": "Visby",
+          "lat": 57.6348,
+          "lon": 18.2948,
+          "text": {
+            "da": "Gotland",
+            "sv": "Gotland",
+            "nb": "Gotland",
+            "fi": "Gotlanti",
+            "en": "Gotland",
+            "de": "Gotland"
+          }
+        },
+        {
+          "name": "Mora",
+          "lat": 61.0047,
+          "lon": 14.5372,
+          "text": {
+            "da": "Dalarna",
+            "sv": "Dalarna",
+            "nb": "Dalarna",
+            "fi": "Taalainmaa",
+            "en": "Dalarna",
+            "de": "Dalarna"
+          }
+        },
+        {
+          "name": "Abisko",
+          "lat": 68.3545,
+          "lon": 18.8296,
+          "text": {
+            "da": "Nordlys",
+            "sv": "Norrsken",
+            "nb": "Nordlys",
+            "fi": "Revontulet",
+            "en": "Northern lights",
+            "de": "Nordlicht"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "norge",
+      "domain": "nobnb.com",
+      "repo": "nobnb",
+      "modus": "neu",
+      "allinkl": "dns",
+      "marke": "NO-BnB",
+      "sprachen": [
+        "nb",
+        "en",
+        "de",
+        "sv",
+        "da",
+        "fi"
+      ],
+      "sprachen_vermieter": [
+        "nb",
+        "en",
+        "de"
+      ],
+      "angebot": "allgemein",
+      "news": "woechentlich",
+      "karte": {
+        "lat": 64.5,
+        "lon": 13.0,
+        "zoom": 4
+      },
+      "region": {
+        "da": "Norge",
+        "sv": "Norge",
+        "nb": "Norge",
+        "fi": "Norja",
+        "en": "Norway",
+        "de": "Norwegen"
+      },
+      "region_in": {
+        "da": "i Norge",
+        "sv": "i Norge",
+        "nb": "i Norge",
+        "fi": "Norjassa",
+        "en": "in Norway",
+        "de": "in Norwegen"
+      },
+      "titel": {
+        "da": "Feriehuse i Norge – direkte fra værten",
+        "sv": "Fritidsboenden i Norge – direkt från värden",
+        "nb": "Feriehus i Norge – direkte fra utleier",
+        "fi": "Lomamajoitus Norjassa – suoraan vuokranantajalta",
+        "en": "Holiday homes in Norway – direct from the host",
+        "de": "Ferienhäuser in Norwegen – direkt vom Gastgeber"
+      },
+      "intro": {
+        "da": "Fra fjordene til Lofoten: book direkte hos værten uden platformsgebyr – og se hver uge, hvad der sker.",
+        "sv": "Från fjordarna till Lofoten: boka direkt hos värden utan plattformsavgift – och se varje vecka vad som händer.",
+        "nb": "Fra fjordene til Lofoten: bestill direkte hos utleier uten plattformgebyr – og se hver uke hva som skjer.",
+        "fi": "Vuonoilta Lofooteille: varaa suoraan vuokranantajalta ilman välityspalkkioita – ja katso viikoittain, mitä on tekeillä.",
+        "en": "From the fjords to Lofoten: book directly with the host, no platform fees – and see what's on every week.",
+        "de": "Von den Fjorden bis zu den Lofoten: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche sehen, was los ist."
+      },
+      "highlights": [
+        {
+          "titel": {
+            "da": "Fjordene",
+            "sv": "Fjordarna",
+            "nb": "Fjordene",
+            "fi": "Vuonot",
+            "en": "The fjords",
+            "de": "Die Fjorde"
+          },
+          "text": {
+            "da": "Geiranger, Flåm og Sognefjorden.",
+            "sv": "Geiranger, Flåm och Sognefjorden.",
+            "nb": "Geiranger, Flåm og Sognefjorden.",
+            "fi": "Geiranger, Flåm ja Sognefjord.",
+            "en": "Geiranger, Flåm and the Sognefjord.",
+            "de": "Geiranger, Flåm und der Sognefjord."
+          }
+        },
+        {
+          "titel": {
+            "da": "Bergen",
+            "sv": "Bergen",
+            "nb": "Bergen",
+            "fi": "Bergen",
+            "en": "Bergen",
+            "de": "Bergen"
+          },
+          "text": {
+            "da": "Bryggen og fiskemarkedet.",
+            "sv": "Bryggen och fisktorget.",
+            "nb": "Bryggen og Fisketorget.",
+            "fi": "Bryggen ja kalatori.",
+            "en": "Bryggen and the fish market.",
+            "de": "Bryggen und der Fischmarkt."
+          }
+        },
+        {
+          "titel": {
+            "da": "Lofoten",
+            "sv": "Lofoten",
+            "nb": "Lofoten",
+            "fi": "Lofootit",
+            "en": "Lofoten",
+            "de": "Lofoten"
+          },
+          "text": {
+            "da": "Fjelde i havet og rorbuer.",
+            "sv": "Fjäll i havet och rorbuer.",
+            "nb": "Fjell i havet og rorbuer.",
+            "fi": "Tuntureita meressä ja kalastajamökkejä.",
+            "en": "Mountains in the sea and fishermen's cabins.",
+            "de": "Berge im Meer und Fischerhütten."
+          }
+        },
+        {
+          "titel": {
+            "da": "Nordlyset",
+            "sv": "Norrskenet",
+            "nb": "Nordlyset",
+            "fi": "Revontulet",
+            "en": "Northern lights",
+            "de": "Nordlicht"
+          },
+          "text": {
+            "da": "Tromsø om vinteren.",
+            "sv": "Tromsø på vintern.",
+            "nb": "Tromsø om vinteren.",
+            "fi": "Tromssa talvella.",
+            "en": "Tromsø in winter.",
+            "de": "Tromsø im Winter."
+          }
+        }
+      ],
+      "foto_suche": [
+        "Geirangerfjord",
+        "Bryggen Bergen",
+        "Reine Lofoten",
+        "Preikestolen",
+        "Tromsø aurora"
+      ],
+      "news_suche": "Norge arrangementer turister denne uken, Visit Norway nyheter, Vy togtrafikk, Hurtigruten ferje",
+      "pfeile": [
+        {
+          "name": "Oslo",
+          "lat": 59.9139,
+          "lon": 10.7522,
+          "text": {
+            "da": "Hovedstaden",
+            "sv": "Huvudstaden",
+            "nb": "Hovedstaden",
+            "fi": "Pääkaupunki",
+            "en": "Capital",
+            "de": "Hauptstadt"
+          }
+        },
+        {
+          "name": "Bergen",
+          "lat": 60.3975,
+          "lon": 5.3245,
+          "text": {
+            "da": "Bryggen",
+            "sv": "Bryggen",
+            "nb": "Bryggen",
+            "fi": "Bryggen",
+            "en": "Bryggen",
+            "de": "Bryggen"
+          }
+        },
+        {
+          "name": "Preikestolen",
+          "lat": 58.9864,
+          "lon": 6.1904,
+          "text": {
+            "da": "Vandretur",
+            "sv": "Vandring",
+            "nb": "Fottur",
+            "fi": "Vaellus",
+            "en": "Hike",
+            "de": "Wanderung"
+          }
+        },
+        {
+          "name": "Flåm",
+          "lat": 60.8628,
+          "lon": 7.1137,
+          "text": {
+            "da": "Flåmsbana",
+            "sv": "Flåmsbanan",
+            "nb": "Flåmsbana",
+            "fi": "Flåmin rata",
+            "en": "Flåm Railway",
+            "de": "Flåmbahn"
+          }
+        },
+        {
+          "name": "Geiranger",
+          "lat": 62.1008,
+          "lon": 7.2059,
+          "text": {
+            "da": "Fjord",
+            "sv": "Fjord",
+            "nb": "Fjord",
+            "fi": "Vuono",
+            "en": "Fjord",
+            "de": "Fjord"
+          }
+        },
+        {
+          "name": "Trondheim",
+          "lat": 63.4305,
+          "lon": 10.3951,
+          "text": {
+            "da": "Nidarosdomen",
+            "sv": "Nidarosdomen",
+            "nb": "Nidarosdomen",
+            "fi": "Nidarosin katedraali",
+            "en": "Nidaros Cathedral",
+            "de": "Nidarosdom"
+          }
+        },
+        {
+          "name": "Reine",
+          "lat": 67.9326,
+          "lon": 13.0889,
+          "text": {
+            "da": "Lofoten",
+            "sv": "Lofoten",
+            "nb": "Lofoten",
+            "fi": "Lofootit",
+            "en": "Lofoten",
+            "de": "Lofoten"
+          }
+        },
+        {
+          "name": "Tromsø",
+          "lat": 69.6492,
+          "lon": 18.9553,
+          "text": {
+            "da": "Nordlys",
+            "sv": "Norrsken",
+            "nb": "Nordlys",
+            "fi": "Revontulet",
+            "en": "Northern lights",
+            "de": "Nordlicht"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "suomi",
+      "domain": "fibnb.com",
+      "repo": "fibnb",
+      "modus": "neu",
+      "allinkl": "dns",
+      "marke": "FI-BnB",
+      "sprachen": [
+        "fi",
+        "en",
+        "de",
+        "sv",
+        "da",
+        "nb"
+      ],
+      "sprachen_vermieter": [
+        "fi",
+        "en",
+        "de"
+      ],
+      "angebot": "allgemein",
+      "news": "woechentlich",
+      "karte": {
+        "lat": 64.0,
+        "lon": 26.0,
+        "zoom": 5
+      },
+      "region": {
+        "da": "Finland",
+        "sv": "Finland",
+        "nb": "Finland",
+        "fi": "Suomi",
+        "en": "Finland",
+        "de": "Finnland"
+      },
+      "region_in": {
+        "da": "i Finland",
+        "sv": "i Finland",
+        "nb": "i Finland",
+        "fi": "Suomessa",
+        "en": "in Finland",
+        "de": "in Finnland"
+      },
+      "titel": {
+        "da": "Feriehuse i Finland – direkte fra værten",
+        "sv": "Fritidsboenden i Finland – direkt från värden",
+        "nb": "Feriehus i Finland – direkte fra utleier",
+        "fi": "Lomamajoitus Suomessa – suoraan vuokranantajalta",
+        "en": "Holiday homes in Finland – direct from the host",
+        "de": "Ferienhäuser in Finnland – direkt vom Gastgeber"
+      },
+      "intro": {
+        "da": "Fra Helsinki til søerne og Lapland: book direkte hos værten uden platformsgebyr – og se hver uge, hvad der sker.",
+        "sv": "Från Helsingfors till sjöarna och Lappland: boka direkt hos värden utan plattformsavgift – och se varje vecka vad som händer.",
+        "nb": "Fra Helsingfors til innsjøene og Lappland: bestill direkte hos utleier uten plattformgebyr – og se hver uke hva som skjer.",
+        "fi": "Helsingistä järvimaisemiin ja Lappiin: varaa suoraan vuokranantajalta ilman välityspalkkioita – ja katso viikoittain, mitä on tekeillä.",
+        "en": "From Helsinki to the lakes and Lapland: book directly with the host, no platform fees – and see what's on every week.",
+        "de": "Von Helsinki über die Seen bis nach Lappland: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche sehen, was los ist."
+      },
+      "highlights": [
+        {
+          "titel": {
+            "da": "Helsinki",
+            "sv": "Helsingfors",
+            "nb": "Helsingfors",
+            "fi": "Helsinki",
+            "en": "Helsinki",
+            "de": "Helsinki"
+          },
+          "text": {
+            "da": "Design, saunaer og Suomenlinna.",
+            "sv": "Design, bastur och Sveaborg.",
+            "nb": "Design, badstuer og Sveaborg.",
+            "fi": "Design, saunat ja Suomenlinna.",
+            "en": "Design, saunas and Suomenlinna.",
+            "de": "Design, Saunen und Suomenlinna."
+          }
+        },
+        {
+          "titel": {
+            "da": "Søerne",
+            "sv": "Sjöarna",
+            "nb": "Innsjøene",
+            "fi": "Järvi-Suomi",
+            "en": "Lakeland",
+            "de": "Seenplatte"
+          },
+          "text": {
+            "da": "Saimaa og sommerhuse ved vandet.",
+            "sv": "Saimen och stugor vid vattnet.",
+            "nb": "Saimaa og hytter ved vannet.",
+            "fi": "Saimaa ja mökit rannalla.",
+            "en": "Saimaa and lakeside cottages.",
+            "de": "Saimaa und Ferienhäuser am Wasser."
+          }
+        },
+        {
+          "titel": {
+            "da": "Lapland",
+            "sv": "Lappland",
+            "nb": "Lappland",
+            "fi": "Lappi",
+            "en": "Lapland",
+            "de": "Lappland"
+          },
+          "text": {
+            "da": "Nordlys, rensdyr og fjeld.",
+            "sv": "Norrsken, renar och fjäll.",
+            "nb": "Nordlys, rein og fjell.",
+            "fi": "Revontulet, porot ja tunturit.",
+            "en": "Northern lights, reindeer and fells.",
+            "de": "Nordlicht, Rentiere und Fjells."
+          }
+        },
+        {
+          "titel": {
+            "da": "Skærgården",
+            "sv": "Skärgården",
+            "nb": "Skjærgården",
+            "fi": "Saaristo",
+            "en": "Archipelago",
+            "de": "Schären"
+          },
+          "text": {
+            "da": "Turku og Ålandsøerne.",
+            "sv": "Åbo och Åland.",
+            "nb": "Åbo og Åland.",
+            "fi": "Turku ja Ahvenanmaa.",
+            "en": "Turku and the Åland Islands.",
+            "de": "Turku und die Åland-Inseln."
+          }
+        }
+      ],
+      "foto_suche": [
+        "Helsinki Cathedral Senate Square",
+        "Suomenlinna",
+        "Saimaa lake",
+        "Lapland aurora borealis",
+        "Olavinlinna castle"
+      ],
+      "news_suche": "Suomi tapahtumat matkailijat tällä viikolla, Visit Finland uutiset, VR junaliikenne, Lapin tapahtumat",
+      "pfeile": [
+        {
+          "name": "Helsinki",
+          "lat": 60.1699,
+          "lon": 24.9384,
+          "text": {
+            "da": "Hovedstaden",
+            "sv": "Huvudstaden",
+            "nb": "Hovedstaden",
+            "fi": "Pääkaupunki",
+            "en": "Capital",
+            "de": "Hauptstadt"
+          }
+        },
+        {
+          "name": "Suomenlinna",
+          "lat": 60.1454,
+          "lon": 24.9881,
+          "text": {
+            "da": "Søfæstning",
+            "sv": "Sjöfästning",
+            "nb": "Sjøfestning",
+            "fi": "Merilinnoitus",
+            "en": "Sea fortress",
+            "de": "Seefestung"
+          }
+        },
+        {
+          "name": "Porvoo",
+          "lat": 60.3923,
+          "lon": 25.6651,
+          "text": {
+            "da": "Gammel by",
+            "sv": "Gamla stan",
+            "nb": "Gamlebyen",
+            "fi": "Vanha kaupunki",
+            "en": "Old town",
+            "de": "Altstadt"
+          }
+        },
+        {
+          "name": "Turku",
+          "lat": 60.4518,
+          "lon": 22.2666,
+          "text": {
+            "da": "Skærgården",
+            "sv": "Skärgården",
+            "nb": "Skjærgården",
+            "fi": "Saaristo",
+            "en": "Archipelago",
+            "de": "Schären"
+          }
+        },
+        {
+          "name": "Tampere",
+          "lat": 61.4978,
+          "lon": 23.761,
+          "text": {
+            "da": "Saunabyen",
+            "sv": "Bastustaden",
+            "nb": "Badstubyen",
+            "fi": "Saunapääkaupunki",
+            "en": "Sauna capital",
+            "de": "Saunahauptstadt"
+          }
+        },
+        {
+          "name": "Savonlinna",
+          "lat": 61.8636,
+          "lon": 28.9003,
+          "text": {
+            "da": "Olavinlinna",
+            "sv": "Olofsborg",
+            "nb": "Olavinlinna",
+            "fi": "Olavinlinna",
+            "en": "Olavinlinna",
+            "de": "Olavinlinna"
+          }
+        },
+        {
+          "name": "Rovaniemi",
+          "lat": 66.5039,
+          "lon": 25.7294,
+          "text": {
+            "da": "Polarcirklen",
+            "sv": "Polcirkeln",
+            "nb": "Polarsirkelen",
+            "fi": "Napapiiri",
+            "en": "Arctic Circle",
+            "de": "Polarkreis"
+          }
+        },
+        {
+          "name": "Levi",
+          "lat": 67.8053,
+          "lon": 24.8086,
+          "text": {
+            "da": "Fjeld & ski",
+            "sv": "Fjäll & skidor",
+            "nb": "Fjell & ski",
+            "fi": "Tunturi & hiihto",
+            "en": "Fells & skiing",
+            "de": "Fjell & Ski"
+          }
+        }
+      ]
     }
   ],
   "_hinweis_sprachen": "sprachen = Reihenfolge für Gäste (Landessprache, Englisch, dann die stärksten Herkunftsmärkte). sprachen_vermieter = Reihenfolge für den Vermieter-Bereich (Landessprache, Englisch, Deutsch); andere Sprachen sehen diesen Bereich auf Englisch."

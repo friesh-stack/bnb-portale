@@ -88,10 +88,14 @@ UI = {
            "g_cta": "Accommodatie aanmelden", "impressum": "Colofon", "datenschutz": "Privacy", "fotos": "Foto's",
            "projekt": "Een friesh-stack project", "schwester": "Meer portalen", "burano": "Ook in Italië: Burano",
            "start": "Home", "zur_karte": "Naar de kaart", "hero_cta": "Wat is er te doen?", "geschlossen": "Tot"},
+    "da": {"aktuell": "Aktuelt", "karte": "Kort", "entdecken": "Opdag", "unterkuenfte": "Overnatning", "gastgeber": "For værter", "news_titel": "Hvad sker der {ri}?", "news_leer": "De første nyheder vises her snart.", "stand": "Opdateret", "quelle": "Kilde", "karte_titel": "{r} på kortet", "karte_laden": "Indlæs kort", "karte_hinweis": "Kortet indlæses fra OpenStreetMap; din IP-adresse sendes til OpenStreetMap Foundation.", "beispiel": "Eksempler på steder – udvides løbende.", "entdecken_titel": "Det venter dig", "unterk_titel": "Overnatning direkte fra værten", "unterk_frei": "Her kan dit feriehus stå", "unterk_frei_text": "Din egen side med billeder, priser og forespørgsler direkte til dig.", "mehr": "Læs mere", "g_titel": "Udlejer du {ri}?", "g_text": "Gæster leder efter overnatning her. Vi laver din egen side med AI – du fortæller, uploader billeder, færdig.", "g_cta": "Tilmeld din bolig", "impressum": "Kolofon", "datenschutz": "Privatliv", "fotos": "Fotos", "projekt": "Et friesh-stack-projekt", "schwester": "Flere portaler", "burano": "Også i Italien: Burano", "start": "Forside", "zur_karte": "Til kortet", "hero_cta": "Hvad sker der?", "geschlossen": "Indtil"},
+    "sv": {"aktuell": "Aktuellt", "karte": "Karta", "entdecken": "Upptäck", "unterkuenfte": "Boende", "gastgeber": "För värdar", "news_titel": "Vad händer {ri}?", "news_leer": "De första nyheterna visas här snart.", "stand": "Uppdaterad", "quelle": "Källa", "karte_titel": "{r} på kartan", "karte_laden": "Ladda karta", "karte_hinweis": "Kartan laddas från OpenStreetMap; din IP-adress skickas till OpenStreetMap Foundation.", "beispiel": "Exempel på platser – fylls på löpande.", "entdecken_titel": "Det här väntar dig", "unterk_titel": "Boende direkt från värden", "unterk_frei": "Här kan ditt fritidshus synas", "unterk_frei_text": "Din egen sida med bilder, priser och förfrågningar direkt till dig.", "mehr": "Läs mer", "g_titel": "Hyr du ut {ri}?", "g_text": "Gäster söker boende här. Vi skapar din egen sida med AI – du berättar, laddar upp bilder, klart.", "g_cta": "Anmäl ditt boende", "impressum": "Juridisk information", "datenschutz": "Integritet", "fotos": "Foton", "projekt": "Ett friesh-stack-projekt", "schwester": "Fler portaler", "burano": "Även i Italien: Burano", "start": "Start", "zur_karte": "Till kartan", "hero_cta": "Vad händer?", "geschlossen": "Till och med"},
+    "nb": {"aktuell": "Aktuelt", "karte": "Kart", "entdecken": "Oppdag", "unterkuenfte": "Overnatting", "gastgeber": "For utleiere", "news_titel": "Hva skjer {ri}?", "news_leer": "De første nyhetene vises her snart.", "stand": "Oppdatert", "quelle": "Kilde", "karte_titel": "{r} på kartet", "karte_laden": "Last inn kart", "karte_hinweis": "Kartet lastes fra OpenStreetMap; IP-adressen din sendes til OpenStreetMap Foundation.", "beispiel": "Eksempler på steder – utvides fortløpende.", "entdecken_titel": "Dette venter deg", "unterk_titel": "Overnatting direkte fra utleier", "unterk_frei": "Her kan feriehuset ditt stå", "unterk_frei_text": "Din egen side med bilder, priser og forespørsler direkte til deg.", "mehr": "Les mer", "g_titel": "Leier du ut {ri}?", "g_text": "Gjester leter etter overnatting her. Vi lager din egen side med KI – du forteller, laster opp bilder, ferdig.", "g_cta": "Registrer boligen din", "impressum": "Juridisk informasjon", "datenschutz": "Personvern", "fotos": "Bilder", "projekt": "Et friesh-stack-prosjekt", "schwester": "Flere portaler", "burano": "Også i Italia: Burano", "start": "Forside", "zur_karte": "Til kartet", "hero_cta": "Hva skjer?", "geschlossen": "Til og med"},
+    "fi": {"aktuell": "Ajankohtaista", "karte": "Kartta", "entdecken": "Tutustu", "unterkuenfte": "Majoitus", "gastgeber": "Vuokranantajille", "news_titel": "Mitä tapahtuu {ri}?", "news_leer": "Ensimmäiset uutiset näkyvät täällä pian.", "stand": "Päivitetty", "quelle": "Lähde", "karte_titel": "{r} kartalla", "karte_laden": "Lataa kartta", "karte_hinweis": "Kartta ladataan OpenStreetMapista; IP-osoitteesi välitetään OpenStreetMap Foundationille.", "beispiel": "Esimerkkikohteita – lisää tulossa.", "entdecken_titel": "Tätä on luvassa", "unterk_titel": "Majoitus suoraan vuokranantajalta", "unterk_frei": "Tässä voisi olla lomakotisi", "unterk_frei_text": "Oma sivu kuvineen ja hintoineen, tiedustelut suoraan sinulle.", "mehr": "Lue lisää", "g_titel": "Vuokraatko {ri}?", "g_text": "Matkailijat etsivät täältä majoitusta. Teemme sinulle oman sivun tekoälyn avulla – kerrot, lataat kuvat, valmista.", "g_cta": "Ilmoita kohteesi", "impressum": "Oikeudelliset tiedot", "datenschutz": "Tietosuoja", "fotos": "Kuvat", "projekt": "friesh-stack-projekti", "schwester": "Lisää portaaleja", "burano": "Myös Italiassa: Burano", "start": "Etusivu", "zur_karte": "Kartalle", "hero_cta": "Mitä tapahtuu?", "geschlossen": "Asti"}
 }
 MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
-PRAEP = {"de": "in", "en": "in", "it": "in", "fr": "en", "es": "en", "nl": "in"}
-SPRACHNAME = {"de": "DE", "en": "EN", "it": "IT", "fr": "FR", "es": "ES", "nl": "NL"}
+PRAEP = {"de": "in", "en": "in", "it": "in", "fr": "en", "es": "en", "nl": "in", "da": "i", "sv": "i", "nb": "i", "fi": ""}
+SPRACHNAME = {"de": "DE", "en": "EN", "it": "IT", "fr": "FR", "es": "ES", "nl": "NL", "da": "DA", "sv": "SV", "nb": "NO", "fi": "FI"}
 
 E = lambda s: html.escape(str(s), quote=True)
 
@@ -149,6 +153,9 @@ class Seite:
     def kopf(self, titel_txt, beschreibung, aktiv="index"):
         p = self.p
         langs = "".join(f'<button type="button" data-lang="{s}">{SPRACHNAME[s]}</button>' for s in self.sp) if len(self.sp) > 1 else ""
+        if len(self.sp) > 3:  # am Handy: Auswahlfeld statt vieler Knöpfe
+            langs += '<select class="lang-select" aria-label="Sprache / Language">' + "".join(
+                f'<option value="{s}">{SPRACHNAME[s]}</option>' for s in self.sp) + "</select>"
         start = "index.html" if p["modus"] == "neu" else "./"
         nav = (f'<a href="{start}#aktuell">{self.ui("aktuell")}</a><a href="{start}#karte">{self.ui("karte")}</a>'
                if aktiv != "aktuell" else f'<a href="#aktuell">{self.ui("aktuell")}</a><a href="#karte">{self.ui("karte")}</a>')
@@ -172,7 +179,7 @@ class Seite:
 <header class="kopf">
   <a class="logo" href="{start}">{E(p['marke'])}</a>
   <nav>{nav}</nav>
-  <div class="langs">{langs}</div>
+  <div class="langs{" viele" if len(self.sp) > 3 else ""}">{langs}</div>
 </header>
 """
 
