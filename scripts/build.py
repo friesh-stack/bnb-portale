@@ -15,6 +15,8 @@ import shutil
 import sys
 from pathlib import Path
 
+import config
+
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
 HEUTE = dt.date.today()
@@ -368,13 +370,33 @@ def baue(cfg, p, alle):
     return ziel
 
 
+def baue_umleitung(p):
+    """Mini-Seite für eine Zusatz-Domain: leitet sofort (mit Pfad) auf die Hauptdomain weiter."""
+    ziel = DIST / p["repo"]
+    if ziel.exists():
+        shutil.rmtree(ziel)
+    ziel.mkdir(parents=True)
+    url = f"https://{p['ziel']}/"
+    seite = f"""<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>{E(p['marke'])}</title>
+<link rel="canonical" href="{url}"><meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url={url}">
+<script>location.replace("{url}" + location.pathname.replace(/^\\//, "") + location.search + location.hash);</script>
+</head><body><p>Weiter zu <a href="{url}">{E(p['ziel'])}</a></p></body></html>
+"""
+    for name in ("index.html", "404.html"):
+        (ziel / name).write_text(seite, encoding="utf-8")
+    (ziel / "CNAME").write_text(p["domain"] + "\n", encoding="utf-8")
+    (ziel / ".nojekyll").write_text("", encoding="utf-8")
+    return ziel
+
+
 def main(argv):
-    cfg = lade_json(ROOT / "portale.json", None)
-    cfg["portale"] = [p for p in cfg["portale"] if p.get("aktiv", True)]  # "aktiv": false = Portal pausiert
-    alle = cfg["portale"]
-    auswahl = [p for p in alle if not argv or p["slug"] in argv]
+    cfg = config.lade(mit_umleitungen=True)
+    alle = [p for p in cfg["portale"] if not p.get("umleitung")]
+    auswahl = [p for p in cfg["portale"] if not argv or p["slug"].split("~")[0] in argv]
     for p in auswahl:
-        ziel = baue(cfg, p, alle)
+        ziel = baue_umleitung(p) if p.get("umleitung") else baue(cfg, p, alle)
         print(f"✓ {p['slug']:12} → {ziel.relative_to(ROOT)}  ({p['modus']})")
 
 

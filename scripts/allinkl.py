@@ -22,6 +22,8 @@ import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
+
+import config
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -171,14 +173,13 @@ def weiterleitung_einrichten(kas, p, owner, anwenden):
 def main(argv):
     anwenden = "--anwenden" in argv
     slugs = [a for a in argv if not a.startswith("--")]
-    cfg = json.loads((ROOT / "portale.json").read_text(encoding="utf-8"))
-    cfg["portale"] = [p for p in cfg["portale"] if p.get("aktiv", True)]  # "aktiv": false = Portal pausiert
+    cfg = config.lade(mit_umleitungen=True)
     kas = Kas(os.environ["KAS_LOGIN"].strip(), os.environ["KAS_PASSWORT"].strip())
     if not anwenden:
         print("PROBELAUF – es wird nichts geändert. Zum Ausführen: --anwenden\n")
     fehler = 0
     for p in cfg["portale"]:
-        if slugs and p["slug"] not in slugs:
+        if slugs and p["slug"].split("~")[0] not in slugs:
             continue
         print(f"{p['domain']} ({p['allinkl']})")
         try:

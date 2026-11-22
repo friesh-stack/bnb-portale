@@ -1116,7 +1116,10 @@
     },
     {
       "slug": "italia",
-      "domain": "it-bnb.de",
+      "domain": "it-bnb.com",
+      "zusatz_domains": [
+        "it-bnb.de"
+      ],
       "repo": "it-bnb",
       "modus": "neu",
       "allinkl": "dns",

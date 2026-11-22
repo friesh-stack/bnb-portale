@@ -22,6 +22,8 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+import config
+
 ROOT = Path(__file__).resolve().parent.parent
 API = "https://api.github.com"
 GESCHUETZT = {"index.html", "CNAME", "README.md"}
@@ -127,13 +129,12 @@ def pages_einschalten(gh, owner, p, repo, probe):
 def main(argv):
     probe = "--probe" in argv
     slugs = [a for a in argv if not a.startswith("--")]
-    cfg = json.loads((ROOT / "portale.json").read_text(encoding="utf-8"))
-    cfg["portale"] = [p for p in cfg["portale"] if p.get("aktiv", True)]  # "aktiv": false = Portal pausiert
+    cfg = config.lade(mit_umleitungen=True)
     gh = GH(os.environ.get("GH_PAT", ""))
     owner = cfg["github_owner"]
     fehler = 0
     for p in cfg["portale"]:
-        if slugs and p["slug"] not in slugs:
+        if slugs and p["slug"].split("~")[0] not in slugs:
             continue
         print(f"{p['repo']} ({p['domain']})")
         try:

@@ -18,6 +18,8 @@ import sys
 import urllib.request
 from pathlib import Path
 
+import config
+
 ROOT = Path(__file__).resolve().parent.parent
 MODELL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5")
 HEUTE = dt.date.today()
@@ -99,8 +101,7 @@ Antworte NUR mit diesem JSON, ohne weiteren Text:
 def main(argv):
     alle = "--alle" in argv
     slugs = [a for a in argv if not a.startswith("--")]
-    cfg = json.loads((ROOT / "portale.json").read_text(encoding="utf-8"))
-    cfg["portale"] = [p for p in cfg["portale"] if p.get("aktiv", True)]  # "aktiv": false = Portal pausiert
+    cfg = config.lade(mit_umleitungen=False)
     (ROOT / "content").mkdir(exist_ok=True)
     fehler = 0
     for p in cfg["portale"]:

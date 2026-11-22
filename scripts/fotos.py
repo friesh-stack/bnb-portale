@@ -18,6 +18,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+import config
+
 ROOT = Path(__file__).resolve().parent.parent
 API = "https://commons.wikimedia.org/w/api.php"
 # Wikimedia wünscht einen User-Agent mit Kontakt; Kontakt optional über Umgebungsvariable FOTO_KONTAKT
@@ -86,8 +88,7 @@ def fotos_fuer(p):
 def main(argv):
     neu = "--neu" in argv
     slugs = [a for a in argv if not a.startswith("--")]
-    cfg = json.loads((ROOT / "portale.json").read_text(encoding="utf-8"))
-    cfg["portale"] = [p for p in cfg["portale"] if p.get("aktiv", True)]  # "aktiv": false = Portal pausiert
+    cfg = config.lade(mit_umleitungen=False)
     for p in cfg["portale"]:
         if slugs and p["slug"] not in slugs:
             continue
