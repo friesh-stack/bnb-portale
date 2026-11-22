@@ -1,61 +1,47 @@
 {
- "stand": "2026-11-21",
+ "stand": "2026-11-22",
  "items": [
   {
-   "datum": "2026-11-21",
+   "datum": "2026-11-22",
    "bis": "",
    "titel": {
-    "de": "Fähre: tideabhängiger Fahrplan beachten",
-    "en": "Ferry: check the tide-dependent timetable"
+    "de": "Fähre nach Wangerooge: Fahrzeiten richten sich nach der Tide",
+    "en": "Ferry to Wangerooge: sailing times depend on the tide"
    },
    "text": {
-    "de": "Die Schiffe zwischen Harlesiel und Wangerooge fahren nach einem täglich wechselnden, tideabhängigen Fahrplan. Änderungen durch Wind und Wetter sind möglich. Bitte prüfen Sie vor der An- und Abreise die aktuellen Zeiten im Fahrplan 2026 der Schiffahrt und Inselbahn.",
-    "en": "Ferries between Harlesiel and Wangerooge follow a timetable that changes daily with the tides. Wind and weather can cause changes. Please check the current times in the 2026 timetable before you travel to or from the island."
+    "de": "Die Schiffe zwischen Harlesiel und Wangerooge fahren nach einem Fahrplan, der sich täglich mit den Gezeiten ändert. Bei Wind und Wetter kann es Anpassungen geben. Bitte prüfen Sie kurz vor der Anreise den aktuellen Fahrplan der Schifffahrt und Inselbahn.",
+    "en": "Ferries between Harlesiel and Wangerooge run on a timetable that changes daily with the tides. Wind and weather can lead to adjustments. Please check the current timetable of the ferry and island railway shortly before you travel."
    },
    "quelle": "https://www.siw-wangerooge.de/siw-de/Linienverkehr",
-   "quelle_name": "Schiffahrt und Inselbahn Wangerooge (SIW)"
+   "quelle_name": "Schifffahrt und Inselbahn Wangerooge (SIW)"
   },
   {
-   "datum": "2026-11-21",
+   "datum": "2026-11-22",
    "bis": "",
    "titel": {
-    "de": "Strandhinweis nach Herbststurm Manja",
-    "en": "Beach note after autumn storm Manja"
+    "de": "Wetterhinweis: wechselhaft, windig und kühl",
+    "en": "Weather note: changeable, windy and cool"
    },
    "text": {
-    "de": "Das Sturmtief Manja hat Ende Oktober zu deutlichen Sandverlusten am Strand geführt. Die Kurverwaltung hat dazu eine Mitteilung veröffentlicht. Bei Strandspaziergängen lohnt sich ein Blick auf die aktuellen Hinweise.",
-    "en": "Storm Manja caused significant sand loss on the beach in late October. The spa administration has published a statement about it. If you plan a beach walk, it is worth checking the latest notices."
-   },
-   "quelle": "https://wangerooge-aktuell.de/",
-   "quelle_name": "wangerooge-aktuell.de"
-  },
-  {
-   "datum": "2026-11-21",
-   "bis": "",
-   "titel": {
-    "de": "Nationalpark-Haus: Ausstellung und Führungen",
-    "en": "Nationalpark-Haus: exhibition and guided tours"
-   },
-   "text": {
-    "de": "Im Nationalpark-Haus Wangerooge begleiten sechs Zugvögel durch die Ausstellung „6 aus 190“. Dazu gibt es ein Kino und Führungen, zum Beispiel Wangerooge bei Nacht oder naturkundliche Rundgänge. Die Termine finden Sie im Veranstaltungskalender der Kurverwaltung.",
-    "en": "At the Nationalpark-Haus Wangerooge, six migratory birds guide you through the exhibition „6 aus 190“. There is also a cinema and guided tours, such as Wangerooge at Night or nature walks. Dates are listed in the spa administration's event calendar."
-   },
-   "quelle": "https://niedersachsen.nabu.de/wir-ueber-uns/organisation/nationalparkhaeuser/wangerooge/index.html",
-   "quelle_name": "NABU Niedersachsen – Nationalpark-Haus Wangerooge"
-  },
-  {
-   "datum": "2026-11-21",
-   "bis": "",
-   "titel": {
-    "de": "Wetter: wechselhaft, kühl und windig",
-    "en": "Weather: changeable, cool and windy"
-   },
-   "text": {
-    "de": "Die Vorhersage zeigt für Wangerooge wechselhaftes Wetter mit einzelnen Schauern und Temperaturen von etwa 5 bis 9 °C. Der Wind kann zeitweise bis 51 km/h erreichen. Warme, winddichte Kleidung ist für Spaziergänge zu empfehlen.",
-    "en": "The forecast for Wangerooge shows changeable weather with occasional showers and temperatures of about 5 to 9 °C. Wind can reach up to 51 km/h at times. Warm, windproof clothing is recommended for walks."
+    "de": "Laut einer zuletzt abgerufenen Vorhersage ist es auf Wangerooge mit etwa 5 bis 9 °C kühl und wechselhaft mit Regenschauern. Der Wind kann mit bis zu rund 51 km/h böig wehen. Warme, winddichte Kleidung ist für Strandspaziergänge empfehlenswert. Das Wetter kann sich ändern, bitte vor Ort die aktuelle Vorhersage prüfen.",
+    "en": "A recently retrieved forecast shows cool, changeable weather on Wangerooge at about 5 to 9 °C, with rain showers. Gusts may reach around 51 km/h. Warm, windproof clothing is recommended for beach walks. Conditions can change, so please check the latest forecast on site."
    },
    "quelle": "https://www.wetter.net/wetter/deutschland/wangerooge",
    "quelle_name": "wetter.net"
+  },
+  {
+   "datum": "2026-12-06",
+   "bis": "2026-12-06",
+   "titel": {
+    "de": "Nikolausfest der Wangerooger Sportgemeinschaft",
+    "en": "St. Nicholas festival of the Wangerooge sports club"
+   },
+   "text": {
+    "de": "Die Wangerooger Sportgemeinschaft führt in ihrer Terminliste für 2026 am 6. Dezember ein Nikolausfest mit Karussell auf. Uhrzeit und Ort sind dort nicht genannt, bitte vor Ort bei der Kurverwaltung nachfragen.",
+    "en": "The Wangerooge sports club lists a St. Nicholas festival with a carousel on 6 December in its 2026 calendar. Time and venue are not given there, so please ask at the local spa administration office."
+   },
+   "quelle": "http://wangerooger-sg.de/Der-Verein/Termine/",
+   "quelle_name": "Wangerooger Sportgemeinschaft"
   }
  ]
 }

@@ -1,75 +1,75 @@
 {
- "stand": "2026-11-21",
+ "stand": "2026-11-22",
  "items": [
   {
-   "datum": "2026-11-25",
-   "bis": "2026-12-24",
+   "datum": "2026-11-23",
+   "bis": "2026-12-22",
    "titel": {
-    "de": "Dresdner Striezelmarkt und Nürnberger Christkindlesmarkt öffnen",
-    "en": "Dresden Striezelmarkt and Nuremberg Christkindlesmarkt open"
+    "de": "Frankfurter Weihnachtsmarkt startet am Montag",
+    "en": "Frankfurt Christmas Market opens on Monday"
    },
    "text": {
-    "de": "Der Dresdner Striezelmarkt auf dem Altmarkt startet am 25. November. Der Nürnberger Christkindlesmarkt folgt am 27. November. Beide Märkte laufen laut Terminübersicht bis zum 24. Dezember.",
-    "en": "Dresden's Striezelmarkt on the Altmarkt opens on 25 November. Nuremberg's Christkindlesmarkt follows on 27 November. According to the listing, both markets run until 24 December."
+    "de": "Der Frankfurter Weihnachtsmarkt läuft vom 23. November bis zum 22. Dezember 2026. Die offizielle Eröffnung beginnt am 23. November um 17:10 Uhr auf der Bühne am Römerberg. Der Veranstaltungsbereich ist barrierearm.",
+    "en": "Frankfurt Christmas Market runs from 23 November to 22 December 2026. The official opening takes place on 23 November at 5:10 pm on the Römerberg stage. The event area is accessible for people with reduced mobility."
    },
-   "quelle": "https://www.alle-weihnachtsmaerkte.de/",
-   "quelle_name": "alle-weihnachtsmaerkte.de"
+   "quelle": "https://www.visitfrankfurt.travel/erleben/feste-und-veranstaltungen/frankfurter-weihnachtsmarkt",
+   "quelle_name": "Visit Frankfurt"
   },
   {
-   "datum": "2026-11-23",
+   "datum": "2026-11-24",
    "bis": "2026-12-23",
    "titel": {
-    "de": "Historischer Weihnachtsmarkt in Lübeck",
-    "en": "Historic Christmas Market in Lübeck"
+    "de": "Leipziger Weihnachtsmarkt öffnet am 24. November",
+    "en": "Leipzig Christmas Market opens on 24 November"
    },
    "text": {
-    "de": "Der Historische Weihnachtsmarkt in Lübeck öffnet am 23. November und läuft bis zum 23. Dezember. Er ist montags bis donnerstags von 11 bis 21 Uhr geöffnet, freitags und samstags bis 22 Uhr, sonntags von 11:30 bis 21 Uhr. Der Eintritt ist frei.",
-    "en": "Lübeck's Historic Christmas Market opens on 23 November and runs until 23 December. It is open Monday to Thursday from 11 am to 9 pm, until 10 pm on Friday and Saturday, and from 11:30 am to 9 pm on Sunday. Admission is free."
+    "de": "Der Leipziger Weihnachtsmarkt findet vom 24. November bis zum 23. Dezember 2026 statt. Am Eröffnungstag öffnen die Stände ab 11 Uhr, gegen 17 Uhr wird auf dem Markt der Baum erleuchtet. Rund um den Markt gibt es Verkehrseinschränkungen, die die Stadt auf ihrer Seite beschreibt.",
+    "en": "Leipzig Christmas Market takes place from 24 November to 23 December 2026. On opening day the stalls open from 11 am, and the tree is lit on the market square around 5 pm. There are traffic restrictions around the market, which the city describes on its website."
    },
-   "quelle": "https://www.werkenntdenbesten.de/cityguide/schoenste-weihnachtsmaerkte-deutschland",
-   "quelle_name": "werkenntdenbesten.de"
+   "quelle": "https://www.leipzig.de/kultur-und-freizeit/einkaufen-und-ausgehen/maerkte/leipziger-weihnachtsmarkt",
+   "quelle_name": "Stadt Leipzig"
   },
   {
    "datum": "2026-11-20",
-   "bis": "2026-12-20",
+   "bis": "2026-12-24",
    "titel": {
-    "de": "Neu in Mannheim: Winter-Jahrmarkt Frost & Fun",
-    "en": "New in Mannheim: Frost & Fun winter fair"
+    "de": "Münchner Christkindlmarkt am Marienplatz",
+    "en": "Munich Christkindlmarkt at Marienplatz"
    },
    "text": {
-    "de": "Auf dem Neuen Messplatz in Mannheim gibt es noch bis zum 20. Dezember das neue winterliche Jahrmarkterlebnis Frost & Fun. Es läuft seit dem 20. November.",
-    "en": "The new winter funfair Frost & Fun is on at the Neuer Messplatz in Mannheim until 20 December. It has been running since 20 November."
+    "de": "Der städtische Christkindlmarkt rund um den Marienplatz ist seit dem 20. November geöffnet und läuft bis zum 24. Dezember 2026. Es gibt 138 Stände sowie Adventsmusik vom Rathausbalkon, den Krampuslauf und die Himmelswerkstatt für Kinder. Am Sonntag, 22. November, bleibt der Markt geschlossen.",
+    "en": "The city Christkindlmarkt around Marienplatz has been open since 20 November and runs until 24 December 2026. It has 138 stalls, plus Advent music from the town hall balcony, the Krampus run and a children's workshop. The market is closed on Sunday, 22 November."
    },
-   "quelle": "https://festivalindex.com/de-de",
-   "quelle_name": "Festival Index"
+   "quelle": "https://www.muenchen.de/veranstaltungen/muenchner-christkindlmarkt-marienplatz",
+   "quelle_name": "muenchen.de"
   },
   {
-   "datum": "2026-11-14",
-   "bis": "2026-12-10",
+   "datum": "2026-11-19",
+   "bis": "2026-12-23",
    "titel": {
-    "de": "RE 1: Busse statt Züge zwischen Oldenburg und Leer",
-    "en": "RE 1: replacement buses between Oldenburg and Leer"
+    "de": "Freiburger Weihnachtsmarkt in der Innenstadt",
+    "en": "Freiburg Christmas Market in the city centre"
    },
    "text": {
-    "de": "Voraussichtlich bis zum 10. Dezember fallen die Züge der RE 1 zwischen Oldenburg Hbf und Leer aus. Die Bahn setzt Busse als Ersatz ein. Das betrifft auch die Anreise nach Norddeich Mole. Bitte vorab im Navigator den Ersatzfahrplan prüfen.",
-    "en": "The RE 1 is expected to be suspended between Oldenburg Hbf and Leer until 10 December. Deutsche Bahn is running replacement buses. This also affects the journey to Norddeich Mole. Please check the replacement timetable in the DB Navigator before you travel."
+    "de": "Der Freiburger Weihnachtsmarkt ist seit dem 19. November geöffnet und dauert bis zum 23. Dezember 2026. Montags bis samstags ist von 10 bis 20.30 Uhr geöffnet, sonntags von 11.30 bis 19.30 Uhr. Am Totensonntag, 22. November, bleibt der Markt geschlossen.",
+    "en": "Freiburg Christmas Market has been open since 19 November and runs until 23 December 2026. Opening hours are 10 am to 8:30 pm Monday to Saturday and 11:30 am to 7:30 pm on Sundays. The market is closed on Sunday, 22 November."
    },
-   "quelle": "https://www.juistnews.de/artikel/2026/11/13/streckensperrung-im-netz-der-deutschen-bahn",
-   "quelle_name": "Juist News"
+   "quelle": "https://www.freiburg.de/pb/,Lde/2667774.html",
+   "quelle_name": "Stadt Freiburg"
   },
   {
-   "datum": "2026-11-21",
-   "bis": "2026-11-29",
+   "datum": "2026-10-30",
+   "bis": "2026-12-12",
    "titel": {
-    "de": "Stuttgart: Busse statt S6 zwischen Leonberg und Weil der Stadt",
-    "en": "Stuttgart: buses replace S6 between Leonberg and Weil der Stadt"
+    "de": "Bahn: Schnellstrecke Nürnberg–Ingolstadt gesperrt",
+    "en": "Rail: Nuremberg–Ingolstadt high-speed line closed"
    },
    "text": {
-    "de": "Bis Sonntag, 29. November, fahren auf der S6 zwischen Leonberg und Weil der Stadt Busse statt S-Bahnen. Grund sind Gleisarbeiten zwischen Leonberg und Renningen. Wer in der Region unterwegs ist, sollte etwas mehr Zeit einplanen.",
-    "en": "Until Sunday, 29 November, buses replace S-Bahn trains on the S6 between Leonberg and Weil der Stadt. The reason is track renewal between Leonberg and Renningen. If you are travelling in the region, allow some extra time."
+    "de": "Die Schnellstrecke zwischen Nürnberg und Ingolstadt ist noch bis einschließlich 12. Dezember 2026 für den gesamten Zugverkehr gesperrt. ICE-Züge zwischen München und Nürnberg fahren über Augsburg und Donauwörth und brauchen etwa 45 Minuten länger. Bitte vor der Fahrt die Verbindung im DB Navigator prüfen.",
+    "en": "The high-speed line between Nuremberg and Ingolstadt is closed to all rail traffic through 12 December 2026. ICE trains between Munich and Nuremberg are rerouted via Augsburg and Donauwörth and take about 45 minutes longer. Please check your connection in the DB Navigator before travelling."
    },
-   "quelle": "https://regional.bahn.de/regionen/baden-wuerttemberg/fahrplan/bahn-infos-baden-wuerttemberg",
-   "quelle_name": "DB Regio Baden-Württemberg"
+   "quelle": "https://www.leinetal24.de/verbraucher/bahn-sperrung-in-bayern-ice-umleitungen-ersatzbusse-zr-94554788.html",
+   "quelle_name": "leinetal24.de"
   }
  ]
 }

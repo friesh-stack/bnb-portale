@@ -1,61 +1,75 @@
 {
- "stand": "2026-11-21",
+ "stand": "2026-11-22",
  "items": [
   {
    "datum": "2026-11-28",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Adventsmärkte in Nieblum und Wrixum",
-    "en": "Advent markets in Nieblum and Wrixum"
+    "de": "Adventsmarkt im Haus des Gastes in Nieblum",
+    "en": "Advent market at the Haus des Gastes in Nieblum"
    },
    "text": {
-    "de": "Am letzten Novemberwochenende gibt es zwei Märkte. Der Adventsmarkt im Haus des Gastes in Nieblum ist am 28. und 29.11. jeweils von 12 bis 17 Uhr geöffnet. Der Weihnachtsmarkt im Forst Wrixum findet am 29.11. von 11 bis 16 Uhr statt, gegen 15 Uhr kommt der Weihnachtsmann.",
-    "en": "Two markets are on over the last weekend of November. The Advent market at the Haus des Gastes in Nieblum is open on 28 and 29 Nov, 12 to 5 pm each day. The Christmas market in the Forst in Wrixum runs on 29 Nov from 11 am to 4 pm, and Santa is due around 3 pm."
+    "de": "Am Wochenende vom 28. bis 29. November findet in Nieblum der Adventsmarkt im Haus des Gastes statt, jeweils von 12 bis 17 Uhr. Am 29. November gibt es außerdem einen Weihnachtsmarkt im Forst in Wrixum. Ein schöner Anlass, um sich auf die Adventszeit einzustimmen.",
+    "en": "The Advent market takes place at the Haus des Gastes in Nieblum on 28 and 29 November, from 12 pm to 5 pm each day. On 29 November there is also a Christmas market in the Forst in Wrixum. It is a nice way to get into the Advent mood."
    },
    "quelle": "https://www.foehr.de/jahreswechsel",
    "quelle_name": "foehr.de"
   },
   {
-   "datum": "2026-11-26",
-   "bis": "2027-01-03",
+   "datum": "2026-12-05",
+   "bis": "2026-12-06",
    "titel": {
-    "de": "Glühweinhütte Hüttenzauber am Südstrand",
-    "en": "Hüttenzauber mulled wine hut at Südstrand"
+    "de": "Weihnachtsmarkt im Friesenmuseum",
+    "en": "Christmas market at the Friesenmuseum"
    },
    "text": {
-    "de": "Ab dem 26.11. öffnet in Wyk am Südstrand beim Upstalsboom die Glühweinhütte Hüttenzauber. Sie ist bis zum 3.1. donnerstags bis sonntags von 15 bis 19 Uhr geöffnet. Am 24.12. und am 31.12. bleibt sie geschlossen.",
-    "en": "The Hüttenzauber mulled wine hut opens on 26 Nov at Südstrand in Wyk, next to the Upstalsboom hotel. It is open Thursday to Sunday, 3 to 7 pm, until 3 Jan. It is closed on 24 and 31 Dec."
+    "de": "Das Friesen-Museum lädt am 5. und 6. Dezember zum Weihnachtsmarkt ein, mit Kaffee, Kuchen und Punsch. Geöffnet ist an beiden Tagen von 11 bis 18 Uhr.",
+    "en": "The Friesen-Museum invites visitors to its Christmas market on 5 and 6 December, with coffee, cake and punch. It is open from 11 am to 6 pm on both days."
    },
-   "quelle": "https://www.foehr.de/jahreswechsel",
-   "quelle_name": "foehr.de"
+   "quelle": "https://weihnachtsmarkt-magazin.de/maerkte/foehr-friesenmuseum/",
+   "quelle_name": "Weihnachtsmarkt Magazin"
   },
   {
-   "datum": "2026-11-21",
-   "bis": "2026-12-30",
+   "datum": "2026-11-25",
+   "bis": "",
    "titel": {
-    "de": "Wattwanderungen und Nationalpark-Haus im Winterprogramm",
-    "en": "Mudflat walks and Nationalpark-Haus winter programme"
+    "de": "Wattwanderungen und Führungen der Schutzstation Wattenmeer",
+    "en": "Mudflat hikes and guided tours with Schutzstation Wattenmeer"
    },
    "text": {
-    "de": "Die Schutzstation Wattenmeer bietet auch in den nächsten Wochen Führungen an, darunter die Kleine Wattwanderung auf Föhr, zum Beispiel am 29.11. Im Nationalpark-Haus gibt es außerdem Aquarientierfütterungen und das Rätselspiel Watt’n Escape, etwa am 25.11. und 27.11. Die aktuellen Termine reichen bis zum 30.12.",
-    "en": "The Schutzstation Wattenmeer keeps offering guided tours in the coming weeks, including the short mudflat walk on Föhr, for example on 29 Nov. The Nationalpark-Haus also has aquarium feedings and the Watt’n Escape puzzle game, for example on 25 and 27 Nov. The listed dates run until 30 Dec."
+    "de": "Auch im Spätherbst bietet die Schutzstation Wattenmeer auf Föhr geführte Touren an, zum Beispiel die Kleine Wattwanderung. In den nächsten Tagen gibt es mehrere Termine, etwa am 25. und 27. November sowie am 2. Dezember. Die genauen Zeiten und Angebote stehen im Terminkalender der Schutzstation.",
+    "en": "Schutzstation Wattenmeer on Föhr keeps offering guided tours in late autumn, such as the short mudflat hike. Several dates are scheduled in the coming days, for example on 25 and 27 November and on 2 December. Exact times and offers are listed in the station's event calendar."
    },
    "quelle": "https://www.schutzstation-wattenmeer.de/unsere-stationen/foehr/veranstaltungen-watt-erleben/",
    "quelle_name": "Schutzstation Wattenmeer"
   },
   {
-   "datum": "2026-11-21",
-   "bis": "2026-12-12",
+   "datum": "2026-12-04",
+   "bis": "2026-12-05",
    "titel": {
-    "de": "Fährfahrplan: Wechsel am 13. Dezember",
-    "en": "Ferry timetable: change on 13 December"
+    "de": "Musical Dinner in Wyk",
+    "en": "Musical Dinner in Wyk"
    },
    "text": {
-    "de": "Der aktuell veröffentlichte Fährfahrplan Dagebüll–Föhr gilt bis zum 12.12. Am 13.12. beginnt die nächste Fahrplanperiode. Wegen Wind und Wasserständen sind kurzfristige Änderungen möglich, bitte vor der Reise den Fahrplan der W.D.R. prüfen.",
-    "en": "The currently published Dagebüll–Föhr ferry timetable is valid until 12 Dec. The next timetable period starts on 13 Dec. Short-notice changes are possible because of wind and water levels, so please check the W.D.R. timetable before you travel."
+    "de": "Im Upstalsboom Hotel in Wyk gibt es am 4. Dezember ein Mamma-Mia-Special und am 5. Dezember das Original-Musical-Dinner, jeweils ab 19 Uhr. Auf dem Programm stehen Musical-Highlights und ein kulinarisches Angebot.",
+    "en": "At the Upstalsboom hotel in Wyk there is a Mamma Mia special on 4 December and the original Musical Dinner on 5 December, both starting at 7 pm. The programme combines musical highlights with a dinner."
    },
-   "quelle": "https://www.faehre-nordfriesland.de/en/foehr/",
-   "quelle_name": "Fähre Nordfriesland"
+   "quelle": "https://www.upstalsboom-wyk.de/en/culture/events",
+   "quelle_name": "Upstalsboom Wyk auf Föhr"
+  },
+  {
+   "datum": "2026-11-22",
+   "bis": "2026-12-12",
+   "titel": {
+    "de": "Fährfahrplan: Änderungen durch Wind und Wasserstand möglich",
+    "en": "Ferry timetable: changes possible due to wind and water levels"
+   },
+   "text": {
+    "de": "Der aktuell veröffentlichte Fahrplan der Fähren nach Föhr gilt bis zum 12. Dezember. Am 13. Dezember beginnt dann ein neuer Fahrplanzeitraum. Die W.D.R. weist darauf hin, dass sich die Abfahrten wegen Wetter und Wasserstand ändern können. Wir empfehlen, vor der Reise die Fahrplanauskunft der Reederei anzusehen.",
+    "en": "The currently published ferry timetable for Föhr runs until 12 December. A new timetable period starts on 13 December. The W.D.R. notes that departures may change because of weather and water levels. Please check the operator's timetable information before you travel."
+   },
+   "quelle": "https://qs.app.faehre.de/de/timetable",
+   "quelle_name": "W.D.R. Fahrplanauskunft"
   }
  ]
 }

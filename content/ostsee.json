@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-21",
+ "stand": "2026-11-22",
  "items": [
   {
    "datum": "2026-11-23",
@@ -9,25 +9,25 @@
     "en": "Rostock Christmas Market opens on Monday"
    },
    "text": {
-    "de": "Am 23. November öffnet in der Rostocker Innenstadt der Weihnachtsmarkt. Er läuft vier Wochen lang bis zum 22. Dezember. Zur Eröffnung kommen der Weihnachtsmann und die Märchentante gegen 15 Uhr mit der Historischen Straßenbahn an. Die offizielle Eröffnung findet dieses Jahr auf dem Universitätsplatz statt.",
-    "en": "The Christmas market opens in Rostock city centre on 23 November and runs for four weeks until 22 December. At the opening, Father Christmas and the Fairytale Aunt arrive around 3 pm on the historic tram. This year the official opening takes place on Universitätsplatz."
+    "de": "Am 23. November öffnet in der Rostocker Innenstadt der große Weihnachtsmarkt. Er zieht sich vom Neuen Markt über die Kröpeliner Straße bis zum Kröpeliner Tor. Geöffnet ist montags bis donnerstags von 11 bis 20 Uhr, freitags und samstags bis 21:30 Uhr, sonntags von 11:30 bis 20 Uhr.",
+    "en": "The big Christmas market opens in Rostock city centre on 23 November. It stretches from Neuer Markt along Kröpeliner Straße to Kröpeliner Tor. Opening hours are 11 am to 8 pm Monday to Thursday, until 9:30 pm on Fridays and Saturdays, and 11:30 am to 8 pm on Sundays."
    },
-   "quelle": "https://www.rostocker-weihnachtsmarkt.de/de/unser-weihnachtsmarkt/ihr-besuch/",
+   "quelle": "https://www.rostocker-weihnachtsmarkt.de/de/unser-weihnachtsmarkt/oeffnungszeiten-und-termine-2027-2028/",
    "quelle_name": "Rostocker Weihnachtsmarkt"
   },
   {
    "datum": "2026-11-28",
-   "bis": "2027-01-03",
+   "bis": "2026-12-31",
    "titel": {
-    "de": "Warnemünder Weihnachts- und Neujahrsmarkt eröffnet am Samstag",
+    "de": "Warnemünder Weihnachts- und Neujahrsmarkt öffnet am Samstag",
     "en": "Warnemünde Christmas and New Year Market opens on Saturday"
    },
    "text": {
-    "de": "Am Samstag, 28. November, startet auf dem Kirchenplatz in Warnemünde der kleine Weihnachts- und Neujahrsmarkt. Er hat bis zum 3. Januar 2027 geöffnet, mit einzelnen Ruhetagen. Eröffnungstag ist von 11 bis 22 Uhr, an den Adventssonntagen gibt es eine Weihnachtsmann-Sprechstunde und regelmäßig Livemusik.",
-    "en": "On Saturday, 28 November, the small Christmas and New Year market starts on the Kirchenplatz in Warnemünde. It stays open until 3 January 2027, with a few days off. Opening day runs from 11 am to 10 pm. On Advent Sundays Father Christmas holds a meet-and-greet, and there is regular live music."
+    "de": "Ab Samstag, 28. November, lädt der Markt auf dem Kirchenplatz zum Bummeln, zu Glühwein und Apfelsaft ein. In den ersten drei Wochen sind montags und dienstags die Buden zu. Danach gelten ausgeweitete Zeiten, der Markt läuft bis Silvester. Die Angaben zum Enddatum weichen je nach Quelle ab (teils 23.12.), bitte vor dem Besuch die aktuellen Zeiten prüfen.",
+    "en": "From Saturday, 28 November, the market on Kirchenplatz invites visitors to stroll and enjoy mulled wine or apple juice. During the first three weeks it is closed on Mondays and Tuesdays. Hours are extended afterwards and the market runs until New Year's Eve. The end date differs between sources (some say 23 December), so please check current hours before visiting."
    },
-   "quelle": "https://wmnde.de/weihnachtsmarkt-warnemuende-2026/",
-   "quelle_name": "WMNDE"
+   "quelle": "https://der-warnemuender.de/dwmnewslesen,Warnemuender-Weihnachtsmarkt-2026:-Neuer-Verein,-Programm-und-Silvesterparty,showNews-10977.html",
+   "quelle_name": "Der Warnemünder"
   },
   {
    "datum": "2026-11-28",
@@ -37,24 +37,38 @@
     "en": "Small Christmas markets on Rügen on the first Advent weekend"
    },
    "text": {
-    "de": "Am Wochenende 28. und 29. November laden auf Rügen mehrere kleine Märkte ein. Dazu zählen der Weihnachtsmarkt auf dem Rügenhof in Putgarten, der Göhrener Weihnachtsmarkt am Kurpavillon und der DRK-Weihnachtsmarkt in Bergen. Die Zeiten können je nach Markt abweichen, daher lohnt ein Blick in den jeweiligen Veranstaltungskalender.",
-    "en": "Several small markets welcome visitors on Rügen over the weekend of 28 and 29 November. They include the market at Rügenhof in Putgarten, the Göhren Christmas market at the Kurpavillon and the DRK Christmas market in Bergen. Times may differ from market to market, so check each event listing."
+    "de": "Am Wochenende 28. und 29. November gibt es auf Rügen mehrere kleine Märkte. Dazu gehören der Rügenhof in Putgarten am Kap Arkona (jeweils 15 bis 20 Uhr), der Göhrener Markt am Kurpavillon und der DRK-Markt in Bergen. In Göhren ist der Markt nur am Samstag geöffnet.",
+    "en": "Several small markets take place on Rügen on the weekend of 28 and 29 November. They include Rügenhof in Putgarten near Cape Arkona (3 pm to 8 pm each day), the Göhren market at the Kurpavillon and the DRK market in Bergen. The Göhren market is open on Saturday only."
    },
    "quelle": "https://ostseemagazin.net/advent-ruegen-weihnachtsmaerkte/",
    "quelle_name": "Ostseemagazin"
   },
   {
-   "datum": "2026-11-21",
-   "bis": "2027-01-23",
+   "datum": "2026-11-22",
+   "bis": "2026-12-12",
    "titel": {
-    "de": "Winterprogramm in den Kaiserbädern auf Usedom",
-    "en": "Winter programme in the Kaiserbäder on Usedom"
+    "de": "Rügen: Straßensperrungen auf der B196 und der B96b",
+    "en": "Rügen: road closures on the B196 and B96b"
    },
    "text": {
-    "de": "Die Kaiserbäder Ahlbeck, Heringsdorf und Bansin haben vom 6. November bis zum 23. Januar 2027 ein Winterprogramm. Dazu gehören Weihnachtsmärkte in Ahlbeck und Bansin, die Winterwelt in Heringsdorf zum Jahreswechsel und im Januar ein Winterstrandfest. Das Event Lichterglanz – Meeresfeuer ist bereits vorbei.",
-    "en": "The Kaiserbäder Ahlbeck, Heringsdorf and Bansin run a winter programme from 6 November to 23 January 2027. It includes Christmas markets in Ahlbeck and Bansin, the Winterwelt in Heringsdorf around New Year and a winter beach festival in January. The Lichterglanz – Meeresfeuer event has already ended."
+    "de": "Die B196 zwischen Bergen und Göhren ist wegen einer Fahrbahnerneuerung im Abschnitt Süllitz bis Mönchgut-Granitz bis zum 27. November gesperrt. Die B96b zwischen Borchtitz und Neu Mukran ist am Bahnübergang Nord-Rügen noch bis zum 12. Dezember gesperrt. Bitte vor der Anreise die Umleitungen prüfen.",
+    "en": "The B196 between Bergen and Göhren is closed until 27 November for road resurfacing between the Süllitz junction and Mönchgut-Granitz. The B96b between Borchtitz and Neu Mukran is closed at the Nord-Rügen level crossing until 12 December. Please check diversions before you travel."
    },
-   "quelle": "https://ostseemagazin.net/winter-kaiserbaeder-usedom/",
+   "quelle": "https://www.adac.de/verkehr/verkehrsinformationen/de/mecklenburg-vorpommern/",
+   "quelle_name": "ADAC Verkehrsinformationen"
+  },
+  {
+   "datum": "2026-11-22",
+   "bis": "2027-03-31",
+   "titel": {
+    "de": "Wittower Fähre: Winterfahrplan gilt",
+    "en": "Wittow ferry: winter timetable in effect"
+   },
+   "text": {
+    "de": "Die Wittower Fähre zwischen Fährhof und Wittow bei Wiek fährt im Winter täglich von 6:30 bis 18:00 Uhr, mit Pausen. Sie pendelt etwa alle 15 bis 20 Minuten, die Überfahrt dauert rund 8 Minuten. Späte Fahrten am Abend gibt es nicht.",
+    "en": "In winter the Wittow ferry between Fährhof and Wittow near Wiek runs daily from 6:30 am to 6:00 pm, with breaks. It shuttles about every 15 to 20 minutes and the crossing takes around 8 minutes. There are no late evening crossings."
+   },
+   "quelle": "https://ostseemagazin.net/wittower-faehre-ruegen/",
    "quelle_name": "Ostseemagazin"
   }
  ]

@@ -1,33 +1,33 @@
 {
- "stand": "2026-11-21",
+ "stand": "2026-11-22",
  "items": [
   {
-   "datum": "2026-11-21",
-   "bis": "2026-11-22",
+   "datum": "2026-11-23",
+   "bis": "2026-12-31",
    "titel": {
-    "de": "S-Bahn-Sperrung auf der Stadtbahn am Wochenende",
-    "en": "S-Bahn closure on the Stadtbahn this weekend"
+    "de": "Weihnachtsmarkt-Saison startet: Gendarmenmarkt und Alexanderplatz",
+    "en": "Christmas market season begins: Gendarmenmarkt and Alexanderplatz"
    },
    "text": {
-    "de": "Von Samstag, 21.11., gegen 15:45 Uhr bis Montagmorgen fahren die S3, S5, S7 und S9 nicht zwischen Friedrichstraße und Tiergarten. Barrierefreie Ersatzbusse (S7A und S7B) fahren zum Zoologischen Garten, die S7B nur bis 23 Uhr. Auch im Regionalverkehr zwischen Charlottenburg und Ostbahnhof fallen weiter Züge aus. Bitte etwas mehr Zeit einplanen.",
-    "en": "From Saturday 21 Nov at about 3:45 pm until Monday morning, lines S3, S5, S7 and S9 do not run between Friedrichstraße and Tiergarten. Accessible replacement buses (S7A and S7B) serve Zoologischer Garten, and the S7B stops at 11 pm. Regional trains between Charlottenburg and Ostbahnhof are also still affected. Please allow some extra travel time."
+    "de": "Am Montag, 23. November, öffnen viele der großen Berliner Weihnachtsmärkte, darunter der WeihnachtsZauber am Gendarmenmarkt (bis 31.12.) und der Markt am Alexanderplatz (bis 26.12.). Der Markt am Gendarmenmarkt ist nach der Platzsanierung wieder auf dem Platz selbst zu finden.",
+    "en": "Many of Berlin's big Christmas markets open on Monday, 23 November. They include the WeihnachtsZauber at Gendarmenmarkt (until 31 Dec) and the market at Alexanderplatz (until 26 Dec). The Gendarmenmarkt market is back on the square itself after its renovation."
    },
-   "quelle": "https://www.berliner-zeitung.de/article/s-bahn-berlin-vier-linien-am-wochenende-unterbrochen-10620044",
-   "quelle_name": "Berliner Zeitung"
+   "quelle": "https://www.weihnachtsfeier-berlin.de/weihnachtsmaerkte-berlin",
+   "quelle_name": "weihnachtsfeier-berlin.de"
   },
   {
-   "datum": "2026-11-23",
-   "bis": "",
+   "datum": "2026-11-21",
+   "bis": "2027-02-28",
    "titel": {
-    "de": "Start der Berliner Weihnachtsmarkt-Saison am 23. November",
-    "en": "Berlin Christmas market season starts on 23 November"
+    "de": "Winterstrand im BeachMitte am Nordbahnhof",
+    "en": "Winter beach at BeachMitte near Nordbahnhof"
    },
    "text": {
-    "de": "Am Montag, 23.11., öffnen die meisten großen Weihnachtsmärkte der Stadt. Dazu zählen laut berlin.de Gendarmenmarkt, Breitscheidplatz, Rotes Rathaus, Schloss Charlottenburg, Spandauer Altstadt und Lucia in der Kulturbrauerei. Die Laufzeiten sind je nach Markt unterschiedlich.",
-    "en": "On Monday 23 Nov, most of the city's major Christmas markets open. According to berlin.de, these include Gendarmenmarkt, Breitscheidplatz, Rotes Rathaus, Schloss Charlottenburg, Spandau Old Town and Lucia at Kulturbrauerei. Closing dates differ from market to market."
+    "de": "Seit dem 21. November wird das BeachMitte-Gelände zum Winterstrand. Es gibt Adventure Golf, eine Eisbahn, Eisstockschießen und Lagerfeuer. Die Preise hängen von der Aktivität ab, aktuelle Preise gibt es nur online.",
+    "en": "Since 21 November, the BeachMitte grounds have been a winter beach. There is adventure golf, an ice rink, ice stock shooting and campfires. Prices depend on the activity, and current prices are only available online."
    },
-   "quelle": "https://berlinecho.de/berliner-weihnachtsmaerkte-termine-2026/",
-   "quelle_name": "Berlin Echo"
+   "quelle": "https://berliner-kurier.de/article/ungewoehnliche-weihnachtsmaerkte-berlin-10605959",
+   "quelle_name": "Berliner Kurier"
   },
   {
    "datum": "2026-11-18",
@@ -37,39 +37,39 @@
     "en": "Christmas Garden at the Botanical Garden"
    },
    "text": {
-    "de": "Seit dem 18.11. verwandelt sich der Botanische Garten wieder in eine winterliche Lichterwelt mit Musik. Der Christmas Garden läuft bis zum 10. Januar 2027. Tickets gibt es online ab 16,90 Euro.",
-    "en": "Since 18 Nov, the Botanical Garden has once again been turned into a winter world of lights and music. Christmas Garden runs until 10 January 2027. Online tickets start at 16.90 euros."
+    "de": "Der Botanische Garten in Dahlem verwandelt sich noch bis zum 10. Januar 2027 in eine winterliche Lichterwelt mit Musik. Tickets gibt es online, Erwachsene zahlen laut visitBerlin ab 16,90 Euro.",
+    "en": "The Botanical Garden in Dahlem is turned into a winter world of lights and music until 10 January 2027. Tickets are sold online, and according to visitBerlin adult tickets start at 16.90 euros."
    },
    "quelle": "https://www.visitberlin.de/de/weihnachtsmaerkte-berlin/karte?items_per_page=100",
    "quelle_name": "visitBerlin"
   },
   {
-   "datum": "2026-11-21",
-   "bis": "2026-11-22",
+   "datum": "2026-11-22",
+   "bis": "2026-11-25",
    "titel": {
-    "de": "MerciPalais: Abschiedswochenende im PalaisPopulaire",
-    "en": "MerciPalais: farewell weekend at PalaisPopulaire"
+    "de": "Winterwetter: Kälte, Glätte und erster Schnee",
+    "en": "Winter weather: cold, slippery roads and first snow"
    },
    "text": {
-    "de": "Das PalaisPopulaire verabschiedet sich an diesem Wochenende von seinem Publikum. Geboten werden Kunst, Musik, Workshops und eine Party. Termin ist der 21. und 22. November.",
-    "en": "PalaisPopulaire says goodbye to its audience this weekend with art, music, workshops and a party. It takes place on 21 and 22 November."
+    "de": "Der Deutsche Wetterdienst erwartet für Berlin am Sonntag 4 bis 6 Grad. In der Nacht zu Montag sind örtlich Schneeschauer möglich, am Montag liegen die Höchstwerte nur bei 2 bis 4 Grad. Dienstag und Mittwoch bleiben überwiegend trocken, aber kalt. Warme Kleidung und festes Schuhwerk sind ratsam, morgens und abends kann es glatt sein.",
+    "en": "The German Weather Service expects 4 to 6 degrees in Berlin on Sunday. Local snow showers are possible overnight into Monday, and highs on Monday reach only 2 to 4 degrees. Tuesday and Wednesday stay mostly dry but cold. Pack warm clothes and sturdy shoes, as mornings and evenings can be slippery."
    },
-   "quelle": "https://www.berlin.de/en/weekend-tips/",
-   "quelle_name": "berlin.de"
+   "quelle": "https://berlin.t-online.de/region/berlin/id_101539742/wetter-in-berlin-und-brandenburg-frost-schnee-und-glaette-moeglich-.html",
+   "quelle_name": "t-online Berlin"
   },
   {
-   "datum": "2026-11-20",
-   "bis": "2026-11-22",
+   "datum": "2026-11-22",
+   "bis": "2026-12-12",
    "titel": {
-    "de": "Artbook Berlin in Kreuzberg",
-    "en": "Artbook Berlin in Kreuzberg"
+    "de": "Stadtbahn: Keine Regional- und Fernzüge zwischen Charlottenburg und Ostbahnhof",
+    "en": "Stadtbahn: no regional or long-distance trains between Charlottenburg and Ostbahnhof"
    },
    "text": {
-    "de": "Bei dieser Besuchermesse in Kreuzberg stellen Buchkünstler und Verlage ihre neuesten Publikationen und Editionen vor. Sie läuft noch bis Sonntag, 22. November.",
-    "en": "At this visitors' fair in Kreuzberg, book artists and publishers present their latest publications and editions. It runs until Sunday 22 November."
+    "de": "Wegen Bauarbeiten fahren auf der Berliner Stadtbahn zwischen Charlottenburg und Ostbahnhof noch bis zum 12. Dezember keine regulären Regional- und Fernzüge. Reisende sollten für Fahrten mit der Bahn etwas mehr Zeit einplanen und vorab die Verbindung prüfen.",
+    "en": "Because of construction work, no regular regional or long-distance trains run on the Berlin Stadtbahn between Charlottenburg and Ostbahnhof until 12 December. If you travel by train, allow a little extra time and check your connection beforehand."
    },
-   "quelle": "https://www.berlin.de/en/weekend-tips/",
-   "quelle_name": "berlin.de"
+   "quelle": "https://www.entwicklungsstadt.de/s-bahn-chaos-in-berlin-s3-s5-s7-und-s9-betroffen/",
+   "quelle_name": "entwicklungsstadt.de"
   }
  ]
 }
