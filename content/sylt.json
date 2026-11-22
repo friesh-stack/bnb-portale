@@ -3,73 +3,73 @@
  "items": [
   {
    "datum": "2026-11-22",
-   "bis": "2026-11-22",
+   "bis": "2026-11-29",
    "titel": {
-    "de": "Keitumer Scheunenmarkt: heute letzter Tag",
-    "en": "Keitum Barn Market: last day today"
+    "de": "Kalte Novemberwoche: Strandspaziergang besser am Vormittag",
+    "en": "Cold late-November week: beach walks are best in the morning"
    },
    "text": {
-    "de": "In der Halle der Sylter Landschlachterei gibt es Ende November Köstlichkeiten und Geschenkideen. Heute, am 22. November, ist der Markt von 12 bis 17 Uhr in der Bäderstraße 2 in Keitum geöffnet.",
-    "en": "The Keitum Barn Market takes place in the hall of the Sylter Landschlachterei, with food and gift ideas. <cite index=\"6-11,6-12\">Today, 22 November, it is open from 12 to 5 pm at Bäderstraße 2 in Keitum.</cite>"
+    "de": "Laut Deutschem Wetterdienst bleibt es in der letzten Novemberwoche auf Sylt kalt und meist grau, mit Höchstwerten von etwa 2 bis 3 Grad und Ostwind. Heute, am Sonntag, gibt es gut vier Sonnenstunden bei knapp 6 Grad, und am Nachmittag ziehen vereinzelt Schauer heran. Am Montag kann der Nordwind an der Küste mit Böen um 50 km/h wehen. Warme Kleidung ist ratsam.",
+    "en": "According to the German Weather Service, the last week of November on Sylt stays cold and mostly grey, with highs around 2 to 3 degrees and an easterly wind. Today, Sunday, brings about four hours of sun at just under 6 degrees, with a few showers moving in later. On Monday the north wind can gust around 50 km/h along the coast. Please dress warmly."
    },
-   "quelle": "https://www.insel-sylt.de/weihnachtsmaerkte-auf-sylt/",
-   "quelle_name": "Insel Sylt Tourismus-Service (ISTS)"
+   "quelle": "https://sylt1.tv/muetzenwetter-statt-sturmwarnung-so-wird-das-sylt-wetter-in-der-letzten-novemberwoche",
+   "quelle_name": "SYLT1"
   },
   {
-   "datum": "2026-11-20",
+   "datum": "2026-11-22",
    "bis": "2027-01-02",
    "titel": {
     "de": "Winterzauber am Meer in Kampen",
     "en": "Winter Magic by the Sea in Kampen"
    },
    "text": {
-    "de": "<cite index=\"3-2\">Im Rahmen von Winterzauber am Meer gibt es in der Sturmhaube in Kampen (Riperstieg 1) vom 20. November 2026 bis 2. Januar 2027 insgesamt 26 Termine.</cite> Die Veranstaltung ist als Fest bzw. Markt eingeordnet und startet um 12 Uhr. Einzelne Tage und Zeiten am besten kurz vorab prüfen.",
-    "en": "Winter Magic by the Sea runs at the Sturmhaube in Kampen (Riperstieg 1) from 20 November 2026 to 2 January 2027, with 26 dates in total. It is listed as a festival or market and starts at 12 noon. Please check individual days and times beforehand."
+    "de": "Seit dem 20. November läuft an der Sturmhaube in Kampen die Veranstaltung „Winterzauber am Meer“. Sie ist als Fest- und Marktangebot mit 26 Terminen bis zum 2. Januar 2027 gelistet, Beginn ist jeweils ab 12 Uhr. Die genauen Termine finden Sie über den Link zur Veranstaltungsseite.",
+    "en": "The Winter Magic by the Sea event has been running at the Sturmhaube in Kampen since 20 November. It is listed as a festive market event with 26 dates until 2 January 2027, starting from 12 noon each time. Please check the linked event page for the exact dates."
    },
    "quelle": "https://www.sylt.de/veranstaltungen/highlights-des-jahres",
-   "quelle_name": "Sylt.de (Sylt Marketing)"
+   "quelle_name": "Sylt.de"
   },
   {
    "datum": "2026-11-27",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Weihnachtsmärkte in Morsum und List",
-    "en": "Christmas markets in Morsum and List"
+    "de": "Lister Weihnachtsmarkt an der Kurverwaltung",
+    "en": "List Christmas Market at the Kurverwaltung"
    },
    "text": {
-    "de": "<cite index=\"3-2\">Vom 27. bis 29. November 2026 findet im Muasem Hüs in Morsum das Jööltir ön Muasem statt.</cite> <cite index=\"3-2\">Im selben Zeitraum läuft der Lister Weihnachtsmarkt an der Kurverwaltung List (Landwehrdeich 1).</cite>",
-    "en": "From 27 to 29 November 2026, the Jööltir ön Muasem market takes place at the Muasem Hüs in Morsum. The Lister Weihnachtsmarkt runs over the same days at the Kurverwaltung List (Landwehrdeich 1)."
+    "de": "Am kommenden Wochenende öffnet in List der Weihnachtsmarkt an der Kurverwaltung am Landwehrdeich 1. Er findet von Freitag, 27., bis Sonntag, 29. November statt, am Freitag ab 18 Uhr. Ein schöner Anlass für einen Ausflug in den Norden der Insel.",
+    "en": "Next weekend the Christmas market opens in List at the Kurverwaltung, Landwehrdeich 1. It runs from Friday 27 to Sunday 29 November, starting at 6 pm on Friday. A nice reason for a trip to the north of the island."
    },
    "quelle": "https://www.sylt.de/veranstaltungen/highlights-des-jahres",
-   "quelle_name": "Sylt.de (Sylt Marketing)"
+   "quelle_name": "Sylt.de"
   },
   {
-   "datum": "2026-11-09",
-   "bis": "2026-12-12",
-   "titel": {
-    "de": "Blauer Autozug: Übergangsfahrplan bis 12. Dezember",
-    "en": "Blue Autozug: transitional timetable until 12 December"
-   },
-   "text": {
-    "de": "<cite index=\"24-10,24-11,24-12\">Beim blauen Autozug gilt seit dem 9. November ein Übergangsfahrplan, der bis einschließlich 12. Dezember 2026 in Kraft bleibt.</cite> <cite index=\"24-1,24-2\">Das Angebot am Abend wird reduziert, deshalb sollte man früher am Terminal in Niebüll sein.</cite> <cite index=\"24-18\">Danach folgt der reguläre Winterfahrplan.</cite>",
-    "en": "The blue Autozug has run on a transitional timetable since 9 November, valid through 12 December 2026. <cite index=\"24-1,24-2\">Evening services are reduced, so drivers heading from Niebüll should arrive at the terminal earlier.</cite> The regular winter timetable follows afterwards."
-   },
-   "quelle": "https://www.dein-sylt.online/artikel/2026/2077/blauer-autozug-sylt-neuer-uebergangsfahrplan-gilt-ab-9-november-2026",
-   "quelle_name": "dein-sylt.online"
-  },
-  {
-   "datum": "2026-11-22",
+   "datum": "2026-11-27",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Wetter: kalt, grau und ohne Sturm",
-    "en": "Weather: cold, grey and no storm"
+    "de": "Jööltir ön Muasem im Muasem Hüs",
+    "en": "Jööltir ön Muasem at the Muasem Hüs"
    },
    "text": {
-    "de": "<cite index=\"35-3\">Für die letzte Novemberwoche erwartet der Deutsche Wetterdienst auf Sylt Höchstwerte um 2 bis 3 Grad, viele Wolken und Ostwind.</cite> <cite index=\"35-13,35-14\">Am Montag sind knapp 5 Grad möglich, dazu weht der Nordwind zeitweise mit Böen um 50 km/h.</cite> Für Strandspaziergänge empfehlen sich warme Kleidung und möglichst der Vormittag.",
-    "en": "For the last week of November, the German Weather Service expects highs of around 2 to 3 degrees on Sylt, plenty of cloud and an easterly wind. <cite index=\"35-13,35-14\">Monday brings just under 5 degrees, with north wind gusts of around 50 km/h at times.</cite> Warm clothing is advisable for beach walks, ideally in the morning."
+    "de": "Im Morsumer Muasem Hüs (Bi Miiren 17) findet von Freitag, 27., bis Sonntag, 29. November der Weihnachtsmarkt „Jööltir ön Muasem“ statt. Beginn ist am Freitag um 14 Uhr. Die Veranstaltung gehört zu den ersten Adventsmärkten der Insel.",
+    "en": "The Christmas market Jööltir ön Muasem takes place at the Muasem Hüs in Morsum (Bi Miiren 17) from Friday 27 to Sunday 29 November. It starts at 2 pm on Friday. It is one of the first Advent markets on the island."
    },
-   "quelle": "https://sylt1.tv/muetzenwetter-statt-sturmwarnung-so-wird-das-sylt-wetter-in-der-letzten-novemberwoche",
-   "quelle_name": "SYLT1"
+   "quelle": "https://www.sylt.de/veranstaltungen/highlights-des-jahres",
+   "quelle_name": "Sylt.de"
+  },
+  {
+   "datum": "2026-11-29",
+   "bis": "",
+   "titel": {
+    "de": "Kampener Anleuchten am 29. November",
+    "en": "Kampen Christmas Tree Lighting on 29 November"
+   },
+   "text": {
+    "de": "Am Sonntag, 29. November, wird in Kampen vor dem Kaamp-Hüs der Weihnachtsbaum feierlich erleuchtet. Los geht es am späten Nachmittag, laut Veranstalter um 17 Uhr. Anschließend lädt ein gemütlicher Klönschnack an der Kaamp-Hüs Bar ein.",
+    "en": "On Sunday 29 November, the Christmas tree in front of the Kaamp-Hüs in Kampen will be lit in a festive ceremony. It starts in the late afternoon, at 5 pm according to the organiser. Afterwards there is a relaxed get-together at the Kaamp-Hüs bar."
+   },
+   "quelle": "https://www.sylt.de/veranstaltungen/weihnachten",
+   "quelle_name": "Sylt.de"
   }
  ]
 }

@@ -6,53 +6,67 @@
    "bis": "2026-12-06",
    "titel": {
     "de": "Amrumer Winterzauber in Norddorf",
-    "en": "Amrum Winter Magic Christmas Market in Norddorf"
+    "en": "Amrum Winterzauber Christmas market in Norddorf"
    },
    "text": {
-    "de": "Der kleine Weihnachtsmarkt findet auf der Terrasse des Seeblick Resorts in Norddorf statt. In den nächsten zwei Wochen sind Termine am 28. und 29. November sowie am 5. und 6. Dezember angekündigt, mit Ständen, Glühwein und Leckereien. Weitere Termine gibt es bis zum Jahresende.",
-    "en": "The small Christmas market takes place on the terrace of the Seeblick Resort in Norddorf. Over the next two weeks it is announced for 28 and 29 November and for 5 and 6 December, with stalls, mulled wine and treats. More dates follow until the end of the year."
+    "de": "Der kleine Weihnachtsmarkt findet auf der Terrasse des Seeblick-Resorts in Norddorf statt. In den nächsten zwei Wochen sind Termine am 28. und 29. November sowie am 5. und 6. Dezember angekündigt, samstags ab 13 Uhr. Es gibt Stände zum Stöbern und Glühwein.",
+    "en": "The small Christmas market takes place on the terrace of the Seeblick resort in Norddorf. Over the next two weeks, dates are announced for 28 and 29 November and for 5 and 6 December, with the Saturday market starting at 1 pm. Expect stalls to browse and mulled wine."
    },
    "quelle": "https://www.moin.de/norddeutschland/nordsee/weihnachtsmaerkte-foehr-amrum-pellworm-faehre-id300897099.html",
    "quelle_name": "moin.de"
   },
   {
-   "datum": "2026-11-22",
-   "bis": "2026-12-12",
+   "datum": "2026-11-28",
+   "bis": "2026-11-28",
    "titel": {
-    "de": "Winterfahrplan der Fähre bis 12. Dezember",
-    "en": "Winter ferry timetable until 12 December"
+    "de": "Adventsanleuchten an der Kirche St. Clemens",
+    "en": "Advent lighting ceremony at St. Clemens church"
    },
    "text": {
-    "de": "Der veröffentlichte Fahrplan der W.D.R. gilt bis zum 12. Dezember 2026, ab dem 13. Dezember beginnt der nächste Fahrplanabschnitt. Die Überfahrt von Dagebüll über Föhr nach Wittdün dauert etwa zwei Stunden, und es gibt bis zu sechs Verbindungen am Tag. Bitte prüfen Sie kurz vor der Reise die aktuellen Zeiten auf faehre.de.",
-    "en": "The published W.D.R. timetable runs until 12 December 2026, and the next timetable period starts on 13 December. The crossing from Dagebüll via Föhr to Wittdün takes about two hours, with up to six sailings a day. Please check the current times on faehre.de shortly before you travel."
+    "de": "Am Samstag, 28. November, trifft man sich um 16:45 Uhr vor der Kirche in Nebel. Um 17 Uhr beginnt das Adventsanleuchten mit Musik, Stille und einem gemeinsamen Lied. Anschließend werden im Kirchturm die ersten Teile des Kirchenpuzzles angebracht.",
+    "en": "On Saturday, 28 November, people gather in front of the church in Nebel at 4:45 pm. The Advent lighting begins at 5 pm with music, a moment of silence and a song sung together. Afterwards, the first pieces of the church puzzle are put up in the tower."
    },
-   "quelle": "https://www.faehre-nordfriesland.de/en/amrum/",
-   "quelle_name": "Fähre Nordfriesland"
+   "quelle": "https://sylt1.tv/amrum-st-clemens-adventsbasar-ewigkeitssonntag-adventsanleuchten/",
+   "quelle_name": "SYLT1"
   },
   {
-   "datum": "2026-11-25",
+   "datum": "2026-11-26",
    "bis": "2026-12-04",
    "titel": {
-    "de": "Wattwanderungen und Führungen der Schutzstation Wattenwanderungen",
-    "en": "Mudflat walks and guided tours with the Schutzstation Wattenmeer"
+    "de": "Schutzstation Wattenmeer: Workshops und Führung im Naturzentrum",
+    "en": "Schutzstation Wattenmeer: workshops and guided tour at the nature centre"
    },
    "text": {
-    "de": "Die Schutzstation Wattenmeer bietet auf Amrum in den kommenden Tagen Kleine Wattwanderungen, Familienwattwanderungen mit Schatzsuche und Dünenführungen an. Termine gibt es unter anderem am 25. und 26. November, am 28. November sowie am 3. und 4. Dezember. Uhrzeiten und Anmeldung finden Sie auf der Seite der Schutzstation.",
-    "en": "In the coming days the Schutzstation Wattenmeer offers short mudflat walks, family walks with a treasure hunt and dune tours on Amrum. Dates include 25 and 26 November, 28 November, and 3 and 4 December. Times and registration are on the Schutzstation website."
+    "de": "Beim Workshop Strandfunde bestimmen und Bernsteinschleifen kann man am 26. November und am 1. Dezember jeweils um 14 Uhr mitmachen. Am 4. Dezember um 14:30 Uhr folgt eine Ausstellungsführung mit Fütterung der Aquarientiere. Buchung über die Schutzstation Wattenmeer.",
+    "en": "You can join the workshop on identifying beach finds and polishing amber on 26 November and 1 December, both at 2 pm. On 4 December at 2:30 pm, there is a guided exhibition tour with feeding of the aquarium animals. Booking is via Schutzstation Wattenmeer."
    },
    "quelle": "https://www.schutzstation-wattenmeer.de/unsere-stationen/amrum/veranstaltungen-watt-erleben/",
    "quelle_name": "Schutzstation Wattenmeer"
   },
   {
-   "datum": "2026-11-16",
-   "bis": "2026-11-26",
+   "datum": "2026-11-22",
+   "bis": "2026-12-12",
    "titel": {
-    "de": "Bauarbeiten in der Straße Achtern Strand in Wittdün",
-    "en": "Roadworks on Achtern Strand street in Wittdün"
+    "de": "Winterfahrplan der Fähren bis 12. Dezember",
+    "en": "Winter ferry timetable until 12 December"
    },
    "text": {
-    "de": "In Wittdün ist der Gehweg in der Straße Achtern Strand noch bis zum 26. November 2026 gesperrt, und die Fahrbahn ist stellenweise verengt. Bitte planen Sie auf dem Weg zum Strand etwas mehr Zeit ein und beachten Sie die Beschilderung vor Ort.",
-    "en": "In Wittdün the footpath on Achtern Strand street is closed until 26 November 2026, and the road is narrowed in places. Please allow a little extra time on your way to the beach and follow the local signs."
+    "de": "Auf der Strecke Dagebüll–Föhr–Amrum gilt derzeit der Winterfahrplan vom 2. November bis 12. Dezember 2026. Änderungen durch Wind, Niedrigwasser oder Sturm bleiben vorbehalten, bitte kurz vor der Reise die aktuellen Hinweise der Reederei prüfen.",
+    "en": "The winter timetable for the Dagebüll–Föhr–Amrum route applies from 2 November to 12 December 2026. Changes due to wind, low water or storms are possible, so please check the shipping company’s latest notices shortly before you travel."
+   },
+   "quelle": "https://www.faehre.de/fileadmin/content/pdf_downloads_termine_faltblaetter/pdf_fahrplan/WDR_Faehre_Fahrplanflyer_2026.pdf",
+   "quelle_name": "W.D.R. Föhr-Amrum (faehre.de)"
+  },
+  {
+   "datum": "2026-11-22",
+   "bis": "2026-11-26",
+   "titel": {
+    "de": "Straßenarbeiten in Wittdün: Achtern Strand",
+    "en": "Roadworks in Wittdün: Achtern Strand"
+   },
+   "text": {
+    "de": "In der Straße Achtern Strand in Wittdün sind der Gehweg gesperrt und die Fahrbahn verengt. Die Einschränkung gilt noch bis zum 26. November 2026. Bitte planen Sie etwas mehr Zeit ein.",
+    "en": "In Wittdün, the pavement on Achtern Strand is closed and the road is narrowed. The restriction remains in place until 26 November 2026. Please allow a little extra time."
    },
    "quelle": "https://www.amrum-news.de/",
    "quelle_name": "AmrumNews"

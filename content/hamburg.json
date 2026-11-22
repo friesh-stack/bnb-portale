@@ -9,8 +9,8 @@
     "en": "Historic Christmas Market opens at Rathausmarkt"
    },
    "text": {
-    "de": "Ab Montag, 23. November, öffnet der Historische Weihnachtsmarkt vor dem Rathaus. Er ist täglich von 11 bis 21 Uhr geöffnet. Der Markt wird von Roncalli veranstaltet und legt besonderen Wert auf Nachhaltigkeit. Zu den Höhepunkten zählt der fliegende Weihnachtsmann.",
-    "en": "The Historic Christmas Market in front of City Hall opens on Monday, 23 November. It is open daily from 11 am to 9 pm. Roncalli organises the market and puts a special focus on sustainability. A highlight is the flying Santa Claus."
+    "de": "Ab Montag, 23. November, öffnet der Historische Weihnachtsmarkt vor dem Rathaus. Er ist täglich von 11 bis 21 Uhr geöffnet und läuft bis zum 23. Dezember. Zu den Besonderheiten zählen der Nachhaltigkeitsschwerpunkt und der fliegende Weihnachtsmann.",
+    "en": "The Historic Christmas Market in front of City Hall opens on Monday, 23 November. It is open daily from 11 am to 9 pm until 23 December. Highlights include its focus on sustainability and the flying Santa Claus."
    },
    "quelle": "https://www.hamburg.de/tourismus/weihnachten-hamburg/weihnachtsmarkt-hamburg/weihnachtsmarkt-rathausmarkt-301092",
    "quelle_name": "hamburg.de"
@@ -19,12 +19,12 @@
    "datum": "2026-11-16",
    "bis": "2026-12-30",
    "titel": {
-    "de": "Weihnachtsmarkt HafenCity am Überseeboulevard",
-    "en": "HafenCity Christmas Market at Überseeboulevard"
+    "de": "Weihnachtsmarkt in der HafenCity: heute geschlossen",
+    "en": "HafenCity Christmas Market: closed today"
    },
    "text": {
-    "de": "Der Weihnachtsmarkt in der HafenCity läuft noch bis zum 30. Dezember. Neben Glühwein und Snacks gibt es Angebote wie Wintergolf und Eisstockgaudi. Am Totensonntag (heute, 22. November) sowie an Heiligabend und dem 1. Weihnachtstag bleibt er geschlossen.",
-    "en": "The HafenCity Christmas Market runs until 30 December. Besides mulled wine and snacks, there are activities such as winter golf and ice stock shooting. It is closed on Totensonntag (today, 22 November) as well as on Christmas Eve and Christmas Day."
+    "de": "Der Weihnachtsmarkt auf dem Überseeboulevard läuft noch bis zum 30. Dezember. Am Totensonntag, dem heutigen 22. November, bleibt er geschlossen. Ab morgen ist er wieder geöffnet, mit Wintergolf und Eisstockschießen.",
+    "en": "The Christmas market on the Überseeboulevard runs until 30 December. It is closed today, 22 November, which is Totensonntag (Sunday of the Dead). It reopens tomorrow, with winter golf and ice stock shooting among the attractions."
    },
    "quelle": "https://www.hamburg.de/tourismus/weihnachten-hamburg/weihnachtsmarkt-hamburg/weihnachtsmarkt-hafencity-307512",
    "quelle_name": "hamburg.de"
@@ -34,42 +34,28 @@
    "bis": "2026-12-06",
    "titel": {
     "de": "Winterdom auf dem Heiligengeistfeld",
-    "en": "Winterdom funfair at Heiligengeistfeld"
+    "en": "Winterdom fun fair at Heiligengeistfeld"
    },
    "text": {
-    "de": "Der Winterdom, Norddeutschlands größtes Volksfest, ist noch bis zum 6. Dezember auf dem Heiligengeistfeld zu Gast. Heute, am Totensonntag, ist von 15 bis 23 Uhr geöffnet. Montag bis Donnerstag gilt 15 bis 23 Uhr, freitags und samstags 15 bis 24 Uhr, sonntags 14 bis 23 Uhr.",
-    "en": "The Winterdom, northern Germany's largest funfair, continues at Heiligengeistfeld until 6 December. Today, Totensonntag, it is open from 3 pm to 11 pm. Monday to Thursday it is open 3 pm to 11 pm, Friday and Saturday 3 pm to midnight, and Sunday 2 pm to 11 pm."
+    "de": "Der 696. Winterdom läuft noch bis zum 6. Dezember auf dem Heiligengeistfeld. Heute, am Totensonntag, ist er von 15 bis 23 Uhr geöffnet. Montags bis donnerstags gilt 15 bis 23 Uhr, freitags und samstags 15 bis 24 Uhr, sonntags 14 bis 23 Uhr.",
+    "en": "The 696th Winterdom continues at Heiligengeistfeld until 6 December. Today, Totensonntag, it is open from 3 pm to 11 pm. Monday to Thursday it opens 3 pm to 11 pm, Friday and Saturday 3 pm to midnight, and Sunday 2 pm to 11 pm."
    },
    "quelle": "https://www.hamburg.de/freizeit/dom/aktuelles-336294",
    "quelle_name": "hamburg.de"
   },
   {
-   "datum": "2026-11-22",
-   "bis": "2026-11-27",
+   "datum": "2026-10-26",
+   "bis": "2026-11-22",
    "titel": {
-    "de": "U3: Wochentags keine Züge zwischen Berliner Tor und Barmbek",
-    "en": "U3: No weekday service between Berliner Tor and Barmbek"
+    "de": "Bahn: Regionalzüge zwischen Hauptbahnhof und Harburg eingeschränkt",
+    "en": "Rail: limited regional trains between Hauptbahnhof and Harburg"
    },
    "text": {
-    "de": "Wegen Gleisbauarbeiten fährt die U3 bis zum 27. November montags bis freitags nicht zwischen Berliner Tor und Barmbek. Die Hochbahn setzt zur Naherschließung zusätzlich Ersatzbusse ein. Der Aufzug an der Haltestelle Hamburger Straße ist in dieser Zeit außer Betrieb.",
-    "en": "Due to track works, the U3 does not run between Berliner Tor and Barmbek on weekdays until 27 November. Hochbahn provides additional replacement buses for local access. The lift at Hamburger Straße station is out of service during this period."
+    "de": "Wegen Weichenarbeiten fallen zwischen Hamburg Hauptbahnhof und Harburg bis zum 22. November viele Regionalzüge aus. Wer in diese Richtung fährt, nutzt am besten die S-Bahn-Linien S3 und S5. Bitte plant mehr Reisezeit ein und prüft die aktuellen Verbindungen vor der Abfahrt.",
+    "en": "Because of track-switch works, many regional trains between Hamburg Hauptbahnhof and Harburg are cancelled until 22 November. The S-Bahn lines S3 and S5 are the best alternative. Please allow extra travel time and check current connections before you set off."
    },
-   "quelle": "https://www.hochbahn.de/de/presse/pressemitteilungen/u3-umfangreicher-gleisbau-im-herbst-120044",
-   "quelle_name": "Hamburger Hochbahn"
-  },
-  {
-   "datum": "2026-11-27",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Bauarbeiten auf der Bahnstrecke Hamburg–Hannover",
-    "en": "Track works on the Hamburg–Hannover rail line"
-   },
-   "text": {
-    "de": "Von Freitag, 27., bis Sonntag, 29. November (abends) führt die Deutsche Bahn Arbeiten an der Strecke zwischen Hamburg und Hannover durch. Der Zugverkehr ist dabei eingeschränkt. Wer in dieser Zeit mit dem Zug anreist oder abreist, prüft vorab die aktuelle Verbindung.",
-    "en": "From Friday 27 to Sunday 29 November (evening), Deutsche Bahn is carrying out works on the line between Hamburg and Hannover. Train services will be restricted. If you travel by train during this time, please check your connection beforehand."
-   },
-   "quelle": "https://bauprojekte.deutschebahn.com/p/hamburg-hannover/pdf",
-   "quelle_name": "DB BauInfoPortal"
+   "quelle": "https://www.landeszeitung.de/lokales/harburg-lk/bahnstrecke-hamburg-hbf-harburg-gesperrt-regionalbahnen-fallen-vier-wochen-aus-B7G5BS2V5BCTXLTTIY6TF4YOTE.html",
+   "quelle_name": "Landeszeitung für die Lüneburger Heide"
   }
  ]
 }

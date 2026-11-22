@@ -2,74 +2,74 @@
  "stand": "2026-11-22",
  "items": [
   {
-   "datum": "2026-11-20",
+   "datum": "2026-11-22",
    "bis": "2026-12-24",
    "titel": {
-    "de": "Christkindlmarkt am Marienplatz ist eröffnet",
-    "en": "Christkindlmarkt at Marienplatz is open"
+    "de": "Christkindlmarkt am Marienplatz: heute geschlossen, ab Montag wieder offen",
+    "en": "Christkindlmarkt at Marienplatz: closed today, reopens Monday"
    },
    "text": {
-    "de": "Seit 20. November läuft der Münchner Christkindlmarkt rund um den Marienplatz mit 138 Ständen für Geschenke, Baumschmuck und Glühwein. Die Stände sind laut Stadtportal montags bis samstags von 10 bis 21 Uhr und sonntags von 10 bis 20 Uhr geöffnet. Am 24. Dezember schließt der Markt bereits um 14 Uhr.",
-    "en": "Munich's Christkindlmarkt has been running around Marienplatz since 20 November, with 138 stalls selling gifts, tree decorations and mulled wine. According to the city portal, stalls open Monday to Saturday from 10 am to 9 pm and on Sundays from 10 am to 8 pm. On 24 December the market closes at 2 pm."
+    "de": "Der Münchner Christkindlmarkt läuft noch bis 24. Dezember. Am Totensonntag, dem 22. November, bleibt er geschlossen. Ab Montag ist er wieder geöffnet (Mo–Sa 10–21 Uhr, So 10–20 Uhr). Am Freitag, 27. November, ist lange Shopping-Nacht, und die Stände dürfen freiwillig bis 22 Uhr öffnen.",
+    "en": "The Munich Christkindlmarkt runs until 24 December. It is closed today, 22 November, which is Totensonntag (Germany's day of remembrance). From Monday it reopens (Mon–Sat 10 am–9 pm, Sun 10 am–8 pm). Friday, 27 November, is a late shopping night, and stalls may stay open until 10 pm if they choose."
    },
-   "quelle": "https://ru.muenchen.de/2026/222/Der-Muenchner-Christkindlmarkt-2026-127097",
-   "quelle_name": "muenchen.de"
+   "quelle": "https://www.stadtmagazin-muenchen24.de/weihnachtsmaerkte-2026-154494",
+   "quelle_name": "Stadtmagazin München24"
   },
   {
-   "datum": "2026-11-23",
-   "bis": "",
+   "datum": "2026-11-22",
+   "bis": "2026-12-23",
    "titel": {
-    "de": "Adventswoche: Tollwood, Schwabinger Weihnachtsmarkt und Märchenbazar",
-    "en": "Advent week: Tollwood, Schwabing Christmas market and fairytale bazaar"
+    "de": "Weihnachtsmarkt am Chinesischen Turm im Englischen Garten",
+    "en": "Christmas market at the Chinese Tower in the English Garden"
    },
    "text": {
-    "de": "Am Montag, 23. November, kehrt die Feuerzangenbowle in den Innenhof des Isartors zurück. Am Dienstag startet das Tollwood Winterfestival. Am Mittwoch beginnt der Schwabinger Weihnachtsmarkt (ab 12 Uhr), und ab Donnerstag öffnet der Märchenbazar im Olympiapark Süd.",
-    "en": "On Monday, 23 November, the Feuerzangenbowle returns to the courtyard of the Isartor. The Tollwood Winter Festival starts on Tuesday. The Schwabing Christmas market opens on Wednesday (from 12 noon), and the Märchenbazar opens in Olympiapark Süd from Thursday."
+    "de": "Der Weihnachtsmarkt beim Chinesischen Turm hat seit dem 19. November geöffnet und läuft bis 23. Dezember. Er ist immer von Mittwoch bis Sonntag geöffnet, also auch heute. Ein Spaziergang durch den Englischen Garten passt gut dazu.",
+    "en": "The Christmas market at the Chinese Tower has been open since 19 November and runs until 23 December. It is open Wednesday to Sunday, so it is open today. It pairs well with a walk through the English Garden."
    },
-   "quelle": "https://muc-blog.com/veranstaltungen-muenchen-kw48-23-bis-29-november-2026/",
-   "quelle_name": "muc-blog.com"
-  },
-  {
-   "datum": "2026-11-18",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Münchner Bücherschau im Haus der Kunst",
-    "en": "Munich Book Fair exhibition at Haus der Kunst"
-   },
-   "text": {
-    "de": "Die 67. Münchner Bücherschau zeigt im Westflügel des Hauses der Kunst eine Buchausstellung mit literarischem Begleitprogramm. Sie ist noch bis 29. November täglich von 8 bis 22 Uhr geöffnet – ein guter Tipp für Regentage.",
-    "en": "The 67th Münchner Bücherschau presents a book exhibition with a literary programme in the west wing of Haus der Kunst. It is open daily from 8 am to 10 pm until 29 November, which makes it a good idea for rainy days."
-   },
-   "quelle": "https://muc-blog.com/veranstaltungen-diesen-monat-muenchen/",
-   "quelle_name": "muc-blog.com"
+   "quelle": "https://www.muenchen.travel/artikel/maerkte-feste/weihnachtsmaerkte-in-muenchen",
+   "quelle_name": "München Tourismus (muenchen.travel)"
   },
   {
    "datum": "2026-11-23",
    "bis": "2026-11-30",
    "titel": {
-    "de": "S-Bahn: Bauarbeiten an der Stammstrecke",
-    "en": "S-Bahn: construction work on the Stammstrecke"
+    "de": "S-Bahn: Bauarbeiten an der Stammstrecke, nächtliche Einschränkungen",
+    "en": "S-Bahn: construction work on the Stammstrecke, night-time restrictions"
    },
    "text": {
-    "de": "In der Nacht von Montag auf Dienstag (23./24. November, 21:20 bis 4:40 Uhr) gibt es wegen Arbeiten am Ostbahnhof und Leuchtenbergring Änderungen im Fahrplan. Züge von und nach Erding beginnen und enden dann am Ostbahnhof. Auch von Freitag, 27. November, 22:10 Uhr bis Montag, 30. November, 4:40 Uhr sind Bauarbeiten angekündigt – bitte vor der Fahrt die Fahrplanauskunft prüfen.",
-    "en": "Overnight from Monday to Tuesday (23/24 November, 9:20 pm to 4:40 am) timetable changes apply because of work at Ostbahnhof and Leuchtenbergring. Trains to and from Erding will then start and end at Ostbahnhof. Further construction work is announced from Friday 27 November, 10:10 pm until Monday 30 November, 4:40 am, so please check the journey planner before you travel."
+    "de": "Wegen Bauarbeiten zur 2. Stammstrecke gibt es in der Nacht von Montag auf Dienstag (23./24.11., 21:20 bis 4:40 Uhr) Änderungen im Fahrplan. Ab Freitag, 27.11., 22:10 Uhr gilt das noch einmal bis Montag, 30.11., 4:40 Uhr. Bitte vor später Rückfahrt die aktuellen Infos der S-Bahn München prüfen.",
+    "en": "Construction for the second Stammstrecke (S-Bahn trunk line) changes the timetable overnight from Monday to Tuesday (23/24 Nov, 9:20 pm to 4:40 am). The same applies again from Friday, 27 Nov, 10:10 pm until Monday, 30 Nov, 4:40 am. Please check the current S-Bahn München information before a late trip back."
    },
    "quelle": "https://www.s-bahn-muenchen.de/de/fahren/baustellen/stammstrecke",
    "quelle_name": "S-Bahn München"
   },
   {
    "datum": "2026-11-22",
-   "bis": "2026-11-22",
+   "bis": "2026-11-27",
    "titel": {
-    "de": "Wetter heute: bedeckt und kühl, abends Regen",
-    "en": "Weather today: overcast and cool, rain in the evening"
+    "de": "Kalt und winterlich: Frost und Schnee zum Ende der Woche",
+    "en": "Cold and wintry: frost and snow towards the end of the week"
    },
    "text": {
-    "de": "Heute bleibt es in München laut Stadtportal bedeckt bei höchstens 5 Grad und zunächst trocken. Am Abend ist Regen möglich – für Märkte und Spaziergänge empfiehlt sich warme Kleidung und ein Schirm.",
-    "en": "According to the city portal, Munich stays overcast today with a high of 5 degrees and starts out dry. Rain is possible in the evening, so warm clothing and an umbrella are a good idea for markets and walks."
+    "de": "Heute gibt es in München leichten Regen bei etwa 5 Grad. In den Nächten wird es frostig, am Dienstag zeigt sich zeitweise die Sonne. Für Donnerstag, 26. November, ist Schnee vorhergesagt. Warme Kleidung und feste Schuhe sind in dieser Woche ratsam.",
+    "en": "Today brings light rain in Munich at around 5 degrees. Nights turn frosty, and Tuesday should bring some sunshine. Snow is forecast for Thursday, 26 November. Warm clothing and sturdy shoes are a good idea this week."
    },
-   "quelle": "https://www.muenchen.de/freizeit/wetter-aktuell-muenchen",
-   "quelle_name": "muenchen.de"
+   "quelle": "https://www.daswetter.com/wetter_Munchen-Europa-Deutschland-Bayern--1-27076.html",
+   "quelle_name": "Meteored (daswetter.com)"
+  },
+  {
+   "datum": "2026-11-22",
+   "bis": "2026-12-07",
+   "titel": {
+    "de": "Kunst im Haus der Kunst: Steina – Playback läuft noch bis 7. Dezember",
+    "en": "Art at Haus der Kunst: Steina – Playback runs until 7 December"
+   },
+   "text": {
+    "de": "Das Haus der Kunst zeigt noch bis 7. Dezember die Ausstellung Steina: Playback mit Werken der Video- und Medienkunst. Bis 31. Dezember sind außerdem Meisterwerke der Neuen Pinakothek unter dem Titel Von Turner bis Van Gogh in der Alten Pinakothek zu sehen. Ein guter Tipp für kalte Tage.",
+    "en": "Haus der Kunst shows Steina: Playback, featuring video and media art, until 7 December. Until 31 December, masterpieces from the Neue Pinakothek can also be seen at the Alte Pinakothek in From Turner to Van Gogh. A good tip for cold days."
+   },
+   "quelle": "https://www.muenchen.travel/artikel/kunst-kultur/ausstellungen-2026-2027",
+   "quelle_name": "München Tourismus (muenchen.travel)"
   }
  ]
 }

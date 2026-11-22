@@ -2,74 +2,60 @@
  "stand": "2026-11-22",
  "items": [
   {
-   "datum": "2026-11-20",
-   "bis": "2027-01-02",
+   "datum": "2026-11-22",
+   "bis": "2026-11-22",
    "titel": {
-    "de": "Sylt: Winterzauber am Meer an der Sturmhaube",
-    "en": "Sylt: Winter Magic by the Sea at the Sturmhaube"
+    "de": "Keitumer Scheunenmarkt auf Sylt: letzter Tag",
+    "en": "Keitum Barn Market on Sylt: last day"
    },
    "text": {
-    "de": "Die Außenterrasse der Sturmhaube wird zum kleinen Weihnachtsmarkt. Unter einem beheizten Schirm genießen Sie Winterleckereien mit Blick auf die Nordsee. Laut Sylt-Seite ist donnerstags bis sonntags geöffnet, die Aktion läuft bis zum 2. Januar 2027.",
-    "en": "The outdoor terrace of the Sturmhaube turns into a small Christmas market. Enjoy seasonal treats under a heated canopy with a view of the North Sea. According to the Sylt website it is open Thursday to Sunday, and the event runs until 2 January 2027."
+    "de": "Der Keitumer Scheunenmarkt auf Sylt läuft noch bis heute, Sonntag. Wer einen Inselbummel plant, kann dort stöbern. Genauere Öffnungszeiten stehen in der Veranstaltungsübersicht der Schausteller.",
+    "en": "The Keitum Barn Market on Sylt runs until today, Sunday. It makes a nice stop on an island stroll. For opening hours, please check the showmen association's event listing."
    },
-   "quelle": "https://www.sylt.de/veranstaltungen/weihnachtsmaerkte",
-   "quelle_name": "sylt.de"
-  },
-  {
-   "datum": "2026-11-27",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Sylt: Lister Weihnachtsmarkt an der Kurverwaltung",
-    "en": "Sylt: List Christmas Market at the Spa Administration"
-   },
-   "text": {
-    "de": "Von Freitag, 27., bis Sonntag, 29. November, findet der Lister Weihnachtsmarkt bei der Kurverwaltung List statt. Er zählt zu den ersten Weihnachtsmärkten der Insel in diesem Jahr. Weitere Adventstermine auf Sylt finden Sie in der Übersicht der Insel.",
-    "en": "The List Christmas Market takes place at the spa administration in List from Friday 27 to Sunday 29 November. It is one of the first Christmas markets on the island this year. More Advent dates on Sylt are listed in the island overview."
-   },
-   "quelle": "https://www.sylt.de/veranstaltungen/weihnachtsmaerkte",
-   "quelle_name": "sylt.de"
-  },
-  {
-   "datum": "2026-11-23",
-   "bis": "2026-11-25",
-   "titel": {
-    "de": "Norderney: Watt- und Naturführungen diese Woche",
-    "en": "Norderney: Mudflat and Nature Tours This Week"
-   },
-   "text": {
-    "de": "Der Novemberkalender nennt mehrere geführte Touren: Faszination Nacht, ein Abendspaziergang am Strand, am 23.11. um 16:45 Uhr. Am 24.11. gibt es die Wattführung Watt für Alle am Wattensteg Surferbucht, am 25.11. eine Vogelführung mit Leihfernglas. Die Preise liegen bei 10 Euro für Erwachsene, Kinder zahlen weniger.",
-    "en": "The November calendar lists several guided tours. Faszination Nacht, an evening beach walk, is on 23 Nov at 4:45 pm. On 24 Nov there is the Watt für Alle mudflat tour at the Wattensteg Surferbucht, and on 25 Nov a bird tour with loan binoculars. Adults pay 10 euros, children pay less."
-   },
-   "quelle": "https://www.norderney.org/november/",
-   "quelle_name": "Norderney.org"
+   "quelle": "https://schaustellerverband-schleswig-holstein.de/Marktkalender.html?suche=Weihnachten&o=true",
+   "quelle_name": "Schaustellerverband Schleswig-Holstein"
   },
   {
    "datum": "2026-11-23",
    "bis": "2026-11-24",
    "titel": {
     "de": "Juist: Vogelbeobachtung und Museumsführung",
-    "en": "Juist: Bird Watching and Museum Tour"
+    "en": "Juist: bird watching and museum tour"
    },
    "text": {
-    "de": "Der Juister Veranstaltungskalender nennt für Montag, 23.11., um 11 Uhr eine vogelkundliche Beobachtung. Am Dienstag, 24.11., um 14:30 Uhr folgt die Museumsführung Von Schiffen und Badefreuden. Auch die Kunstausstellungen Mein Meer und mehr sowie Tage am Meer sind seit dem 20.11. angekündigt.",
-    "en": "The Juist events calendar lists a bird-watching outing on Monday 23 Nov at 11 am. On Tuesday 24 Nov at 2:30 pm a museum tour follows, titled Von Schiffen und Badefreuden. The art exhibitions Mein Meer und mehr and Tage am Meer are also listed from 20 Nov."
+    "de": "Auf Juist steht am Montag, 23. November, eine vogelkundliche Beobachtung auf dem Programm. Am Dienstag, 24. November, folgt die Museumsführung „Von Schiffen und Badefreuden“. Weitere Termine und Details finden Sie im Veranstaltungskalender der Insel.",
+    "en": "On Monday, 23 November, Juist offers a guided bird watching outing. On Tuesday, 24 November, the museum tour called Von Schiffen und Badefreuden takes place. More dates and details are in the island's event calendar."
    },
    "quelle": "https://www.juist.de/auf-der-insel/veranstaltungen/veranstaltungskalender",
-   "quelle_name": "Juist Veranstaltungskalender"
+   "quelle_name": "Juist – Veranstaltungskalender"
   },
   {
-   "datum": "2026-11-22",
-   "bis": "2026-12-12",
+   "datum": "2026-11-27",
+   "bis": "2026-11-29",
    "titel": {
-    "de": "Nordfriesische Inseln: Winterfahrplan der Fähren",
-    "en": "North Frisian Islands: Winter Ferry Timetable"
+    "de": "Erstes Adventswochenende auf Sylt: Märkte in Morsum und List",
+    "en": "First Advent weekend on Sylt: markets in Morsum and List"
    },
    "text": {
-    "de": "Ganzjährig fahren die Fähren ab Dagebüll nach Föhr und Amrum, die Halligrouten ab Schlüttsiel und die Fähre Nordstrand–Pellworm. Die Verbindungen zwischen den Inseln pausieren seit Anfang November bis Ende März. Der Fahrplan der Wyker Dampfschiffs-Reederei ist bis zum 12. Dezember veröffentlicht, ab dem 13. Dezember gilt ein neuer Zeitraum.",
-    "en": "Ferries run year-round from Dagebüll to Föhr and Amrum, on the hallig routes from Schlüttsiel, and between Nordstrand and Pellworm. Services between the islands have paused from early November until late March. The Wyker Dampfschiffs-Reederei timetable is published until 12 December, and a new period starts on 13 December."
+    "de": "Vom 27. bis 29. November lädt der Morsumer Weihnachtsmarkt „Jööltir ön Muasem“ ein. Zeitgleich verwandelt sich die ehemalige Grundschule in List in ein kleines Weihnachtsparadies. Beide Märkte sind ein schöner Auftakt in die Adventszeit.",
+    "en": "From 27 to 29 November, the Morsum Christmas market Jööltir ön Muasem is open. At the same time, the former primary school in List turns into a small Christmas wonderland. Both markets are a lovely start to the Advent season."
    },
-   "quelle": "https://www.faehre-nordfriesland.de/en/timetable/",
-   "quelle_name": "Fähren Nordfriesland (Fahrplanübersicht)"
+   "quelle": "https://www.nordseetourismus.de/weihnachten-und-silvester-nordsee",
+   "quelle_name": "Nordsee-Tourismus-Service"
+  },
+  {
+   "datum": "2026-11-28",
+   "bis": "2026-11-29",
+   "titel": {
+    "de": "Adventsmärkte auf Föhr in Nieblum und Wrixum",
+    "en": "Advent markets on Föhr in Nieblum and Wrixum"
+   },
+   "text": {
+    "de": "Der Adventsmarkt im Haus des Gastes in Nieblum öffnet am 28. und 29. November jeweils von 12 bis 17 Uhr. Am 29. November findet von 11 bis 16 Uhr zusätzlich der Weihnachtsmarkt im Forst in Wrixum statt. Dort kommt gegen 15 Uhr der Weihnachtsmann vorbei.",
+    "en": "The Advent market at the Haus des Gastes in Nieblum is open on 28 and 29 November, from 12 to 5 pm. On 29 November, the Christmas market in the forest in Wrixum also takes place from 11 am to 4 pm. Santa is expected there at around 3 pm."
+   },
+   "quelle": "https://www.foehr.de/jahreswechsel",
+   "quelle_name": "Föhr – Weihnachten und Silvester"
   }
  ]
 }

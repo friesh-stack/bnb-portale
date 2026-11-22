@@ -2,74 +2,74 @@
  "stand": "2026-11-22",
  "items": [
   {
-   "datum": "2026-11-23",
-   "bis": "2026-12-22",
-   "titel": {
-    "de": "Rostocker Weihnachtsmarkt startet am Montag",
-    "en": "Rostock Christmas Market opens on Monday"
-   },
-   "text": {
-    "de": "Am 23. November öffnet in der Rostocker Innenstadt der große Weihnachtsmarkt. Er zieht sich vom Neuen Markt über die Kröpeliner Straße bis zum Kröpeliner Tor. Geöffnet ist montags bis donnerstags von 11 bis 20 Uhr, freitags und samstags bis 21:30 Uhr, sonntags von 11:30 bis 20 Uhr.",
-    "en": "The big Christmas market opens in Rostock city centre on 23 November. It stretches from Neuer Markt along Kröpeliner Straße to Kröpeliner Tor. Opening hours are 11 am to 8 pm Monday to Thursday, until 9:30 pm on Fridays and Saturdays, and 11:30 am to 8 pm on Sundays."
-   },
-   "quelle": "https://www.rostocker-weihnachtsmarkt.de/de/unser-weihnachtsmarkt/oeffnungszeiten-und-termine-2027-2028/",
-   "quelle_name": "Rostocker Weihnachtsmarkt"
-  },
-  {
-   "datum": "2026-11-28",
-   "bis": "2026-12-31",
-   "titel": {
-    "de": "Warnemünder Weihnachts- und Neujahrsmarkt öffnet am Samstag",
-    "en": "Warnemünde Christmas and New Year Market opens on Saturday"
-   },
-   "text": {
-    "de": "Ab Samstag, 28. November, lädt der Markt auf dem Kirchenplatz zum Bummeln, zu Glühwein und Apfelsaft ein. In den ersten drei Wochen sind montags und dienstags die Buden zu. Danach gelten ausgeweitete Zeiten, der Markt läuft bis Silvester. Die Angaben zum Enddatum weichen je nach Quelle ab (teils 23.12.), bitte vor dem Besuch die aktuellen Zeiten prüfen.",
-    "en": "From Saturday, 28 November, the market on Kirchenplatz invites visitors to stroll and enjoy mulled wine or apple juice. During the first three weeks it is closed on Mondays and Tuesdays. Hours are extended afterwards and the market runs until New Year's Eve. The end date differs between sources (some say 23 December), so please check current hours before visiting."
-   },
-   "quelle": "https://der-warnemuender.de/dwmnewslesen,Warnemuender-Weihnachtsmarkt-2026:-Neuer-Verein,-Programm-und-Silvesterparty,showNews-10977.html",
-   "quelle_name": "Der Warnemünder"
-  },
-  {
-   "datum": "2026-11-28",
+   "datum": "2026-11-27",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Kleine Weihnachtsmärkte auf Rügen am ersten Adventswochenende",
-    "en": "Small Christmas markets on Rügen on the first Advent weekend"
+    "de": "Putbusser Weihnachtswelten im Schlosspark",
+    "en": "Putbus Christmas Worlds in the castle park"
    },
    "text": {
-    "de": "Am Wochenende 28. und 29. November gibt es auf Rügen mehrere kleine Märkte. Dazu gehören der Rügenhof in Putgarten am Kap Arkona (jeweils 15 bis 20 Uhr), der Göhrener Markt am Kurpavillon und der DRK-Markt in Bergen. In Göhren ist der Markt nur am Samstag geöffnet.",
-    "en": "Several small markets take place on Rügen on the weekend of 28 and 29 November. They include Rügenhof in Putgarten near Cape Arkona (3 pm to 8 pm each day), the Göhren market at the Kurpavillon and the DRK market in Bergen. The Göhren market is open on Saturday only."
+    "de": "Am ersten Adventswochenende gibt es in Putbus weihnachtliche Stände, Kunsthandwerk und Live-Musik. Am Freitag um 16:30 Uhr wird der Tannenbaum auf dem Markt entzündet, danach folgt ein Fackelumzug zur Schlosswiese. Geöffnet ist Freitag 13–20 Uhr, Samstag 11–20 Uhr und Sonntag 11–18 Uhr.",
+    "en": "On the first Advent weekend, Putbus offers festive stalls, crafts and live music. The Christmas tree lights up on Friday at 4:30 pm, followed by a torchlight procession to the Schlosswiese. Opening hours are Friday 1–8 pm, Saturday 11 am–8 pm and Sunday 11 am–6 pm."
    },
-   "quelle": "https://ostseemagazin.net/advent-ruegen-weihnachtsmaerkte/",
-   "quelle_name": "Ostseemagazin"
+   "quelle": "https://www.auf-nach-mv.de/veranstaltungssuche/e-putbusser-weihnachtsmarkt-ruegen",
+   "quelle_name": "Auf-nach-MV.de"
+  },
+  {
+   "datum": "2026-11-27",
+   "bis": "2026-11-29",
+   "titel": {
+    "de": "Ahlbecker Weihnachtsmarkt auf dem Konzertplatz",
+    "en": "Ahlbeck Christmas market at the Konzertplatz"
+   },
+   "text": {
+    "de": "Das Seebad Ahlbeck auf Usedom lädt am ersten Adventswochenende zum Weihnachtsmarkt ein. Auf dem Konzertplatz warten regionale Stände, Musik und gastronomische Angebote.",
+    "en": "The seaside resort of Ahlbeck on Usedom invites you to its Christmas market on the first Advent weekend. At the Konzertplatz you will find regional stalls, music and food and drink."
+   },
+   "quelle": "https://www.usedom-insider.de/veranstaltungen-auf-usedom/",
+   "quelle_name": "Usedom Insider"
+  },
+  {
+   "datum": "2026-11-28",
+   "bis": "2027-01-03",
+   "titel": {
+    "de": "Warnemünder Weihnachts- und Neujahrsmarkt startet",
+    "en": "Warnemünde Christmas and New Year market opens"
+   },
+   "text": {
+    "de": "Am Samstag, 28. November, öffnet der kleine Markt auf dem Kirchenplatz in Warnemünde. Er läuft bis zum 3. Januar 2027 und bietet ein Kulturprogramm. Bis zum 15. Dezember sind montags und dienstags Ruhetage.",
+    "en": "On Saturday, 28 November, the small market on the Kirchenplatz in Warnemünde opens. It runs until 3 January 2027 and offers a cultural programme. Until 15 December it is closed on Mondays and Tuesdays."
+   },
+   "quelle": "https://wmnde.de/weihnachtsmarkt-warnemuende-2026/",
+   "quelle_name": "WMNDE Warnemünde"
   },
   {
    "datum": "2026-11-22",
    "bis": "2026-12-12",
    "titel": {
-    "de": "Rügen: Straßensperrungen auf der B196 und der B96b",
-    "en": "Rügen: road closures on the B196 and B96b"
+    "de": "Rügen: B96b bei Neu Mukran voll gesperrt",
+    "en": "Rügen: B96b near Neu Mukran fully closed"
    },
    "text": {
-    "de": "Die B196 zwischen Bergen und Göhren ist wegen einer Fahrbahnerneuerung im Abschnitt Süllitz bis Mönchgut-Granitz bis zum 27. November gesperrt. Die B96b zwischen Borchtitz und Neu Mukran ist am Bahnübergang Nord-Rügen noch bis zum 12. Dezember gesperrt. Bitte vor der Anreise die Umleitungen prüfen.",
-    "en": "The B196 between Bergen and Göhren is closed until 27 November for road resurfacing between the Süllitz junction and Mönchgut-Granitz. The B96b between Borchtitz and Neu Mukran is closed at the Nord-Rügen level crossing until 12 December. Please check diversions before you travel."
+    "de": "Die B96b zwischen Borchtitz und Neu Mukran ist in Höhe des Bahnübergangs Nord-Rügen wegen einer Baustelle in beiden Richtungen gesperrt. Die Sperrung gilt laut ADAC-Verkehrsmeldung noch bis zum 13. Dezember 2026, 0 Uhr. Bitte plant für Fahrten in diese Richtung etwas mehr Zeit ein.",
+    "en": "The B96b between Borchtitz and Neu Mukran is closed in both directions at the Nord-Rügen level crossing because of roadworks. According to the ADAC traffic report, the closure lasts until 13 December 2026, 0:00. Please allow extra time if you are travelling in this direction."
    },
    "quelle": "https://www.adac.de/verkehr/verkehrsinformationen/de/mecklenburg-vorpommern/",
    "quelle_name": "ADAC Verkehrsinformationen"
   },
   {
-   "datum": "2026-11-22",
-   "bis": "2027-03-31",
+   "datum": "2026-11-28",
+   "bis": "2027-01-09",
    "titel": {
-    "de": "Wittower Fähre: Winterfahrplan gilt",
-    "en": "Wittow ferry: winter timetable in effect"
+    "de": "Inselglitzern: Winterlichter auf Usedom",
+    "en": "Inselglitzern: winter lights on Usedom"
    },
    "text": {
-    "de": "Die Wittower Fähre zwischen Fährhof und Wittow bei Wiek fährt im Winter täglich von 6:30 bis 18:00 Uhr, mit Pausen. Sie pendelt etwa alle 15 bis 20 Minuten, die Überfahrt dauert rund 8 Minuten. Späte Fahrten am Abend gibt es nicht.",
-    "en": "In winter the Wittow ferry between Fährhof and Wittow near Wiek runs daily from 6:30 am to 6:00 pm, with breaks. It shuttles about every 15 to 20 minutes and the crossing takes around 8 minutes. There are no late evening crossings."
+    "de": "Ab dem 28. November sorgt Inselglitzern auf Usedom und in Zinnowitz für winterliche Lichtstimmung. Geplant sind Lichtinstallationen, beleuchtete Wege und Spaziergänge in der dunklen Jahreszeit. Die Aktion läuft bis zum 9. Januar 2027.",
+    "en": "From 28 November, Inselglitzern brings a wintry glow to Usedom and Zinnowitz. Light installations, illuminated paths and winter walks are planned for the dark season. The event runs until 9 January 2027."
    },
-   "quelle": "https://ostseemagazin.net/wittower-faehre-ruegen/",
-   "quelle_name": "Ostseemagazin"
+   "quelle": "https://www.zinnowitz-hotel.de/de/events-kultur/",
+   "quelle_name": "Hotel am Kurpark Zinnowitz"
   }
  ]
 }
