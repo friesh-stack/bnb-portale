@@ -87,6 +87,7 @@ def main(argv):
     neu = "--neu" in argv
     slugs = [a for a in argv if not a.startswith("--")]
     cfg = json.loads((ROOT / "portale.json").read_text(encoding="utf-8"))
+    cfg["portale"] = [p for p in cfg["portale"] if p.get("aktiv", True)]  # "aktiv": false = Portal pausiert
     for p in cfg["portale"]:
         if slugs and p["slug"] not in slugs:
             continue

@@ -128,6 +128,7 @@ def main(argv):
     probe = "--probe" in argv
     slugs = [a for a in argv if not a.startswith("--")]
     cfg = json.loads((ROOT / "portale.json").read_text(encoding="utf-8"))
+    cfg["portale"] = [p for p in cfg["portale"] if p.get("aktiv", True)]  # "aktiv": false = Portal pausiert
     gh = GH(os.environ.get("GH_PAT", ""))
     owner = cfg["github_owner"]
     fehler = 0

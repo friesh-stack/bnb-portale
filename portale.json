@@ -618,8 +618,8 @@
             "en": "Cities"
           },
           "text": {
-            "de": "Hamburg, Berlin, München – mit eigenen Portalen.",
-            "en": "Hamburg, Berlin, Munich – each with its own portal."
+            "de": "Hamburg und München – mit eigenen Portalen.",
+            "en": "Hamburg and Munich – each with its own portal."
           }
         },
         {
@@ -657,10 +657,9 @@
           "lat": 52.52,
           "lon": 13.405,
           "text": {
-            "de": "→ berlin-bnb.de",
-            "en": "→ berlin-bnb.de"
-          },
-          "link": "https://berlin-bnb.de"
+            "de": "Hauptstadt",
+            "en": "Capital"
+          }
         },
         {
           "name": "München",
@@ -975,7 +974,8 @@
             "en": "Former border crossing"
           }
         }
-      ]
+      ],
+      "aktiv": false
     },
     {
       "slug": "muenchen",
@@ -1116,7 +1116,7 @@
     },
     {
       "slug": "italia",
-      "domain": "it-bnb.com",
+      "domain": "it-bnb.de",
       "repo": "it-bnb",
       "modus": "neu",
       "allinkl": "dns",

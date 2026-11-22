@@ -172,6 +172,7 @@ def main(argv):
     anwenden = "--anwenden" in argv
     slugs = [a for a in argv if not a.startswith("--")]
     cfg = json.loads((ROOT / "portale.json").read_text(encoding="utf-8"))
+    cfg["portale"] = [p for p in cfg["portale"] if p.get("aktiv", True)]  # "aktiv": false = Portal pausiert
     kas = Kas(os.environ["KAS_LOGIN"].strip(), os.environ["KAS_PASSWORT"].strip())
     if not anwenden:
         print("PROBELAUF – es wird nichts geändert. Zum Ausführen: --anwenden\n")

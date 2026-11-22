@@ -370,6 +370,7 @@ def baue(cfg, p, alle):
 
 def main(argv):
     cfg = lade_json(ROOT / "portale.json", None)
+    cfg["portale"] = [p for p in cfg["portale"] if p.get("aktiv", True)]  # "aktiv": false = Portal pausiert
     alle = cfg["portale"]
     auswahl = [p for p in alle if not argv or p["slug"] in argv]
     for p in auswahl:

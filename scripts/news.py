@@ -100,6 +100,7 @@ def main(argv):
     alle = "--alle" in argv
     slugs = [a for a in argv if not a.startswith("--")]
     cfg = json.loads((ROOT / "portale.json").read_text(encoding="utf-8"))
+    cfg["portale"] = [p for p in cfg["portale"] if p.get("aktiv", True)]  # "aktiv": false = Portal pausiert
     (ROOT / "content").mkdir(exist_ok=True)
     fehler = 0
     for p in cfg["portale"]:
