@@ -327,7 +327,8 @@ class Seite:
         komplett = "https://ruegenwebdesign.de/#lBeispiele"
         kontakt = cfg["kontakt_email"]
         pakete = [("p1", "p1t", True), ("p2", "p2t", True), ("p3", "p3t", False)]
-        karten = "".join(f'''<div class="pk"><h3>{v(a)}</h3><span class="prov">{v("prov")}</span><div class="pr">{v("preis")}</div><p>{v(b)}</p>{('<div class="gratis">' + v("gratis") + '</div>') if g else ""}<a class="btn{"" if g else " ghost"}" href="{E(self.portal_url()) if g else "#anfrage"}" data-paket="{a}">{v("test_btn") if g else v("anfrage_btn")}</a></div>''' for a, b, g in pakete)
+        prk = {"p1": "pr1", "p2": "pr2", "p3": "pr3"}
+        karten = "".join(f'''<div class="pk"><h3>{v(a)}</h3><span class="prov">{v("prov")}</span><div class="pr">{v(prk[a])}</div><p>{v(b)}</p>{('<div class="gratis">' + v("gratis") + '</div>') if g else ""}<a class="btn{"" if g else " ghost"}" href="{E(self.portal_url()) if g else "#anfrage"}" data-paket="{a}">{v("test_btn") if g else v("anfrage_btn")}</a></div>''' for a, b, g in pakete)
         sel = "".join(f'<option value="{a}">{E(VT[self.sp[0]][a])}</option>' for a, _, _ in pakete)
         html = self.kopf(f'{m} – {VT[self.sp[0]]["titel"].format(m=m)}', VT[self.sp[0]]["sub"], aktiv="recht") + f'''<main class="vm">
 <section class="hero vm-hero"><div class="hero-inhalt"><h1>{v("titel")}</h1><p>{v("sub")}</p><div class="hero-btns"><a class="btn" href="{E(self.portal_url())}">{v("test_btn")}</a><a class="btn btn-rand" href="#anfrage">{v("cta")}</a></div></div></section>

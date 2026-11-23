@@ -114,3 +114,19 @@ V = {
 T = {l: dict(zip(K, v)) for l, v in V.items()}
 for l, d in T.items():
     assert len(d) == len(K), l
+
+# Preise je Paket (p1 Portal-Eintrag, p2 Website + Portal, p3 Buchungsservice)
+PREISE = {
+"de":("99 € im 1. Jahr, danach 20 € pro Jahr – ohne Zusatzoptionen","19 € pro Monat – Zusatzoptionen dazubuchbar","Preis auf Anfrage"),
+"en":("€99 in year 1, then €20 per year – no add-ons","€19 per month – add-ons available","Price on request"),
+"it":("99 € il 1° anno, poi 20 € all'anno – senza opzioni aggiuntive","19 € al mese – opzioni aggiuntive prenotabili","Prezzo su richiesta"),
+"fr":("99 € la 1re année, puis 20 € par an – sans options","19 € par mois – options disponibles","Prix sur demande"),
+"es":("99 € el 1.er año, después 20 € al año – sin opciones adicionales","19 € al mes – opciones adicionales disponibles","Precio a consultar"),
+"nl":("€ 99 in het 1e jaar, daarna € 20 per jaar – zonder extra opties","€ 19 per maand – extra opties bij te boeken","Prijs op aanvraag"),
+"da":("99 € første år, derefter 20 € om året – uden tilvalg","19 € om måneden – tilvalg kan bestilles","Pris efter aftale"),
+"sv":("99 € första året, därefter 20 € per år – utan tillval","19 € per månad – tillval kan bokas","Pris på förfrågan"),
+"nb":("99 € første år, deretter 20 € per år – uten tilvalg","19 € per måned – tilvalg kan bestilles","Pris etter avtale"),
+"fi":("99 € 1. vuonna, sen jälkeen 20 € vuodessa – ilman lisävalintoja","19 € kuukaudessa – lisävalinnat tilattavissa","Hinta pyynnöstä"),
+}
+for l, d in T.items():
+    d["pr1"], d["pr2"], d["pr3"] = PREISE.get(l, PREISE["en"])

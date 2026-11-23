@@ -30,7 +30,7 @@ i=s.index('var REGIONEN='); j=s.index('];',s.index('var ORTE=',i))+2
 s=s[:i]+REG+"\nvar ORTE=[\n"+orte+"\n];"+s[j:]
 
 # --- Pakete
-R('name:"Inselseite + Portal", provision:"0 %", grundgebuehr:"99 €", einheit:"im 1. Jahr, danach 20 € pro Jahr"','name:"Länderseite + Portal", provision:"0 %", grundgebuehr:"", einheit:"pro Jahr"')
+R('name:"Inselseite + Portal", provision:"0 %", grundgebuehr:"19 €", einheit:"pro Monat"','name:"Länderseite + Portal", provision:"0 %", grundgebuehr:"19 €", einheit:"pro Monat"')
 R('"Ihre Unterseite auf syltbnb.de, amrumbnb.de, foehrbnb.de oder wangeroogebnb.de – alle anderen Orte unter nordseebnb.de"','"Ihre Unterseite auf dem Länderportal – z. B. it-bnb.com, fr-bnb.com, es-bnb.com, dk-bnb.dk, se-bnb.com, no-bnb.com, fi-bnb.com"')
 s=s.replace("Alles aus Inselseite + Portal","Alles aus Länderseite + Portal")
 s=s.replace("Kurkarten & Kurabgabe für Ihre Gäste – automatisch, wo Ihr Ort es zulässt","Kurtaxe bzw. Ortstaxe für Ihre Gäste – automatisch, wo Ihr Ort es zulässt")
@@ -69,7 +69,6 @@ for a,b in [("auf den Nordseeinseln","in ganz Europa"),("Alle Nordseeinseln","Al
 s=s.replace("Ihre Website als Unterseite einer Länderseite kostet 99 € im ersten Jahr, danach 20 € pro Jahr – und 0 % Provision auf Ihre Buchungen.","Ihre Website als Unterseite einer Länderseite kostet eine feste Gebühr pro Jahr (Preis auf Anfrage) – und 0 % Provision auf Ihre Buchungen.")
 s=re.sub(r'\["Wo liegt meine Unterseite\?","[^"]*"\]','["Wo liegt meine Unterseite?","Auf dem Portal Ihres Landes, zum Beispiel it-bnb.com/ihr-name, fr-bnb.com/ihr-name oder se-bnb.com/ihr-name. Gäste sehen sie in der Landessprache, auf Englisch und Deutsch."]',s)
 s=re.sub(r'\["Welche Länder sind dabei\?","[^"]*"\]','["Welche Länder sind dabei?","Italien, Frankreich, Spanien, Dänemark, Schweden, Norwegen, Finnland und Deutschland – jeweils mit eigenem Länderportal. Weitere Länder folgen."]',s)
-s=s.replace("<b>99 €</b>","<b>14 Tage</b>")
 
 
 # --- Nachbesserungen sichtbarer Vermieter-Texte, KI-Anweisungen und Wissen des Assistenten
@@ -79,8 +78,8 @@ s=re.sub(r'Vermieter auf Sylt, Amrum, Föhr oder Wangerooge bekommen ihre Unters
 s=re.sub(r'INSELN: BnB Europa deckt .*?eigene Seiten:[^.]*\.', 'LÄNDER: BnB Europa umfasst Italien, Frankreich, Spanien, Dänemark, Schweden, Norwegen, Finnland und Deutschland, jeweils mit eigenem Länderportal (Gästeseite in Landessprache, Englisch und Deutsch).', s, count=1, flags=re.S)
 s=re.sub(r'Orte liegen in Europa, meist auf einer Insel \(z\. B\. [^)]*\) – trage Ort und Insel ein, z\. B\. \\"Wyk auf Föhr\\"\.', 'Orte liegen irgendwo in Europa – trage Ort und Land ein, z. B. \\"Burano, Italien\\" oder \\"Visby, Schweden\\".', s)
 for a,b in [('(u.ort?", ":"")+"Nordsee")','(u.ort?", ":"")+"Europa")'),('(u.ort||"Nordsee")','(u.ort||"Europa")'),('ort:u.ort||"Nordsee"','ort:u.ort||"Europa"'),('esc(D.region||"Nordsee")','esc(D.region||"Europa")'),
-            ("An der Nordsee bauen wir ihn","In anderen Regionen bauen wir ihn"),("Preis: 99 € im ersten Jahr, danach 20 € pro Jahr.","Preis auf Anfrage."),
-            ("99 € im ersten Jahr, danach 20 € pro Jahr, 0 % Provision.","feste Gebühr pro Jahr (Preis auf Anfrage), 0 % Provision."),("kennt die Insel (Strand, Fähre, Anreise, Ausflüge)","kennt die Region (Strand, Anreise, Ausflüge)"),
+            ("An der Nordsee bauen wir ihn","In anderen Regionen bauen wir ihn"),
+            ("kennt die Insel (Strand, Fähre, Anreise, Ausflüge)","kennt die Region (Strand, Anreise, Ausflüge)"),
             ("<span>🏝️</span><b>Ihre Länderseite</b><small>Unterseite auf syltbnb.de, amrumbnb.de, foehrbnb.de, wangeroogebnb.de oder eu-bnb.com</small>","<span>🌍</span><b>Ihre Länderseite</b><small>Unterseite auf it-bnb.com, fr-bnb.com, es-bnb.com, dk-bnb.dk, se-bnb.com, no-bnb.com oder fi-bnb.com</small>"),
             ("sowie SyltBnB, AmrumBnB, FöhrBnB und WangeroogeBnB sind Angebote","sowie die Länderportale it-bnb.com, fr-bnb.com, es-bnb.com, dk-bnb.dk, se-bnb.com, no-bnb.com und fi-bnb.com sind Angebote"),
             ("<small>Deutsch, Englisch, Dänisch, Niederländisch, Französisch</small>","<small>Landessprache, Englisch, Deutsch – auf Wunsch weitere</small>")]:
