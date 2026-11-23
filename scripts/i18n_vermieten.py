@@ -33,6 +33,15 @@ def gh(methode, pfad, daten=None):
         if e.code == 404: return None
         raise
 
+RAW = "https://raw.githubusercontent.com/friesh-stack/eu-bnb/main/vermieten/"
+_SEITE = {}
+def seite():
+    """Portal direkt aus dem Repo laden – funktioniert auch, solange die Domain noch nicht erreichbar ist."""
+    if "html" not in _SEITE:
+        with urllib.request.urlopen(RAW + "index.html", timeout=120) as r:
+            _SEITE["html"] = r.read()
+    return _SEITE["html"]
+
 async def sprache(browser, L):
     ctx = await browser.new_context(viewport={"width": 1200, "height": 900})
     async def route(r):
@@ -42,6 +51,14 @@ async def sprache(browser, L):
                 antwort = await asyncio.to_thread(claude, body)
                 await r.fulfill(status=200, content_type="application/json", body=antwort); return
             await r.abort(); return
+        u = r.request.url
+        if u.startswith(URL + "i18n/"):
+            alt = gh("GET", f"/repos/{REPO}/contents/" + PFAD.format(L))
+            if alt: await r.fulfill(status=200, content_type="application/json", body=base64.b64decode(alt["content"]))
+            else: await r.fulfill(status=404, body="")
+            return
+        if u.split("?")[0] == URL:
+            await r.fulfill(status=200, content_type="text/html; charset=utf-8", body=await asyncio.to_thread(seite)); return
         await r.continue_()
     await ctx.route("**/*", route)
     pg = await ctx.new_page()
