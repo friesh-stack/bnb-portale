@@ -151,6 +151,8 @@ R('function buildSite(D){','''function buildSite(D){var h=buildSite0(D),L0=windo
   var js="<script>("+bwI18n.toString()+")({langs:"+JSON.stringify(langs)+",def:"+JSON.stringify(L0)+",dict:\\"https://eu-bnb.com/vermieten/i18n/\\",api:"+JSON.stringify(PORTAL.claude)+",key:\\"site\\"})<\\/script>";
   var k=h.lastIndexOf("</body>");return k>=0?h.slice(0,k)+js+h.slice(k):h+js}
 function buildSite0(D){''')
+R('/Failed to fetch|NetworkError|Load failed/i.test(m)?" (Technik: Worker nicht erreichbar – zum Prüfen "+VOICE.endpoint+" im Browser öffnen.)":""','/Failed to fetch|NetworkError|Load failed/i.test(m)?" (Technik: Worker nicht erreichbar – zum Prüfen "+VOICE.endpoint+" im Browser öffnen.)":" (Technik: "+m+")"')
+
 open(dst,'w',encoding='utf-8').write(s)
 rest=re.sub(r'data:[^"\')]{200,}','',s)
 print("fertig", len(s), "| Rest Nordsee:", len(re.findall(r'Nordsee',rest)), "| Insel:", len(re.findall(r'Insel',rest)))
