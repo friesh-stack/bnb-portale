@@ -1749,7 +1749,7 @@
     },
     {
       "slug": "danmark",
-      "domain": "dk-bnb.de",
+      "domain": "dk-bnb.dk",
       "repo": "dkbnb",
       "modus": "neu",
       "allinkl": "dns",
@@ -2927,8 +2927,8 @@
           "name": "Danmark",
           "lat": 56.2,
           "lon": 9.5,
-          "text": "→ dk-bnb.de",
-          "link": "https://dk-bnb.de"
+          "text": "→ dk-bnb.dk",
+          "link": "https://dk-bnb.dk"
         },
         {
           "name": "Sverige",
