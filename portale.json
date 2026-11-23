@@ -1749,7 +1749,7 @@
     },
     {
       "slug": "danmark",
-      "domain": "dkbnb.com",
+      "domain": "dk-bnb.de",
       "repo": "dkbnb",
       "modus": "neu",
       "allinkl": "dns",
@@ -1984,7 +1984,10 @@
     },
     {
       "slug": "sverige",
-      "domain": "sebnb.com",
+      "domain": "se-bnb.com",
+      "zusatz_domains": [
+        "sebnb.se"
+      ],
       "repo": "sebnb",
       "modus": "neu",
       "allinkl": "dns",
@@ -2219,7 +2222,7 @@
     },
     {
       "slug": "norge",
-      "domain": "nobnb.com",
+      "domain": "no-bnb.com",
       "repo": "nobnb",
       "modus": "neu",
       "allinkl": "dns",
@@ -2467,7 +2470,7 @@
     },
     {
       "slug": "suomi",
-      "domain": "fibnb.com",
+      "domain": "fi-bnb.com",
       "repo": "fibnb",
       "modus": "neu",
       "allinkl": "dns",
@@ -2710,6 +2713,243 @@
             "en": "Fells & skiing",
             "de": "Fjell & Ski"
           }
+        }
+      ]
+    },
+    {
+      "slug": "europa",
+      "domain": "eu-bnb.com",
+      "repo": "eu-bnb",
+      "modus": "neu",
+      "allinkl": "dns",
+      "marke": "EU-BnB",
+      "sprachen": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "es",
+        "nl"
+      ],
+      "sprachen_vermieter": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "es"
+      ],
+      "angebot": "allgemein",
+      "news": "woechentlich",
+      "karte": {
+        "lat": 52.0,
+        "lon": 12.0,
+        "zoom": 4
+      },
+      "region": {
+        "en": "Europe",
+        "de": "Europa",
+        "fr": "Europe",
+        "it": "Europa",
+        "es": "Europa",
+        "nl": "Europa"
+      },
+      "region_in": {
+        "en": "in Europe",
+        "de": "in Europa",
+        "fr": "en Europe",
+        "it": "in Europa",
+        "es": "en Europa",
+        "nl": "in Europa"
+      },
+      "titel": {
+        "en": "Holiday homes across Europe – direct from the host",
+        "de": "Ferienwohnungen in ganz Europa – direkt vom Gastgeber",
+        "fr": "Locations de vacances dans toute l'Europe – directement chez l'hôte",
+        "it": "Case vacanza in tutta Europa – direttamente dall'host",
+        "es": "Alojamientos vacacionales en toda Europa – directamente con el anfitrión",
+        "nl": "Vakantiewoningen in heel Europa – rechtstreeks van de verhuurder"
+      },
+      "intro": {
+        "en": "From the North Sea to the Mediterranean, from Lapland to Andalusia: one network of regional portals, booked directly with the host – no platform fees.",
+        "de": "Von der Nordsee bis ans Mittelmeer, von Lappland bis Andalusien: ein Netz regionaler Portale, gebucht direkt beim Gastgeber – ohne Portalgebühr.",
+        "fr": "De la mer du Nord à la Méditerranée, de la Laponie à l'Andalousie : un réseau de portails régionaux, réservés directement chez l'hôte – sans frais de plateforme.",
+        "it": "Dal Mare del Nord al Mediterraneo, dalla Lapponia all'Andalusia: una rete di portali regionali, prenotati direttamente con l'host – senza commissioni.",
+        "es": "Del mar del Norte al Mediterráneo, de Laponia a Andalucía: una red de portales regionales, reservados directamente con el anfitrión – sin comisiones.",
+        "nl": "Van de Noordzee tot de Middellandse Zee, van Lapland tot Andalusië: een netwerk van regionale portalen, rechtstreeks geboekt bij de verhuurder – zonder platformkosten."
+      },
+      "highlights": [
+        {
+          "titel": {
+            "en": "North Sea & Baltic",
+            "de": "Nord- & Ostsee",
+            "fr": "Mer du Nord & Baltique",
+            "it": "Mare del Nord & Baltico",
+            "es": "Mar del Norte y Báltico",
+            "nl": "Noordzee & Oostzee"
+          },
+          "text": {
+            "en": "Islands, dunes and seaside resorts.",
+            "de": "Inseln, Dünen und Seebäder.",
+            "fr": "Îles, dunes et stations balnéaires.",
+            "it": "Isole, dune e località balneari.",
+            "es": "Islas, dunas y balnearios.",
+            "nl": "Eilanden, duinen en badplaatsen."
+          }
+        },
+        {
+          "titel": {
+            "en": "Mediterranean",
+            "de": "Mittelmeer",
+            "fr": "Méditerranée",
+            "it": "Mediterraneo",
+            "es": "Mediterráneo",
+            "nl": "Middellandse Zee"
+          },
+          "text": {
+            "en": "Italy, France and Spain.",
+            "de": "Italien, Frankreich und Spanien.",
+            "fr": "Italie, France et Espagne.",
+            "it": "Italia, Francia e Spagna.",
+            "es": "Italia, Francia y España.",
+            "nl": "Italië, Frankrijk en Spanje."
+          }
+        },
+        {
+          "titel": {
+            "en": "Scandinavia & Finland",
+            "de": "Skandinavien & Finnland",
+            "fr": "Scandinavie & Finlande",
+            "it": "Scandinavia e Finlandia",
+            "es": "Escandinavia y Finlandia",
+            "nl": "Scandinavië & Finland"
+          },
+          "text": {
+            "en": "Fjords, lakes and northern lights.",
+            "de": "Fjorde, Seen und Nordlicht.",
+            "fr": "Fjords, lacs et aurores boréales.",
+            "it": "Fiordi, laghi e aurore boreali.",
+            "es": "Fiordos, lagos y auroras boreales.",
+            "nl": "Fjorden, meren en noorderlicht."
+          }
+        },
+        {
+          "titel": {
+            "en": "Cities",
+            "de": "Städte",
+            "fr": "Villes",
+            "it": "Città",
+            "es": "Ciudades",
+            "nl": "Steden"
+          },
+          "text": {
+            "en": "Hamburg, Munich, Venice and more.",
+            "de": "Hamburg, München, Venedig und mehr.",
+            "fr": "Hambourg, Munich, Venise et plus.",
+            "it": "Amburgo, Monaco, Venezia e altre.",
+            "es": "Hamburgo, Múnich, Venecia y más.",
+            "nl": "Hamburg, München, Venetië en meer."
+          }
+        }
+      ],
+      "foto_suche": [
+        "Lofoten Reine",
+        "Burano colorful houses",
+        "Sylt Rotes Kliff",
+        "Cinque Terre Manarola",
+        "Nyhavn Copenhagen"
+      ],
+      "news_suche": "Europe travel news this week, Europe rail strikes travellers, EU Entry Exit System travellers, major events Europe this week",
+      "pfeile": [
+        {
+          "name": "Nordsee",
+          "lat": 54.3,
+          "lon": 7.9,
+          "text": "→ nordseebnb.de",
+          "link": "https://nordseebnb.de"
+        },
+        {
+          "name": "Ostsee",
+          "lat": 54.4,
+          "lon": 13.5,
+          "text": "→ ostseebnb.de",
+          "link": "https://ostseebnb.de"
+        },
+        {
+          "name": "Hamburg",
+          "lat": 53.55,
+          "lon": 9.99,
+          "text": "→ hamburgbnb.de",
+          "link": "https://hamburgbnb.de"
+        },
+        {
+          "name": "München",
+          "lat": 48.137,
+          "lon": 11.575,
+          "text": "→ muenchenbnb.de",
+          "link": "https://muenchenbnb.de"
+        },
+        {
+          "name": "Deutschland",
+          "lat": 51.0,
+          "lon": 9.8,
+          "text": "→ debnb.de",
+          "link": "https://debnb.de"
+        },
+        {
+          "name": "Italia",
+          "lat": 42.8,
+          "lon": 12.0,
+          "text": "→ it-bnb.com",
+          "link": "https://it-bnb.com"
+        },
+        {
+          "name": "Burano",
+          "lat": 45.4853,
+          "lon": 12.4167,
+          "text": "→ myburano.com",
+          "link": "https://myburano.com"
+        },
+        {
+          "name": "France",
+          "lat": 46.6,
+          "lon": 2.4,
+          "text": "→ fr-bnb.com",
+          "link": "https://fr-bnb.com"
+        },
+        {
+          "name": "España",
+          "lat": 40.0,
+          "lon": -3.7,
+          "text": "→ es-bnb.com",
+          "link": "https://es-bnb.com"
+        },
+        {
+          "name": "Danmark",
+          "lat": 56.2,
+          "lon": 9.5,
+          "text": "→ dk-bnb.de",
+          "link": "https://dk-bnb.de"
+        },
+        {
+          "name": "Sverige",
+          "lat": 62.0,
+          "lon": 15.5,
+          "text": "→ se-bnb.com",
+          "link": "https://se-bnb.com"
+        },
+        {
+          "name": "Norge",
+          "lat": 61.5,
+          "lon": 8.5,
+          "text": "→ no-bnb.com",
+          "link": "https://no-bnb.com"
+        },
+        {
+          "name": "Suomi",
+          "lat": 63.5,
+          "lon": 26.5,
+          "text": "→ fi-bnb.com",
+          "link": "https://fi-bnb.com"
         }
       ]
     }
