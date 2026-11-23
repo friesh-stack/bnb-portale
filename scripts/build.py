@@ -229,6 +229,11 @@ class Seite:
 </section>
 """
 
+    def portal_url(self):
+        """Link zum Vermietungsportal, bei myburano.com/vermieten mit passender Sprache."""
+        url = self.cfg["angebote"][self.p["angebot"]]["url"]
+        return url + f"?lang={self.vsp[0]}" if "myburano.com/vermieten" in url else url
+
     def gastgeber_block(self):
         ang = self.cfg["angebote"][self.p["angebot"]]
         return f"""<section id="gastgeber" class="gastgeber">
@@ -236,7 +241,7 @@ class Seite:
     <h2>{self.ui("g_titel", vermieter=True)}</h2>
     <p>{self.ui("g_text", vermieter=True)}</p>
     <p class="preis">{self.t(ang["preis"], vermieter=True)}</p>
-    <a class="btn btn-hell" href="{E(ang["url"])}">{self.ui("g_cta", vermieter=True)}</a>
+    <a class="btn btn-hell" href="{E(self.portal_url())}">{self.ui("g_cta", vermieter=True)}</a>
   </div>
 </section>
 """
@@ -281,7 +286,7 @@ class Seite:
             bildtag = f'<div class="hl-bild" style="background-image:url(\'{E(bild)}\')"></div>' if bild else '<div class="hl-bild leer"></div>'
             link = f' <a href="{E(h["link"])}">{self.ui("mehr")} →</a>' if h.get("link") else ""
             hl.append(f'<article class="hl">{bildtag}<div class="hl-text"><h3>{self.t(h["titel"])}</h3><p>{self.t(h["text"])}{link}</p></div></article>')
-        ang_url = self.cfg["angebote"][p["angebot"]]["url"]
+        ang_url = self.portal_url()
         frei = "".join(f'<a class="frei" href="{E(ang_url)}"><span class="plus">+</span><h3>{self.ui("unterk_frei", vermieter=True)}</h3><p>{self.ui("unterk_frei_text", vermieter=True)}</p></a>' for _ in range(3))
         return (self.kopf(f'{p["marke"]} – {titel}', intro0) + f"""<main>
 <section class="hero">
@@ -322,10 +327,10 @@ class Seite:
         komplett = "https://ruegenwebdesign.de/#lBeispiele"
         kontakt = cfg["kontakt_email"]
         pakete = [("p1", "p1t", True), ("p2", "p2t", True), ("p3", "p3t", False)]
-        karten = "".join(f'''<div class="pk"><h3>{v(a)}</h3><span class="prov">{v("prov")}</span><div class="pr">{v("preis")}</div><p>{v(b)}</p>{('<div class="gratis">' + v("gratis") + '</div>') if g else ""}<a class="btn{"" if g else " ghost"}" href="#anfrage" data-paket="{a}">{v("test_btn") if g else v("anfrage_btn")}</a></div>''' for a, b, g in pakete)
+        karten = "".join(f'''<div class="pk"><h3>{v(a)}</h3><span class="prov">{v("prov")}</span><div class="pr">{v("preis")}</div><p>{v(b)}</p>{('<div class="gratis">' + v("gratis") + '</div>') if g else ""}<a class="btn{"" if g else " ghost"}" href="{E(self.portal_url()) if g else "#anfrage"}" data-paket="{a}">{v("test_btn") if g else v("anfrage_btn")}</a></div>''' for a, b, g in pakete)
         sel = "".join(f'<option value="{a}">{E(VT[self.sp[0]][a])}</option>' for a, _, _ in pakete)
         html = self.kopf(f'{m} – {VT[self.sp[0]]["titel"].format(m=m)}', VT[self.sp[0]]["sub"], aktiv="recht") + f'''<main class="vm">
-<section class="hero vm-hero"><div class="hero-inhalt"><h1>{v("titel")}</h1><p>{v("sub")}</p><div class="hero-btns"><a class="btn" href="#anfrage">{v("cta")}</a></div></div></section>
+<section class="hero vm-hero"><div class="hero-inhalt"><h1>{v("titel")}</h1><p>{v("sub")}</p><div class="hero-btns"><a class="btn" href="{E(self.portal_url())}">{v("test_btn")}</a><a class="btn btn-rand" href="#anfrage">{v("cta")}</a></div></div></section>
 <section class="block"><h2>{v("pakete")}</h2><div class="pk-grid">{karten}</div>
 <div class="hinweis-box"><h3>{v("voll_t")}</h3><p>{v("voll_x")}</p>
 <div class="hl-grid"><div class="hl"><div class="hl-text"><h3>{v("partner_t")}</h3><p>{v("partner_x")}</p></div></div><div class="hl"><div class="hl-text"><h3>{v("stand_t")}</h3><p>{v("stand_x")}</p></div></div></div></div></section>
