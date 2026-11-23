@@ -9,9 +9,9 @@ def R(a,b,cnt=1):
 # --- Konfiguration
 i=s.index('var PORTAL = {'); j=s.index('kontakt: {',i)
 blk=s[i:j]
-blk=blk.replace('name: "NordseeBnB"','name: "BnB Europa"').replace('vmName: "Nordsee Webdesign"','vmName: "BnB Webdesign"').replace('domain: "nordseebnb.de"','domain: "myburano.com"')
-blk=blk.replace('gastUrl: "https://nordseebnb.de/"','gastUrl: "https://eu-bnb.com/"').replace('vmUrl: "https://nordsee-webdesign.de/"','vmUrl: "https://myburano.com/vermieten/"')
-blk=blk.replace('vmHosts: /webdesign/i','vmHosts: /myburano|webdesign|localhost|^$/i').replace('gastHosts: /nordseebnb/i','gastHosts: /^\\b$/').replace('region: "nordsee"','region: "europa"')
+blk=blk.replace('name: "NordseeBnB"','name: "BnB Europa"').replace('vmName: "Nordsee Webdesign"','vmName: "BnB Webdesign"').replace('domain: "nordseebnb.de"','domain: "eu-bnb.com"')
+blk=blk.replace('gastUrl: "https://nordseebnb.de/"','gastUrl: "https://eu-bnb.com/"').replace('vmUrl: "https://nordsee-webdesign.de/"','vmUrl: "https://eu-bnb.com/vermieten/"')
+blk=blk.replace('vmHosts: /webdesign/i','vmHosts: /eu-bnb|webdesign|localhost|^$/i').replace('gastHosts: /nordseebnb/i','gastHosts: /^\\b$/').replace('region: "nordsee"','region: "europa"')
 s=s[:i]+blk+s[j:]
 R('kontakt: { name: "NordseeBnB",','kontakt: { name: "BnB Webdesign",')
 
@@ -58,7 +58,7 @@ R('document.title="Nordsee Webdesign – Websites & Buchungsportal für Vermiete
 # --- allgemeine Textanpassungen (Reihenfolge wichtig)
 for a,b in [("auf den Nordseeinseln","in ganz Europa"),("Alle Nordseeinseln","Alle Länder"),("allen Nordseeinseln","allen Ländern"),("den Nordseeinseln","ganz Europa"),("Nordseeinseln","Urlaubsländer"),
  ("einer Nordseeinsel","einem unserer Länder"),("Vermietern an der Nordsee","Vermietern in Europa"),("Vermieter an der Nordsee","Vermieter in Europa"),("an der Nordsee","in Europa"),("Nordseeurlaub","Europaurlaub"),
- ("Nordsee Webdesign","BnB Webdesign"),("nordsee-webdesign.de","myburano.com/vermieten"),("NordseeBnB","BnB Europa"),("ihr-name.nordseebnb.de","ihr-name.eu-bnb.com"),("nordseebnb.de/ihr-name","eu-bnb.com/ihr-name"),("nordseebnb.de","eu-bnb.com"),
+ ("Nordsee Webdesign","BnB Webdesign"),("nordsee-webdesign.de","eu-bnb.com/vermieten"),("NordseeBnB","BnB Europa"),("ihr-name.nordseebnb.de","ihr-name.eu-bnb.com"),("nordseebnb.de/ihr-name","eu-bnb.com/ihr-name"),("nordseebnb.de","eu-bnb.com"),
  ("Kennt die Nordsee","Kennt Ihre Region"),("Nordsee-Karte","Europa-Karte"),
  ("Inselseiten","Länderseiten"),("Inselseite","Länderseite"),("auf Ihrer Insel bzw. in Ihrem Ort","in Ihrem Ort"),("auf Ihrer Insel","in Ihrer Region"),("Ihre Insel","Ihre Region"),("der Insel","der Region"),("Alle Inseln","Alle Länder"),("Welche Inseln sind dabei?","Welche Länder sind dabei?"),
  ("für alle Inseln","für alle Regionen"),("Auf den Inseln arbeiten wir","In den Regionen arbeiten wir"),("nach der Satzung Ihrer Insel","nach den Regeln Ihres Ortes"),
@@ -82,6 +82,7 @@ for a,b in [('(u.ort?", ":"")+"Nordsee")','(u.ort?", ":"")+"Europa")'),('(u.ort|
             ("An der Nordsee bauen wir ihn","In anderen Regionen bauen wir ihn"),("Preis: 99 € im ersten Jahr, danach 20 € pro Jahr.","Preis auf Anfrage."),
             ("99 € im ersten Jahr, danach 20 € pro Jahr, 0 % Provision.","feste Gebühr pro Jahr (Preis auf Anfrage), 0 % Provision."),("kennt die Insel (Strand, Fähre, Anreise, Ausflüge)","kennt die Region (Strand, Anreise, Ausflüge)"),
             ("<span>🏝️</span><b>Ihre Länderseite</b><small>Unterseite auf syltbnb.de, amrumbnb.de, foehrbnb.de, wangeroogebnb.de oder eu-bnb.com</small>","<span>🌍</span><b>Ihre Länderseite</b><small>Unterseite auf it-bnb.com, fr-bnb.com, es-bnb.com, dk-bnb.dk, se-bnb.com, no-bnb.com oder fi-bnb.com</small>"),
+            ("sowie SyltBnB, AmrumBnB, FöhrBnB und WangeroogeBnB sind Angebote","sowie die Länderportale it-bnb.com, fr-bnb.com, es-bnb.com, dk-bnb.dk, se-bnb.com, no-bnb.com und fi-bnb.com sind Angebote"),
             ("<small>Deutsch, Englisch, Dänisch, Niederländisch, Französisch</small>","<small>Landessprache, Englisch, Deutsch – auf Wunsch weitere</small>")]:
     s=s.replace(a,b)
 
@@ -137,7 +138,7 @@ function start(){fetch(o.dict+L+".json").then(function(r){return r.ok?r.json():{
   anwenden();new MutationObserver(function(ms){var z=false;ms.forEach(function(m){if(m.addedNodes.length||m.type==="characterData")z=true});if(z){clearTimeout(window.__bwT);window.__bwT=setTimeout(anwenden,150)}}).observe(document.body,{childList:true,subtree:true,characterData:true})})}
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(start,600)});else setTimeout(start,600);
 }
-bwI18n({mount:".navicons",dict:"https://myburano.com/vermieten/i18n/",api:PORTAL.claude,key:"bw"});
+bwI18n({mount:".navicons",dict:"https://eu-bnb.com/vermieten/i18n/",api:PORTAL.claude,key:"bw"});
 </script>
 </body>"""
 s=s.replace('</style>','@media (max-width:480px){#navGast{display:none}.navicons .lbl{display:none}.brand small{display:none}.brand{min-width:0}}\n</style>',1)
@@ -148,7 +149,7 @@ R('greeting:gast?"','greeting:(window.BW_T||function(x){return x})(gast?"')
 s=s.replace('Was möchten Sie wissen?"})})})','Was möchten Sie wissen?")})})})',1)
 # Websites der Vermieter: Landessprache + Englisch + Deutsch, gleiche Übersetzungsdatei
 R('function buildSite(D){','''function buildSite(D){var h=buildSite0(D),L0=window.BW_LANG||"de",langs=[L0,"en","de"].filter(function(x,i,a){return a.indexOf(x)===i});
-  var js="<script>("+bwI18n.toString()+")({langs:"+JSON.stringify(langs)+",def:"+JSON.stringify(L0)+",dict:\\"https://myburano.com/vermieten/i18n/\\",api:"+JSON.stringify(PORTAL.claude)+",key:\\"site\\"})<\\/script>";
+  var js="<script>("+bwI18n.toString()+")({langs:"+JSON.stringify(langs)+",def:"+JSON.stringify(L0)+",dict:\\"https://eu-bnb.com/vermieten/i18n/\\",api:"+JSON.stringify(PORTAL.claude)+",key:\\"site\\"})<\\/script>";
   var k=h.lastIndexOf("</body>");return k>=0?h.slice(0,k)+js+h.slice(k):h+js}
 function buildSite0(D){''')
 open(dst,'w',encoding='utf-8').write(s)

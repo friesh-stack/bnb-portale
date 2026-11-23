@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Erzeugt feste Übersetzungsdateien für das Vermietungsportal myburano.com/vermieten.
+"""Erzeugt feste Übersetzungsdateien für das Vermietungsportal eu-bnb.com/vermieten.
 
 Öffnet das Portal je Sprache im Browser, lässt alle Ansichten einmal anzeigen,
 übersetzt alle Texte (Claude Haiku) und lädt das Ergebnis als
-vermieten/i18n/<sprache>.json ins Repo blue-lagune-burano hoch.
+vermieten/i18n/<sprache>.json ins Repo eu-bnb hoch.
 Danach erscheint jede Sprache sofort – ohne Kosten pro Besucher.
 
 Umgebung: ANTHROPIC_API_KEY, GH_PAT
@@ -13,8 +13,8 @@ Aufruf:   python scripts/i18n_vermieten.py            (alle Sprachen)
 import asyncio, base64, json, os, sys, urllib.request, urllib.error
 from playwright.async_api import async_playwright
 
-URL = "https://myburano.com/vermieten/"
-REPO, PFAD = "friesh-stack/blue-lagune-burano", "vermieten/i18n/{}.json"
+URL = "https://eu-bnb.com/vermieten/"
+REPO, PFAD = "friesh-stack/eu-bnb", "vermieten/i18n/{}.json"
 SPRACHEN = ["it", "en", "fr", "es", "nl", "da", "sv", "nb", "fi"]
 
 def claude(body):

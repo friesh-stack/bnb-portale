@@ -230,9 +230,9 @@ class Seite:
 """
 
     def portal_url(self):
-        """Link zum Vermietungsportal, bei myburano.com/vermieten mit passender Sprache."""
+        """Link zum Vermietungsportal, bei eu-bnb.com/vermieten mit passender Sprache."""
         url = self.cfg["angebote"][self.p["angebot"]]["url"]
-        return url + f"?lang={self.vsp[0]}" if "myburano.com/vermieten" in url else url
+        return url + f"?lang={self.vsp[0]}" if "eu-bnb.com/vermieten" in url else url
 
     def gastgeber_block(self):
         ang = self.cfg["angebote"][self.p["angebot"]]
@@ -417,6 +417,9 @@ def baue(cfg, p, alle):
             (ziel / "CNAME").write_text(p["domain"] + "\n", encoding="utf-8")
         (ziel / ".nojekyll").write_text("", encoding="utf-8")
     (ziel / "aktuell.html").write_text(s.aktuell(), encoding="utf-8")
+    extra = ROOT / "extra" / p["repo"]  # feste Zusatzdateien, z. B. das Vermietungsportal auf eu-bnb.com/vermieten
+    if extra.is_dir():
+        shutil.copytree(extra, ziel, dirs_exist_ok=True)
     (ziel / "impressum.html").write_text(s.impressum(), encoding="utf-8")
     (ziel / "datenschutz.html").write_text(s.datenschutz(), encoding="utf-8")
     if p.get("angebot") == "allgemein":
