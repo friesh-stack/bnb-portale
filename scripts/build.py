@@ -16,6 +16,7 @@ import sys
 from pathlib import Path
 
 import config
+from vermieter_texte import T as VT
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
@@ -308,6 +309,45 @@ class Seite:
         return (self.kopf(titel, titel, aktiv="aktuell") + "<main>\n" + self.news_block() + self.karte_block()
                 + self.gastgeber_block() + "</main>\n" + self.fuss(self.fotos()))
 
+    # ---------- Vermieter-Seite (für Portale ohne eigene Webdesign-Seite) ----------
+    def vermieter(self):
+        p, cfg = self.p, self.cfg
+        alt_sp, self.sp = self.sp, [s for s in self.vsp if s in VT] or ["en"]
+        m = p["marke"]
+        def v(k, **kw):
+            return "".join(f'<span lang="{s}"{"" if i == 0 else " hidden"}>{E(VT[s][k].format(m=m, **kw))}</span>' for i, s in enumerate(self.sp))
+        def opt(k):
+            return f'<label class="zopt"><input type="checkbox" value="{k}" data-t="{E(VT["de"][k])}"> {v(k)}{" <small class=muted>(" + v("bald") + ")</small>" if k == "z_anfrage" else ""}</label>'
+        bsp = "https://xn--ostseebad-mnchgut-9zb.de/inselzeit-moenchgut.html"
+        komplett = "https://ruegenwebdesign.de/#lBeispiele"
+        kontakt = cfg["kontakt_email"]
+        pakete = [("p1", "p1t", True), ("p2", "p2t", True), ("p3", "p3t", False)]
+        karten = "".join(f'''<div class="pk"><h3>{v(a)}</h3><span class="prov">{v("prov")}</span><div class="pr">{v("preis")}</div><p>{v(b)}</p>{('<div class="gratis">' + v("gratis") + '</div>') if g else ""}<a class="btn{"" if g else " ghost"}" href="#anfrage" data-paket="{a}">{v("test_btn") if g else v("anfrage_btn")}</a></div>''' for a, b, g in pakete)
+        sel = "".join(f'<option value="{a}">{E(VT[self.sp[0]][a])}</option>' for a, _, _ in pakete)
+        html = self.kopf(f'{m} – {VT[self.sp[0]]["titel"].format(m=m)}', VT[self.sp[0]]["sub"], aktiv="recht") + f'''<main class="vm">
+<section class="hero vm-hero"><div class="hero-inhalt"><h1>{v("titel")}</h1><p>{v("sub")}</p><div class="hero-btns"><a class="btn" href="#anfrage">{v("cta")}</a></div></div></section>
+<section class="block"><h2>{v("pakete")}</h2><div class="pk-grid">{karten}</div>
+<div class="hinweis-box"><h3>{v("voll_t")}</h3><p>{v("voll_x")}</p>
+<div class="hl-grid"><div class="hl"><div class="hl-text"><h3>{v("partner_t")}</h3><p>{v("partner_x")}</p></div></div><div class="hl"><div class="hl-text"><h3>{v("stand_t")}</h3><p>{v("stand_x")}</p></div></div></div></div></section>
+<section class="block"><h2>{v("bsp_t")}</h2><p>{v("bsp_x")}</p>
+<div class="framewrap"><iframe src="{bsp}" title="Beispiel" loading="lazy"></iframe></div>
+<p><a href="{komplett}" target="_blank" rel="noopener">{v("bsp_link")}</a></p></section>
+<section class="block"><h2>{v("zus_t")}</h2><p>{v("zus_x")}</p><div class="zopts">{"".join(opt(k) for k in ["z_anfrage","z_taxe","z_anz","z_gruss","z_ical"])}</div></section>
+<section class="block" id="anfrage"><h2>{v("form_t")}</h2>
+<form class="vform" id="vform" data-mail="{E(kontakt)}" data-marke="{E(m)}">
+<label>{v("f_name")}<input name="name" required autocomplete="name"></label>
+<label>{v("f_mail")}<input name="mail" type="email" required autocomplete="email"></label>
+<label>{v("f_tel")}<input name="tel" type="tel" autocomplete="tel"></label>
+<label>{v("f_anz")}<input name="anz" type="number" min="1" value="1"></label>
+<label>{v("f_paket")}<select name="paket">{sel}</select></label>
+<label class="voll">{v("f_msg")}<textarea name="msg" rows="3"></textarea></label>
+<button class="btn" type="submit">{v("f_send")}</button><p class="ok" hidden>{v("f_ok")}</p></form>
+<p class="klein"><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · <a href="https://ruegenwebdesign.de/#agb" target="_blank" rel="noopener">{v("agb")}</a></p></section>
+</main>
+''' + self.fuss([])
+        self.sp = alt_sp
+        return html
+
     def impressum(self):
         b = self.cfg["betreiber"]
         marken = ", ".join(f'{x["marke"]} ({x["domain"]})' for x in self.alle)
@@ -374,6 +414,8 @@ def baue(cfg, p, alle):
     (ziel / "aktuell.html").write_text(s.aktuell(), encoding="utf-8")
     (ziel / "impressum.html").write_text(s.impressum(), encoding="utf-8")
     (ziel / "datenschutz.html").write_text(s.datenschutz(), encoding="utf-8")
+    if p.get("angebot") == "allgemein":
+        (ziel / "vermieter.html").write_text(s.vermieter(), encoding="utf-8")
     return ziel
 
 
