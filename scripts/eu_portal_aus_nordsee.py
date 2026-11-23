@@ -143,7 +143,7 @@ bwI18n({mount:".navicons",dict:"https://eu-bnb.com/vermieten/i18n/",api:PORTAL.c
 s=s.replace('</style>','@media (max-width:480px){#navGast{display:none}.navicons .lbl{display:none}.brand small{display:none}.brand{min-width:0}}\n</style>',1)
 k=s.rindex('</body>'); s=s[:k]+'<div hidden id="bwExtra"><p>Herzlich willkommen bei BnB Europa! Ich helfe Ihnen gern bei der Wahl der Region und der passenden Unterkunft. Wonach suchen Sie?</p><p>Herzlich willkommen bei BnB Webdesign! Schön, dass Sie da sind. Ich beantworte gern Ihre Fragen rund um Ihre eigene Website und unser neues Buchungsportal. Was möchten Sie wissen?</p></div>\n'+I18N+s[k+7:]
 R('form:false,lang:"de",','form:false,lang:(window.BW_LANG||"de"),')
-R('kb:gast?kbGast():kbVermieter(),','kb:(gast?kbGast():kbVermieter())+((window.BW_LANG&&window.BW_LANG!=="de")?"\\nSPRACHE: Sprich mit dem Nutzer auf "+window.BW_SPRACHE+" (Sprachcode "+window.BW_LANG+"). Wechsle sofort in eine andere Sprache, wenn der Nutzer sie spricht.":""),')
+R('kb:gast?kbGast():kbVermieter(),','kb:(gast?kbGast():kbVermieter())+((window.BW_LANG&&window.BW_LANG!=="de")?"\\nSPRACHE: Sprich mit dem Nutzer auf "+window.BW_SPRACHE+" (Sprachcode "+window.BW_LANG+"). Wechsle sofort in eine andere Sprache, wenn der Nutzer sie spricht.":"")+"\\nSPRECHWEISE: Sprich ruhig, langsam und sehr deutlich – etwa 20 Prozent langsamer als normal. Kurze Sätze, kleine Pausen zwischen den Sätzen, Zahlen und Preise besonders klar. Höchstens drei Sätze am Stück, dann den Nutzer zu Wort kommen lassen.",')
 R('greeting:gast?"','greeting:(window.BW_T||function(x){return x})(gast?"')
 s=s.replace('Was möchten Sie wissen?"})})})','Was möchten Sie wissen?")})})})',1)
 # Websites der Vermieter: Landessprache + Englisch + Deutsch, gleiche Übersetzungsdatei
