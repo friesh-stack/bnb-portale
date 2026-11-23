@@ -15,6 +15,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -45,8 +46,11 @@ def _api(body):
         headers={"x-api-key": os.environ["ANTHROPIC_API_KEY"], "anthropic-version": "2023-06-01",
                  "content-type": "application/json"},
     )
-    with urllib.request.urlopen(req, timeout=300) as r:
-        antwort = json.loads(r.read())
+    try:
+        with urllib.request.urlopen(req, timeout=300) as r:
+            antwort = json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"HTTP {e.code}: {e.read().decode(errors='replace')[:400]}") from None
     return "".join(b.get("text", "") for b in antwort.get("content", []) if b.get("type") == "text")
 
 
@@ -124,7 +128,8 @@ def main(argv):
         except Exception as e:  # noqa: BLE001 – ein Portal darf die anderen nicht blockieren
             fehler += 1
             print(f"  ! Fehler: {e}")
-    sys.exit(1 if fehler and fehler == len(slugs or cfg["portale"]) else 0)
+    # News-Fehler blockieren nie den Rest (Bauen, Hochladen, All-Inkl)
+    sys.exit(0)
 
 
 if __name__ == "__main__":
