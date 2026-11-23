@@ -1,0 +1,27 @@
+name: Vermietungsportal übersetzen
+
+on:
+  workflow_dispatch:
+    inputs:
+      sprachen:
+        description: "Nur diese Sprachen (z. B. it fr), leer = alle"
+        required: false
+        default: ""
+
+jobs:
+  uebersetzen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Browser einrichten
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Übersetzen und hochladen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: python scripts/i18n_vermieten.py ${{ inputs.sprachen }}
