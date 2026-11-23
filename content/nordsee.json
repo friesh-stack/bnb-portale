@@ -1,61 +1,75 @@
 {
- "stand": "2026-11-22",
+ "stand": "2026-11-23",
  "items": [
   {
-   "datum": "2026-11-22",
-   "bis": "2026-11-22",
-   "titel": {
-    "de": "Keitumer Scheunenmarkt auf Sylt: letzter Tag",
-    "en": "Keitum Barn Market on Sylt: last day"
-   },
-   "text": {
-    "de": "Der Keitumer Scheunenmarkt auf Sylt läuft noch bis heute, Sonntag. Wer einen Inselbummel plant, kann dort stöbern. Genauere Öffnungszeiten stehen in der Veranstaltungsübersicht der Schausteller.",
-    "en": "The Keitum Barn Market on Sylt runs until today, Sunday. It makes a nice stop on an island stroll. For opening hours, please check the showmen association's event listing."
-   },
-   "quelle": "https://schaustellerverband-schleswig-holstein.de/Marktkalender.html?suche=Weihnachten&o=true",
-   "quelle_name": "Schaustellerverband Schleswig-Holstein"
-  },
-  {
    "datum": "2026-11-23",
-   "bis": "2026-11-24",
+   "bis": "2027-01-02",
    "titel": {
-    "de": "Juist: Vogelbeobachtung und Museumsführung",
-    "en": "Juist: bird watching and museum tour"
+    "de": "Winterzauber am Meer auf Sylt",
+    "en": "Winter Magic by the Sea on Sylt"
    },
    "text": {
-    "de": "Auf Juist steht am Montag, 23. November, eine vogelkundliche Beobachtung auf dem Programm. Am Dienstag, 24. November, folgt die Museumsführung „Von Schiffen und Badefreuden“. Weitere Termine und Details finden Sie im Veranstaltungskalender der Insel.",
-    "en": "On Monday, 23 November, Juist offers a guided bird watching outing. On Tuesday, 24 November, the museum tour called Von Schiffen und Badefreuden takes place. More dates and details are in the island's event calendar."
+    "de": "Die Außenterrasse der Sturmhaube am Roten Kliff wird zum Weihnachtsmarkt mit Blick auf die Nordsee. Unter einem beheizten Schirm gibt es ein vorweihnachtliches Angebot. Geöffnet ist seit dem 20. November.",
+    "en": "The outdoor terrace of the Sturmhaube at the Red Cliff has become a Christmas market with a view of the North Sea. A heated canopy shelters the pre-Christmas offerings. It has been open since 20 November."
    },
-   "quelle": "https://www.juist.de/auf-der-insel/veranstaltungen/veranstaltungskalender",
-   "quelle_name": "Juist – Veranstaltungskalender"
+   "quelle": "https://www.sylt.de/veranstaltungen/weihnachtsmaerkte",
+   "quelle_name": "Sylt Marketing (sylt.de)"
   },
   {
    "datum": "2026-11-27",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Erstes Adventswochenende auf Sylt: Märkte in Morsum und List",
-    "en": "First Advent weekend on Sylt: markets in Morsum and List"
+    "de": "Weihnachtsmärkte in List und Morsum auf Sylt",
+    "en": "Christmas Markets in List and Morsum on Sylt"
    },
    "text": {
-    "de": "Vom 27. bis 29. November lädt der Morsumer Weihnachtsmarkt „Jööltir ön Muasem“ ein. Zeitgleich verwandelt sich die ehemalige Grundschule in List in ein kleines Weihnachtsparadies. Beide Märkte sind ein schöner Auftakt in die Adventszeit.",
-    "en": "From 27 to 29 November, the Morsum Christmas market Jööltir ön Muasem is open. At the same time, the former primary school in List turns into a small Christmas wonderland. Both markets are a lovely start to the Advent season."
+    "de": "Am ersten Adventswochenende öffnen auf Sylt zwei kleine Weihnachtsmärkte. In List findet er in der ehemaligen Grundschule statt. In Morsum läuft der Markt unter dem friesischen Namen Jööltir ön Muasem.",
+    "en": "Two small Christmas markets open on Sylt on the first Advent weekend. The List market is held in the former primary school. The Morsum market runs under the Frisian name Jööltir ön Muasem."
    },
    "quelle": "https://www.nordseetourismus.de/weihnachten-und-silvester-nordsee",
-   "quelle_name": "Nordsee-Tourismus-Service"
+   "quelle_name": "Nordseetourismus"
   },
   {
-   "datum": "2026-11-28",
+   "datum": "2026-11-29",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Adventsmärkte auf Föhr in Nieblum und Wrixum",
-    "en": "Advent markets on Föhr in Nieblum and Wrixum"
+    "de": "Kampener Anleuchten auf Sylt",
+    "en": "Kampen Christmas Lights Switch-On on Sylt"
    },
    "text": {
-    "de": "Der Adventsmarkt im Haus des Gastes in Nieblum öffnet am 28. und 29. November jeweils von 12 bis 17 Uhr. Am 29. November findet von 11 bis 16 Uhr zusätzlich der Weihnachtsmarkt im Forst in Wrixum statt. Dort kommt gegen 15 Uhr der Weihnachtsmann vorbei.",
-    "en": "The Advent market at the Haus des Gastes in Nieblum is open on 28 and 29 November, from 12 to 5 pm. On 29 November, the Christmas market in the forest in Wrixum also takes place from 11 am to 4 pm. Santa is expected there at around 3 pm."
+    "de": "Am Sonntag, 29. November, wird in Kampen die Weihnachtsbeleuchtung angeschaltet. Treffpunkt ist um 17:00 Uhr vor dem Kaamp-Hüs.",
+    "en": "On Sunday, 29 November, Kampen switches on its Christmas lights. Meet at 5:00 pm in front of the Kaamp-Hüs."
    },
-   "quelle": "https://www.foehr.de/jahreswechsel",
-   "quelle_name": "Föhr – Weihnachten und Silvester"
+   "quelle": "https://www.sylt.de/veranstaltungen/weihnachten",
+   "quelle_name": "Sylt Marketing (sylt.de)"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "2026-11-24",
+   "titel": {
+    "de": "Juist: Yoga am Morgen und Museumsführung",
+    "en": "Juist: Morning Yoga and Museum Tour"
+   },
+   "text": {
+    "de": "Der Juister Veranstaltungskalender nennt für heute um 8:00 Uhr Wake-Up Yoga. Am 24. November um 14:30 Uhr folgt die Museumsführung „Von Schiffen und Badefreuden“. Weitere Termine stehen im Kalender der Insel.",
+    "en": "Today the Juist events calendar lists Wake-Up Yoga at 8:00 am. On 24 November at 2:30 pm there is a museum tour titled „Von Schiffen und Badefreuden“. More dates are in the island calendar."
+   },
+   "quelle": "https://www.juist.de/auf-der-insel/veranstaltungen/veranstaltungskalender",
+   "quelle_name": "Juist Tourismus (juist.de)"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "",
+   "titel": {
+    "de": "Norderney: Fährfahrplan vor der Anreise prüfen",
+    "en": "Norderney: Check the Ferry Timetable Before You Travel"
+   },
+   "text": {
+    "de": "Wetter und Wasserstände können Fahrten nach Norderney selten ausfallen lassen. Änderungen und Zusatzfähren stehen tagesaktuell im Online-Fahrplan der Verbindung Norddeich–Norderney. Ein kurzer Blick vor und während der Anreise lohnt sich.",
+    "en": "Weather and water levels can occasionally cancel sailings to Norderney. Changes and extra ferries appear in the online timetable for the Norddeich–Norderney route, updated daily. It is worth checking before and during your trip."
+   },
+   "quelle": "https://www.frisonaut.de/de/mobilitaet/norderney/faehre/fahrplan",
+   "quelle_name": "Frisonaut (Reederei Norden-Frisia)"
   }
  ]
 }

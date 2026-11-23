@@ -1,75 +1,75 @@
 {
- "stand": "2026-11-22",
+ "stand": "2026-11-23",
  "items": [
-  {
-   "datum": "2026-11-27",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Putbusser Weihnachtswelten im Schlosspark",
-    "en": "Putbus Christmas Worlds in the castle park"
-   },
-   "text": {
-    "de": "Am ersten Adventswochenende gibt es in Putbus weihnachtliche Stände, Kunsthandwerk und Live-Musik. Am Freitag um 16:30 Uhr wird der Tannenbaum auf dem Markt entzündet, danach folgt ein Fackelumzug zur Schlosswiese. Geöffnet ist Freitag 13–20 Uhr, Samstag 11–20 Uhr und Sonntag 11–18 Uhr.",
-    "en": "On the first Advent weekend, Putbus offers festive stalls, crafts and live music. The Christmas tree lights up on Friday at 4:30 pm, followed by a torchlight procession to the Schlosswiese. Opening hours are Friday 1–8 pm, Saturday 11 am–8 pm and Sunday 11 am–6 pm."
-   },
-   "quelle": "https://www.auf-nach-mv.de/veranstaltungssuche/e-putbusser-weihnachtsmarkt-ruegen",
-   "quelle_name": "Auf-nach-MV.de"
-  },
-  {
-   "datum": "2026-11-27",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Ahlbecker Weihnachtsmarkt auf dem Konzertplatz",
-    "en": "Ahlbeck Christmas market at the Konzertplatz"
-   },
-   "text": {
-    "de": "Das Seebad Ahlbeck auf Usedom lädt am ersten Adventswochenende zum Weihnachtsmarkt ein. Auf dem Konzertplatz warten regionale Stände, Musik und gastronomische Angebote.",
-    "en": "The seaside resort of Ahlbeck on Usedom invites you to its Christmas market on the first Advent weekend. At the Konzertplatz you will find regional stalls, music and food and drink."
-   },
-   "quelle": "https://www.usedom-insider.de/veranstaltungen-auf-usedom/",
-   "quelle_name": "Usedom Insider"
-  },
   {
    "datum": "2026-11-28",
    "bis": "2027-01-03",
    "titel": {
     "de": "Warnemünder Weihnachts- und Neujahrsmarkt startet",
-    "en": "Warnemünde Christmas and New Year market opens"
+    "en": "Warnemünde Christmas and New Year Market opens"
    },
    "text": {
-    "de": "Am Samstag, 28. November, öffnet der kleine Markt auf dem Kirchenplatz in Warnemünde. Er läuft bis zum 3. Januar 2027 und bietet ein Kulturprogramm. Bis zum 15. Dezember sind montags und dienstags Ruhetage.",
-    "en": "On Saturday, 28 November, the small market on the Kirchenplatz in Warnemünde opens. It runs until 3 January 2027 and offers a cultural programme. Until 15 December it is closed on Mondays and Tuesdays."
+    "de": "Am Samstag, 28. November, wird der Markt auf dem Kirchenplatz in Warnemünde eröffnet, und zwar laut Veranstalterinfos um 12.15 Uhr. Er läuft bis zum 3. Januar 2027. Auch die Kindereisenbahn nimmt dann wieder ihren Betrieb auf. Aktuell wird der Platz bereits mit Weihnachtsbaum und Zeltlandschaft vorbereitet.",
+    "en": "The market on Warnemünde's Kirchenplatz opens on Saturday, 28 November, at 12:15 pm according to local reports. It runs until 3 January 2027. The children's railway also starts running again then. The square is already being set up with a Christmas tree and tent area."
    },
-   "quelle": "https://wmnde.de/weihnachtsmarkt-warnemuende-2026/",
-   "quelle_name": "WMNDE Warnemünde"
+   "quelle": "https://der-warnemuender.de/dwmnewslesen,Nordmanntanne-aus-Gehlsdorf-schmueckt-den-Warnemuender-Kirchenplatz,showNews-10983.html",
+   "quelle_name": "Der Warnemünder"
   },
   {
-   "datum": "2026-11-22",
-   "bis": "2026-12-12",
+   "datum": "2026-11-28",
+   "bis": "2026-11-29",
    "titel": {
-    "de": "Rügen: B96b bei Neu Mukran voll gesperrt",
-    "en": "Rügen: B96b near Neu Mukran fully closed"
+    "de": "DRK-Weihnachtsmarkt in Bergen auf Rügen",
+    "en": "Red Cross Christmas market in Bergen on Rügen"
    },
    "text": {
-    "de": "Die B96b zwischen Borchtitz und Neu Mukran ist in Höhe des Bahnübergangs Nord-Rügen wegen einer Baustelle in beiden Richtungen gesperrt. Die Sperrung gilt laut ADAC-Verkehrsmeldung noch bis zum 13. Dezember 2026, 0 Uhr. Bitte plant für Fahrten in diese Richtung etwas mehr Zeit ein.",
-    "en": "The B96b between Borchtitz and Neu Mukran is closed in both directions at the Nord-Rügen level crossing because of roadworks. According to the ADAC traffic report, the closure lasts until 13 December 2026, 0:00. Please allow extra time if you are travelling in this direction."
+    "de": "Am Wochenende 28. und 29. November lädt das DRK in der Tilzower Straße in Bergen zum Weihnachtsmarkt ein. Es gibt Stände mit handgemachten Geschenkideen, Leckereien, eine Teddy-Klinik und Besuch vom Weihnachtsmann. Für Kinder ist ein Mitmachprogramm geplant.",
+    "en": "On the weekend of 28 and 29 November, the Red Cross invites visitors to a Christmas market in Bergen on Rügen, at Tilzower Weg. Expect stalls with handmade gifts and treats, a teddy clinic and a visit from Santa. There is also a hands-on programme for children."
+   },
+   "quelle": "https://www.auf-nach-mv.de/weihnachten",
+   "quelle_name": "auf-nach-mv.de"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "2026-11-27",
+   "titel": {
+    "de": "Sellin: Hauptstraße gesperrt, Bushaltestelle entfällt",
+    "en": "Sellin: Main street closed, bus stop not served"
+   },
+   "text": {
+    "de": "In Sellin ist die Hauptstraße zwischen Bahnübergang und Granitzer Straße wegen Bauarbeiten voll gesperrt. Deshalb wird die Bushaltestelle Sellin Hauptstraße noch bis zum 27. November in beiden Richtungen nicht bedient. Bitte etwas mehr Zeit für Wege im Ort einplanen.",
+    "en": "Sellin's main street is fully closed between the level crossing and Granitzer Straße due to roadworks. As a result, the Sellin Hauptstraße bus stop is not served in either direction until 27 November. Please allow extra time for getting around town."
+   },
+   "quelle": "https://vvr-bus.de/",
+   "quelle_name": "VVR Vorpommern-Rügen"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "2026-12-12",
+   "titel": {
+    "de": "Rügen: B96b bei Neu Mukran wegen Baustelle gesperrt",
+    "en": "Rügen: B96b near Neu Mukran closed for roadworks"
+   },
+   "text": {
+    "de": "Die B96b zwischen Borchtitz und Neu Mukran ist in Höhe des Bahnübergangs Nord-Rügen in beiden Richtungen gesperrt. Laut ADAC-Verkehrsmeldung dauert die Baustelle bis zum 13. Dezember 0 Uhr. Wer in den Raum Mukran unterwegs ist, sollte vor der Fahrt die aktuelle Verkehrslage prüfen.",
+    "en": "The B96b between Borchtitz and Neu Mukran is closed in both directions at the North Rügen level crossing. According to the ADAC traffic report, the roadworks last until 13 December at midnight. If you are heading to the Mukran area, check current traffic conditions before you set off."
    },
    "quelle": "https://www.adac.de/verkehr/verkehrsinformationen/de/mecklenburg-vorpommern/",
    "quelle_name": "ADAC Verkehrsinformationen"
   },
   {
-   "datum": "2026-11-28",
-   "bis": "2027-01-09",
+   "datum": "2026-11-23",
+   "bis": "2027-03-31",
    "titel": {
-    "de": "Inselglitzern: Winterlichter auf Usedom",
-    "en": "Inselglitzern: winter lights on Usedom"
+    "de": "Wittower Fähre: Winterfahrplan mit Pausen",
+    "en": "Wittow ferry: winter timetable with breaks"
    },
    "text": {
-    "de": "Ab dem 28. November sorgt Inselglitzern auf Usedom und in Zinnowitz für winterliche Lichtstimmung. Geplant sind Lichtinstallationen, beleuchtete Wege und Spaziergänge in der dunklen Jahreszeit. Die Aktion läuft bis zum 9. Januar 2027.",
-    "en": "From 28 November, Inselglitzern brings a wintry glow to Usedom and Zinnowitz. Light installations, illuminated paths and winter walks are planned for the dark season. The event runs until 9 January 2027."
+    "de": "Seit dem 9. November gilt für die Wittower Fähre auf Rügen der Winterfahrplan, der bis zum 31. März 2027 läuft. Die Fähre pendelt etwa alle 15 bis 20 Minuten zwischen 6.30 und 18 Uhr. Montag bis Freitag gibt es zwischendurch kurze Pausen ohne Fährverkehr.",
+    "en": "The winter timetable for the Wittow ferry on Rügen has applied since 9 November and runs until 31 March 2027. The ferry shuttles roughly every 15 to 20 minutes between 6:30 am and 6 pm. On weekdays there are short breaks without service during the day."
    },
-   "quelle": "https://www.zinnowitz-hotel.de/de/events-kultur/",
-   "quelle_name": "Hotel am Kurpark Zinnowitz"
+   "quelle": "https://www.frs-weisse-flotte.de/fahrplan/wittower-faehre",
+   "quelle_name": "FRS Weiße Flotte"
   }
  ]
 }

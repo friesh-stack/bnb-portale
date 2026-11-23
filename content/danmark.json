@@ -1,0 +1,115 @@
+{
+ "stand": "2026-11-23",
+ "items": [
+  {
+   "datum": "2026-11-23",
+   "bis": "",
+   "titel": {
+    "da": "Færre tog mellem København H og Køge Nord",
+    "en": "Fewer trains between Copenhagen H and Køge Nord",
+    "de": "Weniger Züge zwischen Kopenhagen H und Køge Nord",
+    "sv": "Färre tåg mellan København H och Køge Nord",
+    "nb": "Færre tog mellom København H og Køge Nord",
+    "fi": "Vähemmän junia Kööpenhaminan päärautatieaseman ja Køge Nordin välillä"
+   },
+   "text": {
+    "da": "Siden mandag den 16. november kører der færre tog mellem København H og Køge Nord. Mellem Odense og Fredericia afløses regionaltogene af togbusser. Tjek DSB Trafikinformation, inden du rejser.",
+    "en": "Since Monday 16 November, fewer trains run between Copenhagen H and Køge Nord. Between Odense and Fredericia, replacement buses stand in for regional trains. Please check DSB traffic information before you travel.",
+    "de": "Seit Montag, dem 16. November, fahren zwischen Kopenhagen H und Køge Nord weniger Züge. Zwischen Odense und Fredericia ersetzen Busse die Regionalzüge. Bitte vor der Fahrt die DSB-Verkehrsinformation prüfen.",
+    "sv": "Sedan måndagen den 16 november går färre tåg mellan København H och Køge Nord. Mellan Odense och Fredericia ersätts regionaltågen av tågbussar. Kontrollera DSB:s trafikinformation före resan.",
+    "nb": "Siden mandag 16. november går det færre tog mellom København H og Køge Nord. Mellom Odense og Fredericia erstattes regiontogene av togbusser. Sjekk DSBs trafikkinformasjon før du reiser.",
+    "fi": "Maanantaista 16. marraskuuta alkaen Kööpenhaminan päärautatieaseman ja Køge Nordin välillä kulkee vähemmän junia. Odensen ja Frederician välillä lähijunien tilalla ovat korvaavat bussit. Tarkista DSB:n liikennetiedote ennen matkaa."
+   },
+   "quelle": "https://www.dsb.dk/trafikinformation/",
+   "quelle_name": "DSB Trafikinformation"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "2027-01-03",
+   "titel": {
+    "da": "Jul i Tivoli i København",
+    "en": "Christmas in Tivoli, Copenhagen",
+    "de": "Weihnachten im Tivoli in Kopenhagen",
+    "sv": "Jul i Tivoli i Köpenhamn",
+    "nb": "Jul i Tivoli i København",
+    "fi": "Joulu Tivolissa Kööpenhaminassa"
+   },
+   "text": {
+    "da": "Tivoli har juleåbent fra den 13. november 2026 til den 3. januar 2027. Haven ligger lige over for Københavns Hovedbanegård.",
+    "en": "Tivoli is open for Christmas from 13 November 2026 to 3 January 2027. The gardens are right opposite Copenhagen Central Station.",
+    "de": "Das Tivoli hat vom 13. November 2026 bis zum 3. Januar 2027 weihnachtlich geöffnet. Der Park liegt direkt gegenüber dem Kopenhagener Hauptbahnhof.",
+    "sv": "Tivoli har julöppet från den 13 november 2026 till den 3 januari 2027. Parken ligger precis mittemot Köpenhamns centralstation.",
+    "nb": "Tivoli har juleåpent fra 13. november 2026 til 3. januar 2027. Parken ligger rett overfor København hovedbanegård.",
+    "fi": "Tivoli on avoinna joulun aikaan 13. marraskuuta 2026 – 3. tammikuuta 2027. Puisto on aivan Kööpenhaminan päärautatieaseman vastapäätä."
+   },
+   "quelle": "https://rejsefix.dk/blog/bedste-julemarkeder-danmark",
+   "quelle_name": "Rejsefix"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "2026-12-21",
+   "titel": {
+    "da": "Julemarked på Nytorv og Gammeltorv med gratis skøjtebane",
+    "en": "Christmas market at Nytorv and Gammeltorv with free ice rink",
+    "de": "Weihnachtsmarkt am Nytorv und Gammeltorv mit freier Eisbahn",
+    "sv": "Julmarknad på Nytorv och Gammeltorv med gratis skridskobana",
+    "nb": "Julemarked på Nytorv og Gammeltorv med gratis skøytebane",
+    "fi": "Joulutori Nytorvilla ja Gammeltorvilla ja ilmainen luistelurata"
+   },
+   "text": {
+    "da": "Julemarkedet midt i København holder åbent til og med den 21. december 2026, og der er gratis adgang. Der er også en gratis skøjtebane med gratis udlån af skøjter.",
+    "en": "The Christmas market in central Copenhagen is open until 21 December 2026, with free admission. There is also a free ice rink with free skate rental.",
+    "de": "Der Weihnachtsmarkt im Zentrum Kopenhagens ist bis zum 21. Dezember 2026 geöffnet, der Eintritt ist frei. Außerdem gibt es eine kostenlose Eisbahn mit kostenlosem Schlittschuhverleih.",
+    "sv": "Julmarknaden i centrala Köpenhamn är öppen till och med den 21 december 2026 och det är gratis inträde. Det finns också en gratis skridskobana med gratis utlåning av skridskor.",
+    "nb": "Julemarkedet i sentrum av København holder åpent til og med 21. desember 2026, og det er gratis adgang. Der er også en gratis skøytebane med gratis utlån av skøyter.",
+    "fi": "Joulutori Kööpenhaminan keskustassa on avoinna 21. joulukuuta 2026 asti, ja sisäänpääsy on ilmainen. Paikalla on myös ilmainen luistelurata, ja luistimet saa lainaan maksutta."
+   },
+   "quelle": "https://julemarked.dk/en/",
+   "quelle_name": "Julemarked Nytorv & Gammeltorv"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "2026-12-31",
+   "titel": {
+    "da": "Jul i Den Gamle By i Aarhus",
+    "en": "Christmas at Den Gamle By in Aarhus",
+    "de": "Weihnachten in Den Gamle By in Aarhus",
+    "sv": "Jul i Den Gamle By i Aarhus",
+    "nb": "Jul i Den Gamle By i Aarhus",
+    "fi": "Joulu Den Gamle Byssä Aarhusissa"
+   },
+   "text": {
+    "da": "Frilandsmuseet i Aarhus er julepyntet til og med den 31. december 2026. Man kan blandt andet køre med hestevogn, besøge de pyntede butikker og julemarkedsboderne og kigge ind i Julehuset.",
+    "en": "The open-air museum in Aarhus is decorated for Christmas until 31 December 2026. Visitors can take a horse-drawn carriage ride, browse the decorated shops and market stalls, and visit the Christmas House.",
+    "de": "Das Freilichtmuseum in Aarhus ist bis zum 31. Dezember 2026 weihnachtlich geschmückt. Besucher können mit der Pferdekutsche fahren, die dekorierten Läden und Marktstände besuchen und das Weihnachtshaus entdecken.",
+    "sv": "Friluftsmuseet i Aarhus är julpyntat till och med den 31 december 2026. Man kan åka hästvagn, besöka de dekorerade butikerna och marknadsstånden och titta in i Julhuset.",
+    "nb": "Friluftsmuseet i Aarhus er julepyntet til og med 31. desember 2026. Du kan blant annet kjøre med hestevogn, besøke de pyntede butikkene og markedsbodene og kikke inn i Julehuset.",
+    "fi": "Aarhusin ulkoilmamuseo on koristeltu jouluksi 31. joulukuuta 2026 asti. Vierailija voi ajaa hevosvaunuilla, tutustua koristeltuihin kauppoihin ja markkinakojuihin sekä käydä Joulutalossa."
+   },
+   "quelle": "https://www.visitdenmark.com/denmark/events/event-calendar/events-october-november-december",
+   "quelle_name": "Visit Denmark"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "2026-12-06",
+   "titel": {
+    "da": "Egeskov Julemarked på Fyn",
+    "en": "Egeskov Christmas Market on Funen",
+    "de": "Egeskov Weihnachtsmarkt auf Fünen",
+    "sv": "Egeskov julmarknad på Fyn",
+    "nb": "Egeskov julemarked på Fyn",
+    "fi": "Egeskovin joulumarkkinat Fyynissä"
+   },
+   "text": {
+    "da": "Julemarkedet på Egeskov Slot afholdes over fem weekender, og de sidste er 28.–29. november og 5.–6. december 2026. Slottet ligger ved Kværndrup på Fyn.",
+    "en": "The Christmas market at Egeskov Castle runs over five weekends, and the last two are 28–29 November and 5–6 December 2026. The castle is near Kværndrup on Funen.",
+    "de": "Der Weihnachtsmarkt auf Schloss Egeskov findet an fünf Wochenenden statt. Die letzten beiden sind der 28./29. November und der 5./6. Dezember 2026. Das Schloss liegt bei Kværndrup auf Fünen.",
+    "sv": "Julmarknaden på Egeskov slott pågår under fem helger, och de två sista är 28–29 november och 5–6 december 2026. Slottet ligger vid Kværndrup på Fyn.",
+    "nb": "Julemarkedet på Egeskov slott holdes over fem helger, og de to siste er 28.–29. november og 5.–6. desember 2026. Slottet ligger ved Kværndrup på Fyn.",
+    "fi": "Egeskovin linnan joulumarkkinat järjestetään viitenä viikonloppuna, ja kaksi viimeistä ovat 28.–29. marraskuuta ja 5.–6. joulukuuta 2026. Linna sijaitsee Kværndrupin lähellä Fyynissä."
+   },
+   "quelle": "https://woman.dk/guides/8-hyggelige-julemarkeder-som-du-kan-besoege",
+   "quelle_name": "Woman.dk"
+  }
+ ]
+}

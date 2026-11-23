@@ -1,0 +1,115 @@
+{
+ "stand": "2026-11-23",
+ "items": [
+  {
+   "datum": "2026-11-23",
+   "bis": "2027-01-10",
+   "titel": {
+    "nb": "Pepperkakebyen og julemarked i Bergen",
+    "en": "Gingerbread City and Christmas market in Bergen",
+    "de": "Lebkuchenstadt und Weihnachtsmarkt in Bergen",
+    "sv": "Pepparkakstaden och julmarknad i Bergen",
+    "da": "Pebernøddebyen og julemarked i Bergen",
+    "fi": "Piparkakkukaupunki ja joulumarkkinat Bergenissä"
+   },
+   "text": {
+    "nb": "Pepperkakebyen i Bergen holder åpent til og med 10. januar 2027. Voksne betaler 199 kroner, studenter 149 kroner. Bergen julemarked ved Ludvig Holberg-statuen pågår til 21. desember.",
+    "en": "Bergen's Gingerbread City is open until 10 January 2027. Adults pay NOK 199 and students NOK 149. The Christmas market by the Ludvig Holberg statue runs until 21 December.",
+    "de": "Die Lebkuchenstadt in Bergen ist bis zum 10. Januar 2027 geöffnet. Erwachsene zahlen 199 NOK, Studierende 149 NOK. Der Weihnachtsmarkt an der Ludvig-Holberg-Statue läuft bis zum 21. Dezember.",
+    "sv": "Pepparkakstaden i Bergen är öppen till och med 10 januari 2027. Vuxna betalar 199 NOK och studenter 149 NOK. Julmarknaden vid Ludvig Holberg-statyn pågår till 21 december.",
+    "da": "Pebernøddebyen i Bergen har åbent til og med 10. januar 2027. Voksne betaler 199 NOK og studerende 149 NOK. Julemarkedet ved Ludvig Holberg-statuen kører til 21. december.",
+    "fi": "Bergenin piparkakkukaupunki on avoinna 10. tammikuuta 2027 asti. Aikuisten pääsylippu maksaa 199 NOK ja opiskelijoiden 149 NOK. Ludvig Holbergin patsaan joulumarkkinat jatkuvat 21. joulukuuta asti."
+   },
+   "quelle": "https://en.visitbergen.com/",
+   "quelle_name": "Visit Bergen"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "2026-11-29",
+   "titel": {
+    "nb": "Vestfoldbanen: Buss for tog til 29. november",
+    "en": "Vestfold Line: rail replacement buses until 29 November",
+    "de": "Vestfoldbahn: Schienenersatzverkehr bis 29. November",
+    "sv": "Vestfoldbanan: ersättningsbussar till 29 november",
+    "da": "Vestfoldbanen: togbusser til 29. november",
+    "fi": "Vestfoldin rata: korvaavia busseja 29. marraskuuta asti"
+   },
+   "text": {
+    "nb": "Bane NOR har utsatt gjenåpningen av Vestfoldbanen til søndag 29. november. Mellom Drammen og Stokke er banen stengt, og Vy setter inn buss for tog. Beregn ekstra reisetid og sjekk Vy-appen før avreise.",
+    "en": "Bane NOR has postponed the reopening of the Vestfold Line until Sunday, 29 November. The line is closed between Drammen and Stokke, and Vy runs rail replacement buses. Allow extra travel time and check the Vy app before you set off.",
+    "de": "Bane NOR hat die Wiedereröffnung der Vestfoldbahn auf Sonntag, den 29. November, verschoben. Zwischen Drammen und Stokke ist die Strecke gesperrt, Vy setzt Schienenersatzbusse ein. Planen Sie zusätzliche Reisezeit ein und prüfen Sie vor der Abfahrt die Vy-App.",
+    "sv": "Bane NOR har skjutit upp återöppningen av Vestfoldbanan till söndagen den 29 november. Mellan Drammen och Stokke är banan avstängd, och Vy sätter in ersättningsbussar. Räkna med extra restid och kontrollera Vy-appen innan du reser.",
+    "da": "Bane NOR har udskudt genåbningen af Vestfoldbanen til søndag den 29. november. Mellem Drammen og Stokke er banen lukket, og Vy sætter togbusser ind. Regn med ekstra rejsetid, og tjek Vy-appen før afrejse.",
+    "fi": "Bane NOR on lykännyt Vestfoldin radan uudelleenavausta sunnuntaihin 29. marraskuuta. Drammenin ja Stokken välillä rata on suljettu, ja Vy järjestää korvaavia busseja. Varaa matkaan ylimääräistä aikaa ja tarkista Vy-sovellus ennen lähtöä."
+   },
+   "quelle": "https://www.vy.no/en/traffic/traffic-updates",
+   "quelle_name": "Vy"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "2026-11-29",
+   "titel": {
+    "nb": "Hurtigruten: MS Richard With på verft til 29. november",
+    "en": "Hurtigruten: MS Richard With in shipyard until 29 November",
+    "de": "Hurtigruten: MS Richard With bis 29. November in der Werft",
+    "sv": "Hurtigruten: MS Richard With på varv till 29 november",
+    "da": "Hurtigruten: MS Richard With på værft til 29. november",
+    "fi": "Hurtigruten: MS Richard With telakalla 29. marraskuuta asti"
+   },
+   "text": {
+    "nb": "MS Richard With er ute av drift på grunn av planlagt verftsopphold. Det gjelder rundturen fra Bergen 18.–29. november 2026. Sjekk status for din avgang på Hurtigrutens oppdateringsside.",
+    "en": "MS Richard With is out of service because of a planned yard stay. This affects the round trip starting from Bergen on 18–29 November 2026. Please check the status of your sailing on the Hurtigruten updates page.",
+    "de": "Die MS Richard With ist wegen eines geplanten Werftaufenthalts außer Betrieb. Betroffen ist die Rundreise ab Bergen vom 18. bis 29. November 2026. Den Status Ihrer Abfahrt finden Sie auf der Hurtigruten-Infoseite.",
+    "sv": "MS Richard With är ur drift på grund av en planerad varvsvistelse. Det gäller rundturen från Bergen 18–29 november 2026. Kontrollera status för din avgång på Hurtigrutens uppdateringssida.",
+    "da": "MS Richard With er ude af drift på grund af et planlagt værftsophold. Det gælder rundturen fra Bergen 18.–29. november 2026. Tjek status for din afgang på Hurtigrutens opdateringsside.",
+    "fi": "MS Richard With on pois käytöstä suunnitellun telakkajakson vuoksi. Asia koskee Bergenistä 18.–29. marraskuuta 2026 lähtevää kiertomatkaa. Tarkista lähtösi tilanne Hurtigrutenin tiedotussivulta."
+   },
+   "quelle": "https://www.hurtigruten.com/en/port-to-port",
+   "quelle_name": "Hurtigruten"
+  },
+  {
+   "datum": "2026-12-03",
+   "bis": "2026-12-06",
+   "titel": {
+    "nb": "Julemarked Røros 3.–6. desember",
+    "en": "Røros Christmas Market, 3–6 December",
+    "de": "Weihnachtsmarkt Røros, 3.–6. Dezember",
+    "sv": "Julmarknaden i Røros 3–6 december",
+    "da": "Julemarkedet i Røros 3.–6. december",
+    "fi": "Rørosin joulumarkkinat 3.–6. joulukuuta"
+   },
+   "text": {
+    "nb": "Julemarkedet på Røros forvandler sentrum til en julegate med boder, fakler, hest og slede. Der finner du lokalmat og håndverk. Markedet varer til og med 6. desember.",
+    "en": "The Røros Christmas Market turns the town centre into a festive street with stalls, torches, horses and sleighs. You can find local food and crafts. The market runs until 6 December.",
+    "de": "Der Weihnachtsmarkt in Røros verwandelt das Zentrum in eine Weihnachtsgasse mit Ständen, Fackeln sowie Pferd und Schlitten. Es gibt lokale Spezialitäten und Kunsthandwerk. Der Markt dauert bis zum 6. Dezember.",
+    "sv": "Julmarknaden i Røros förvandlar centrum till en julgata med stånd, facklor, häst och släde. Här finns lokal mat och hantverk. Marknaden pågår till och med 6 december.",
+    "da": "Julemarkedet i Røros forvandler centrum til en julegade med boder, fakler, hest og slæde. Her finder du lokal mad og håndværk. Markedet varer til og med 6. december.",
+    "fi": "Rørosin joulumarkkinat muuttavat keskustan joulukaduksi, jossa on myyntikojuja, soihtuja sekä hevosia ja rekiä. Tarjolla on paikallista ruokaa ja käsitöitä. Markkinat kestävät 6. joulukuuta asti."
+   },
+   "quelle": "https://www.roros.no/hva-skjer/arrangement/julemarked",
+   "quelle_name": "Røros Turistinformasjon"
+  },
+  {
+   "datum": "2026-11-23",
+   "bis": "2027-01-03",
+   "titel": {
+    "nb": "Jul i Vinterland i Oslo",
+    "en": "Jul i Vinterland in Oslo",
+    "de": "Jul i Vinterland in Oslo",
+    "sv": "Jul i Vinterland i Oslo",
+    "da": "Jul i Vinterland i Oslo",
+    "fi": "Jul i Vinterland Oslossa"
+   },
+   "text": {
+    "nb": "Julemarkedet Jul i Vinterland langs Karl Johans gate er åpent til og med 3. januar 2027. Byens største julearrangement har boder, pariserhjul og isbane. Sjekk åpningstidene før du går.",
+    "en": "The Jul i Vinterland Christmas market along Karl Johans gate is open until 3 January 2027. The city's biggest Christmas event offers stalls, a Ferris wheel and an ice rink. Check the opening hours before you go.",
+    "de": "Der Weihnachtsmarkt Jul i Vinterland an der Karl Johans gate ist bis zum 3. Januar 2027 geöffnet. Er bietet Stände, ein Riesenrad und eine Eisbahn. Prüfen Sie vor dem Besuch die Öffnungszeiten.",
+    "sv": "Julmarknaden Jul i Vinterland vid Karl Johans gate är öppen till och med 3 januari 2027. Det finns stånd, ett pariserhjul och en isbana. Kontrollera öppettiderna innan du går dit.",
+    "da": "Julemarkedet Jul i Vinterland ved Karl Johans gate har åbent til og med 3. januar 2027. Her er der boder, pariserhjul og skøjtebane. Tjek åbningstiderne, før du tager af sted.",
+    "fi": "Karl Johans gate -kadun varrella oleva Jul i Vinterland -joulutapahtuma on avoinna 3. tammikuuta 2027 asti. Alueella on myyntikojuja, maailmanpyörä ja luistelurata. Tarkista aukioloajat ennen vierailua."
+   },
+   "quelle": "https://www.norskekalendere.no/julemarked/",
+   "quelle_name": "Norske Kalendere"
+  }
+ ]
+}
