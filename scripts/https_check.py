@@ -13,6 +13,8 @@ def gh(m, p, d=None):
         return {"_fehler": e.code, "_text": e.read().decode()[:200]}
 
 erzwingen = "--erzwingen" in sys.argv
+neu = [a for a in sys.argv[1:] if not a.startswith("--")]  # Repos, deren Zertifikat neu angefordert wird
+import time
 repos, seite = [], 1
 while True:
     r = gh("GET", f"/user/repos?per_page=100&page={seite}&affiliation=owner")
@@ -23,6 +25,10 @@ for r in sorted(repos, key=lambda x: x["name"].lower()):
     if not r.get("has_pages"): continue
     p = gh("GET", f"/repos/{r['full_name']}/pages")
     if not p.get("cname"): continue
+    if r["name"] in neu:
+        cn = p["cname"]; gh("PUT", f"/repos/{r['full_name']}/pages", {"cname": None}); time.sleep(5)
+        gh("PUT", f"/repos/{r['full_name']}/pages", {"cname": cn}); time.sleep(3)
+        p = gh("GET", f"/repos/{r['full_name']}/pages"); print("↻ Zertifikat neu angefordert:", cn)
     cert = (p.get("https_certificate") or {}).get("state", "–")
     ok = p.get("https_enforced")
     st = "✅ an" if ok else "❌ aus"

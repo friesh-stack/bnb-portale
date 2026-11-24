@@ -7,6 +7,10 @@ on:
         description: "Enforce HTTPS wo möglich einschalten"
         type: boolean
         default: false
+      zertifikat:
+        description: "Zertifikat neu anfordern für diese Repos (z. B. sebnb nobnb)"
+        required: false
+        default: ""
 
 jobs:
   pruefen:
@@ -16,4 +20,4 @@ jobs:
       - name: Prüfen
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-        run: python3 scripts/https_check.py ${{ inputs.erzwingen && '--erzwingen' || '' }} | tee -a "$GITHUB_STEP_SUMMARY"
+        run: python3 scripts/https_check.py ${{ inputs.erzwingen && '--erzwingen' || '' }} ${{ inputs.zertifikat }} | tee -a "$GITHUB_STEP_SUMMARY"
