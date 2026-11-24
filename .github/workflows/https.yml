@@ -1,0 +1,19 @@
+name: HTTPS prüfen
+
+on:
+  workflow_dispatch:
+    inputs:
+      erzwingen:
+        description: "Enforce HTTPS wo möglich einschalten"
+        type: boolean
+        default: false
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prüfen
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: python3 scripts/https_check.py ${{ inputs.erzwingen && '--erzwingen' || '' }} | tee -a "$GITHUB_STEP_SUMMARY"
