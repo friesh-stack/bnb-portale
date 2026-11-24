@@ -13,7 +13,8 @@ def gh(m, p, d=None):
         return {"_fehler": e.code, "_text": e.read().decode()[:200]}
 
 erzwingen = "--erzwingen" in sys.argv
-neu = [a for a in sys.argv[1:] if not a.startswith("--")]  # Repos, deren Zertifikat neu angefordert wird
+neu = [a for a in sys.argv[1:] if not a.startswith("-")]
+weg = [a[1:] for a in sys.argv[1:] if a.startswith("-") and not a.startswith("--")]  # -repo = Domain entfernen  # Repos, deren Zertifikat neu angefordert wird
 import time
 repos, seite = [], 1
 while True:
@@ -25,6 +26,9 @@ for r in sorted(repos, key=lambda x: x["name"].lower()):
     if not r.get("has_pages"): continue
     p = gh("GET", f"/repos/{r['full_name']}/pages")
     if not p.get("cname"): continue
+    if r["name"] in weg:
+        x = gh("PUT", f"/repos/{r['full_name']}/pages", {"cname": None})
+        print("✂ Domain entfernt:", p["cname"], "aus", r["name"], "" if "_fehler" not in x else x); continue
     if r["name"] in neu:
         cn = p["cname"]; gh("PUT", f"/repos/{r['full_name']}/pages", {"cname": None}); time.sleep(5)
         gh("PUT", f"/repos/{r['full_name']}/pages", {"cname": cn}); time.sleep(3)
