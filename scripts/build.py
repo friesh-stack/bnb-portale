@@ -179,7 +179,7 @@ class Seite:
 </head>
 <body>
 <header class="kopf">
-  <a class="logo" href="{start}">{E(p['marke'])}</a>
+  <a class="logo" href="{start}">{logo_html(p['marke'])}</a>
   <nav>{nav}</nav>
   <div class="langs{" viele" if len(self.sp) > 3 else ""}">{langs}</div>
 </header>
@@ -448,6 +448,12 @@ def baue_umleitung(p):
     (ziel / "CNAME").write_text(p["domain"] + "\n", encoding="utf-8")
     (ziel / ".nojekyll").write_text("", encoding="utf-8")
     return ziel
+
+
+def logo_html(m):
+    """Marke zweifarbig: Vorderteil in Markenfarbe, „BnB“ in Akzentfarbe (wie SyltBnB)."""
+    i = m.rfind("BnB")
+    return E(m) if i <= 0 else f'{E(m[:i])}<span>{E(m[i:])}</span>'
 
 
 def main(argv):
