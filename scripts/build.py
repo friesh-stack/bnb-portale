@@ -164,9 +164,10 @@ class Seite:
             nav += f'<a href="#entdecken">{self.ui("entdecken")}</a><a href="#unterkuenfte">{self.ui("unterkuenfte")}</a>'
         nav += f'<a class="nav-cta" href="{"#gastgeber" if aktiv != "recht" else start + "#gastgeber"}">{self.ui("gastgeber", vermieter=True)}</a>'
         return f"""<!DOCTYPE html>
-<html lang="{self.sp[0]}">
+<html lang="{self.sp[0]}" translate="no" class="notranslate">
 <head>
 <meta charset="utf-8">
+<meta name="google" content="notranslate">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{E(titel_txt)}</title>
 <meta name="description" content="{E(beschreibung)}">
