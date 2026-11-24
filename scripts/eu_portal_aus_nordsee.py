@@ -162,6 +162,33 @@ R('function exPrev(i){var x=EXAMPLES[i];if(!x.url)','function exPrev(i){var x=EX
 
 R(' sowie die Live-Website Dünenvilla & Strandvilla (Live-Belegung, Sofort-Angebot). Alle sind',', jeweils in der Sprache des Besuchers. Beide sind')
 
+# ---------- 3 europäische Stile für Portal-Eintrag und Länderseite ----------
+s=re.sub(r'var DESIGNS=\{.*?\}\};', lambda m: '''var DESIGNS={
+  med:{name:"Mittelmeer",lay:"med",brand:"#b5532c",brand2:"#d98a4e",bg:"#fbf5ec",card:"#ffffff",accent:"#2e6f8e"},
+  nord:{name:"Skandinavien",lay:"nord",brand:"#2b3a42",brand2:"#6f8a94",bg:"#f7f8f6",card:"#ffffff",accent:"#c99a4b"},
+  city:{name:"Stadt & Altbau",lay:"city",brand:"#1e2a3a",brand2:"#3b4d66",bg:"#f3efe8",card:"#ffffff",accent:"#b08d3c"}};
+DESIGNS.duene=DESIGNS.med;
+function defDesign(){var L=window.BW_LANG||"de";return /^(da|sv|nb|fi)$/.test(L)?"nord":/^(it|fr|es)$/.test(L)?"med":"city"}
+var LAY={
+ med:"h1,h2,h3{font-style:italic}.hero{min-height:78vh}.hero:after{background:linear-gradient(180deg,rgba(120,50,20,.05),rgba(90,35,15,.62))}.u{border-radius:28px;border-top:6px solid var(--ac)}.ch span{background:#fff1e4;border-color:#f1d9c2}.g img{aspect-ratio:3/2}nav b{font-style:italic}.btn{border-radius:14px}",
+ nord:"h1,h2,h3{font-family:Inter,system-ui,sans-serif;font-weight:300;letter-spacing:.01em}.hero h1{text-transform:uppercase;letter-spacing:.08em;font-weight:200}.hero{min-height:60vh}.hero:after{background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.42))}.u,.f,#map{border-radius:0;box-shadow:none;border:1px solid #e4e7e3}.btn,nav a.c{border-radius:0;letter-spacing:.04em}.g{gap:2px}.ch span{border-radius:0}section{padding:64px 0}footer{background:#2b3a42}nav b{font-family:Inter,sans-serif;font-weight:300;letter-spacing:.12em;text-transform:uppercase}",
+ city:"h1,h2,h3{letter-spacing:.02em}h2{text-transform:uppercase;font-size:1.25rem;letter-spacing:.14em;border-bottom:1px solid var(--ac);padding-bottom:8px}.hero{min-height:72vh}.hero:after{background:linear-gradient(90deg,rgba(20,30,45,.88),rgba(20,30,45,.35) 60%,rgba(20,30,45,.1))}.hero .w>*{max-width:560px}.hero h1{font-weight:500}.u{border-radius:4px;border-left:4px solid var(--ac)}.btn,nav a.c{border-radius:4px;text-transform:uppercase;letter-spacing:.08em;font-size:.88rem}.f,#map{border-radius:4px}footer{background:#1e2a3a}.ch span{border-radius:4px}"};''', s, count=1, flags=re.S)
+R('var d=DESIGNS[D.design]||DESIGNS.duene','var d=DESIGNS[D.design]||DESIGNS[defDesign()]')
+R('  var va=(D.paket!=="portal"','  css+=(LAY[d.lay]||"")+"#bwLang{top:66px!important}";\n  var va=(D.paket!=="portal"')
+R('eigen:"",design:"duene",','eigen:"",design:defDesign(),')
+R('function exSite(id){','function exSite(id,des){')
+R('var D={design:"duene",paket:"portal"','var D={design:des||defDesign(),paket:"portal"')
+R('function exU(x){if(x.gen&&!x.url)x.url=exSite(x.gen);return x.url}','function exU(x){if(x.gen&&!x.url)x.url=exSite(x.gen,x.des);return x.url}')
+s=re.sub(r'var EXAMPLES = \[.*?\n\];', lambda m: '''var EXAMPLES = [
+  { t:"Stil „Mittelmeer“", tag:"Beispiel · Dünenvilla 3 – warme Farben, große Fotos", img:"dv3_wohnen", gen:"dv3", des:"med",
+    pts:["Für Italien, Frankreich, Spanien und alle Küsten im Süden","Galerie mit Bildunterschriften, Preise je Saison","Anfrage per E-Mail oder WhatsApp mit Preisrechner"] },
+  { t:"Stil „Skandinavien“", tag:"Beispiel · Dünenvilla 5 – hell, klar, ruhig", img:"dv5_garten", gen:"dv5", des:"nord",
+    pts:["Für Dänemark, Schweden, Norwegen, Finnland, Nord- und Ostsee","Schlichte Linien, viel Weißraum","Hunde, Sauna, Kamin – sofort sichtbar"] },
+  { t:"Stil „Stadt & Altbau“", tag:"Beispiel · Dünenvilla 3 – elegant, dunkel mit Goldakzent", img:"dv3_wohnen", gen:"dv3", des:"city",
+    pts:["Für Stadtwohnungen, Altbau und Ferienhäuser mit Charakter","Klare Gliederung, edle Wirkung","Karte mit Lage der Wohnung"] }
+];''', s, count=1, flags=re.S)
+R('Zwei Beispiele aus unserem eigenen Bestand: <b>Dünenvilla 3</b> und <b>Dünenvilla 5</b>.','Drei Stile zur Wahl – <b>Mittelmeer</b>, <b>Skandinavien</b> und <b>Stadt &amp; Altbau</b>, gezeigt an unseren eigenen Wohnungen Dünenvilla 3 und 5.')
+
 open(dst,'w',encoding='utf-8').write(s)
 rest=re.sub(r'data:[^"\')]{200,}','',s)
 print("fertig", len(s), "| Rest Nordsee:", len(re.findall(r'Nordsee',rest)), "| Insel:", len(re.findall(r'Insel',rest)))
