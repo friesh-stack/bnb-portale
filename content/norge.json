@@ -1,115 +1,115 @@
 {
- "stand": "2026-11-23",
+ "stand": "2026-11-24",
  "items": [
   {
-   "datum": "2026-11-23",
-   "bis": "2027-01-10",
+   "datum": "2026-11-24",
+   "bis": "2026-12-22",
    "titel": {
-    "nb": "Pepperkakebyen og julemarked i Bergen",
-    "en": "Gingerbread City and Christmas market in Bergen",
-    "de": "Lebkuchenstadt und Weihnachtsmarkt in Bergen",
-    "sv": "Pepparkakstaden och julmarknad i Bergen",
-    "da": "Pebernøddebyen og julemarked i Bergen",
-    "fi": "Piparkakkukaupunki ja joulumarkkinat Bergenissä"
+    "nb": "Bergen julemarked og Pepperkakebyen",
+    "en": "Bergen Christmas Market and Gingerbread Town",
+    "de": "Weihnachtsmarkt Bergen und Pfefferkuchenstadt",
+    "sv": "Julmarknad i Bergen och Pepparkakstaden",
+    "da": "Julemarked i Bergen og Pebernøddebyen",
+    "fi": "Bergenin joulutori ja piparkakkukaupunki"
    },
    "text": {
-    "nb": "Pepperkakebyen i Bergen holder åpent til og med 10. januar 2027. Voksne betaler 199 kroner, studenter 149 kroner. Bergen julemarked ved Ludvig Holberg-statuen pågår til 21. desember.",
-    "en": "Bergen's Gingerbread City is open until 10 January 2027. Adults pay NOK 199 and students NOK 149. The Christmas market by the Ludvig Holberg statue runs until 21 December.",
-    "de": "Die Lebkuchenstadt in Bergen ist bis zum 10. Januar 2027 geöffnet. Erwachsene zahlen 199 NOK, Studierende 149 NOK. Der Weihnachtsmarkt an der Ludvig-Holberg-Statue läuft bis zum 21. Dezember.",
-    "sv": "Pepparkakstaden i Bergen är öppen till och med 10 januari 2027. Vuxna betalar 199 NOK och studenter 149 NOK. Julmarknaden vid Ludvig Holberg-statyn pågår till 21 december.",
-    "da": "Pebernøddebyen i Bergen har åbent til og med 10. januar 2027. Voksne betaler 199 NOK og studerende 149 NOK. Julemarkedet ved Ludvig Holberg-statuen kører til 21. december.",
-    "fi": "Bergenin piparkakkukaupunki on avoinna 10. tammikuuta 2027 asti. Aikuisten pääsylippu maksaa 199 NOK ja opiskelijoiden 149 NOK. Ludvig Holbergin patsaan joulumarkkinat jatkuvat 21. joulukuuta asti."
+    "nb": "Julemarkedet på Festplassen i Bergen holder åpent til 22. desember, mandag til fredag kl. 12–21 og i helgene kl. 10–21. Pepperkakebyen, verdens største, kan besøkes til 10. januar 2027.",
+    "en": "The Christmas market at Festplassen in Bergen is open until 22 December, Monday to Friday 12:00–21:00 and weekends 10:00–21:00. The gingerbread town, the world's largest, can be visited until 10 January 2027.",
+    "de": "Der Weihnachtsmarkt am Festplassen in Bergen ist bis zum 22. Dezember geöffnet, Montag bis Freitag von 12 bis 21 Uhr, am Wochenende von 10 bis 21 Uhr. Die größte Pfefferkuchenstadt der Welt ist bis zum 10. Januar 2027 zu besichtigen.",
+    "sv": "Julmarknaden på Festplassen i Bergen har öppet till och med 22 december, måndag–fredag kl. 12–21 och på helgerna kl. 10–21. Pepparkakstaden, världens största, kan besökas till 10 januari 2027.",
+    "da": "Julemarkedet på Festplassen i Bergen har åbent til og med 22. december, mandag til fredag kl. 12–21 og i weekenden kl. 10–21. Pebernøddebyen, verdens største, kan besøges til 10. januar 2027.",
+    "fi": "Bergenin joulutori Festplassenilla on auki 22. joulukuuta asti, maanantaista perjantaihin klo 12–21 ja viikonloppuisin klo 10–21. Maailman suurimman piparkakkukaupungin voi nähdä 10. tammikuuta 2027 asti."
    },
-   "quelle": "https://en.visitbergen.com/",
-   "quelle_name": "Visit Bergen"
+   "quelle": "https://www.strawberryhotels.com/blog/norway/christmas-markets-norway-2026/",
+   "quelle_name": "Strawberry Hotels Blog"
   },
   {
-   "datum": "2026-11-23",
-   "bis": "2026-11-29",
-   "titel": {
-    "nb": "Vestfoldbanen: Buss for tog til 29. november",
-    "en": "Vestfold Line: rail replacement buses until 29 November",
-    "de": "Vestfoldbahn: Schienenersatzverkehr bis 29. November",
-    "sv": "Vestfoldbanan: ersättningsbussar till 29 november",
-    "da": "Vestfoldbanen: togbusser til 29. november",
-    "fi": "Vestfoldin rata: korvaavia busseja 29. marraskuuta asti"
-   },
-   "text": {
-    "nb": "Bane NOR har utsatt gjenåpningen av Vestfoldbanen til søndag 29. november. Mellom Drammen og Stokke er banen stengt, og Vy setter inn buss for tog. Beregn ekstra reisetid og sjekk Vy-appen før avreise.",
-    "en": "Bane NOR has postponed the reopening of the Vestfold Line until Sunday, 29 November. The line is closed between Drammen and Stokke, and Vy runs rail replacement buses. Allow extra travel time and check the Vy app before you set off.",
-    "de": "Bane NOR hat die Wiedereröffnung der Vestfoldbahn auf Sonntag, den 29. November, verschoben. Zwischen Drammen und Stokke ist die Strecke gesperrt, Vy setzt Schienenersatzbusse ein. Planen Sie zusätzliche Reisezeit ein und prüfen Sie vor der Abfahrt die Vy-App.",
-    "sv": "Bane NOR har skjutit upp återöppningen av Vestfoldbanan till söndagen den 29 november. Mellan Drammen och Stokke är banan avstängd, och Vy sätter in ersättningsbussar. Räkna med extra restid och kontrollera Vy-appen innan du reser.",
-    "da": "Bane NOR har udskudt genåbningen af Vestfoldbanen til søndag den 29. november. Mellem Drammen og Stokke er banen lukket, og Vy sætter togbusser ind. Regn med ekstra rejsetid, og tjek Vy-appen før afrejse.",
-    "fi": "Bane NOR on lykännyt Vestfoldin radan uudelleenavausta sunnuntaihin 29. marraskuuta. Drammenin ja Stokken välillä rata on suljettu, ja Vy järjestää korvaavia busseja. Varaa matkaan ylimääräistä aikaa ja tarkista Vy-sovellus ennen lähtöä."
-   },
-   "quelle": "https://www.vy.no/en/traffic/traffic-updates",
-   "quelle_name": "Vy"
-  },
-  {
-   "datum": "2026-11-23",
-   "bis": "2026-11-29",
-   "titel": {
-    "nb": "Hurtigruten: MS Richard With på verft til 29. november",
-    "en": "Hurtigruten: MS Richard With in shipyard until 29 November",
-    "de": "Hurtigruten: MS Richard With bis 29. November in der Werft",
-    "sv": "Hurtigruten: MS Richard With på varv till 29 november",
-    "da": "Hurtigruten: MS Richard With på værft til 29. november",
-    "fi": "Hurtigruten: MS Richard With telakalla 29. marraskuuta asti"
-   },
-   "text": {
-    "nb": "MS Richard With er ute av drift på grunn av planlagt verftsopphold. Det gjelder rundturen fra Bergen 18.–29. november 2026. Sjekk status for din avgang på Hurtigrutens oppdateringsside.",
-    "en": "MS Richard With is out of service because of a planned yard stay. This affects the round trip starting from Bergen on 18–29 November 2026. Please check the status of your sailing on the Hurtigruten updates page.",
-    "de": "Die MS Richard With ist wegen eines geplanten Werftaufenthalts außer Betrieb. Betroffen ist die Rundreise ab Bergen vom 18. bis 29. November 2026. Den Status Ihrer Abfahrt finden Sie auf der Hurtigruten-Infoseite.",
-    "sv": "MS Richard With är ur drift på grund av en planerad varvsvistelse. Det gäller rundturen från Bergen 18–29 november 2026. Kontrollera status för din avgång på Hurtigrutens uppdateringssida.",
-    "da": "MS Richard With er ude af drift på grund af et planlagt værftsophold. Det gælder rundturen fra Bergen 18.–29. november 2026. Tjek status for din afgang på Hurtigrutens opdateringsside.",
-    "fi": "MS Richard With on pois käytöstä suunnitellun telakkajakson vuoksi. Asia koskee Bergenistä 18.–29. marraskuuta 2026 lähtevää kiertomatkaa. Tarkista lähtösi tilanne Hurtigrutenin tiedotussivulta."
-   },
-   "quelle": "https://www.hurtigruten.com/en/port-to-port",
-   "quelle_name": "Hurtigruten"
-  },
-  {
-   "datum": "2026-12-03",
-   "bis": "2026-12-06",
-   "titel": {
-    "nb": "Julemarked Røros 3.–6. desember",
-    "en": "Røros Christmas Market, 3–6 December",
-    "de": "Weihnachtsmarkt Røros, 3.–6. Dezember",
-    "sv": "Julmarknaden i Røros 3–6 december",
-    "da": "Julemarkedet i Røros 3.–6. december",
-    "fi": "Rørosin joulumarkkinat 3.–6. joulukuuta"
-   },
-   "text": {
-    "nb": "Julemarkedet på Røros forvandler sentrum til en julegate med boder, fakler, hest og slede. Der finner du lokalmat og håndverk. Markedet varer til og med 6. desember.",
-    "en": "The Røros Christmas Market turns the town centre into a festive street with stalls, torches, horses and sleighs. You can find local food and crafts. The market runs until 6 December.",
-    "de": "Der Weihnachtsmarkt in Røros verwandelt das Zentrum in eine Weihnachtsgasse mit Ständen, Fackeln sowie Pferd und Schlitten. Es gibt lokale Spezialitäten und Kunsthandwerk. Der Markt dauert bis zum 6. Dezember.",
-    "sv": "Julmarknaden i Røros förvandlar centrum till en julgata med stånd, facklor, häst och släde. Här finns lokal mat och hantverk. Marknaden pågår till och med 6 december.",
-    "da": "Julemarkedet i Røros forvandler centrum til en julegade med boder, fakler, hest og slæde. Her finder du lokal mad og håndværk. Markedet varer til og med 6. december.",
-    "fi": "Rørosin joulumarkkinat muuttavat keskustan joulukaduksi, jossa on myyntikojuja, soihtuja sekä hevosia ja rekiä. Tarjolla on paikallista ruokaa ja käsitöitä. Markkinat kestävät 6. joulukuuta asti."
-   },
-   "quelle": "https://www.roros.no/hva-skjer/arrangement/julemarked",
-   "quelle_name": "Røros Turistinformasjon"
-  },
-  {
-   "datum": "2026-11-23",
+   "datum": "2026-11-07",
    "bis": "2027-01-03",
    "titel": {
-    "nb": "Jul i Vinterland i Oslo",
-    "en": "Jul i Vinterland in Oslo",
-    "de": "Jul i Vinterland in Oslo",
-    "sv": "Jul i Vinterland i Oslo",
-    "da": "Jul i Vinterland i Oslo",
-    "fi": "Jul i Vinterland Oslossa"
+    "nb": "Winter Wonderland i Spikersuppa, Oslo",
+    "en": "Winter Wonderland in Spikersuppa, Oslo",
+    "de": "Winter Wonderland in Spikersuppa, Oslo",
+    "sv": "Winter Wonderland i Spikersuppa, Oslo",
+    "da": "Winter Wonderland i Spikersuppa, Oslo",
+    "fi": "Winter Wonderland Spikersuppassa, Oslo"
    },
    "text": {
-    "nb": "Julemarkedet Jul i Vinterland langs Karl Johans gate er åpent til og med 3. januar 2027. Byens største julearrangement har boder, pariserhjul og isbane. Sjekk åpningstidene før du går.",
-    "en": "The Jul i Vinterland Christmas market along Karl Johans gate is open until 3 January 2027. The city's biggest Christmas event offers stalls, a Ferris wheel and an ice rink. Check the opening hours before you go.",
-    "de": "Der Weihnachtsmarkt Jul i Vinterland an der Karl Johans gate ist bis zum 3. Januar 2027 geöffnet. Er bietet Stände, ein Riesenrad und eine Eisbahn. Prüfen Sie vor dem Besuch die Öffnungszeiten.",
-    "sv": "Julmarknaden Jul i Vinterland vid Karl Johans gate är öppen till och med 3 januari 2027. Det finns stånd, ett pariserhjul och en isbana. Kontrollera öppettiderna innan du går dit.",
-    "da": "Julemarkedet Jul i Vinterland ved Karl Johans gate har åbent til og med 3. januar 2027. Her er der boder, pariserhjul og skøjtebane. Tjek åbningstiderne, før du tager af sted.",
-    "fi": "Karl Johans gate -kadun varrella oleva Jul i Vinterland -joulutapahtuma on avoinna 3. tammikuuta 2027 asti. Alueella on myyntikojuja, maailmanpyörä ja luistelurata. Tarkista aukioloajat ennen vierailua."
+    "nb": "Oslos store vinterarrangement i Spikersuppa pågår til og med 3. januar 2027. Det er et av Norges største julemarkeder, midt i sentrum.",
+    "en": "Oslo's big winter event in Spikersuppa runs until 3 January 2027. It is one of Norway's largest Christmas markets, right in the city centre.",
+    "de": "Oslos großes Winterevent in Spikersuppa läuft bis zum 3. Januar 2027. Es zählt zu den größten Weihnachtsmärkten Norwegens und liegt mitten im Zentrum.",
+    "sv": "Oslos stora vinterevenemang i Spikersuppa pågår till och med 3 januari 2027. Det är en av Norges största julmarknader, mitt i centrum.",
+    "da": "Oslos store vinterarrangement i Spikersuppa kører til og med 3. januar 2027. Det er et af Norges største julemarkeder, midt i centrum.",
+    "fi": "Oslon suuri talvitapahtuma Spikersuppassa kestää 3. tammikuuta 2027 asti. Se on yksi Norjan suurimmista joulutoreista aivan keskustassa."
    },
-   "quelle": "https://www.norskekalendere.no/julemarked/",
-   "quelle_name": "Norske Kalendere"
+   "quelle": "https://www.visitnorway.com/typically-norwegian/christmas/some-of-norways-best-christmas-markets/",
+   "quelle_name": "Visit Norway"
+  },
+  {
+   "datum": "2026-11-28",
+   "bis": "2026-11-29",
+   "titel": {
+    "nb": "Historisk julemarked på Maihaugen, Lillehammer",
+    "en": "Historic Christmas Market at Maihaugen, Lillehammer",
+    "de": "Historischer Weihnachtsmarkt auf Maihaugen, Lillehammer",
+    "sv": "Historisk julmarknad på Maihaugen, Lillehammer",
+    "da": "Historisk julemarked på Maihaugen, Lillehammer",
+    "fi": "Historiallinen joulutori Maihaugenissa, Lillehammer"
+   },
+   "text": {
+    "nb": "Friluftsmuseet Maihaugen inviterer til julemarked lørdag 28. og søndag 29. november. Åpent lørdag kl. 11–18 og søndag kl. 11–17.",
+    "en": "The open-air museum Maihaugen hosts a Christmas market on Saturday 28 and Sunday 29 November. It is open Saturday 11:00–18:00 and Sunday 11:00–17:00.",
+    "de": "Das Freilichtmuseum Maihaugen lädt am Samstag, 28., und Sonntag, 29. November, zum Weihnachtsmarkt ein. Geöffnet ist am Samstag von 11 bis 18 Uhr und am Sonntag von 11 bis 17 Uhr.",
+    "sv": "Friluftsmuseet Maihaugen bjuder in till julmarknad lördag 28 och söndag 29 november. Öppet lördag kl. 11–18 och söndag kl. 11–17.",
+    "da": "Frilandsmuseet Maihaugen inviterer til julemarked lørdag 28. og søndag 29. november. Åbent lørdag kl. 11–18 og søndag kl. 11–17.",
+    "fi": "Maihaugenin ulkomuseo järjestää joulutorin lauantaina 28. ja sunnuntaina 29. marraskuuta. Auki lauantaina klo 11–18 ja sunnuntaina klo 11–17."
+   },
+   "quelle": "https://www.strawberryhotels.com/blog/norway/christmas-markets-norway-2026/",
+   "quelle_name": "Strawberry Hotels Blog"
+  },
+  {
+   "datum": "2026-11-24",
+   "bis": "2026-12-07",
+   "titel": {
+    "nb": "Banearbeid: stengte jernbanestrekninger fram til 7. desember",
+    "en": "Track work: rail sections closed until 7 December",
+    "de": "Gleisarbeiten: gesperrte Bahnstrecken bis 7. Dezember",
+    "sv": "Banarbeten: avstängda järnvägssträckor till 7 december",
+    "da": "Banearbejde: lukkede jernbanestrækninger til 7. december",
+    "fi": "Ratatyöt: suljettuja rataosuuksia 7. joulukuuta asti"
+   },
+   "text": {
+    "nb": "Bane NOR arbeider på sporet mellom Sarpsborg og Halden til 6. desember, med stenging på hverdager. Lørdag 5. og søndag 6. desember er det stengt mellom Eidsvoll og Lillehammer, og fra 5. til 7. desember mellom Drammen og Stokke. Sjekk reisen hos Vy før avreise.",
+    "en": "Bane NOR is working on the line between Sarpsborg and Halden until 6 December, with closures on weekdays. On Saturday 5 and Sunday 6 December the line between Eidsvoll and Lillehammer is closed, and from 5 to 7 December between Drammen and Stokke. Please check your journey with Vy before departure.",
+    "de": "Bane NOR arbeitet bis zum 6. Dezember an der Strecke zwischen Sarpsborg und Halden, werktags ist sie gesperrt. Am Samstag, 5., und Sonntag, 6. Dezember, ist die Strecke Eidsvoll–Lillehammer gesperrt, vom 5. bis 7. Dezember auch Drammen–Stokke. Bitte vor der Abreise die Verbindung bei Vy prüfen.",
+    "sv": "Bane NOR utför arbeten på spåret mellan Sarpsborg och Halden till 6 december, med avstängning på vardagar. Lördag 5 och söndag 6 december är sträckan Eidsvoll–Lillehammer avstängd, och 5–7 december sträckan Drammen–Stokke. Kontrollera resan hos Vy före avresa.",
+    "da": "Bane NOR arbejder på sporet mellem Sarpsborg og Halden til 6. december, med lukning på hverdage. Lørdag 5. og søndag 6. december er strækningen Eidsvoll–Lillehammer lukket, og 5.–7. december strækningen Drammen–Stokke. Tjek rejsen hos Vy før afrejse.",
+    "fi": "Bane NOR tekee ratatöitä Sarpsborgin ja Haldenin välillä 6. joulukuuta asti, ja rata on suljettu arkisin. Lauantaina 5. ja sunnuntaina 6. joulukuuta rata on suljettu välillä Eidsvoll–Lillehammer sekä 5.–7. joulukuuta välillä Drammen–Stokke. Tarkista matkasi Vyltä ennen lähtöä."
+   },
+   "quelle": "https://www.banenor.no/reise-og-trafikk/trafikkmeldinger/",
+   "quelle_name": "Bane NOR"
+  },
+  {
+   "datum": "2026-11-02",
+   "bis": "2026-12-06",
+   "titel": {
+    "nb": "Hurtigruten: Black Friday-tilbud til 6. desember",
+    "en": "Hurtigruten: Black Friday offers until 6 December",
+    "de": "Hurtigruten: Black-Friday-Angebote bis 6. Dezember",
+    "sv": "Hurtigruten: Black Friday-erbjudanden till 6 december",
+    "da": "Hurtigruten: Black Friday-tilbud til 6. december",
+    "fi": "Hurtigruten: Black Friday -tarjoukset 6. joulukuuta asti"
+   },
+   "text": {
+    "nb": "Hurtigruten har Black Friday-salg fra 2. november til 6. desember. Det gjelder to-for-én på utvalgte Original-reiser langs kysten og opptil 20 prosent rabatt på Signature-reiser.",
+    "en": "Hurtigruten is running a Black Friday sale from 2 November to 6 December. It includes two-for-one on selected Original voyages along the coast and up to 20 percent off Signature voyages.",
+    "de": "Hurtigruten bietet vom 2. November bis zum 6. Dezember Black-Friday-Angebote an. Es gibt zwei Reisen zum Preis von einer auf ausgewählten Original-Routen entlang der Küste und bis zu 20 Prozent Rabatt auf Signature-Reisen.",
+    "sv": "Hurtigruten har Black Friday-rea från 2 november till 6 december. Det gäller två för en på utvalda Original-resor längs kusten och upp till 20 procent rabatt på Signature-resor.",
+    "da": "Hurtigruten har Black Friday-tilbud fra 2. november til 6. december. Det gælder to for én på udvalgte Original-rejser langs kysten og op til 20 procent rabat på Signature-rejser.",
+    "fi": "Hurtigruten järjestää Black Friday -kampanjan 2. marraskuuta–6. joulukuuta. Valituilla Original-matkoilla rannikolla on kaksi yhden hinnalla ja Signature-matkoilla jopa 20 prosentin alennus."
+   },
+   "quelle": "https://cruiseindustrynews.com/cruise-news/2026/11/hurtigruten-launches-black-friday-sale/",
+   "quelle_name": "Cruise Industry News"
   }
  ]
 }
