@@ -93,7 +93,7 @@ var NAMEN={it:"Italian",en:"English",fr:"French",es:"Spanish",nl:"Dutch",da:"Dan
 var LANGS={};(o.langs||Object.keys(ALL)).forEach(function(k){if(ALL[k])LANGS[k]=ALL[k]});
 var q=new URLSearchParams(location.search),L=q.get("lang"),KP=o.key||"bw";
 try{if(!L)L=localStorage.getItem(KP+"_lang")}catch(e){}
-if(!L)L=(navigator.language||"en").slice(0,2).replace("no","nb");
+if(!L)L=o.first||(navigator.language||"en").slice(0,2).replace("no","nb");
 if(!LANGS[L])L=LANGS[o.def]?o.def:Object.keys(LANGS)[0];
 try{localStorage.setItem(KP+"_lang",L)}catch(e){}
 window.BW_LANG=L;window.BW_SPRACHE=NAMEN[L]||"German";
@@ -104,7 +104,7 @@ function sel(){if(document.getElementById("bwLang")||Object.keys(LANGS).length<2
   var s=document.createElement("select");s.id="bwLang";s.setAttribute("data-noi18n","1");s.setAttribute("aria-label","Language");
   if(n){s.className="icbtn";s.style.cssText="width:64px;padding:0 4px;font-weight:600"}else s.style.cssText="position:fixed;top:10px;right:10px;z-index:3000;padding:6px;border-radius:10px;border:1px solid #ccc;background:#fff;font:600 13px sans-serif";
   Object.keys(LANGS).forEach(function(k){var op=document.createElement("option");op.value=k;op.textContent=(k==="nb"?"NO":k.toUpperCase())+" · "+LANGS[k];if(k===L)op.selected=true;s.appendChild(op)});
-  s.onchange=function(){try{localStorage.setItem(KP+"_lang",s.value)}catch(e){}var u=new URL(location.href);u.searchParams.set("lang",s.value);location.href=u.toString()};
+  s.onchange=function(){try{localStorage.setItem(KP+"_lang",s.value)}catch(e){}if(location.protocol==="blob:"){location.reload();return}var u=new URL(location.href);u.searchParams.set("lang",s.value);location.href=u.toString()};
   if(n)n.insertBefore(s,n.firstChild);else document.body.appendChild(s)}
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",sel);else sel();setTimeout(sel,1500);
 if(L==="de")return;
@@ -147,11 +147,20 @@ R('kb:gast?kbGast():kbVermieter(),','kb:(gast?kbGast():kbVermieter())+((window.B
 R('greeting:gast?"','greeting:(window.BW_T||function(x){return x})(gast?"')
 s=s.replace('Was möchten Sie wissen?"})})})','Was möchten Sie wissen?")})})})',1)
 # Websites der Vermieter: Landessprache + Englisch + Deutsch, gleiche Übersetzungsdatei
-R('function buildSite(D){','''function buildSite(D){var h=buildSite0(D),L0=window.BW_LANG||"de",langs=[L0,"en","de"].filter(function(x,i,a){return a.indexOf(x)===i});
-  var js="<script>("+bwI18n.toString()+")({langs:"+JSON.stringify(langs)+",def:"+JSON.stringify(L0)+",dict:\\"https://eu-bnb.com/vermieten/i18n/\\",api:"+JSON.stringify(PORTAL.claude)+",key:\\"site\\"})<\\/script>";
+R('function buildSite(D){','''function buildSite(D,X){var h=buildSite0(D),L0=window.BW_LANG||"de",langs=[L0,"en","de"].filter(function(x,i,a){return a.indexOf(x)===i});
+  var js="<script>("+bwI18n.toString()+")({langs:"+JSON.stringify(langs)+",def:"+JSON.stringify(L0)+",dict:\\"https://eu-bnb.com/vermieten/i18n/\\",api:"+JSON.stringify(PORTAL.claude)+",key:\\""+(X&&X.ex?"ex_"+L0:"site")+"\\""+(X&&X.ex?",first:"+JSON.stringify(L0):"")+"})<\\/script>";
   var k=h.lastIndexOf("</body>");return k>=0?h.slice(0,k)+js+h.slice(k):h+js}
 function buildSite0(D){''')
 R('/Failed to fetch|NetworkError|Load failed/i.test(m)?" (Technik: Worker nicht erreichbar – zum Prüfen "+VOICE.endpoint+" im Browser öffnen.)":""','/Failed to fetch|NetworkError|Load failed/i.test(m)?" (Technik: Worker nicht erreichbar – zum Prüfen "+VOICE.endpoint+" im Browser öffnen.)":" (Technik: "+m+")"')
+
+R('return URL.createObjectURL(new Blob([buildSite(D)],{type:"text/html"}))','return URL.createObjectURL(new Blob([buildSite(D,{ex:true})],{type:"text/html"}))')
+# Beispiele: immer die generierten Seiten in der Portalsprache, keine deutsche Live-Seite
+s=re.sub(r',\s*\{ t:"Live-Website Dünenvilla & Strandvilla".*?\] \}\s*\n\];', '\n];', s, count=1, flags=re.S)
+R('function EXW(){return EXAMPLES.filter(function(x){return x.url})[0]||{t:"",url:"about:blank"}}','function exU(x){if(x.gen&&!x.url)x.url=exSite(x.gen);return x.url}function EXW(){EXAMPLES.forEach(exU);return EXAMPLES.filter(function(x){return x.url})[0]||{t:"",url:"about:blank"}}function exOpen(i){var u=exU(EXAMPLES[i])||EXW().url;window.open(u,"_blank")}')
+R('<a class="btn small" href="\'+(x.url||EXW().url)+\'" target="_blank" rel="noopener">Website öffnen ↗</a>','<button class="btn small" onclick="exOpen(\'+i+\')">Website öffnen ↗</button>')
+R('function exPrev(i){var x=EXAMPLES[i];if(!x.url)','function exPrev(i){var x=EXAMPLES[i];exU(x);if(!x.url)')
+
+R(' sowie die Live-Website Dünenvilla & Strandvilla (Live-Belegung, Sofort-Angebot). Alle sind',', jeweils in der Sprache des Besuchers. Beide sind')
 
 open(dst,'w',encoding='utf-8').write(s)
 rest=re.sub(r'data:[^"\')]{200,}','',s)

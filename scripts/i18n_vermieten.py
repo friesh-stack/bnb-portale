@@ -73,7 +73,19 @@ async def sprache(browser, L):
     for _ in range(600):
         if await pg.evaluate("window.BW_PENDING?BW_PENDING():0") == 0: break
         await pg.wait_for_timeout(1000)
+    # Beispiel-Websites (Dünenvilla 3 und 5) im Rahmen öffnen und mit übersetzen
+    for i in (0, 1):
+        try:
+            await pg.evaluate(f"exPrev({i})"); await pg.wait_for_timeout(3000)
+            fr = [f for f in pg.frames if f.url.startswith("blob:")]
+            for f in fr:
+                for _ in range(600):
+                    if await f.evaluate("window.BW_PENDING?BW_PENDING():0") == 0: break
+                    await pg.wait_for_timeout(1000)
+        except Exception as e:
+            print("  Beispiel", i, "übersprungen:", e)
     daten = json.loads(await pg.evaluate(f"localStorage.getItem('bw_i18n_{L}')||'{{}}'"))
+    daten.update(json.loads(await pg.evaluate(f"localStorage.getItem('ex_{L}_i18n_{L}')||'{{}}'")))
     await ctx.close()
     return daten
 
