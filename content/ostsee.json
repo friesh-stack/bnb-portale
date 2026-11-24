@@ -1,75 +1,61 @@
 {
- "stand": "2026-11-23",
+ "stand": "2026-11-24",
  "items": [
   {
    "datum": "2026-11-28",
    "bis": "2027-01-03",
    "titel": {
-    "de": "Warnemünder Weihnachts- und Neujahrsmarkt startet",
-    "en": "Warnemünde Christmas and New Year Market opens"
+    "de": "Warnemünder Weihnachts- und Neujahrsmarkt startet am Kirchenplatz",
+    "en": "Warnemünde Christmas and New Year Market opens at the Kirchenplatz"
    },
    "text": {
-    "de": "Am Samstag, 28. November, wird der Markt auf dem Kirchenplatz in Warnemünde eröffnet, und zwar laut Veranstalterinfos um 12.15 Uhr. Er läuft bis zum 3. Januar 2027. Auch die Kindereisenbahn nimmt dann wieder ihren Betrieb auf. Aktuell wird der Platz bereits mit Weihnachtsbaum und Zeltlandschaft vorbereitet.",
-    "en": "The market on Warnemünde's Kirchenplatz opens on Saturday, 28 November, at 12:15 pm according to local reports. It runs until 3 January 2027. The children's railway also starts running again then. The square is already being set up with a Christmas tree and tent area."
+    "de": "Am Samstag, 28. November, wird der Markt auf dem Kirchenplatz eröffnet, und zwar um 12.15 Uhr. Dann nimmt auch die Kindereisenbahn wieder ihren Betrieb auf. Der Markt läuft bis zum 3. Januar 2027. Die genauen Öffnungszeiten und Ruhetage stehen in der Quelle.",
+    "en": "The market on the Kirchenplatz opens on Saturday, 28 November, at 12:15 pm. The children's railway starts running again at the same time. The market continues until 3 January 2027. The source lists the exact opening hours and closing days."
    },
    "quelle": "https://der-warnemuender.de/dwmnewslesen,Nordmanntanne-aus-Gehlsdorf-schmueckt-den-Warnemuender-Kirchenplatz,showNews-10983.html",
    "quelle_name": "Der Warnemünder"
   },
   {
-   "datum": "2026-11-28",
+   "datum": "2026-11-27",
    "bis": "2026-11-29",
    "titel": {
-    "de": "DRK-Weihnachtsmarkt in Bergen auf Rügen",
-    "en": "Red Cross Christmas market in Bergen on Rügen"
+    "de": "Ahlbecker Weihnachtsmarkt zum ersten Advent",
+    "en": "Ahlbeck Christmas Market on the first Advent weekend"
    },
    "text": {
-    "de": "Am Wochenende 28. und 29. November lädt das DRK in der Tilzower Straße in Bergen zum Weihnachtsmarkt ein. Es gibt Stände mit handgemachten Geschenkideen, Leckereien, eine Teddy-Klinik und Besuch vom Weihnachtsmann. Für Kinder ist ein Mitmachprogramm geplant.",
-    "en": "On the weekend of 28 and 29 November, the Red Cross invites visitors to a Christmas market in Bergen on Rügen, at Tilzower Weg. Expect stalls with handmade gifts and treats, a teddy clinic and a visit from Santa. There is also a hands-on programme for children."
+    "de": "Am ersten Adventswochenende lädt der Konzertplatz in Ahlbeck auf Usedom zum Weihnachtsmarkt ein. Es gibt Musik, regionale Spezialitäten und Glühwein. Abends klingt der Markt mit einer Glühweinparty unter dem Weihnachtsbaum aus. Der Markt dauert von Freitag, 27., bis Sonntag, 29. November.",
+    "en": "On the first Advent weekend, the Konzertplatz in Ahlbeck on Usedom hosts a Christmas market. Expect music, regional specialities and mulled wine. Each evening ends with a mulled wine party under the Christmas tree. The market runs from Friday 27 to Sunday 29 November."
    },
-   "quelle": "https://www.auf-nach-mv.de/weihnachten",
-   "quelle_name": "auf-nach-mv.de"
+   "quelle": "https://www.kaiserbaeder-auf-usedom.de/va-highlights/ahlbecker-weihnachtsmarkt/",
+   "quelle_name": "Kaiserbäder Usedom"
   },
   {
-   "datum": "2026-11-23",
-   "bis": "2026-11-27",
+   "datum": "2026-11-24",
+   "bis": "2026-11-29",
    "titel": {
-    "de": "Sellin: Hauptstraße gesperrt, Bushaltestelle entfällt",
-    "en": "Sellin: Main street closed, bus stop not served"
+    "de": "Veranstaltungen der Woche in Stralsund und auf Rügen",
+    "en": "This week's events in Stralsund and on Rügen"
    },
    "text": {
-    "de": "In Sellin ist die Hauptstraße zwischen Bahnübergang und Granitzer Straße wegen Bauarbeiten voll gesperrt. Deshalb wird die Bushaltestelle Sellin Hauptstraße noch bis zum 27. November in beiden Richtungen nicht bedient. Bitte etwas mehr Zeit für Wege im Ort einplanen.",
-    "en": "Sellin's main street is fully closed between the level crossing and Granitzer Straße due to roadworks. As a result, the Sellin Hauptstraße bus stop is not served in either direction until 27 November. Please allow extra time for getting around town."
+    "de": "Für die Woche vom 23. bis 29. November gibt es eine kompakte Übersicht. Am Wochenende stehen unter anderem öffentliche Führungen im Meeresmuseum und im Ozeaneum auf dem Programm. Außerdem gibt es Theater, Konzerte und Flohmärkte in Stralsund.",
+    "en": "A compact overview covers the week from 23 to 29 November. Over the weekend, public tours at the Meeresmuseum and the Ozeaneum are among the highlights. Stralsund also offers theatre, concerts and flea markets."
    },
-   "quelle": "https://vvr-bus.de/",
-   "quelle_name": "VVR Vorpommern-Rügen"
+   "quelle": "https://sundblick.info/veranstaltungen-der-woche-das-ist-in-stralsund-und-auf-ruegen-los-10",
+   "quelle_name": "Sundblick"
   },
   {
-   "datum": "2026-11-23",
+   "datum": "2026-11-24",
    "bis": "2026-12-12",
    "titel": {
     "de": "Rügen: B96b bei Neu Mukran wegen Baustelle gesperrt",
     "en": "Rügen: B96b near Neu Mukran closed for roadworks"
    },
    "text": {
-    "de": "Die B96b zwischen Borchtitz und Neu Mukran ist in Höhe des Bahnübergangs Nord-Rügen in beiden Richtungen gesperrt. Laut ADAC-Verkehrsmeldung dauert die Baustelle bis zum 13. Dezember 0 Uhr. Wer in den Raum Mukran unterwegs ist, sollte vor der Fahrt die aktuelle Verkehrslage prüfen.",
-    "en": "The B96b between Borchtitz and Neu Mukran is closed in both directions at the North Rügen level crossing. According to the ADAC traffic report, the roadworks last until 13 December at midnight. If you are heading to the Mukran area, check current traffic conditions before you set off."
+    "de": "Die B96b zwischen Borchtitz und Neu Mukran ist in beiden Richtungen gesperrt, und zwar in Höhe des Bahnübergangs Nord-Rügen. Die Sperrung gilt laut ADAC-Verkehrsmeldung bis zum 13. Dezember 2026, 0 Uhr. Bitte planen Sie für Fahrten in diese Richtung etwas mehr Zeit ein.",
+    "en": "The B96b between Borchtitz and Neu Mukran is closed in both directions at the Nord-Rügen level crossing. According to the ADAC traffic report, the closure lasts until 13 December 2026 at 12 am. Please allow extra time if you are travelling in this direction."
    },
    "quelle": "https://www.adac.de/verkehr/verkehrsinformationen/de/mecklenburg-vorpommern/",
    "quelle_name": "ADAC Verkehrsinformationen"
-  },
-  {
-   "datum": "2026-11-23",
-   "bis": "2027-03-31",
-   "titel": {
-    "de": "Wittower Fähre: Winterfahrplan mit Pausen",
-    "en": "Wittow ferry: winter timetable with breaks"
-   },
-   "text": {
-    "de": "Seit dem 9. November gilt für die Wittower Fähre auf Rügen der Winterfahrplan, der bis zum 31. März 2027 läuft. Die Fähre pendelt etwa alle 15 bis 20 Minuten zwischen 6.30 und 18 Uhr. Montag bis Freitag gibt es zwischendurch kurze Pausen ohne Fährverkehr.",
-    "en": "The winter timetable for the Wittow ferry on Rügen has applied since 9 November and runs until 31 March 2027. The ferry shuttles roughly every 15 to 20 minutes between 6:30 am and 6 pm. On weekdays there are short breaks without service during the day."
-   },
-   "quelle": "https://www.frs-weisse-flotte.de/fahrplan/wittower-faehre",
-   "quelle_name": "FRS Weiße Flotte"
   }
  ]
 }

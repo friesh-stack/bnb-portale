@@ -1,75 +1,61 @@
 {
- "stand": "2026-11-23",
+ "stand": "2026-11-24",
  "items": [
-  {
-   "datum": "2026-11-23",
-   "bis": "2027-01-02",
-   "titel": {
-    "de": "Winterzauber am Meer auf Sylt",
-    "en": "Winter Magic by the Sea on Sylt"
-   },
-   "text": {
-    "de": "Die Außenterrasse der Sturmhaube am Roten Kliff wird zum Weihnachtsmarkt mit Blick auf die Nordsee. Unter einem beheizten Schirm gibt es ein vorweihnachtliches Angebot. Geöffnet ist seit dem 20. November.",
-    "en": "The outdoor terrace of the Sturmhaube at the Red Cliff has become a Christmas market with a view of the North Sea. A heated canopy shelters the pre-Christmas offerings. It has been open since 20 November."
-   },
-   "quelle": "https://www.sylt.de/veranstaltungen/weihnachtsmaerkte",
-   "quelle_name": "Sylt Marketing (sylt.de)"
-  },
   {
    "datum": "2026-11-27",
    "bis": "2026-11-29",
    "titel": {
     "de": "Weihnachtsmärkte in List und Morsum auf Sylt",
-    "en": "Christmas Markets in List and Morsum on Sylt"
+    "en": "Christmas markets in List and Morsum on Sylt"
    },
    "text": {
-    "de": "Am ersten Adventswochenende öffnen auf Sylt zwei kleine Weihnachtsmärkte. In List findet er in der ehemaligen Grundschule statt. In Morsum läuft der Markt unter dem friesischen Namen Jööltir ön Muasem.",
-    "en": "Two small Christmas markets open on Sylt on the first Advent weekend. The List market is held in the former primary school. The Morsum market runs under the Frisian name Jööltir ön Muasem."
+    "de": "Am ersten Adventswochenende lädt List in der ehemaligen Grundschule zum Weihnachtsmarkt ein. Auch in Morsum findet an diesen Tagen ein Weihnachtsmarkt statt. Beide Märkte laufen vom 27. bis 29. November.",
+    "en": "On the first Advent weekend, List holds a Christmas market in its former primary school. Morsum also hosts a Christmas market on the same days. Both run from 27 to 29 November."
    },
    "quelle": "https://www.nordseetourismus.de/weihnachten-und-silvester-nordsee",
    "quelle_name": "Nordseetourismus"
   },
   {
-   "datum": "2026-11-29",
+   "datum": "2026-11-28",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Kampener Anleuchten auf Sylt",
-    "en": "Kampen Christmas Lights Switch-On on Sylt"
+    "de": "Adventsmärkte auf Föhr in Nieblum und Wrixum",
+    "en": "Advent markets on Föhr in Nieblum and Wrixum"
    },
    "text": {
-    "de": "Am Sonntag, 29. November, wird in Kampen die Weihnachtsbeleuchtung angeschaltet. Treffpunkt ist um 17:00 Uhr vor dem Kaamp-Hüs.",
-    "en": "On Sunday, 29 November, Kampen switches on its Christmas lights. Meet at 5:00 pm in front of the Kaamp-Hüs."
+    "de": "Im Haus des Gastes in Nieblum findet am 28. und 29. November von 12 bis 17 Uhr ein Adventsmarkt statt. Am 29. November folgt von 11 bis 16 Uhr der Weihnachtsmarkt im Forst in Wrixum. Gegen 15 Uhr schaut dort der Weihnachtsmann vorbei.",
+    "en": "An Advent market runs at the Haus des Gastes in Nieblum on 28 and 29 November, from 12 to 5 pm. On 29 November the Christmas market in the Forst in Wrixum follows, from 11 am to 4 pm. Father Christmas is due to visit around 3 pm."
    },
-   "quelle": "https://www.sylt.de/veranstaltungen/weihnachten",
-   "quelle_name": "Sylt Marketing (sylt.de)"
+   "quelle": "https://www.foehr.de/jahreswechsel",
+   "quelle_name": "Föhr Tourismus"
   },
   {
-   "datum": "2026-11-23",
-   "bis": "2026-11-24",
+   "datum": "2026-12-01",
+   "bis": "2026-12-01",
    "titel": {
-    "de": "Juist: Yoga am Morgen und Museumsführung",
-    "en": "Juist: Morning Yoga and Museum Tour"
+    "de": "Rumänischer Adventsabend auf Borkum",
+    "en": "Romanian Advent evening on Borkum"
    },
    "text": {
-    "de": "Der Juister Veranstaltungskalender nennt für heute um 8:00 Uhr Wake-Up Yoga. Am 24. November um 14:30 Uhr folgt die Museumsführung „Von Schiffen und Badefreuden“. Weitere Termine stehen im Kalender der Insel.",
-    "en": "Today the Juist events calendar lists Wake-Up Yoga at 8:00 am. On 24 November at 2:30 pm there is a museum tour titled „Von Schiffen und Badefreuden“. More dates are in the island calendar."
+    "de": "Borkum feiert am Dienstag, 1. Dezember, einen rumänischen Adventsabend. Es gibt rumänische Spezialitäten, Live-Musik und traditionelle Schnäpse. Das ist eine Abwechslung zu den üblichen Weihnachtsmarkt-Themen.",
+    "en": "On Tuesday, 1 December, Borkum hosts a Romanian Advent evening. Visitors can expect Romanian specialities, live music and traditional spirits. It makes a change from the usual Christmas market themes."
    },
-   "quelle": "https://www.juist.de/auf-der-insel/veranstaltungen/veranstaltungskalender",
-   "quelle_name": "Juist Tourismus (juist.de)"
+   "quelle": "https://bremen.t-online.de/region/bremen/id_101538950/kurioser-weihnachtsmarkt-auf-borkum-winterzauber-lockt-mit-seltenem-thema.html",
+   "quelle_name": "t-online"
   },
   {
-   "datum": "2026-11-23",
+   "datum": "2026-11-24",
    "bis": "",
    "titel": {
-    "de": "Norderney: Fährfahrplan vor der Anreise prüfen",
-    "en": "Norderney: Check the Ferry Timetable Before You Travel"
+    "de": "Fähren: Vor der Anreise Fahrplan prüfen",
+    "en": "Ferries: check the timetable before you travel"
    },
    "text": {
-    "de": "Wetter und Wasserstände können Fahrten nach Norderney selten ausfallen lassen. Änderungen und Zusatzfähren stehen tagesaktuell im Online-Fahrplan der Verbindung Norddeich–Norderney. Ein kurzer Blick vor und während der Anreise lohnt sich.",
-    "en": "Weather and water levels can occasionally cancel sailings to Norderney. Changes and extra ferries appear in the online timetable for the Norddeich–Norderney route, updated daily. It is worth checking before and during your trip."
+    "de": "Wind und Wetter können die Schiffsfahrpläne zu den Nordseeinseln kurzfristig ändern. Die Bahn bittet Reisende, sich kurz vor der Fahrt über mögliche Änderungen zu informieren. Das gilt besonders für Verbindungen, die vom Wasserstand abhängen.",
+    "en": "Wind and weather can change ferry timetables to the North Sea islands at short notice. Deutsche Bahn asks travellers to check for changes shortly before departure. This matters most for routes that depend on the water level."
    },
-   "quelle": "https://www.frisonaut.de/de/mobilitaet/norderney/faehre/fahrplan",
-   "quelle_name": "Frisonaut (Reederei Norden-Frisia)"
+   "quelle": "https://regional.bahn.de/magazin/nordseeinseln/fahrplanaenderungen-schiff",
+   "quelle_name": "DB Regio"
   }
  ]
 }
