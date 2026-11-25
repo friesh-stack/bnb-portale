@@ -92,11 +92,12 @@ UI = {
     "da": {"aktuell": "Aktuelt", "karte": "Kort", "entdecken": "Opdag", "unterkuenfte": "Overnatning", "gastgeber": "For værter", "news_titel": "Hvad sker der {ri}?", "news_leer": "De første nyheder vises her snart.", "stand": "Opdateret", "quelle": "Kilde", "karte_titel": "{r} på kortet", "karte_laden": "Indlæs kort", "karte_hinweis": "Kortet indlæses fra OpenStreetMap; din IP-adresse sendes til OpenStreetMap Foundation.", "beispiel": "Eksempler på steder – udvides løbende.", "entdecken_titel": "Det venter dig", "unterk_titel": "Overnatning direkte fra værten", "unterk_frei": "Her kan dit feriehus stå", "unterk_frei_text": "Din egen side med billeder, priser og forespørgsler direkte til dig.", "mehr": "Læs mere", "g_titel": "Udlejer du {ri}?", "g_text": "Gæster leder efter overnatning her. Vi laver din egen side med AI – du fortæller, uploader billeder, færdig.", "g_cta": "Tilmeld din bolig", "impressum": "Kolofon", "datenschutz": "Privatliv", "fotos": "Fotos", "projekt": "Et friesh-stack-projekt", "schwester": "Flere portaler", "burano": "Også i Italien: Burano", "start": "Forside", "zur_karte": "Til kortet", "hero_cta": "Hvad sker der?", "geschlossen": "Indtil"},
     "sv": {"aktuell": "Aktuellt", "karte": "Karta", "entdecken": "Upptäck", "unterkuenfte": "Boende", "gastgeber": "För värdar", "news_titel": "Vad händer {ri}?", "news_leer": "De första nyheterna visas här snart.", "stand": "Uppdaterad", "quelle": "Källa", "karte_titel": "{r} på kartan", "karte_laden": "Ladda karta", "karte_hinweis": "Kartan laddas från OpenStreetMap; din IP-adress skickas till OpenStreetMap Foundation.", "beispiel": "Exempel på platser – fylls på löpande.", "entdecken_titel": "Det här väntar dig", "unterk_titel": "Boende direkt från värden", "unterk_frei": "Här kan ditt fritidshus synas", "unterk_frei_text": "Din egen sida med bilder, priser och förfrågningar direkt till dig.", "mehr": "Läs mer", "g_titel": "Hyr du ut {ri}?", "g_text": "Gäster söker boende här. Vi skapar din egen sida med AI – du berättar, laddar upp bilder, klart.", "g_cta": "Anmäl ditt boende", "impressum": "Juridisk information", "datenschutz": "Integritet", "fotos": "Foton", "projekt": "Ett friesh-stack-projekt", "schwester": "Fler portaler", "burano": "Även i Italien: Burano", "start": "Start", "zur_karte": "Till kartan", "hero_cta": "Vad händer?", "geschlossen": "Till och med"},
     "nb": {"aktuell": "Aktuelt", "karte": "Kart", "entdecken": "Oppdag", "unterkuenfte": "Overnatting", "gastgeber": "For utleiere", "news_titel": "Hva skjer {ri}?", "news_leer": "De første nyhetene vises her snart.", "stand": "Oppdatert", "quelle": "Kilde", "karte_titel": "{r} på kartet", "karte_laden": "Last inn kart", "karte_hinweis": "Kartet lastes fra OpenStreetMap; IP-adressen din sendes til OpenStreetMap Foundation.", "beispiel": "Eksempler på steder – utvides fortløpende.", "entdecken_titel": "Dette venter deg", "unterk_titel": "Overnatting direkte fra utleier", "unterk_frei": "Her kan feriehuset ditt stå", "unterk_frei_text": "Din egen side med bilder, priser og forespørsler direkte til deg.", "mehr": "Les mer", "g_titel": "Leier du ut {ri}?", "g_text": "Gjester leter etter overnatting her. Vi lager din egen side med KI – du forteller, laster opp bilder, ferdig.", "g_cta": "Registrer boligen din", "impressum": "Juridisk informasjon", "datenschutz": "Personvern", "fotos": "Bilder", "projekt": "Et friesh-stack-prosjekt", "schwester": "Flere portaler", "burano": "Også i Italia: Burano", "start": "Forside", "zur_karte": "Til kartet", "hero_cta": "Hva skjer?", "geschlossen": "Til og med"},
-    "fi": {"aktuell": "Ajankohtaista", "karte": "Kartta", "entdecken": "Tutustu", "unterkuenfte": "Majoitus", "gastgeber": "Vuokranantajille", "news_titel": "Mitä tapahtuu {ri}?", "news_leer": "Ensimmäiset uutiset näkyvät täällä pian.", "stand": "Päivitetty", "quelle": "Lähde", "karte_titel": "{r} kartalla", "karte_laden": "Lataa kartta", "karte_hinweis": "Kartta ladataan OpenStreetMapista; IP-osoitteesi välitetään OpenStreetMap Foundationille.", "beispiel": "Esimerkkikohteita – lisää tulossa.", "entdecken_titel": "Tätä on luvassa", "unterk_titel": "Majoitus suoraan vuokranantajalta", "unterk_frei": "Tässä voisi olla lomakotisi", "unterk_frei_text": "Oma sivu kuvineen ja hintoineen, tiedustelut suoraan sinulle.", "mehr": "Lue lisää", "g_titel": "Vuokraatko {ri}?", "g_text": "Matkailijat etsivät täältä majoitusta. Teemme sinulle oman sivun tekoälyn avulla – kerrot, lataat kuvat, valmista.", "g_cta": "Ilmoita kohteesi", "impressum": "Oikeudelliset tiedot", "datenschutz": "Tietosuoja", "fotos": "Kuvat", "projekt": "friesh-stack-projekti", "schwester": "Lisää portaaleja", "burano": "Myös Italiassa: Burano", "start": "Etusivu", "zur_karte": "Kartalle", "hero_cta": "Mitä tapahtuu?", "geschlossen": "Asti"}
+    "fi": {"aktuell": "Ajankohtaista", "karte": "Kartta", "entdecken": "Tutustu", "unterkuenfte": "Majoitus", "gastgeber": "Vuokranantajille", "news_titel": "Mitä tapahtuu {ri}?", "news_leer": "Ensimmäiset uutiset näkyvät täällä pian.", "stand": "Päivitetty", "quelle": "Lähde", "karte_titel": "{r} kartalla", "karte_laden": "Lataa kartta", "karte_hinweis": "Kartta ladataan OpenStreetMapista; IP-osoitteesi välitetään OpenStreetMap Foundationille.", "beispiel": "Esimerkkikohteita – lisää tulossa.", "entdecken_titel": "Tätä on luvassa", "unterk_titel": "Majoitus suoraan vuokranantajalta", "unterk_frei": "Tässä voisi olla lomakotisi", "unterk_frei_text": "Oma sivu kuvineen ja hintoineen, tiedustelut suoraan sinulle.", "mehr": "Lue lisää", "g_titel": "Vuokraatko {ri}?", "g_text": "Matkailijat etsivät täältä majoitusta. Teemme sinulle oman sivun tekoälyn avulla – kerrot, lataat kuvat, valmista.", "g_cta": "Ilmoita kohteesi", "impressum": "Oikeudelliset tiedot", "datenschutz": "Tietosuoja", "fotos": "Kuvat", "projekt": "friesh-stack-projekti", "schwester": "Lisää portaaleja", "burano": "Myös Italiassa: Burano", "start": "Etusivu", "zur_karte": "Kartalle", "hero_cta": "Mitä tapahtuu?", "geschlossen": "Asti"},
+    "zh": {"aktuell": "最新动态", "karte": "地图", "entdecken": "探索", "unterkuenfte": "住宿", "gastgeber": "房东专区", "news_titel": "{ri}有什么新鲜事？", "news_leer": "首批动态即将在此发布。", "stand": "更新于", "quelle": "来源", "karte_titel": "{r}地图", "karte_laden": "加载地图", "karte_hinweis": "地图从 OpenStreetMap 加载，您的 IP 地址将传输给 OpenStreetMap 基金会。", "beispiel": "示例标记——将持续补充。", "entdecken_titel": "等待您的精彩", "unterk_titel": "房东直租住宿", "unterk_frei": "这里可以展示您的度假公寓", "unterk_frei_text": "专属页面，含照片、价格，咨询直接发给您。", "mehr": "了解更多", "g_titel": "您{ri}出租房源吗？", "g_text": "游客在这里寻找住宿。我们借助人工智能为您制作专属页面——您介绍、上传照片即可。", "g_cta": "登记房源", "impressum": "法律声明", "datenschutz": "隐私政策", "fotos": "照片", "projekt": "friesh-stack 项目", "schwester": "更多平台", "burano": "布拉诺：myburano.com", "start": "首页", "zur_karte": "查看地图", "hero_cta": "最新动态", "geschlossen": "截至"}
 }
 MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
-PRAEP = {"de": "in", "en": "in", "it": "in", "fr": "en", "es": "en", "nl": "in", "da": "i", "sv": "i", "nb": "i", "fi": ""}
-SPRACHNAME = {"de": "DE", "en": "EN", "it": "IT", "fr": "FR", "es": "ES", "nl": "NL", "da": "DA", "sv": "SV", "nb": "NO", "fi": "FI"}
+PRAEP = {"de": "in", "en": "in", "it": "in", "fr": "en", "es": "en", "nl": "in", "da": "i", "sv": "i", "nb": "i", "fi": "", "zh": "在"}
+SPRACHNAME = {"de": "DE", "en": "EN", "it": "IT", "fr": "FR", "es": "ES", "nl": "NL", "da": "DA", "sv": "SV", "nb": "NO", "fi": "FI", "zh": "中文"}
 
 E = lambda s: html.escape(str(s), quote=True)
 
@@ -115,6 +116,13 @@ class Seite:
         # Vermieter-Bereich: eigene Sprachreihenfolge (z. B. Landessprache, Englisch, Deutsch);
         # wählt der Gast eine andere Sprache, sieht er diesen Bereich auf Englisch
         self.vsp = p.get("sprachen_vermieter", self.sp)
+
+    def betreiber(self):
+        """Eigener Betreiber je Portal (z. B. myVenezia.com: Anne Fries, Burano), sonst der zentrale."""
+        return self.p.get("betreiber") or self.cfg["betreiber"]
+
+    def kontakt(self):
+        return self.p.get("kontakt_email") or self.cfg["kontakt_email"]
 
     def eff(self, s, vermieter):
         if not vermieter or s in self.vsp:
@@ -158,6 +166,8 @@ class Seite:
             langs += '<select class="lang-select" aria-label="Sprache / Language">' + "".join(
                 f'<option value="{s}">{SPRACHNAME[s]}</option>' for s in self.sp) + "</select>"
         start = "index.html" if p["modus"] == "neu" else "./"
+        f = p.get("farben") or {}
+        farben = ("<style>:root{" + "".join(f"--{k}:{E(v)};" for k, v in f.items()) + "}</style>\n") if f else ""
         nav = (f'<a href="{start}#aktuell">{self.ui("aktuell")}</a><a href="{start}#karte">{self.ui("karte")}</a>'
                if aktiv != "aktuell" else f'<a href="#aktuell">{self.ui("aktuell")}</a><a href="#karte">{self.ui("karte")}</a>')
         if p["modus"] == "neu" and aktiv == "index":
@@ -176,7 +186,7 @@ class Seite:
 <meta property="og:description" content="{E(beschreibung)}">
 <meta name="theme-color" content="#1d4f73">
 <link rel="stylesheet" href="assets/portal.css">
-</head>
+{farben}</head>
 <body>
 <header class="kopf">
   <a class="logo" href="{start}">{logo_html(p['marke'])}</a>
@@ -261,6 +271,7 @@ class Seite:
   <p><a href="impressum.html">{self.ui("impressum")}</a> · <a href="datenschutz.html">{self.ui("datenschutz")}</a></p>
   <p class="schwester"><strong>{self.ui("schwester")}:</strong> {links}</p>
   <p><a href="https://myburano.com">{self.ui("burano")}</a></p>
+  {"".join(f'<p><a href="{E(l["url"])}">{self.t(l["text"])}</a></p>' for l in p.get("fuss_links", []))}
   {credits}
   <p class="sig">{self.ui("projekt")}</p>
 </footer>
@@ -279,16 +290,25 @@ class Seite:
         s0 = self.sp[0]
         titel = self.wert(p["titel"], s0)
         intro0 = self.wert(p["intro"], s0)
+        hero = [f for f in fotos if "insel" not in f] or fotos
+        insel_foto = {f["insel"]: f for f in fotos if "insel" in f}
         slides = "".join(f'<div class="slide{" an" if i == 0 else ""}" style="background-image:url(\'{E(f["datei"])}\')" role="img" aria-label="{E(f.get("titel", ""))}"></div>'
-                         for i, f in enumerate(fotos[:6]))
+                         for i, f in enumerate(hero[:6]))
         hl = []
         for i, h in enumerate(p.get("highlights", [])):
-            bild = fotos[(i + 1) % len(fotos)]["datei"] if fotos else ""
+            bild = (insel_foto[i]["datei"] if i in insel_foto
+                    else hero[(i + 1) % len(hero)]["datei"] if hero else "")
             bildtag = f'<div class="hl-bild" style="background-image:url(\'{E(bild)}\')"></div>' if bild else '<div class="hl-bild leer"></div>'
             link = f' <a href="{E(h["link"])}">{self.ui("mehr")} →</a>' if h.get("link") else ""
             hl.append(f'<article class="hl">{bildtag}<div class="hl-text"><h3>{self.t(h["titel"])}</h3><p>{self.t(h["text"])}{link}</p></div></article>')
         ang_url = self.portal_url()
-        frei = "".join(f'<a class="frei" href="{E(ang_url)}"><span class="plus">+</span><h3>{self.ui("unterk_frei", vermieter=True)}</h3><p>{self.ui("unterk_frei_text", vermieter=True)}</p></a>' for _ in range(3))
+        eigene = []
+        for u in p.get("unterkuenfte", []):
+            f = insel_foto.get(u.get("insel"))
+            bildtag = f'<div class="hl-bild" style="background-image:url(\'{E(f["datei"])}\')"></div>' if f else '<div class="hl-bild leer"></div>'
+            eigene.append(f'<a class="hl unterkunft" href="{E(u["link"])}" target="_blank" rel="noopener">{bildtag}<div class="hl-text">'
+                          f'<h3>{E(u["name"])}</h3><p>{self.t(u["text"])}</p><p class="ort">{self.t(u.get("ort", ""))} · {self.ui("mehr")} →</p></div></a>')
+        frei = "".join(eigene) + "".join(f'<a class="frei" href="{E(ang_url)}"><span class="plus">+</span><h3>{self.ui("unterk_frei", vermieter=True)}</h3><p>{self.ui("unterk_frei_text", vermieter=True)}</p></a>' for _ in range(max(1, 3 - len(eigene))))
         return (self.kopf(f'{p["marke"]} – {titel}', intro0) + f"""<main>
 <section class="hero">
   <div class="slides">{slides}</div>
@@ -326,7 +346,7 @@ class Seite:
             return f'<label class="zopt"><input type="checkbox" value="{k}" data-t="{E(VT["de"][k])}"> {v(k)}{" <small class=muted>(" + v("bald") + ")</small>" if k == "z_anfrage" else ""}</label>'
         bsp = "https://xn--ostseebad-mnchgut-9zb.de/inselzeit-moenchgut.html"
         komplett = "https://ruegenwebdesign.de/#lBeispiele"
-        kontakt = cfg["kontakt_email"]
+        kontakt = self.kontakt()
         pakete = [("p1", "p1t", True), ("p2", "p2t", True), ("p3", "p3t", False)]
         prk = {"p1": "pr1", "p2": "pr2", "p3": "pr3"}
         karten = "".join(f'''<div class="pk"><h3>{v(a)}</h3><span class="prov">{v("prov")}</span><div class="pr">{v(prk[a])}</div><p>{v(b)}</p>{('<div class="gratis">' + v("gratis") + '</div>') if g else ""}<a class="btn{"" if g else " ghost"}" href="{E(self.portal_url()) if g else "#anfrage"}" data-paket="{a}">{v("test_btn") if g else v("anfrage_btn")}</a></div>''' for a, b, g in pakete)
@@ -356,17 +376,20 @@ class Seite:
         return html
 
     def impressum(self):
-        b = self.cfg["betreiber"]
-        marken = ", ".join(f'{x["marke"]} ({x["domain"]})' for x in self.alle)
+        b = self.betreiber()
+        eigen = bool(self.p.get("betreiber"))
+        marken = (f'{self.p["marke"]} ({self.p["domain"]})' if eigen
+                  else ", ".join(f'{x["marke"]} ({x["domain"]})' for x in self.alle if not x.get("betreiber")))
+        inland = b.get("land", "Deutschland") == "Deutschland"
         return self.kopf(f'Impressum – {self.p["marke"]}', "Impressum", aktiv="recht") + f"""<main class="block recht">
 <h1>Impressum</h1>
-<p lang="en" class="klein">Legal notice according to German law.</p>
-<h2>Angaben gemäß § 5 DDG</h2>
+<p lang="en" class="klein">{"Legal notice according to German law." if inland else "Legal notice / Note legali."}</p>
+<h2>{"Angaben gemäß § 5 DDG" if inland else "Anbieter / Gestore del sito"}</h2>
 <p>{E(b["name"])}<br>{E(b["strasse"])}<br>{E(b["ort"])}<br>{E(b["land"])}</p>
 <h2>Kontakt</h2>
 <p>E-Mail: <a href="mailto:{E(b["email"])}">{E(b["email"])}</a></p>
-<p>{E(marken)} sind Angebote von {E(b["name"])}.</p>
-<h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+<p>{E(marken)} {"ist ein Angebot" if eigen else "sind Angebote"} von {E(b["name"])}.</p>
+<h2>{"Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV" if inland else "Verantwortlich für den Inhalt"}</h2>
 <p>{E(b["name"])}, Anschrift wie oben</p>
 <h2>Verbraucherstreitbeilegung</h2>
 <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
@@ -376,7 +399,7 @@ class Seite:
 """ + self.fuss(self.fotos())
 
     def datenschutz(self):
-        b = self.cfg["betreiber"]
+        b = self.betreiber()
         return self.kopf(f'Datenschutz – {self.p["marke"]}', "Datenschutzerklärung", aktiv="recht") + f"""<main class="block recht">
 <h1>Datenschutzerklärung</h1>
 <p class="klein">Stand: {MONATE[HEUTE.month - 1]} {HEUTE.year}</p>

@@ -1267,7 +1267,8 @@
             "de": "Lagune & Kanäle",
             "fr": "Lagune & canaux",
             "es": "Laguna y canales"
-          }
+          },
+          "link": "https://myvenezia.com"
         },
         {
           "name": "Lago di Garda",
@@ -1333,6 +1334,478 @@
       "region_in": {
         "fr": "en Italie"
       }
+    },
+    {
+      "slug": "venezia",
+      "domain": "myvenezia.com",
+      "repo": "myvenezia",
+      "modus": "neu",
+      "allinkl": "dns",
+      "marke": "myVenezia",
+      "sprachen": [
+        "it",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "zh"
+      ],
+      "sprachen_vermieter": [
+        "it",
+        "en",
+        "de"
+      ],
+      "angebot": "allgemein",
+      "news": "woechentlich",
+      "kontakt_email": "info@myvenezia.com",
+      "betreiber": {
+        "name": "Anne Fries",
+        "auftritt": "Familie Fries",
+        "strasse": "Terranova 112",
+        "ort": "30142 Burano (VE)",
+        "land": "Italien",
+        "email": "info@myvenezia.com"
+      },
+      "farben": {
+        "brand": "#1B6CA8",
+        "accent": "#D9534F"
+      },
+      "karte": {
+        "lat": 45.44,
+        "lon": 12.36,
+        "zoom": 11
+      },
+      "region": {
+        "it": "Laguna di Venezia",
+        "en": "the Venetian Lagoon",
+        "de": "Lagune von Venedig",
+        "fr": "lagune de Venise",
+        "es": "laguna de Venecia",
+        "zh": "威尼斯潟湖"
+      },
+      "region_in": {
+        "it": "nella Laguna di Venezia",
+        "en": "in the Venetian Lagoon",
+        "de": "in der Lagune von Venedig",
+        "fr": "dans la lagune de Venise",
+        "es": "en la laguna de Venecia",
+        "zh": "在威尼斯潟湖"
+      },
+      "titel": {
+        "it": "Case vacanza sulle isole della laguna di Venezia",
+        "en": "Holiday homes on the islands of the Venetian Lagoon",
+        "de": "Ferienwohnungen auf den Inseln der Lagune von Venedig",
+        "fr": "Locations de vacances sur les îles de la lagune de Venise",
+        "es": "Apartamentos vacacionales en las islas de la laguna de Venecia",
+        "zh": "威尼斯潟湖群岛度假公寓"
+      },
+      "intro": {
+        "it": "Dal centro storico alle isole silenziose del nord: prenotate direttamente dall'host, senza commissioni di portale – e scoprite ogni settimana cosa succede.",
+        "en": "From the historic centre to the quiet northern islands: book directly with the host, no platform fees – and see what's on every week.",
+        "de": "Von der Altstadt bis zu den stillen Inseln im Norden: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche sehen, was los ist.",
+        "fr": "Du centre historique aux îles paisibles du nord : réservez directement chez l'hôte, sans frais de plateforme – et découvrez chaque semaine ce qui se passe.",
+        "es": "Del centro histórico a las tranquilas islas del norte: reserva directamente con el anfitrión, sin comisiones – y descubre cada semana qué pasa.",
+        "zh": "从历史城区到北部宁静的小岛：直接向房东预订，无平台费用——每周了解最新活动。"
+      },
+      "highlights": [
+        {
+          "titel": {
+            "it": "Venezia",
+            "en": "Venice",
+            "de": "Venedig",
+            "fr": "Venise",
+            "es": "Venecia",
+            "zh": "威尼斯"
+          },
+          "text": {
+            "it": "Il centro storico con i sei sestieri: San Marco, Rialto, calli e canali. Arte, cultura e caffè sotto casa.",
+            "en": "The historic centre with its six sestieri: St Mark's, Rialto, alleys and canals. Art, culture and cafés on your doorstep.",
+            "de": "Die Altstadt mit ihren sechs Sestieri: Markusplatz, Rialto, Gassen und Kanäle. Kunst, Kultur und Cafés vor der Haustür.",
+            "fr": "Le centre historique et ses six sestieri : Saint-Marc, Rialto, ruelles et canaux. Art, culture et cafés à deux pas.",
+            "es": "El centro histórico con sus seis sestieri: San Marcos, Rialto, callejuelas y canales. Arte, cultura y cafés a la puerta.",
+            "zh": "由六个区组成的历史城区：圣马可、里亚托、小巷与运河。出门即是艺术、文化与咖啡馆。"
+          },
+          "foto_suche": [
+            "Venice Grand Canal gondola",
+            "Venice canal"
+          ]
+        },
+        {
+          "titel": {
+            "it": "Giudecca",
+            "en": "Giudecca",
+            "de": "Giudecca",
+            "fr": "Giudecca",
+            "es": "Giudecca",
+            "zh": "朱代卡"
+          },
+          "text": {
+            "it": "Di fronte alle Zattere: vita veneziana quotidiana, il Redentore del Palladio e la vista più bella sulla città.",
+            "en": "Opposite the Zattere: everyday Venetian life, Palladio's Redentore and the finest view of the city.",
+            "de": "Gegenüber den Zattere: venezianischer Alltag, Palladios Redentore-Kirche und der schönste Blick auf die Stadt.",
+            "fr": "Face aux Zattere : la vie vénitienne au quotidien, le Redentore de Palladio et la plus belle vue sur la ville.",
+            "es": "Frente a las Zattere: vida veneciana cotidiana, el Redentore de Palladio y la mejor vista de la ciudad.",
+            "zh": "与扎特雷沿岸隔水相望：威尼斯日常生活、帕拉迪奥的救主堂，以及欣赏城市的最佳视角。"
+          },
+          "foto_suche": [
+            "Giudecca Redentore",
+            "Giudecca Venice"
+          ]
+        },
+        {
+          "titel": {
+            "it": "Lido",
+            "en": "Lido",
+            "de": "Lido",
+            "fr": "Lido",
+            "es": "Lido",
+            "zh": "丽都"
+          },
+          "text": {
+            "it": "La lunga isola-spiaggia sull'Adriatico: bagni, bici, ville liberty. Sede della Mostra del Cinema.",
+            "en": "The long beach island on the Adriatic: swimming, cycling, Art Nouveau villas. Home of the film festival.",
+            "de": "Die lange Strandinsel zur Adria: Baden, Radfahren, Jugendstilvillen. Heimat des Filmfestivals.",
+            "fr": "La longue île-plage sur l'Adriatique : baignade, vélo, villas Art nouveau. Siège de la Mostra.",
+            "es": "La larga isla de playa en el Adriático: baño, bici, villas modernistas. Sede del Festival de Cine.",
+            "zh": "面向亚得里亚海的狭长海滩岛：游泳、骑行、新艺术风格别墅，也是威尼斯电影节举办地。"
+          },
+          "foto_suche": [
+            "Lido di Venezia beach",
+            "Lido di Venezia"
+          ]
+        },
+        {
+          "titel": {
+            "it": "Pellestrina",
+            "en": "Pellestrina",
+            "de": "Pellestrina",
+            "fr": "Pellestrina",
+            "es": "Pellestrina",
+            "zh": "佩莱斯特里纳"
+          },
+          "text": {
+            "it": "Sottile isola di pescatori tra laguna e mare: case colorate, i Murazzi e pesce freschissimo.",
+            "en": "A narrow fishing island between lagoon and sea: colourful houses, the Murazzi sea walls and fresh fish.",
+            "de": "Schmale Fischerinsel zwischen Lagune und Meer: bunte Häuser, die Murazzi-Schutzmauern und frischer Fisch.",
+            "fr": "Île de pêcheurs étroite entre lagune et mer : maisons colorées, les murazzi et poisson frais.",
+            "es": "Estrecha isla de pescadores entre laguna y mar: casas de colores, los Murazzi y pescado fresco.",
+            "zh": "夹在潟湖与大海之间的狭长渔岛：彩色房屋、防波石墙与新鲜海鲜。"
+          },
+          "foto_suche": [
+            "Pellestrina",
+            "Pellestrina murazzi"
+          ]
+        },
+        {
+          "titel": {
+            "it": "Murano",
+            "en": "Murano",
+            "de": "Murano",
+            "fr": "Murano",
+            "es": "Murano",
+            "zh": "穆拉诺"
+          },
+          "text": {
+            "it": "L'isola dei maestri vetrai: fornaci, Museo del Vetro e la basilica dei Santi Maria e Donato.",
+            "en": "The glassblowers' island: furnaces to watch, the Glass Museum and the basilica of Santi Maria e Donato.",
+            "de": "Die Insel der Glasbläser: Werkstätten zum Zuschauen, Glasmuseum und Basilika Santi Maria e Donato.",
+            "fr": "L'île des souffleurs de verre : ateliers, musée du Verre et basilique Santi Maria e Donato.",
+            "es": "La isla de los sopladores de vidrio: talleres, Museo del Vidrio y basílica de Santi Maria e Donato.",
+            "zh": "玻璃工匠之岛：玻璃作坊、玻璃博物馆和圣母与圣多纳托教堂。"
+          },
+          "foto_suche": [
+            "Murano canal",
+            "Murano Venice"
+          ]
+        },
+        {
+          "titel": {
+            "it": "Burano",
+            "en": "Burano",
+            "de": "Burano",
+            "fr": "Burano",
+            "es": "Burano",
+            "zh": "布拉诺"
+          },
+          "text": {
+            "it": "L'isola più colorata: case dipinte, Museo del Merletto, campanile pendente e risotto di gò.",
+            "en": "The most colourful island: painted houses, the Lace Museum, the leaning bell tower and risotto di gò.",
+            "de": "Die bunteste Insel: farbige Fischerhäuser, Spitzenmuseum, schiefer Campanile und Risotto di gò.",
+            "fr": "L'île la plus colorée : maisons peintes, musée de la Dentelle, campanile penché et risotto di gò.",
+            "es": "La isla más colorida: casas pintadas, Museo del Encaje, campanario inclinado y risotto di gò.",
+            "zh": "最多彩的岛屿：彩色房屋、蕾丝博物馆、斜塔钟楼和虾虎鱼烩饭。"
+          },
+          "foto_suche": [
+            "Burano colorful houses",
+            "Burano canal"
+          ]
+        },
+        {
+          "titel": {
+            "it": "Mazzorbo",
+            "en": "Mazzorbo",
+            "de": "Mazzorbo",
+            "fr": "Mazzorbo",
+            "es": "Mazzorbo",
+            "zh": "马佐尔博"
+          },
+          "text": {
+            "it": "Collegata a Burano da un ponte di legno: vigneto, orti e prati sull'acqua. Un rifugio verde.",
+            "en": "Linked to Burano by a wooden bridge: vineyard, vegetable gardens and meadows by the water. A green retreat.",
+            "de": "Per Holzbrücke mit Burano verbunden: Weinberg, Gemüsegärten und Wiesen am Wasser. Ein grüner Rückzugsort.",
+            "fr": "Reliée à Burano par un pont en bois : vigne, potagers et prairies au bord de l'eau. Un refuge vert.",
+            "es": "Unida a Burano por un puente de madera: viñedo, huertos y praderas junto al agua. Un refugio verde.",
+            "zh": "通过木桥与布拉诺相连：葡萄园、菜园和水边草地，一处绿色静地。"
+          },
+          "foto_suche": [
+            "Mazzorbo",
+            "Mazzorbo Venissa vineyard"
+          ]
+        },
+        {
+          "titel": {
+            "it": "Torcello",
+            "en": "Torcello",
+            "de": "Torcello",
+            "fr": "Torcello",
+            "es": "Torcello",
+            "zh": "托切罗"
+          },
+          "text": {
+            "it": "Qui è iniziata la storia della laguna: la cattedrale con mosaici bizantini, canali tra le canne, pochi abitanti.",
+            "en": "Where the lagoon's story began: a cathedral with Byzantine mosaics, reed-lined canals, hardly any residents.",
+            "de": "Hier begann die Geschichte der Lagune: Kathedrale mit byzantinischen Mosaiken, Kanäle im Schilf, kaum Bewohner.",
+            "fr": "Là où commence l'histoire de la lagune : cathédrale aux mosaïques byzantines, canaux dans les roseaux.",
+            "es": "Aquí empezó la historia de la laguna: catedral con mosaicos bizantinos y canales entre juncos.",
+            "zh": "潟湖历史的起点：拥有拜占庭马赛克的大教堂、芦苇间的运河，居民寥寥。"
+          },
+          "foto_suche": [
+            "Torcello Santa Maria Assunta",
+            "Torcello"
+          ]
+        },
+        {
+          "titel": {
+            "it": "Sant'Erasmo",
+            "en": "Sant'Erasmo",
+            "de": "Sant'Erasmo",
+            "fr": "Sant'Erasmo",
+            "es": "Sant'Erasmo",
+            "zh": "圣伊拉斯莫"
+          },
+          "text": {
+            "it": "L'orto di Venezia: campi, stradine da percorrere in bici e il celebre carciofo violetto.",
+            "en": "Venice's vegetable garden: fields, country lanes for cycling and the famous purple artichokes.",
+            "de": "Der Gemüsegarten Venedigs: Felder, Wege zum Radfahren und die berühmten violetten Artischocken.",
+            "fr": "Le potager de Venise : champs, chemins à vélo et les célèbres artichauts violets.",
+            "es": "La huerta de Venecia: campos, caminos para ir en bici y las famosas alcachofas violetas.",
+            "zh": "威尼斯的菜园：田野、适合骑行的小路和著名的紫色洋蓟。"
+          },
+          "foto_suche": [
+            "Sant'Erasmo Venezia",
+            "Sant'Erasmo island"
+          ]
+        }
+      ],
+      "unterkuenfte": [
+        {
+          "name": "Blue Lagune",
+          "insel": 5,
+          "link": "https://myburano.com",
+          "ort": {
+            "it": "Burano",
+            "en": "Burano",
+            "de": "Burano",
+            "fr": "Burano",
+            "es": "Burano",
+            "zh": "布拉诺"
+          },
+          "text": {
+            "it": "Casa vacanza tra le case colorate di Burano.",
+            "en": "Holiday home among the colourful houses of Burano.",
+            "de": "Ferienwohnung zwischen den bunten Häusern von Burano.",
+            "fr": "Location de vacances parmi les maisons colorées de Burano.",
+            "es": "Apartamento entre las casas de colores de Burano.",
+            "zh": "位于布拉诺彩色房屋之间的度假公寓。"
+          }
+        },
+        {
+          "name": "Vista Laguna",
+          "insel": 0,
+          "link": "https://myburano.com",
+          "ort": {
+            "it": "Venezia",
+            "en": "Venice",
+            "de": "Venedig",
+            "fr": "Venise",
+            "es": "Venecia",
+            "zh": "威尼斯"
+          },
+          "text": {
+            "it": "Casa vacanza a Venezia.",
+            "en": "Holiday home in Venice.",
+            "de": "Ferienwohnung in Venedig.",
+            "fr": "Location de vacances à Venise.",
+            "es": "Apartamento vacacional en Venecia.",
+            "zh": "位于威尼斯的度假公寓。"
+          }
+        }
+      ],
+      "foto_suche": [
+        "Venice Grand Canal Rialto",
+        "Burano houses canal",
+        "Venice lagoon sunset",
+        "Murano glass furnace",
+        "Torcello cathedral",
+        "Lido di Venezia Adriatic beach"
+      ],
+      "news_suche": "Venezia eventi questa settimana, Burano Murano Lido eventi, ACTV vaporetto modifiche orari, acqua alta previsioni, contributo di accesso Venezia date, Biennale Venezia",
+      "pfeile": [
+        {
+          "name": "Venezia",
+          "lat": 45.4375,
+          "lon": 12.3358,
+          "text": {
+            "it": "Centro storico",
+            "en": "Historic centre",
+            "de": "Altstadt",
+            "fr": "Centre historique",
+            "es": "Centro histórico",
+            "zh": "历史城区"
+          }
+        },
+        {
+          "name": "Giudecca",
+          "lat": 45.4262,
+          "lon": 12.3255,
+          "text": {
+            "it": "Vista sulla città",
+            "en": "City view",
+            "de": "Stadtblick",
+            "fr": "Vue sur la ville",
+            "es": "Vista a la ciudad",
+            "zh": "城市景观"
+          }
+        },
+        {
+          "name": "Lido",
+          "lat": 45.405,
+          "lon": 12.368,
+          "text": {
+            "it": "Spiaggia",
+            "en": "Beach",
+            "de": "Strand",
+            "fr": "Plage",
+            "es": "Playa",
+            "zh": "海滩"
+          }
+        },
+        {
+          "name": "Pellestrina",
+          "lat": 45.28,
+          "lon": 12.302,
+          "text": {
+            "it": "Isola dei pescatori",
+            "en": "Fishing island",
+            "de": "Fischerinsel",
+            "fr": "Île de pêcheurs",
+            "es": "Isla de pescadores",
+            "zh": "渔岛"
+          }
+        },
+        {
+          "name": "Murano",
+          "lat": 45.4585,
+          "lon": 12.353,
+          "text": {
+            "it": "Vetro",
+            "en": "Glass",
+            "de": "Glas",
+            "fr": "Verre",
+            "es": "Vidrio",
+            "zh": "玻璃"
+          }
+        },
+        {
+          "name": "Burano",
+          "lat": 45.4857,
+          "lon": 12.4175,
+          "text": {
+            "it": "Case colorate",
+            "en": "Colourful houses",
+            "de": "Bunte Häuser",
+            "fr": "Maisons colorées",
+            "es": "Casas de colores",
+            "zh": "彩色房屋"
+          },
+          "link": "https://myburano.com"
+        },
+        {
+          "name": "Mazzorbo",
+          "lat": 45.4868,
+          "lon": 12.4085,
+          "text": {
+            "it": "Vigneto",
+            "en": "Vineyard",
+            "de": "Weinberg",
+            "fr": "Vigne",
+            "es": "Viñedo",
+            "zh": "葡萄园"
+          }
+        },
+        {
+          "name": "Torcello",
+          "lat": 45.4975,
+          "lon": 12.4185,
+          "text": {
+            "it": "Cattedrale",
+            "en": "Cathedral",
+            "de": "Kathedrale",
+            "fr": "Cathédrale",
+            "es": "Catedral",
+            "zh": "大教堂"
+          }
+        },
+        {
+          "name": "Sant'Erasmo",
+          "lat": 45.452,
+          "lon": 12.405,
+          "text": {
+            "it": "Orti",
+            "en": "Gardens",
+            "de": "Gemüsegärten",
+            "fr": "Potagers",
+            "es": "Huertos",
+            "zh": "菜园"
+          }
+        },
+        {
+          "name": "Piazza San Marco",
+          "lat": 45.4341,
+          "lon": 12.3388,
+          "text": {
+            "it": "Basilica e Palazzo Ducale",
+            "en": "Basilica & Doge's Palace",
+            "de": "Basilika & Dogenpalast",
+            "fr": "Basilique & palais des Doges",
+            "es": "Basílica y Palacio Ducal",
+            "zh": "圣马可大教堂与总督宫"
+          }
+        }
+      ],
+      "fuss_links": [
+        {
+          "url": "https://friesh-stack.github.io/venezia/",
+          "text": {
+            "it": "Storia della laguna: Venice Chronicle",
+            "en": "History of the lagoon: Venice Chronicle",
+            "de": "Geschichte der Lagune: Venice Chronicle",
+            "fr": "Histoire de la lagune : Venice Chronicle",
+            "es": "Historia de la laguna: Venice Chronicle",
+            "zh": "潟湖历史：Venice Chronicle"
+          }
+        }
+      ]
     },
     {
       "slug": "france",

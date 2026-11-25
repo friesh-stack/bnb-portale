@@ -24,7 +24,7 @@ import config
 ROOT = Path(__file__).resolve().parent.parent
 MODELL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5")
 HEUTE = dt.date.today()
-SPRACHNAMEN = {"de": "Deutsch", "en": "Englisch", "it": "Italienisch", "fr": "Französisch", "es": "Spanisch", "nl": "Niederländisch", "da": "Dänisch", "sv": "Schwedisch", "nb": "Norwegisch (Bokmål)", "fi": "Finnisch"}
+SPRACHNAMEN = {"de": "Deutsch", "en": "Englisch", "it": "Italienisch", "fr": "Französisch", "es": "Spanisch", "nl": "Niederländisch", "da": "Dänisch", "sv": "Schwedisch", "nb": "Norwegisch (Bokmål)", "fi": "Finnisch", "zh": "Chinesisch (vereinfacht)"}
 
 
 def faellig(p):

@@ -82,6 +82,24 @@ def fotos_fuer(p):
                 liste.append(t)
                 print(f"  ✓ {t['titel'][:60]}  ({t['lizenz']})")
             time.sleep(0.5)
+    # je Highlight (z. B. je Insel) ein eigenes Foto, falls "foto_suche" am Highlight steht
+    for i, h in enumerate(p.get("highlights", [])):
+        for b in h.get("foto_suche", []):
+            try:
+                treffer = [t for t in suche(b) if t["seite"] not in gesehen]
+            except Exception as e:  # noqa: BLE001
+                print(f"  ! Suche '{b}' fehlgeschlagen: {e}")
+                continue
+            time.sleep(0.5)
+            if treffer:
+                t = treffer[0]
+                gesehen.add(t["seite"])
+                (ordner / f"insel-{i + 1}.jpg").write_bytes(hole(t.pop("quelle_url")))
+                t["datei"] = f"fotos/{p['slug']}/insel-{i + 1}.jpg"
+                t["insel"] = i
+                liste.append(t)
+                print(f"  ✓ Highlight {i + 1}: {t['titel'][:50]}  ({t['lizenz']})")
+                break
     (ROOT / "photos" / f"{p['slug']}.json").write_text(json.dumps(liste, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
