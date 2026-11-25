@@ -1,58 +1,72 @@
 {
- "stand": "2026-11-24",
+ "stand": "2026-11-25",
  "items": [
   {
    "datum": "2026-11-28",
    "bis": "2027-01-03",
    "titel": {
-    "de": "Warnemünder Weihnachts- und Neujahrsmarkt startet am Kirchenplatz",
-    "en": "Warnemünde Christmas and New Year Market opens at the Kirchenplatz"
+    "de": "Warnemünder Weihnachts- und Neujahrsmarkt startet",
+    "en": "Warnemünde Christmas and New Year market opens"
    },
    "text": {
-    "de": "Am Samstag, 28. November, wird der Markt auf dem Kirchenplatz eröffnet, und zwar um 12.15 Uhr. Dann nimmt auch die Kindereisenbahn wieder ihren Betrieb auf. Der Markt läuft bis zum 3. Januar 2027. Die genauen Öffnungszeiten und Ruhetage stehen in der Quelle.",
-    "en": "The market on the Kirchenplatz opens on Saturday, 28 November, at 12:15 pm. The children's railway starts running again at the same time. The market continues until 3 January 2027. The source lists the exact opening hours and closing days."
+    "de": "Am Samstag, 28. November, öffnet der kleine Markt auf dem Kirchenplatz und läuft bis zum 3. Januar. In den ersten Wochen ist er montags und dienstags geschlossen. Die genauen Öffnungszeiten stehen auf der Webseite des Marktes.",
+    "en": "The small market on Kirchenplatz opens on Saturday, 28 November, and runs until 3 January. In the first weeks it is closed on Mondays and Tuesdays. Exact opening hours are on the market's website."
    },
-   "quelle": "https://der-warnemuender.de/dwmnewslesen,Nordmanntanne-aus-Gehlsdorf-schmueckt-den-Warnemuender-Kirchenplatz,showNews-10983.html",
-   "quelle_name": "Der Warnemünder"
+   "quelle": "https://weihnachtsmarkt-warnemuende.de/",
+   "quelle_name": "Weihnachtsmarkt Warnemünde"
   },
   {
    "datum": "2026-11-27",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Ahlbecker Weihnachtsmarkt zum ersten Advent",
-    "en": "Ahlbeck Christmas Market on the first Advent weekend"
+    "de": "Putbusser Weihnachtswelten im Schlosspark",
+    "en": "Putbus Christmas Worlds in the castle park"
    },
    "text": {
-    "de": "Am ersten Adventswochenende lädt der Konzertplatz in Ahlbeck auf Usedom zum Weihnachtsmarkt ein. Es gibt Musik, regionale Spezialitäten und Glühwein. Abends klingt der Markt mit einer Glühweinparty unter dem Weihnachtsbaum aus. Der Markt dauert von Freitag, 27., bis Sonntag, 29. November.",
-    "en": "On the first Advent weekend, the Konzertplatz in Ahlbeck on Usedom hosts a Christmas market. Expect music, regional specialities and mulled wine. Each evening ends with a mulled wine party under the Christmas tree. The market runs from Friday 27 to Sunday 29 November."
+    "de": "Von Freitag bis Sonntag gibt es im Putbusser Schlosspark Stände mit Kunsthandwerk und Leckereien. Am Freitag um 16:30 Uhr wird auf dem Markt der Tannenbaum entzündet, danach folgt ein Fackelumzug. Dazu gibt es Livemusik und am Sonntag Besuch vom Weihnachtsmann.",
+    "en": "From Friday to Sunday, the Putbus castle park hosts stalls with crafts and treats. On Friday at 4:30 pm the Christmas tree is lit on the market square, followed by a torchlight procession. There is live music, and Santa visits on Sunday."
    },
-   "quelle": "https://www.kaiserbaeder-auf-usedom.de/va-highlights/ahlbecker-weihnachtsmarkt/",
-   "quelle_name": "Kaiserbäder Usedom"
+   "quelle": "https://www.auf-nach-mv.de/veranstaltungssuche/e-putbusser-weihnachtsmarkt-ruegen",
+   "quelle_name": "Auf-nach-MV.de"
   },
   {
-   "datum": "2026-11-24",
+   "datum": "2026-11-27",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Veranstaltungen der Woche in Stralsund und auf Rügen",
-    "en": "This week's events in Stralsund and on Rügen"
+    "de": "Adventsmärkte auf Rügen am ersten Adventswochenende",
+    "en": "Advent markets on Rügen on the first Advent weekend"
    },
    "text": {
-    "de": "Für die Woche vom 23. bis 29. November gibt es eine kompakte Übersicht. Am Wochenende stehen unter anderem öffentliche Führungen im Meeresmuseum und im Ozeaneum auf dem Programm. Außerdem gibt es Theater, Konzerte und Flohmärkte in Stralsund.",
-    "en": "A compact overview covers the week from 23 to 29 November. Over the weekend, public tours at the Meeresmuseum and the Ozeaneum are among the highlights. Stralsund also offers theatre, concerts and flea markets."
+    "de": "Auf Rügen starten am Wochenende mehrere kleine Weihnachtsmärkte. Dazu gehören der Adventsmarkt Sassnitz (27. bis 29. November) sowie die Märkte in Göhren und auf dem Rügenhof in Putgarten (jeweils 28. und 29. November). Die Zeiten unterscheiden sich je nach Ort.",
+    "en": "Several small Christmas markets open on Rügen this weekend. They include the Sassnitz Advent market (27 to 29 November) and the markets in Göhren and at Rügenhof in Putgarten (both 28 and 29 November). Hours vary by location."
    },
-   "quelle": "https://sundblick.info/veranstaltungen-der-woche-das-ist-in-stralsund-und-auf-ruegen-los-10",
-   "quelle_name": "Sundblick"
+   "quelle": "https://www.ruegen.de/vor-ort/veranstaltungen/highlights/weihnachtsmaerkte-auf-ruegen-2026",
+   "quelle_name": "ruegen.de"
   },
   {
-   "datum": "2026-11-24",
+   "datum": "2026-11-27",
+   "bis": "2026-11-29",
+   "titel": {
+    "de": "Ahlbecker Weihnachtsmarkt auf dem Konzertplatz",
+    "en": "Ahlbeck Christmas market at the concert square"
+   },
+   "text": {
+    "de": "Am ersten Adventswochenende lädt der Konzertplatz in Ahlbeck zum Weihnachtsmarkt ein. Es gibt regionale Stände, Musik und gastronomische Angebote.",
+    "en": "On the first Advent weekend, the concert square in Ahlbeck hosts a Christmas market. Expect regional stalls, music and food and drink."
+   },
+   "quelle": "https://www.usedom-insider.de/veranstaltungen-auf-usedom/",
+   "quelle_name": "Usedom Insider"
+  },
+  {
+   "datum": "2026-11-25",
    "bis": "2026-12-12",
    "titel": {
     "de": "Rügen: B96b bei Neu Mukran wegen Baustelle gesperrt",
     "en": "Rügen: B96b near Neu Mukran closed for roadworks"
    },
    "text": {
-    "de": "Die B96b zwischen Borchtitz und Neu Mukran ist in beiden Richtungen gesperrt, und zwar in Höhe des Bahnübergangs Nord-Rügen. Die Sperrung gilt laut ADAC-Verkehrsmeldung bis zum 13. Dezember 2026, 0 Uhr. Bitte planen Sie für Fahrten in diese Richtung etwas mehr Zeit ein.",
-    "en": "The B96b between Borchtitz and Neu Mukran is closed in both directions at the Nord-Rügen level crossing. According to the ADAC traffic report, the closure lasts until 13 December 2026 at 12 am. Please allow extra time if you are travelling in this direction."
+    "de": "Die B96b zwischen Borchtitz und Neu Mukran ist am Bahnübergang Nord-Rügen in beiden Richtungen gesperrt. Die Sperrung gilt laut ADAC-Verkehrsmeldung bis zum 13. Dezember 2026, 0:00 Uhr. Bitte plant bei Fahrten Richtung Mukran etwas mehr Zeit ein.",
+    "en": "The B96b between Borchtitz and Neu Mukran is closed in both directions at the Nord-Rügen level crossing. According to the ADAC traffic report, the closure lasts until 13 December 2026, 0:00. Please allow extra time when heading towards Mukran."
    },
    "quelle": "https://www.adac.de/verkehr/verkehrsinformationen/de/mecklenburg-vorpommern/",
    "quelle_name": "ADAC Verkehrsinformationen"

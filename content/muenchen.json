@@ -1,44 +1,16 @@
 {
- "stand": "2026-11-24",
+ "stand": "2026-11-25",
  "items": [
   {
-   "datum": "2026-11-24",
+   "datum": "2026-11-25",
    "bis": "2026-12-24",
    "titel": {
-    "de": "Christkindlmarkt am Marienplatz geöffnet",
-    "en": "Christkindlmarkt at Marienplatz is open"
+    "de": "Münchner Christkindlmarkt am Marienplatz",
+    "en": "Munich Christkindlmarkt at Marienplatz"
    },
    "text": {
-    "de": "Der Münchner Christkindlmarkt rund um den Marienplatz läuft noch bis zum 24. Dezember. Heute ist er von 10 bis 21 Uhr geöffnet. Auch der Christkindlmarkt am Sendlinger Tor hat täglich ab 10:30 Uhr offen.",
-    "en": "The Munich Christkindlmarkt around Marienplatz runs until 24 December. Today it is open from 10 am to 9 pm. The Christkindlmarkt at Sendlinger Tor also opens daily at 10:30 am."
-   },
-   "quelle": "https://www.muenchen.de/veranstaltungen/weihnachtsmaerkte-christkindlmaerkte-2026",
-   "quelle_name": "muenchen.de"
-  },
-  {
-   "datum": "2026-11-24",
-   "bis": "2026-12-23",
-   "titel": {
-    "de": "Weihnachtsmarkt am Chinesischen Turm im Englischen Garten",
-    "en": "Christmas market at the Chinese Tower in the English Garden"
-   },
-   "text": {
-    "de": "Der Weihnachtsmarkt am Chinesischen Turm im Englischen Garten ist noch bis zum 23. Dezember zu besuchen. Er ist eine stimmungsvolle Alternative zu den Märkten in der Innenstadt. Bitte dick anziehen, es wird kalt.",
-    "en": "The Christmas market at the Chinese Tower in the English Garden can be visited until 23 December. It is an atmospheric alternative to the markets in the city centre. Please dress warmly, as it will be cold."
-   },
-   "quelle": "https://www.muenchen.de/veranstaltungen/weihnachtsmaerkte-christkindlmaerkte-2026",
-   "quelle_name": "muenchen.de"
-  },
-  {
-   "datum": "2026-11-28",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Christkindlmärkte in Perlach und Trudering am Wochenende",
-    "en": "Christkindlmärkte in Perlach and Trudering this weekend"
-   },
-   "text": {
-    "de": "Am Wochenende 28. und 29. November öffnen der Perlacher und der Truderinger Christkindlmarkt. Der Markt in Trudering findet drinnen im Kulturzentrum statt, mit Kunsthandwerk, Musik und Nikolausbesuch.",
-    "en": "The Perlach and Trudering Christkindlmärkte open on the weekend of 28 and 29 November. The Trudering market takes place indoors at the Kulturzentrum, with crafts, music and a visit from Saint Nicholas."
+    "de": "Der traditionsreiche Christkindlmarkt rund um den Marienplatz läuft noch bis Heiligabend. Er ist täglich ab 10 Uhr geöffnet, der Eintritt ist frei. Neben dem Hauptmarkt gibt es in der Altstadt weitere Märkte, zum Beispiel am Sendlinger Tor bis 22.12.",
+    "en": "The traditional Christkindlmarkt around Marienplatz runs until Christmas Eve. It opens daily from 10 am and entry is free. More markets can be found around the old town, for example at Sendlinger Tor until 22 December."
    },
    "quelle": "https://www.muenchen.de/veranstaltungen/weihnachtsmaerkte-christkindlmaerkte-2026",
    "quelle_name": "muenchen.de"
@@ -47,29 +19,57 @@
    "datum": "2026-11-27",
    "bis": "2026-11-30",
    "titel": {
-    "de": "S-Bahn: Bauarbeiten auf der Stammstrecke am Wochenende",
-    "en": "S-Bahn: construction work on the Stammstrecke this weekend"
+    "de": "S-Bahn: Einschränkungen auf der Stammstrecke am Wochenende",
+    "en": "S-Bahn: Reduced service on the central trunk line this weekend"
    },
    "text": {
-    "de": "Von Freitag, 27. November, ab 22:10 Uhr bis Montag, 30. November, 4:40 Uhr gibt es wegen Bauarbeiten zur 2. Stammstrecke Einschränkungen im S-Bahn-Verkehr. Bitte vor der Fahrt, besonders zum Flughafen oder Ostbahnhof, die aktuelle Verbindung prüfen und etwas mehr Zeit einplanen.",
-    "en": "From Friday 27 November, 10:10 pm, until Monday 30 November, 4:40 am, construction work for the 2nd Stammstrecke will restrict S-Bahn services. Please check your connection before travelling, especially to the airport or Ostbahnhof, and allow extra time."
+    "de": "Wegen Bauarbeiten am Leuchtenbergring kommt es von Freitag, 27.11., 22:10 Uhr, durchgehend bis Montag, 30.11., früh zu Zugausfällen und geänderten Linienführungen. Betroffen sind die Linien S1, S2, S4, S6 und S8 zwischen Pasing und Ostbahnhof, Trudering und Riem. Bitte plant etwas mehr Zeit ein und prüft vorab die Fahrplanauskunft.",
+    "en": "Due to construction work at Leuchtenbergring, there will be cancelled trains and changed routes from Friday 27 November, 10:10 pm, until early Monday 30 November. Lines S1, S2, S4, S6 and S8 are affected between Pasing and Ostbahnhof, Trudering and Riem. Please allow extra time and check the journey planner beforehand."
    },
-   "quelle": "https://www.s-bahn-muenchen.de/de/fahren/baustellen/stammstrecke",
-   "quelle_name": "S-Bahn München"
+   "quelle": "https://www.mvv-muenchen.de/fahrt-planen/fahrtinformationen/fahrplanaenderungen-/-stoerungen/",
+   "quelle_name": "MVV München"
   },
   {
    "datum": "2026-11-24",
-   "bis": "2026-11-27",
+   "bis": "2027-01-10",
    "titel": {
-    "de": "Kalt mit Schnee ab Donnerstag",
-    "en": "Cold weather with snow from Thursday"
+    "de": "Münchner Eiszauber am Karlsplatz (Stachus)",
+    "en": "Munich Eiszauber ice rink at Karlsplatz (Stachus)"
    },
    "text": {
-    "de": "Heute ist es sonnig, aber frostig. Für Donnerstag und Freitag wird leichter Schneefall erwartet. Warme Kleidung und rutschfeste Schuhe sind für Stadtbummel und Marktbesuche empfehlenswert.",
-    "en": "Today is sunny but frosty. Light snowfall is expected on Thursday and Friday. Warm clothing and non-slip shoes are a good idea for city walks and market visits."
+    "de": "Der Eiszauber am Stachus ist seit dem 24.11. geöffnet und lädt bis zum 10. Januar zum Eislaufen mitten in der Innenstadt ein. Am Freitag ist er laut Veranstaltungskalender von 10:30 bis 22 Uhr geöffnet.",
+    "en": "The Eiszauber at Stachus has been open since 24 November and invites you to ice skate in the heart of the city until 10 January. According to the events calendar, it is open from 10:30 am to 10 pm on Friday."
    },
-   "quelle": "https://www.wetterdach.com/europe/germany/bavaria/upper-bavaria/munich",
-   "quelle_name": "Wetterdach"
+   "quelle": "https://www.muenchen.de/veranstaltungen/event/wochenende",
+   "quelle_name": "muenchen.de"
+  },
+  {
+   "datum": "2026-11-24",
+   "bis": "2026-12-23",
+   "titel": {
+    "de": "Tollwood Winterfestival auf der Theresienwiese",
+    "en": "Tollwood Winter Festival at Theresienwiese"
+   },
+   "text": {
+    "de": "Das Tollwood Winterfestival ist gestartet und dauert bis zum 23. Dezember. Es verbindet Markt, Kulturprogramm und Bio-Gastronomie. Die Anreise ist bequem mit der U4 oder U5 möglich.",
+    "en": "The Tollwood Winter Festival has started and runs until 23 December. It combines a market, a cultural programme and organic food. You can easily get there by U4 or U5."
+   },
+   "quelle": "https://magazinstadt.de/weihnachtsmaerkte-muenchen-2026/",
+   "quelle_name": "Magazin Stadt"
+  },
+  {
+   "datum": "2026-11-25",
+   "bis": "2026-12-24",
+   "titel": {
+    "de": "Schwabinger Weihnachtsmarkt startet heute",
+    "en": "Schwabing Christmas Market opens today"
+   },
+   "text": {
+    "de": "Heute öffnet der Schwabinger Weihnachtsmarkt. Er bietet lokales Handwerk und Kunst und läuft bis zum 24. Dezember. Ein Besuch lässt sich gut mit einem Bummel durch das Viertel verbinden.",
+    "en": "The Schwabing Christmas Market opens today. It offers local crafts and art and runs until 24 December. It is a nice addition to a stroll through the district."
+   },
+   "quelle": "https://lebenszeitevents.de/blog/weihnachtsmaerkte-muenchen/",
+   "quelle_name": "Lebenszeit Events"
   }
  ]
 }

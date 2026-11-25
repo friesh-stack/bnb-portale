@@ -1,61 +1,61 @@
 {
- "stand": "2026-11-24",
+ "stand": "2026-11-25",
  "items": [
   {
-   "datum": "2026-11-27",
+   "datum": "2026-11-25",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Weihnachtsmärkte in List und Morsum auf Sylt",
-    "en": "Christmas markets in List and Morsum on Sylt"
+    "de": "Langeoog: Niedrigwasser ändert Fährzeiten",
+    "en": "Langeoog: low water changes ferry times"
    },
    "text": {
-    "de": "Am ersten Adventswochenende lädt List in der ehemaligen Grundschule zum Weihnachtsmarkt ein. Auch in Morsum findet an diesen Tagen ein Weihnachtsmarkt statt. Beide Märkte laufen vom 27. bis 29. November.",
-    "en": "On the first Advent weekend, List holds a Christmas market in its former primary school. Morsum also hosts a Christmas market on the same days. Both run from 27 to 29 November."
+    "de": "Das Bundesamt für Seeschifffahrt und Hydrographie meldet von Mittwoch bis Sonntag extrem niedrige Wasserstände. Deshalb fährt die Schiffahrt Langeoog heute (25.11.) später ab Langeoog, und die letzte Fahrt wird vorgezogen. Am Sonntag (29.11.) gibt es um 8:00 Uhr eine Sonderfahrt ab Hafen Langeoog ohne Inselbahnanschluss.",
+    "en": "Extremely low water levels are forecast from Wednesday to Sunday. Because of this, the Langeoog ferry runs a changed timetable today (25 Nov), with a later first departure from the island and an earlier last sailing. On Sunday (29 Nov) an extra sailing leaves Langeoog harbour at 8:00 am, without a connecting island train."
    },
-   "quelle": "https://www.nordseetourismus.de/weihnachten-und-silvester-nordsee",
-   "quelle_name": "Nordseetourismus"
+   "quelle": "https://www.langeoog.de/pwa/faehrzeiten",
+   "quelle_name": "Gemeinde Langeoog"
+  },
+  {
+   "datum": "2026-11-25",
+   "bis": "2026-11-26",
+   "titel": {
+    "de": "Juist: Fahrplanänderungen und Ausfälle durch Niedrigwasser",
+    "en": "Juist: timetable changes and cancellations due to low water"
+   },
+   "text": {
+    "de": "Wegen niedriger Wasserstände gibt es bei der Schnellfähre Inselexpress nach Juist heute Änderungen im Fahrplan. Am Donnerstag (26.11.) fallen die Fahrten um 8:30 Uhr ab Norddeich und um 9:30 Uhr ab Juist aus. Bitte vor der Reise den Online-Fahrplan prüfen.",
+    "en": "Low water levels are changing the timetable of the Inselexpress fast ferry to Juist today. On Thursday (26 Nov) the 8:30 am sailing from Norddeich and the 9:30 am sailing from Juist are cancelled. Please check the online timetable before you travel."
+   },
+   "quelle": "https://www.inselexpress.de/juist",
+   "quelle_name": "Inselexpress (Cassen-Tours)"
   },
   {
    "datum": "2026-11-28",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Adventsmärkte auf Föhr in Nieblum und Wrixum",
-    "en": "Advent markets on Föhr in Nieblum and Wrixum"
+    "de": "Amrumer Winterzauber in Norddorf",
+    "en": "Amrum Winter Magic market in Norddorf"
    },
    "text": {
-    "de": "Im Haus des Gastes in Nieblum findet am 28. und 29. November von 12 bis 17 Uhr ein Adventsmarkt statt. Am 29. November folgt von 11 bis 16 Uhr der Weihnachtsmarkt im Forst in Wrixum. Gegen 15 Uhr schaut dort der Weihnachtsmann vorbei.",
-    "en": "An Advent market runs at the Haus des Gastes in Nieblum on 28 and 29 November, from 12 to 5 pm. On 29 November the Christmas market in the Forst in Wrixum follows, from 11 am to 4 pm. Father Christmas is due to visit around 3 pm."
+    "de": "Am Wochenende (28. und 29.11.) öffnet der kleine Weihnachtsmarkt jeweils ab 13 Uhr auf der Terrasse des Seeblick Genuss und Spa Resorts in Norddorf. Es gibt Buden zum Stöbern, Klönen und Glühweintrinken.",
+    "en": "On the weekend (28 and 29 Nov) the small Christmas market opens from 1 pm on the terrace of the Seeblick Genuss und Spa Resort in Norddorf. Visitors can browse the stalls, chat and enjoy mulled wine."
    },
-   "quelle": "https://www.foehr.de/jahreswechsel",
-   "quelle_name": "Föhr Tourismus"
+   "quelle": "https://www.amrum-news.de/2026/11/23/handarbeit-kuchenduft-und-adventsstimmung-im-clemens-hues/",
+   "quelle_name": "Amrum News"
   },
   {
-   "datum": "2026-12-01",
-   "bis": "2026-12-01",
+   "datum": "2026-11-27",
+   "bis": "2026-11-29",
    "titel": {
-    "de": "Rumänischer Adventsabend auf Borkum",
-    "en": "Romanian Advent evening on Borkum"
+    "de": "Sylt: Weihnachtsmärkte in List und Morsum am 1. Adventswochenende",
+    "en": "Sylt: Christmas markets in List and Morsum on the first Advent weekend"
    },
    "text": {
-    "de": "Borkum feiert am Dienstag, 1. Dezember, einen rumänischen Adventsabend. Es gibt rumänische Spezialitäten, Live-Musik und traditionelle Schnäpse. Das ist eine Abwechslung zu den üblichen Weihnachtsmarkt-Themen.",
-    "en": "On Tuesday, 1 December, Borkum hosts a Romanian Advent evening. Visitors can expect Romanian specialities, live music and traditional spirits. It makes a change from the usual Christmas market themes."
+    "de": "Vom 27. bis 29.11. gibt es auf Sylt gleich zwei kleine Weihnachtsmärkte. In List verwandelt sich die ehemalige Grundschule in ein Weihnachtsparadies. In Morsum lädt der Markt Jööltir ön Muasem ein.",
+    "en": "From 27 to 29 Nov, Sylt hosts two small Christmas markets. In List, the former primary school turns into a festive Christmas venue. In Morsum, the Jööltir ön Muasem market welcomes visitors."
    },
-   "quelle": "https://bremen.t-online.de/region/bremen/id_101538950/kurioser-weihnachtsmarkt-auf-borkum-winterzauber-lockt-mit-seltenem-thema.html",
-   "quelle_name": "t-online"
-  },
-  {
-   "datum": "2026-11-24",
-   "bis": "",
-   "titel": {
-    "de": "Fähren: Vor der Anreise Fahrplan prüfen",
-    "en": "Ferries: check the timetable before you travel"
-   },
-   "text": {
-    "de": "Wind und Wetter können die Schiffsfahrpläne zu den Nordseeinseln kurzfristig ändern. Die Bahn bittet Reisende, sich kurz vor der Fahrt über mögliche Änderungen zu informieren. Das gilt besonders für Verbindungen, die vom Wasserstand abhängen.",
-    "en": "Wind and weather can change ferry timetables to the North Sea islands at short notice. Deutsche Bahn asks travellers to check for changes shortly before departure. This matters most for routes that depend on the water level."
-   },
-   "quelle": "https://regional.bahn.de/magazin/nordseeinseln/fahrplanaenderungen-schiff",
-   "quelle_name": "DB Regio"
+   "quelle": "https://www.nordseetourismus.de/weihnachten-und-silvester-nordsee",
+   "quelle_name": "Nordseetourismus"
   }
  ]
 }

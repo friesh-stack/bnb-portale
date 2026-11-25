@@ -1,75 +1,75 @@
 {
- "stand": "2026-11-24",
+ "stand": "2026-11-25",
  "items": [
   {
    "datum": "2026-11-23",
    "bis": "2026-12-23",
    "titel": {
-    "de": "Historischer Weihnachtsmarkt am Rathausmarkt",
+    "de": "Historischer Weihnachtsmarkt auf dem Rathausmarkt",
     "en": "Historic Christmas Market at Rathausmarkt"
    },
    "text": {
-    "de": "Der Historische Weihnachtsmarkt vor dem Rathaus hat seit dem 23. November geöffnet. Er ist täglich von 11 bis 21 Uhr zu besuchen. Zu den Höhepunkten gehört der fliegende Weihnachtsmann.",
-    "en": "The Historic Christmas Market in front of City Hall has been open since 23 November. You can visit it daily from 11 am to 9 pm. One of the highlights is the flying Santa Claus."
+    "de": "Vor dem Rathaus bieten historische Stände Kunsthandwerk, Spielzeug und Holzschnitzereien, dazu fliegt ein Weihnachtsmann über den Markt. Der Markt ist täglich von 11 bis 21 Uhr geöffnet, der Eintritt ist frei.",
+    "en": "In front of City Hall, historic stalls offer crafts, toys and wood carvings, and a flying Santa crosses the market. The market is open daily from 11 am to 9 pm and admission is free."
    },
-   "quelle": "https://www.hamburg.de/tourismus/weihnachten-hamburg/weihnachtsmarkt-hamburg/weihnachtsmarkt-rathausmarkt-301092",
-   "quelle_name": "hamburg.de"
+   "quelle": "https://weihnachtsmarkte.de/weihnachtsmaerkte/hamburg/",
+   "quelle_name": "weihnachtsmarkte.de"
   },
   {
-   "datum": "2026-11-16",
-   "bis": "2026-12-30",
+   "datum": "2026-11-28",
+   "bis": "2026-12-19",
    "titel": {
-    "de": "Weihnachtsmarkt in der HafenCity",
-    "en": "Christmas Market in the HafenCity"
+    "de": "Hamburger Weihnachtsparade in der Innenstadt",
+    "en": "Hamburg Christmas Parade in the city centre"
    },
    "text": {
-    "de": "Auf dem Überseeboulevard gibt es bis zum 30. Dezember Glühwein, Waffeln und Mitmach-Angebote. Am Totensonntag sowie an Heiligabend und am 1. Weihnachtstag bleibt der Markt geschlossen.",
-    "en": "On the Überseeboulevard you will find mulled wine, waffles and activities until 30 December. The market is closed on Totensonntag (the Sunday before Advent), on Christmas Eve and on Christmas Day."
+    "de": "Die Weihnachtsparaden finden am 28.11. sowie am 5., 12. und 19.12.2026 statt, jeweils um 14 und um 17 Uhr. Der erste Termin ist schon am kommenden Samstag.",
+    "en": "The Christmas parades take place on 28 November and on 5, 12 and 19 December 2026, each at 2 pm and 5 pm. The first one is this coming Saturday."
    },
-   "quelle": "https://www.hamburg.de/tourismus/weihnachten-hamburg/weihnachtsmarkt-hamburg/weihnachtsmarkt-hafencity-307512",
-   "quelle_name": "hamburg.de"
-  },
-  {
-   "datum": "2026-11-02",
-   "bis": "2026-11-27",
-   "titel": {
-    "de": "U3: Wochentags gesperrt zwischen Berliner Tor und Barmbek",
-    "en": "U3: Weekday closure between Berliner Tor and Barmbek"
-   },
-   "text": {
-    "de": "Bis einschließlich 27. November fährt die U3 montags bis freitags nicht zwischen Berliner Tor und Barmbek. Als Alternative dient die S1, zwischendurch fahren Ersatzbusse. Diese halten seit dem 20. November, 21 Uhr, nicht am Berliner Tor. Am Wochenende fährt die U3 normal.",
-    "en": "Until 27 November, the U3 does not run between Berliner Tor and Barmbek from Monday to Friday. The S1 is the recommended alternative, and replacement buses serve the stops in between. Since 20 November, 9 pm, these buses do not stop at Berliner Tor. The U3 runs normally at weekends."
-   },
-   "quelle": "https://www.hochbahn.de/de/presse/pressemitteilungen/u3-umfangreicher-gleisbau-im-herbst-120044",
-   "quelle_name": "HOCHBAHN"
-  },
-  {
-   "datum": "2026-11-06",
-   "bis": "2026-12-06",
-   "titel": {
-    "de": "Winterdom auf dem Heiligengeistfeld",
-    "en": "Winterdom funfair"
-   },
-   "text": {
-    "de": "Der Winterdom läuft noch bis zum 6. Dezember 2026 und ist ein beliebtes Ziel für Familien und Gäste der Stadt.",
-    "en": "The Winterdom funfair runs until 6 December 2026. It is a popular destination for families and visitors to the city."
-   },
-   "quelle": "https://szene-hamburg.com/veranstaltungen-november/",
-   "quelle_name": "Szene Hamburg"
+   "quelle": "https://hamburgtourist.info/weihnachtsmaerkte-hamburg/",
+   "quelle_name": "hamburgtourist.info"
   },
   {
    "datum": "2026-11-25",
-   "bis": "2026-11-28",
+   "bis": "2026-11-27",
    "titel": {
-    "de": "Flohdom auf der Trabrennbahn Bahrenfeld",
-    "en": "Flohdom flea market at Bahrenfeld racecourse"
+    "de": "U3: Ersatzbusse zwischen Berliner Tor und Barmbek",
+    "en": "U3: replacement buses between Berliner Tor and Barmbek"
    },
    "text": {
-    "de": "Der Flohmarkt auf der Trabrennbahn Bahrenfeld ist laut Veranstaltungskalender am Mittwoch, 25. November, und am Samstag, 28. November, jeweils ab 6 Uhr geöffnet. Er eignet sich gut für alle, die auf der Suche nach Trödel und Fundstücken sind.",
-    "en": "According to the event calendar, the flea market at Bahrenfeld racecourse is open on Wednesday 25 November and Saturday 28 November, in both cases from 6 am. It is a good place to look for second-hand finds and bargains."
+    "de": "Bis zum 27. November fahren zwischen Berliner Tor und Barmbek an Wochentagen keine U3-Züge. Als Alternative dient die S1, zusätzlich gibt es Ersatzbusse der Hochbahn. Die Busse halten nicht am Berliner Tor. Wer in die Innenstadt möchte, steigt an der Lübecker Straße in die U1 um.",
+    "en": "Until 27 November, no U3 trains run between Berliner Tor and Barmbek on weekdays. The S1 is an alternative, and Hochbahn runs replacement buses. The buses do not stop at Berliner Tor. For the city centre, change to the U1 at Lübecker Straße."
    },
-   "quelle": "https://www.hamburg-tourism.de/sehen-erleben/veranstaltungen/veranstaltungskalender/",
-   "quelle_name": "Hamburg Tourismus"
+   "quelle": "https://hamburg.t-online.de/region/hamburg/id_101506322/u3-sperrung-heute-das-muessen-hamburger-jetzt-wissen.html",
+   "quelle_name": "t-online Hamburg"
+  },
+  {
+   "datum": "2026-11-28",
+   "bis": "2026-11-30",
+   "titel": {
+    "de": "S1: Ersatzverkehr zwischen Berliner Tor und Barmbek",
+    "en": "S1: replacement service between Berliner Tor and Barmbek"
+   },
+   "text": {
+    "de": "Wegen Brückenbauarbeiten gibt es zwischen Berliner Tor und Barmbek vom 28. bis 30. November Ersatzverkehr auf der S1. Bitte planen Sie etwas mehr Reisezeit ein und prüfen Sie Ihre Verbindung vorab in der HVV-Auskunft.",
+    "en": "Due to bridge works, a replacement service runs on the S1 between Berliner Tor and Barmbek from 28 to 30 November. Please allow some extra travel time and check your connection in the HVV journey planner beforehand."
+   },
+   "quelle": "https://www.hamburg.de/verkehr/hvv/fahrplanabweichungen-409300",
+   "quelle_name": "hamburg.de"
+  },
+  {
+   "datum": "2026-11-25",
+   "bis": "",
+   "titel": {
+    "de": "ᅟAusstellung Faszination Hafen im Kultur Kontor",
+    "en": "Exhibition Faszination Hafen at Kultur Kontor"
+   },
+   "text": {
+    "de": "Im neuen Kultur Kontor Hamburg am Klosterwall 2 zeigt die Ausstellung Faszination Hafen seit Anfang November Einblicke in die Planung des Deutschen Hafenmuseums. Zu sehen sind 40 Objekte aus deutschen See- und Binnenhäfen.",
+    "en": "Since early November, the new Kultur Kontor Hamburg at Klosterwall 2 has hosted the exhibition Faszination Hafen, which gives a glimpse into the plans for the German Port Museum. It shows 40 objects from German sea and inland ports."
+   },
+   "quelle": "https://inselrundblick.de/aktuell/nimm-uns-mit-kapitaen/",
+   "quelle_name": "Wilhelmsburger InselRundblick"
   }
  ]
 }
