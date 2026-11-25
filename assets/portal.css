@@ -102,3 +102,5 @@ a{color:var(--brand)}
 @media (max-width:640px){.vform{grid-template-columns:1fr}}
 
 .logo span{color:var(--accent)}
+.hl.unterkunft{display:block;text-decoration:none;color:var(--ink)}.hl.unterkunft:hover{border-color:var(--accent)}.hl .ort{margin-top:8px;font-size:.88rem;color:var(--brand);font-weight:600}
+:lang(zh){font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif}
