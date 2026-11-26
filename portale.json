@@ -3231,7 +3231,40 @@
             "nl": "Meren van Ticino"
           }
         }
-      ]
+      ],
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "de": "Spiel",
+          "fr": "Jeu",
+          "it": "Gioco",
+          "en": "Game",
+          "nl": "Spel"
+        },
+        "titel": {
+          "de": "Schweiz als Strategiespiel",
+          "fr": "Suisse en jeu de stratégie",
+          "it": "Svizzera come gioco di strategia",
+          "en": "Switzerland as a strategy game",
+          "nl": "Zwitserland als strategiespel"
+        },
+        "text": {
+          "de": "Das Land als Hex-Karte wie in Civilization: 26 Kantone, 7 Grossregionen, 20 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser.",
+          "fr": "Le pays en carte hexagonale façon Civilization : 26 cantons, 7 grandes régions, 20 sites à voir, de vrais chiffres et des missions à relever. Gratuit dans le navigateur.",
+          "it": "Il paese come mappa esagonale in stile Civilization: 26 cantoni, 7 grandi regioni, 20 luoghi da vedere, numeri veri e missioni. Gratis nel browser.",
+          "en": "The country as a Civilization-style hex map: 26 cantons, 7 major regions, 20 sights, real figures and missions to solve. Free in your browser.",
+          "nl": "Het land als hexkaart in Civilization-stijl: 26 kantons, 7 grootregio’s, 20 bezienswaardigheden, echte cijfers en opdrachten. Gratis in de browser."
+        },
+        "cta": {
+          "de": "Gratis spielen",
+          "fr": "Jouer gratuitement",
+          "it": "Gioca gratis",
+          "en": "Play for free",
+          "nl": "Gratis spelen"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
+      }
     },
     {
       "slug": "oesterreich",
@@ -3433,7 +3466,40 @@
             "fr": "Wachau"
           }
         }
-      ]
+      ],
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "de": "Spiel",
+          "en": "Game",
+          "nl": "Spel",
+          "it": "Gioco",
+          "fr": "Jeu"
+        },
+        "titel": {
+          "de": "Österreich als Strategiespiel",
+          "en": "Austria as a strategy game",
+          "nl": "Oostenrijk als strategiespel",
+          "it": "Austria come gioco di strategia",
+          "fr": "Autriche en jeu de stratégie"
+        },
+        "text": {
+          "de": "Das Land als Hex-Karte wie in Civilization: 94 Bezirke, 9 Bundesländer, 20 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser.",
+          "en": "The country as a Civilization-style hex map: 94 districts, 9 states, 20 sights, real figures and missions to solve. Free in your browser.",
+          "nl": "Het land als hexkaart in Civilization-stijl: 94 districten, 9 deelstaten, 20 bezienswaardigheden, echte cijfers en opdrachten. Gratis in de browser.",
+          "it": "Il paese come mappa esagonale in stile Civilization: 94 distretti, 9 Länder, 20 luoghi da vedere, numeri veri e missioni. Gratis nel browser.",
+          "fr": "Le pays en carte hexagonale façon Civilization : 94 districts, 9 Länder, 20 sites à voir, de vrais chiffres et des missions à relever. Gratuit dans le navigateur."
+        },
+        "cta": {
+          "de": "Gratis spielen",
+          "en": "Play for free",
+          "nl": "Gratis spelen",
+          "it": "Gioca gratis",
+          "fr": "Jouer gratuitement"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
+      }
     },
     {
       "slug": "portugal",
@@ -3636,7 +3702,40 @@
             "fr": "Algarve"
           }
         }
-      ]
+      ],
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "pt": "Jogo",
+          "en": "Game",
+          "de": "Spiel",
+          "es": "Juego",
+          "fr": "Jeu"
+        },
+        "titel": {
+          "pt": "Portugal como jogo de estratégia",
+          "en": "Portugal as a strategy game",
+          "de": "Portugal als Strategiespiel",
+          "es": "Portugal como juego de estrategia",
+          "fr": "Portugal en jeu de stratégie"
+        },
+        "text": {
+          "pt": "O país como mapa hexagonal ao estilo Civilization: 20 distritos, 7 regiões, 20 atrações, números reais e missões. Grátis no navegador.",
+          "en": "The country as a Civilization-style hex map: 20 districts, 7 regions, 20 sights, real figures and missions to solve. Free in your browser.",
+          "de": "Das Land als Hex-Karte wie in Civilization: 20 Distrikte, 7 Regionen, 20 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser.",
+          "es": "El país como mapa hexagonal al estilo Civilization: 20 distritos, 7 regiones, 20 lugares de interés, cifras reales y misiones. Gratis en el navegador.",
+          "fr": "Le pays en carte hexagonale façon Civilization : 20 districts, 7 régions, 20 sites à voir, de vrais chiffres et des missions à relever. Gratuit dans le navigateur."
+        },
+        "cta": {
+          "pt": "Jogar grátis",
+          "en": "Play for free",
+          "de": "Gratis spielen",
+          "es": "Jugar gratis",
+          "fr": "Jouer gratuitement"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
+      }
     },
     {
       "slug": "ungarn",
@@ -3839,7 +3938,40 @@
             "fr": "Air méditerranéen"
           }
         }
-      ]
+      ],
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "hu": "Játék",
+          "en": "Game",
+          "de": "Spiel",
+          "it": "Gioco",
+          "fr": "Jeu"
+        },
+        "titel": {
+          "hu": "Magyarország stratégiai játékként",
+          "en": "Hungary as a strategy game",
+          "de": "Ungarn als Strategiespiel",
+          "it": "Ungheria come gioco di strategia",
+          "fr": "Hongrie en jeu de stratégie"
+        },
+        "text": {
+          "hu": "Az ország Civilization-stílusú hatszögtérképen: 20 vármegye, 8 régió, 19 látnivaló, valós adatok és küldetések. Ingyenes a böngészőben.",
+          "en": "The country as a Civilization-style hex map: 20 counties, 8 regions, 19 sights, real figures and missions to solve. Free in your browser.",
+          "de": "Das Land als Hex-Karte wie in Civilization: 20 Komitate, 8 Regionen, 19 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser.",
+          "it": "Il paese come mappa esagonale in stile Civilization: 20 contee, 8 regioni, 19 luoghi da vedere, numeri veri e missioni. Gratis nel browser.",
+          "fr": "Le pays en carte hexagonale façon Civilization : 20 comitats, 8 régions, 19 sites à voir, de vrais chiffres et des missions à relever. Gratuit dans le navigateur."
+        },
+        "cta": {
+          "hu": "Ingyen játszom",
+          "en": "Play for free",
+          "de": "Gratis spielen",
+          "it": "Gioca gratis",
+          "fr": "Jouer gratuitement"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
+      }
     },
     {
       "slug": "griechenland",
@@ -4042,7 +4174,40 @@
             "it": "Creta"
           }
         }
-      ]
+      ],
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "el": "Παιχνίδι",
+          "en": "Game",
+          "de": "Spiel",
+          "fr": "Jeu",
+          "it": "Gioco"
+        },
+        "titel": {
+          "el": "Ελλάδα ως παιχνίδι στρατηγικής",
+          "en": "Greece as a strategy game",
+          "de": "Griechenland als Strategiespiel",
+          "fr": "Grèce en jeu de stratégie",
+          "it": "Grecia come gioco di strategia"
+        },
+        "text": {
+          "el": "Η χώρα ως εξαγωνικός χάρτης σε στιλ Civilization: 13 περιφέρειες, 4 μεγάλες περιοχές, 18 αξιοθέατα, πραγματικά στοιχεία και αποστολές. Δωρεάν στον browser.",
+          "en": "The country as a Civilization-style hex map: 13 regions, 4 macro-regions, 18 sights, real figures and missions to solve. Free in your browser.",
+          "de": "Das Land als Hex-Karte wie in Civilization: 13 Regionen, 4 Großregionen, 18 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser.",
+          "fr": "Le pays en carte hexagonale façon Civilization : 13 régions, 4 grandes régions, 18 sites à voir, de vrais chiffres et des missions à relever. Gratuit dans le navigateur.",
+          "it": "Il paese come mappa esagonale in stile Civilization: 13 regioni, 4 macroregioni, 18 luoghi da vedere, numeri veri e missioni. Gratis nel browser."
+        },
+        "cta": {
+          "el": "Παίξτε δωρεάν",
+          "en": "Play for free",
+          "de": "Gratis spielen",
+          "fr": "Jouer gratuitement",
+          "it": "Gioca gratis"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
+      }
     },
     {
       "slug": "europa",
