@@ -1,75 +1,75 @@
 {
- "stand": "2026-11-25",
+ "stand": "2026-11-26",
  "items": [
   {
-   "datum": "2026-11-25",
+   "datum": "2026-11-26",
    "bis": "2026-12-24",
    "titel": {
-    "de": "Münchner Christkindlmarkt am Marienplatz",
-    "en": "Munich Christkindlmarkt at Marienplatz"
+    "de": "Christkindlmarkt am Marienplatz läuft",
+    "en": "Christkindlmarkt at Marienplatz is open"
    },
    "text": {
-    "de": "Der traditionsreiche Christkindlmarkt rund um den Marienplatz läuft noch bis Heiligabend. Er ist täglich ab 10 Uhr geöffnet, der Eintritt ist frei. Neben dem Hauptmarkt gibt es in der Altstadt weitere Märkte, zum Beispiel am Sendlinger Tor bis 22.12.",
-    "en": "The traditional Christkindlmarkt around Marienplatz runs until Christmas Eve. It opens daily from 10 am and entry is free. More markets can be found around the old town, for example at Sendlinger Tor until 22 December."
+    "de": "Der Münchner Christkindlmarkt rund um den Marienplatz ist täglich ab 10 Uhr geöffnet und läuft bis zum 24. Dezember. Am Sendlinger Tor gibt es zusätzlich einen kleineren Christkindlmarkt, der bis 22. Dezember geht.",
+    "en": "The Munich Christkindlmarkt around Marienplatz opens daily at 10 a.m. and runs until 24 December. A smaller Christkindlmarkt at Sendlinger Tor is open until 22 December."
    },
    "quelle": "https://www.muenchen.de/veranstaltungen/weihnachtsmaerkte-christkindlmaerkte-2026",
    "quelle_name": "muenchen.de"
   },
   {
-   "datum": "2026-11-27",
-   "bis": "2026-11-30",
-   "titel": {
-    "de": "S-Bahn: Einschränkungen auf der Stammstrecke am Wochenende",
-    "en": "S-Bahn: Reduced service on the central trunk line this weekend"
-   },
-   "text": {
-    "de": "Wegen Bauarbeiten am Leuchtenbergring kommt es von Freitag, 27.11., 22:10 Uhr, durchgehend bis Montag, 30.11., früh zu Zugausfällen und geänderten Linienführungen. Betroffen sind die Linien S1, S2, S4, S6 und S8 zwischen Pasing und Ostbahnhof, Trudering und Riem. Bitte plant etwas mehr Zeit ein und prüft vorab die Fahrplanauskunft.",
-    "en": "Due to construction work at Leuchtenbergring, there will be cancelled trains and changed routes from Friday 27 November, 10:10 pm, until early Monday 30 November. Lines S1, S2, S4, S6 and S8 are affected between Pasing and Ostbahnhof, Trudering and Riem. Please allow extra time and check the journey planner beforehand."
-   },
-   "quelle": "https://www.mvv-muenchen.de/fahrt-planen/fahrtinformationen/fahrplanaenderungen-/-stoerungen/",
-   "quelle_name": "MVV München"
-  },
-  {
-   "datum": "2026-11-24",
-   "bis": "2027-01-10",
-   "titel": {
-    "de": "Münchner Eiszauber am Karlsplatz (Stachus)",
-    "en": "Munich Eiszauber ice rink at Karlsplatz (Stachus)"
-   },
-   "text": {
-    "de": "Der Eiszauber am Stachus ist seit dem 24.11. geöffnet und lädt bis zum 10. Januar zum Eislaufen mitten in der Innenstadt ein. Am Freitag ist er laut Veranstaltungskalender von 10:30 bis 22 Uhr geöffnet.",
-    "en": "The Eiszauber at Stachus has been open since 24 November and invites you to ice skate in the heart of the city until 10 January. According to the events calendar, it is open from 10:30 am to 10 pm on Friday."
-   },
-   "quelle": "https://www.muenchen.de/veranstaltungen/event/wochenende",
-   "quelle_name": "muenchen.de"
-  },
-  {
-   "datum": "2026-11-24",
+   "datum": "2026-11-26",
    "bis": "2026-12-23",
    "titel": {
-    "de": "Tollwood Winterfestival auf der Theresienwiese",
+    "de": "Tollwood-Winterfestival auf der Theresienwiese",
     "en": "Tollwood Winter Festival at Theresienwiese"
    },
    "text": {
-    "de": "Das Tollwood Winterfestival ist gestartet und dauert bis zum 23. Dezember. Es verbindet Markt, Kulturprogramm und Bio-Gastronomie. Die Anreise ist bequem mit der U4 oder U5 möglich.",
-    "en": "The Tollwood Winter Festival has started and runs until 23 December. It combines a market, a cultural programme and organic food. You can easily get there by U4 or U5."
+    "de": "Das Tollwood-Winterfestival gilt als alternativer Weihnachtsmarkt und bietet Artistik und Kulturprogramm. Es läuft bis zum 23. Dezember, heute ab 14 Uhr.",
+    "en": "The Tollwood Winter Festival is an alternative Christmas market with acrobatics and a cultural programme. It runs until 23 December, and opens today at 2 p.m."
    },
-   "quelle": "https://magazinstadt.de/weihnachtsmaerkte-muenchen-2026/",
-   "quelle_name": "Magazin Stadt"
+   "quelle": "https://www.muenchen.de/veranstaltungen/weihnachtsmaerkte-christkindlmaerkte-2026",
+   "quelle_name": "muenchen.de"
   },
   {
-   "datum": "2026-11-25",
-   "bis": "2026-12-24",
+   "datum": "2026-11-26",
+   "bis": "2027-01-10",
    "titel": {
-    "de": "Schwabinger Weihnachtsmarkt startet heute",
-    "en": "Schwabing Christmas Market opens today"
+    "de": "Eislaufen am Stachus: Münchner Eiszauber",
+    "en": "Ice skating at Stachus: Münchner Eiszauber"
    },
    "text": {
-    "de": "Heute öffnet der Schwabinger Weihnachtsmarkt. Er bietet lokales Handwerk und Kunst und läuft bis zum 24. Dezember. Ein Besuch lässt sich gut mit einem Bummel durch das Viertel verbinden.",
-    "en": "The Schwabing Christmas Market opens today. It offers local crafts and art and runs until 24 December. It is a nice addition to a stroll through the district."
+    "de": "Auf dem Karlsplatz (Stachus) kann man bis zum 10. Januar 2027 unter freiem Himmel Schlittschuh laufen. Geöffnet ist laut Veranstaltungskalender heute ab 10:30 Uhr.",
+    "en": "You can ice skate outdoors at Karlsplatz (Stachus) until 10 January 2027. According to the events calendar, it opens today at 10:30 a.m."
    },
-   "quelle": "https://lebenszeitevents.de/blog/weihnachtsmaerkte-muenchen/",
-   "quelle_name": "Lebenszeit Events"
+   "quelle": "https://www.muenchen.de/veranstaltungen/freizeit/weihnachtsmarkt-christkindlmarkt/muenchner-eiszauber",
+   "quelle_name": "muenchen.de"
+  },
+  {
+   "datum": "2026-11-26",
+   "bis": "2026-11-27",
+   "titel": {
+    "de": "U-Bahn: Sperrungen bei U3, U4, U5 und U6 bis 27. November",
+    "en": "U-Bahn: closures on U3, U4, U5 and U6 until 27 November"
+   },
+   "text": {
+    "de": "Wegen Sanierungsarbeiten ist die U3 zwischen Sendlinger Tor und Implerstraße unterbrochen, ebenso die U6 zwischen Goetheplatz und Implerstraße. Ersatzbusse und ein Pendelzug fahren. Die U4 verkehrt nur zwischen Arabellapark und Max-Weber-Platz; zwischen Odeonsplatz und Westendstraße hilft die U5.",
+    "en": "Due to renovation work, the U3 is suspended between Sendlinger Tor and Implerstraße, as is the U6 between Goetheplatz and Implerstraße. Replacement buses and a shuttle train run. The U4 only operates between Arabellapark and Max-Weber-Platz; between Odeonsplatz and Westendstraße you can take the U5."
+   },
+   "quelle": "https://www.muenchen.de/verkehr/aktuell/u3u6-und-u4u5-sperrungen-und-ersatzverkehr-so-kommt-ihr-ans-ziel",
+   "quelle_name": "muenchen.de"
+  },
+  {
+   "datum": "2026-11-26",
+   "bis": "2026-11-29",
+   "titel": {
+    "de": "Winterwetter: Schnee heute, frostig am Wochenende",
+    "en": "Winter weather: snow today, frosty weekend"
+   },
+   "text": {
+    "de": "Heute fällt in München zeitweise leichter Schnee bei etwa -1 bis -3 Grad. Am Freitag und Samstag bleibt es stark bewölkt und trocken, am Sonntag ist es teils sonnig. Warme Kleidung und feste Schuhe sind empfehlenswert.",
+    "en": "Light snow is expected in Munich on and off today, with temperatures around -1 to -3 degrees. Friday and Saturday stay cloudy and dry, and Sunday brings some sun. Warm clothing and sturdy shoes are recommended."
+   },
+   "quelle": "https://www.wetter.com/wetter_aktuell/wettervorhersage/7_tagesvorhersage/deutschland/muenchen/DE0006515.html",
+   "quelle_name": "wetter.com"
   }
  ]
 }
