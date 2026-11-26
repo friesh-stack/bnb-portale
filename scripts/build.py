@@ -314,11 +314,15 @@ class Seite:
         sp = self.p.get("spiel")
         if not sp:
             return ""
+        video = (f'<video class="spiel-video" src="{E(sp["video"])}" poster="{E(sp.get("poster", ""))}" autoplay muted loop playsinline preload="metadata" aria-hidden="true"></video>'
+                 if sp.get("video") else "")
         return f"""<section id="spiel" class="block">
-  <a class="spiel-teaser" href="{E(sp["datei"])}">
+  <a class="spiel-teaser{" mit-video" if video else ""}" href="{E(sp["datei"])}">
+    {video}<div class="spiel-text">
     <h2>{self.t(sp["titel"])}</h2>
     <p>{self.t(sp["text"])}</p>
     <span class="btn btn-hell">{self.t(sp["cta"])}</span>
+    </div>
   </a>
 </section>
 """

@@ -581,7 +581,9 @@
         "cta": {
           "de": "Jetzt spielen",
           "en": "Play now"
-        }
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
       }
     },
     {
@@ -878,7 +880,9 @@
         "cta": {
           "de": "Jetzt spielen",
           "en": "Play now"
-        }
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
       }
     },
     {
