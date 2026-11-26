@@ -162,6 +162,8 @@ class Seite:
                if aktiv != "aktuell" else f'<a href="#aktuell">{self.ui("aktuell")}</a><a href="#karte">{self.ui("karte")}</a>')
         if p["modus"] == "neu" and aktiv == "index":
             nav += f'<a href="#entdecken">{self.ui("entdecken")}</a><a href="#unterkuenfte">{self.ui("unterkuenfte")}</a>'
+        if p.get("spiel"):  # Strategiespiel als eigene Seite (Datei liegt in extra/<repo>/)
+            nav += f'<a href="{E(p["spiel"]["datei"])}">{self.t(p["spiel"]["nav"])}</a>'
         nav += f'<a class="nav-cta" href="{"#gastgeber" if aktiv != "recht" else start + "#gastgeber"}">{self.ui("gastgeber", vermieter=True)}</a>'
         return f"""<!DOCTYPE html>
 <html lang="{self.sp[0]}" translate="no" class="notranslate">
@@ -302,11 +304,24 @@ class Seite:
   <h2>{self.ui("entdecken_titel")}</h2>
   <div class="hl-grid">{"".join(hl)}</div>
 </section>
-<section id="unterkuenfte" class="block">
+""" + self.spiel_block() + f"""<section id="unterkuenfte" class="block">
   <h2>{self.ui("unterk_titel")}</h2>
   <div class="frei-grid">{frei}</div>
 </section>
 """ + self.gastgeber_block() + "</main>\n" + self.fuss(fotos))
+
+    def spiel_block(self):
+        sp = self.p.get("spiel")
+        if not sp:
+            return ""
+        return f"""<section id="spiel" class="block">
+  <a class="spiel-teaser" href="{E(sp["datei"])}">
+    <h2>{self.t(sp["titel"])}</h2>
+    <p>{self.t(sp["text"])}</p>
+    <span class="btn btn-hell">{self.t(sp["cta"])}</span>
+  </a>
+</section>
+"""
 
     def aktuell(self):
         p = self.p
