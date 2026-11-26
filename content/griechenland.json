@@ -2,104 +2,104 @@
  "stand": "2026-11-26",
  "items": [
   {
+   "datum": "2026-11-27",
+   "bis": "2026-11-29",
+   "titel": {
+    "el": "Κακοκαιρία το Σαββατοκύριακο: βροχές, καταιγίδες και χιόνια στα ορεινά",
+    "en": "Stormy weekend ahead: heavy rain, thunderstorms and mountain snow",
+    "de": "Unwetter-Wochenende: Starkregen, Gewitter und Schnee in den Bergen",
+    "fr": "Week-end agité : fortes pluies, orages et neige en montagne",
+    "it": "Weekend instabile: forti piogge, temporali e neve in montagna"
+   },
+   "text": {
+    "el": "Η ΕΜΥ προειδοποιεί για έντονα φαινόμενα από την Παρασκευή 27/11 στα βορειοδυτικά, που θα επεκταθούν το Σάββατο στο Ιόνιο, την Ήπειρο και τη δυτική Πελοπόννησο και την Κυριακή στην ανατολική και νότια Πελοπόννησο. Αναμένονται θυελλώδεις άνεμοι και χιόνια στα ορεινά. Στην Αθήνα οι βροχές αρχίζουν το Σάββατο μετά τις 14:00.",
+    "en": "The Greek weather service has issued a warning for severe weather starting Friday 27 Nov in the northwest. On Saturday it spreads to the Ionian islands, Epirus and the western Peloponnese, and on Sunday to the eastern and southern Peloponnese. Expect gale-force winds and mountain snow. In Athens, rain is forecast from Saturday after 2 pm.",
+    "de": "Der griechische Wetterdienst warnt vor kräftigem Unwetter, das am Freitag, 27.11., im Nordwesten beginnt. Am Samstag erreicht es die Ionischen Inseln, Epirus und den Westen der Peloponnes, am Sonntag den Osten und Süden der Peloponnes. Es gibt Sturmböen und Schnee in den Bergen. In Athen setzt der Regen am Samstag nach 14 Uhr ein.",
+    "fr": "Le service météo grec annonce des phénomènes violents dès vendredi 27/11 dans le nord-ouest. Samedi, ils gagnent les îles Ioniennes, l’Épire et l’ouest du Péloponnèse, dimanche l’est et le sud du Péloponnèse. Des vents violents et de la neige en montagne sont attendus. À Athènes, la pluie arrive samedi après 14 h.",
+    "it": "Il servizio meteorologico greco segnala maltempo intenso da venerdì 27/11 a nord-ovest. Sabato interesserà le isole Ionie, l’Epiro e il Peloponneso occidentale, domenica il Peloponneso orientale e meridionale. Previsti venti di burrasca e neve in montagna. Ad Atene la pioggia arriva sabato dopo le 14."
+   },
+   "quelle": "https://afteroffice.gr/kairos-epideinosi-tou-kairou-apo-avrio-pou-tha-chtypisoun-ischyres-kataigides-i-prognosi-gia-tin-athina/",
+   "quelle_name": "afteroffice.gr"
+  },
+  {
+   "datum": "2026-11-24",
+   "bis": "",
+   "titel": {
+    "el": "Η Αθήνα φόρεσε τα γιορτινά της: δέντρο 21 μέτρων στο Σύνταγμα",
+    "en": "Athens in festive mood: 21-metre tree at Syntagma Square",
+    "de": "Athen im Weihnachtsglanz: 21-Meter-Baum am Syntagma-Platz",
+    "fr": "Athènes en fête : un sapin de 21 mètres place Syntagma",
+    "it": "Atene si veste a festa: albero di 21 metri in piazza Syntagma"
+   },
+   "text": {
+    "el": "Την Τρίτη 24 Νοεμβρίου φωταγωγήθηκε το φυσικό έλατο των 21 μέτρων στην πλατεία Συντάγματος και ξεκίνησε επίσημα η εορταστική περίοδος. Νέος φωτισμός κοσμεί μεταξύ άλλων τη λεωφόρο Βασιλίσσης Σοφίας, ενώ ανανεωμένος στολισμός υπάρχει στη λεωφόρο Αλεξάνδρας.",
+    "en": "The 21-metre natural fir on Syntagma Square was lit on Tuesday 24 November, officially opening the festive season. New lighting now decorates Vasilissis Sofias Avenue, among other streets, and Alexandras Avenue has refreshed decorations.",
+    "de": "Am Dienstag, 24. November, wurde die 21 Meter hohe Naturtanne am Syntagma-Platz beleuchtet und die Festsaison offiziell eröffnet. Neue Beleuchtung gibt es unter anderem an der Vasilissis-Sofias-Allee, auch die Alexandras-Allee wurde neu geschmückt.",
+    "fr": "Le sapin naturel de 21 mètres de la place Syntagma a été illuminé mardi 24 novembre, lançant officiellement la saison des fêtes. Un nouvel éclairage orne notamment l’avenue Vasilissis Sofias, et l’avenue Alexandras a une décoration renouvelée.",
+    "it": "Martedì 24 novembre è stato acceso l’abete naturale di 21 metri in piazza Syntagma, aprendo ufficialmente le feste. Nuove luminarie decorano tra l’altro viale Vasilissis Sofias, mentre viale Alexandras ha addobbi rinnovati."
+   },
+   "quelle": "https://newpost.gr/eidiseis/christoygenna-stin-athina-fotagogithike-to-dentro-sto-syntagma-i-proteyoysa-forese-ta-giortina-tis/",
+   "quelle_name": "newpost.gr"
+  },
+  {
    "datum": "2026-11-28",
    "bis": "2027-01-07",
    "titel": {
-    "de": "Weihnachtsdorf im Pedion tou Areos in Athen",
-    "en": "Christmas Village at Pedion tou Areos, Athens",
-    "el": "Χριστουγεννιάτικο χωριό στο Πεδίον του Άρεως",
-    "fr": "Village de Noël au parc Pedion tou Areos à Athènes",
-    "it": "Villaggio di Natale al Pedion tou Areos ad Atene"
+    "el": "Χριστουγεννιάτικο χωριό στο Πεδίον του Άρεως και Christmas Factory στην Τεχνόπολη",
+    "en": "Christmas village at Pedion tou Areos and Christmas Factory at Technopolis",
+    "de": "Weihnachtsdorf im Pedion tou Areos und Christmas Factory in der Technopolis",
+    "fr": "Village de Noël au Pedion tou Areos et Christmas Factory à Technopolis",
+    "it": "Villaggio di Natale al Pedion tou Areos e Christmas Factory a Technopolis"
    },
    "text": {
-    "de": "Ab Samstag, 28. November, öffnet im Athener Park Pedion tou Areos das Weihnachtsdorf. Es läuft laut dem Veranstaltungsguide bis zum 7. Januar 2027. Am Eröffnungstag ist ein Konzert von Marina Spanou angekündigt.",
-    "en": "The Christmas village in Athens' Pedion tou Areos park opens on Saturday, 28 November. According to the event guide, it runs until 7 January 2027. A concert by Marina Spanou is announced for opening day.",
-    "el": "Το χριστουγεννιάτικο χωριό στο Πεδίον του Άρεως ανοίγει το Σάββατο 28 Νοεμβρίου. Σύμφωνα με τον οδηγό εκδηλώσεων, θα λειτουργεί έως τις 7 Ιανουαρίου 2027. Την ημέρα των εγκαινίων αναγγέλλεται συναυλία της Μαρίνας Σπανού.",
-    "fr": "Le village de Noël du parc Pedion tou Areos à Athènes ouvre ses portes le samedi 28 novembre. Selon le guide des événements, il reste ouvert jusqu'au 7 janvier 2027. Un concert de Marina Spanou est annoncé le jour de l'ouverture.",
-    "it": "Il villaggio di Natale nel parco Pedion tou Areos di Atene apre sabato 28 novembre. Secondo la guida agli eventi resta aperto fino al 7 gennaio 2027. Per il giorno dell'apertura è annunciato un concerto di Marina Spanou."
+    "el": "Το χριστουγεννιάτικο χωριό στο Πεδίον του Άρεως λειτουργεί από το Σάββατο 28 Νοεμβρίου έως την Πέμπτη 7 Ιανουαρίου 2027. Η Τεχνόπολη φιλοξενεί ήδη το ΔΕΗ Christmas Factory έως τις 6 Ιανουαρίου, ενώ στο ΚΠΙΣΝ η φωταγώγηση του Χριστουγεννιάτικου Κόσμου είναι την Κυριακή 29/11 στις 17:30 με δωρεάν είσοδο.",
+    "en": "The Christmas village at Pedion tou Areos park runs from Saturday 28 November to Thursday 7 January 2027. Technopolis already hosts the Christmas Factory until 6 January. At the Stavros Niarchos Cultural Center, the Christmas World lighting takes place on Sunday 29 Nov at 5:30 pm, with free entry.",
+    "de": "Das Weihnachtsdorf im Pedion-tou-Areos-Park ist von Samstag, 28. November, bis Donnerstag, 7. Januar 2027 geöffnet. Die Technopolis zeigt bereits die Christmas Factory bis zum 6. Januar. Im Stavros-Niarchos-Kulturzentrum findet die Eröffnung der Weihnachtswelt am Sonntag, 29.11., um 17:30 Uhr bei freiem Eintritt statt.",
+    "fr": "Le village de Noël du parc Pedion tou Areos est ouvert du samedi 28 novembre au jeudi 7 janvier 2027. Technopolis accueille déjà la Christmas Factory jusqu’au 6 janvier. Au Centre culturel Stavros Niarchos, l’illumination du Monde de Noël a lieu dimanche 29/11 à 17 h 30, entrée libre.",
+    "it": "Il villaggio di Natale nel parco Pedion tou Areos è aperto da sabato 28 novembre a giovedì 7 gennaio 2027. Technopolis ospita già la Christmas Factory fino al 6 gennaio. Al Centro culturale Stavros Niarchos l’accensione del Mondo di Natale è domenica 29/11 alle 17:30, ingresso gratuito."
    },
    "quelle": "https://www.angelsathens.gr/blog/ekdiloseis/xristougenna-stin-athina-odigos-pedion-areos/",
    "quelle_name": "Angels Athens"
-  },
-  {
-   "datum": "2026-11-21",
-   "bis": "2027-01-06",
-   "titel": {
-    "de": "Christmas Factory in der Technopolis Athen",
-    "en": "Christmas Factory at Technopolis, Athens",
-    "el": "Christmas Factory στην Τεχνόπολη",
-    "fr": "Christmas Factory à Technopolis, Athènes",
-    "it": "Christmas Factory a Technopolis, Atene"
-   },
-   "text": {
-    "de": "Die Technopolis im Athener Stadtteil Gazi veranstaltet noch bis zum 6. Januar 2027 die Christmas Factory. Das Weihnachtsprogramm eignet sich gut für einen Ausflug mit der Familie.",
-    "en": "Technopolis in Athens' Gazi district hosts its Christmas Factory until 6 January 2027. The festive programme makes a good outing for families.",
-    "el": "Η Τεχνόπολη στο Γκάζι φιλοξενεί το Christmas Factory έως τις 6 Ιανουαρίου 2027. Το εορταστικό πρόγραμμα ταιριάζει για βόλτα με την οικογένεια.",
-    "fr": "Technopolis, dans le quartier de Gazi à Athènes, accueille la Christmas Factory jusqu'au 6 janvier 2027. Ce programme festif convient bien à une sortie en famille.",
-    "it": "Technopolis, nel quartiere Gazi di Atene, ospita la Christmas Factory fino al 6 gennaio 2027. Il programma natalizio è adatto a una gita in famiglia."
-   },
-   "quelle": "https://www.angelsathens.gr/blog/ekdiloseis/xristougenna-stin-athina-odigos-pedion-areos/",
-   "quelle_name": "Angels Athens"
-  },
-  {
-   "datum": "2026-11-29",
-   "bis": "",
-   "titel": {
-    "de": "Weihnachtsbeleuchtung im Kulturzentrum Stavros Niarchos",
-    "en": "Christmas lighting at the Stavros Niarchos Cultural Center",
-    "el": "Φωταγώγηση στο Κέντρο Πολιτισμού Ίδρυμα Σταύρος Νιάρχος",
-    "fr": "Illumination de Noël au Centre culturel Stavros Niarchos",
-    "it": "Accensione delle luci di Natale al Centro culturale Stavros Niarchos"
-   },
-   "text": {
-    "de": "Am Sonntag, 29. November, um 17:30 Uhr wird im Kulturzentrum Stavros Niarchos (ΚΠΙΣΝ) die Weihnachtsbeleuchtung eingeschaltet. Der Eintritt ist frei, die Moderation übernimmt Evgenia Samara.",
-    "en": "On Sunday, 29 November at 17:30, the Christmas lights are switched on at the Stavros Niarchos Cultural Center (SNFCC). Entry is free and the event is hosted by Evgenia Samara.",
-    "el": "Την Κυριακή 29 Νοεμβρίου στις 17:30 γίνεται η φωταγώγηση στο ΚΠΙΣΝ. Η είσοδος είναι δωρεάν και την παρουσίαση έχει η Ευγενία Σαμαρά.",
-    "fr": "Le dimanche 29 novembre à 17h30, les illuminations de Noël s'allument au Centre culturel Stavros Niarchos (SNFCC). L'entrée est gratuite, avec Evgenia Samara à la présentation.",
-    "it": "Domenica 29 novembre alle 17:30 si accendono le luci di Natale al Centro culturale Stavros Niarchos (SNFCC). L'ingresso è gratuito e la presentazione è di Evgenia Samara."
-   },
-   "quelle": "https://www.angelsathens.gr/blog/ekdiloseis/xristougenna-stin-athina-odigos-pedion-areos/",
-   "quelle_name": "Angels Athens"
-  },
-  {
-   "datum": "2026-11-26",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Bücherbazar der Piraeus Group Cultural Foundation in Athen",
-    "en": "Book bazaar by the Piraeus Group Cultural Foundation, Athens",
-    "el": "Bazaar Βιβλίου του Πολιτιστικού Ιδρύματος Ομίλου Πειραιώς",
-    "fr": "Bazar du livre de la Fondation culturelle du groupe Piraeus à Athènes",
-    "it": "Bazar del libro della Fondazione culturale del gruppo Piraeus ad Atene"
-   },
-   "text": {
-    "de": "Die Kulturstiftung der Piraeus Group (ΠΙΟΠ) veranstaltet vom 26. bis 29. November einen Bücherbazar im Museum Shop Athen. Er befindet sich in der Passage Spyromiliou (City Link) im Zentrum. Eine gute Gelegenheit, Bücher und Souvenirs zu entdecken.",
-    "en": "The Piraeus Group Cultural Foundation (PIOP) holds a book bazaar from 26 to 29 November at the Museum Shop Athens. It is in the Spyromiliou Arcade (City Link) in the city centre. A nice chance to browse books and souvenirs.",
-    "el": "Το Πολιτιστικό Ίδρυμα Ομίλου Πειραιώς (ΠΙΟΠ) διοργανώνει Bazaar Εκδόσεων από 26 έως 29 Νοεμβρίου στο Museum Shop Αθήνας. Βρίσκεται στη Στοά Σπυρομήλιου (City Link) στο κέντρο. Μια καλή ευκαιρία για βιβλία και αναμνηστικά.",
-    "fr": "La Fondation culturelle du groupe Piraeus (PIOP) organise un bazar du livre du 26 au 29 novembre au Museum Shop d'Athènes. Il se tient dans la galerie Spyromiliou (City Link), au centre-ville. Une bonne occasion de dénicher livres et souvenirs.",
-    "it": "La Fondazione culturale del gruppo Piraeus (PIOP) organizza un bazar del libro dal 26 al 29 novembre al Museum Shop di Atene. Si trova nella Galleria Spyromiliou (City Link), in centro. Un'ottima occasione per trovare libri e souvenir."
-   },
-   "quelle": "https://www.culturenow.gr/dorean-ekdiloseis-stin-athina-23-29-noemvrioy/",
-   "quelle_name": "CultureNow"
   },
   {
    "datum": "2026-11-27",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Open Jazz Festival 2026 in Thessaloniki",
-    "en": "Open Jazz Festival 2026 in Thessaloniki",
     "el": "Open Jazz Festival 2026 στη Θεσσαλονίκη",
+    "en": "Open Jazz Festival 2026 in Thessaloniki",
+    "de": "Open Jazz Festival 2026 in Thessaloniki",
     "fr": "Open Jazz Festival 2026 à Thessalonique",
     "it": "Open Jazz Festival 2026 a Salonicco"
    },
    "text": {
-    "de": "Das Open Jazz Festival findet vom 27. bis 29. November im Lagerhaus Apothiki D in Thessaloniki statt. Es setzt eine Tradition fort, die 1984 in der Stadt begann. Veranstalter ist die Stadt Thessaloniki.",
-    "en": "The Open Jazz Festival runs from 27 to 29 November at Apothiki D in Thessaloniki. It continues a tradition that began in the city in 1984. The organiser is the City of Thessaloniki.",
-    "el": "Το Open Jazz Festival πραγματοποιείται από 27 έως 29 Νοεμβρίου στην Αποθήκη Δ της Θεσσαλονίκης. Συνεχίζει μια παράδοση που ξεκίνησε στην πόλη το 1984. Διοργανωτής είναι ο Δήμος Θεσσαλονίκης.",
-    "fr": "L'Open Jazz Festival se déroule du 27 au 29 novembre à l'Apothiki D de Thessalonique. Il perpétue une tradition née dans la ville en 1984. L'organisateur est la municipalité de Thessalonique.",
-    "it": "L'Open Jazz Festival si tiene dal 27 al 29 novembre all'Apothiki D di Salonicco. Prosegue una tradizione nata in città nel 1984. L'organizzatore è il Comune di Salonicco."
+    "el": "Το Open Jazz Festival συνεχίζεται στην Αποθήκη Δ της Θεσσαλονίκης στο τριήμερο 27–29 Νοεμβρίου. Το φεστιβάλ τζαζ και αυτοσχεδιαστικής μουσικής ξεκίνησε το 1984 και διοργανώνεται από τον Δήμο Θεσσαλονίκης.",
+    "en": "The Open Jazz Festival continues at Warehouse D in Thessaloniki over the three days of 27–29 November. The jazz and improvised music festival dates back to 1984 and is organised by the City of Thessaloniki.",
+    "de": "Das Open Jazz Festival findet vom 27. bis 29. November in der Lagerhalle Apothiki D in Thessaloniki statt. Das Festival für Jazz und improvisierte Musik besteht seit 1984 und wird von der Stadt Thessaloniki veranstaltet.",
+    "fr": "L’Open Jazz Festival se poursuit à l’Apothiki D de Thessalonique du 27 au 29 novembre. Ce festival de jazz et de musique improvisée existe depuis 1984 et est organisé par la Ville de Thessalonique.",
+    "it": "L’Open Jazz Festival prosegue all’Apothiki D di Salonicco dal 27 al 29 novembre. Il festival di jazz e musica improvvisata esiste dal 1984 ed è organizzato dal Comune di Salonicco."
    },
    "quelle": "https://www.politic.gr/endiaferoun/mousikes-epiloges-tis-teleftaias-evdomadas-tou-noemvriou-se-athina-kai-thessaloniki",
    "quelle_name": "politic.gr"
+  },
+  {
+   "datum": "2026-11-27",
+   "bis": "2026-12-13",
+   "titel": {
+    "el": "Χριστούγεννα στη Θέρμη και χριστουγεννιάτικο χωριό στη Θεσσαλονίκη",
+    "en": "Christmas in Thermi and the Christmas village in Thessaloniki",
+    "de": "Weihnachten in Thermi und Weihnachtsdorf in Thessaloniki",
+    "fr": "Noël à Thermi et village de Noël à Thessalonique",
+    "it": "Natale a Thermi e villaggio di Natale a Salonicco"
+   },
+   "text": {
+    "el": "Ο Δήμος Θέρμης ξεκινά τις γιορτινές εκδηλώσεις στις 27 Νοεμβρίου και συνεχίζει έως τις 13 Δεκεμβρίου σε 17 οικισμούς. Το χριστουγεννιάτικο χωριό του Εμπορικού Συλλόγου Θεσσαλονίκης στην Αριστοτέλους ανοίγει στις 9 Δεκεμβρίου και λειτουργεί έως τις 7 Ιανουαρίου.",
+    "en": "The municipality of Thermi starts its festive events on 27 November and continues until 13 December across 17 settlements. The Thessaloniki Traders’ Association Christmas village around Aristotelous Square opens on 9 December and runs until 7 January.",
+    "de": "Die Gemeinde Thermi beginnt ihre Weihnachtsveranstaltungen am 27. November und setzt sie bis zum 13. Dezember in 17 Ortschaften fort. Das Weihnachtsdorf des Handelsvereins Thessaloniki rund um den Aristotelous-Platz öffnet am 9. Dezember und läuft bis zum 7. Januar.",
+    "fr": "La commune de Thermi lance ses animations de Noël le 27 novembre et les poursuit jusqu’au 13 décembre dans 17 localités. Le village de Noël de l’Association des commerçants de Thessalonique, autour de la place Aristotélous, ouvre le 9 décembre jusqu’au 7 janvier.",
+    "it": "Il comune di Thermi avvia gli eventi natalizi il 27 novembre e li prosegue fino al 13 dicembre in 17 località. Il villaggio di Natale dell’Associazione commercianti di Salonicco, intorno a piazza Aristotelous, apre il 9 dicembre e resta fino al 7 gennaio."
+   },
+   "quelle": "https://www.alphafreepress.gr/2026/11/22/ellada/xristougenna-sti-thessaloniki-2026-entyposiakos-stolismos-xoria-kai-megales-synaylies/",
+   "quelle_name": "Alpha Free Press"
   }
  ]
 }

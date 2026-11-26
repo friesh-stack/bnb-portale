@@ -2,44 +2,24 @@
  "stand": "2026-11-26",
  "items": [
   {
-   "datum": "2026-11-23",
+   "datum": "2026-11-26",
    "bis": "2026-11-27",
    "titel": {
-    "pt": "Greve dos maquinistas da CP até sexta-feira",
-    "en": "CP train drivers’ strike until Friday",
-    "de": "Lokführerstreik bei CP bis Freitag",
-    "es": "Huelga de maquinistas de CP hasta el viernes",
-    "fr": "Grève des conducteurs CP jusqu’à vendredi"
+    "pt": "Greve dos maquinistas da CP: perturbações até sexta-feira",
+    "en": "CP train drivers’ strike: disruptions until Friday",
+    "de": "Lokführerstreik bei CP: Einschränkungen bis Freitag",
+    "es": "Huelga de maquinistas de CP: alteraciones hasta el viernes",
+    "fr": "Grève des conducteurs de la CP : perturbations jusqu’à vendredi"
    },
    "text": {
-    "pt": "A greve dos maquinistas da CP decorre até sexta-feira, 27 de novembro, e continua a causar supressões de comboios em todo o país. Na quinta-feira foram suprimidos cerca de 29% dos comboios até ao meio-dia, com maior impacto no longo curso e nos regionais. Convém consultar o site da CP antes de viajar e prever alternativas.",
-    "en": "The CP train drivers’ strike runs until Friday, 27 November, and is still cancelling trains across the country. On Thursday, around 29% of trains were cancelled by midday, with long-distance and regional services hit hardest. Please check the CP website before travelling and plan alternatives.",
-    "de": "Der Streik der CP-Lokführer dauert noch bis Freitag, den 27. November, und führt weiterhin zu Zugausfällen im ganzen Land. Am Donnerstag fielen bis mittags rund 29 % der Züge aus, am stärksten betroffen waren Fernverkehr und Regionalzüge. Bitte vor der Fahrt die Website der CP prüfen und Alternativen einplanen.",
-    "es": "La huelga de maquinistas de CP continúa hasta el viernes 27 de noviembre y sigue provocando supresiones de trenes en todo el país. El jueves se suprimió cerca del 29 % de los trenes hasta el mediodía, sobre todo en larga distancia y regionales. Conviene consultar la web de CP antes de viajar y prever alternativas.",
-    "fr": "La grève des conducteurs de la CP se poursuit jusqu’à vendredi 27 novembre et entraîne encore des suppressions de trains dans tout le pays. Jeudi, environ 29 % des trains étaient supprimés à la mi-journée, surtout en longue distance et en régional. Consultez le site de la CP avant de partir et prévoyez des alternatives."
+    "pt": "A greve dos maquinistas da CP prossegue hoje e na sexta-feira, 27 de novembro, com paralisação parcial. Na manhã de hoje foram suprimidos cerca de 29% dos comboios, sobretudo no longo curso. Antes de viajar, consulte os avisos em cp.pt.",
+    "en": "The CP train drivers’ strike continues today and on Friday, 27 November, with partial stoppages. Around 29% of trains were cancelled by midday today, with long-distance services hit hardest. Please check the notices on cp.pt before you travel.",
+    "de": "Der Streik der CP-Lokführer geht heute und am Freitag, 27. November, mit Teilausfällen weiter. Bis Mittag fielen heute rund 29 % der Züge aus, am stärksten betroffen ist der Fernverkehr. Bitte vor der Fahrt die Hinweise auf cp.pt prüfen.",
+    "es": "La huelga de maquinistas de CP continúa hoy y el viernes 27 de noviembre con paros parciales. Hasta el mediodía de hoy se suprimieron cerca del 29 % de los trenes, sobre todo de larga distancia. Consulte los avisos en cp.pt antes de viajar.",
+    "fr": "La grève des conducteurs de la CP se poursuit aujourd’hui et vendredi 27 novembre, avec des arrêts partiels. Environ 29 % des trains étaient supprimés à midi, surtout en longue distance. Consultez les avis sur cp.pt avant de voyager."
    },
    "quelle": "https://dinheirovivo.dn.pt/empresas/greve-dos-maquinistas-da-cp-suprime-quase-30-dos-comboios-at-ao-meio-dia",
-   "quelle_name": "Dinheiro Vivo (DN)"
-  },
-  {
-   "datum": "2026-11-28",
-   "bis": "2026-11-29",
-   "titel": {
-    "pt": "Porto e Lisboa acendem as luzes de Natal",
-    "en": "Porto and Lisbon switch on their Christmas lights",
-    "de": "Porto und Lissabon schalten die Weihnachtsbeleuchtung ein",
-    "es": "Oporto y Lisboa encienden las luces de Navidad",
-    "fr": "Porto et Lisbonne allument leurs illuminations de Noël"
-   },
-   "text": {
-    "pt": "No sábado, 28 de novembro, às 18h00, o Porto inaugura as luzes de Natal na Avenida dos Aliados, com Áurea e Ricardo Ribeiro. No domingo, dia 29, a partir das 18h30, o Terreiro do Paço, em Lisboa, recebe Ana Moura e a Orquestra Tejo, com cerca de 300 drones no céu. A entrada nos dois espetáculos é livre.",
-    "en": "On Saturday, 28 November at 6:00 pm, Porto switches on its Christmas lights on Avenida dos Aliados, with performances by Áurea and Ricardo Ribeiro. On Sunday, 29 November from 6:30 pm, Lisbon’s Terreiro do Paço hosts Ana Moura and the Orquestra Tejo, along with about 300 drones in the sky. Both shows are free to attend.",
-    "de": "Am Samstag, den 28. November, um 18:00 Uhr schaltet Porto die Weihnachtsbeleuchtung auf der Avenida dos Aliados ein, mit Auftritten von Áurea und Ricardo Ribeiro. Am Sonntag, den 29. November, folgt ab 18:30 Uhr der Terreiro do Paço in Lissabon mit Ana Moura, dem Orquestra Tejo und rund 300 Drohnen am Himmel. Der Eintritt zu beiden Shows ist frei.",
-    "es": "El sábado 28 de noviembre a las 18:00, Oporto enciende las luces de Navidad en la Avenida dos Aliados, con Áurea y Ricardo Ribeiro. El domingo 29, desde las 18:30, el Terreiro do Paço de Lisboa acoge a Ana Moura y la Orquestra Tejo, con unos 300 drones en el cielo. La entrada a ambos espectáculos es libre.",
-    "fr": "Le samedi 28 novembre à 18h00, Porto allume ses illuminations de Noël sur l’Avenida dos Aliados, avec Áurea et Ricardo Ribeiro. Le dimanche 29 à partir de 18h30, le Terreiro do Paço à Lisbonne accueille Ana Moura et l’Orquestra Tejo, avec environ 300 drones dans le ciel. L’entrée est libre pour les deux spectacles."
-   },
-   "quelle": "https://www.aproximaviagem.pt/lifestyle/luzes-natal-porto-lisboa-2026/",
-   "quelle_name": "Aproxima Viagem"
+   "quelle_name": "Dinheiro Vivo"
   },
   {
    "datum": "2026-11-27",
@@ -47,59 +27,79 @@
    "titel": {
     "pt": "Wonderland Lisboa regressa ao Parque Eduardo VII",
     "en": "Wonderland Lisboa returns to Parque Eduardo VII",
-    "de": "Wonderland Lisboa kehrt in den Parque Eduardo VII zurück",
+    "de": "Wonderland Lisboa öffnet wieder im Parque Eduardo VII",
     "es": "Wonderland Lisboa vuelve al Parque Eduardo VII",
     "fr": "Wonderland Lisboa revient au Parque Eduardo VII"
    },
    "text": {
-    "pt": "O conhecido mercado de Natal de Lisboa abre as portas na sexta-feira, 27 de novembro, no Parque Eduardo VII. Há bancas de madeira, uma roda gigante e uma pista de gelo ecológica. Um bom programa para famílias neste fim de semana.",
-    "en": "Lisbon’s well-known Christmas market opens on Friday, 27 November, in Parque Eduardo VII. Visitors can enjoy wooden stalls, a Ferris wheel and an eco-friendly ice rink. A great option for families this weekend.",
-    "de": "Der bekannte Weihnachtsmarkt Lissabons öffnet am Freitag, den 27. November, im Parque Eduardo VII. Es gibt Holzbuden, ein Riesenrad und eine umweltfreundliche Eisbahn. Ein schöner Tipp für Familien an diesem Wochenende.",
-    "es": "El conocido mercado navideño de Lisboa abre el viernes 27 de noviembre en el Parque Eduardo VII. Hay casetas de madera, noria y una pista de hielo ecológica. Un buen plan para familias este fin de semana.",
-    "fr": "Le célèbre marché de Noël de Lisbonne ouvre ses portes le vendredi 27 novembre au Parque Eduardo VII. On y trouve des chalets en bois, une grande roue et une patinoire écologique. Une belle idée de sortie en famille ce week-end."
+    "pt": "Um dos mercados de Natal mais conhecidos da capital abre a partir de sexta-feira, 27 de novembro. Há bancas de madeira, roda gigante e uma pista de gelo ecológica. Também arranca o mercado The Spot Market XMAS Pop-Up, no Palácio do Governador, em Belém.",
+    "en": "One of the capital’s best-known Christmas markets opens from Friday, 27 November. Visitors can browse wooden stalls, ride the Ferris wheel and try the eco-friendly ice rink. The Spot Market XMAS Pop-Up also starts at the Palácio do Governador in Belém.",
+    "de": "Einer der bekanntesten Weihnachtsmärkte der Hauptstadt öffnet ab Freitag, 27. November. Es gibt Holzbuden, ein Riesenrad und eine umweltfreundliche Eisbahn. Zusätzlich startet der The Spot Market XMAS Pop-Up im Palácio do Governador in Belém.",
+    "es": "Uno de los mercados navideños más conocidos de la capital abre desde el viernes 27 de noviembre. Hay casetas de madera, noria y una pista de hielo ecológica. También comienza The Spot Market XMAS Pop-Up en el Palácio do Governador, en Belém.",
+    "fr": "L’un des marchés de Noël les plus connus de la capitale ouvre à partir du vendredi 27 novembre. On y trouve des chalets en bois, une grande roue et une patinoire écologique. Le Spot Market XMAS Pop-Up démarre aussi au Palácio do Governador, à Belém."
    },
    "quelle": "https://www.nit.pt/fora-de-casa/na-cidade/11-programas-para-fazer-em-familia-sem-pagar-este-fim-de-semana-em-lisboa",
    "quelle_name": "NiT"
   },
   {
    "datum": "2026-11-28",
-   "bis": "2026-11-28",
+   "bis": "2027-01-10",
    "titel": {
-    "pt": "Espetáculo de drones na Ribeira, no Porto",
-    "en": "Drone show over the Ribeira in Porto",
-    "de": "Drohnenshow an der Ribeira in Porto",
-    "es": "Espectáculo de drones en la Ribeira de Oporto",
-    "fr": "Spectacle de drones sur la Ribeira à Porto"
+    "pt": "Natal no Porto: luzes acendem-se nos Aliados",
+    "en": "Christmas in Porto: lights switched on at Avenida dos Aliados",
+    "de": "Weihnachten in Porto: Lichter-Einschaltung an den Aliados",
+    "es": "Navidad en Oporto: encendido de luces en los Aliados",
+    "fr": "Noël à Porto : illuminations aux Aliados"
    },
    "text": {
-    "pt": "No sábado, 28 de novembro, às 21h30, a Ribeira recebe mais uma edição do Air Invictus, com centenas de drones sobre as duas margens do rio, no Porto e em Gaia. A atividade é gratuita.",
-    "en": "On Saturday, 28 November at 9:30 pm, the Ribeira hosts another Air Invictus show, with hundreds of drones over both riverbanks in Porto and Gaia. It is free of charge.",
-    "de": "Am Samstag, den 28. November, um 21:30 Uhr findet an der Ribeira eine weitere Ausgabe von Air Invictus statt, mit Hunderten von Drohnen über beiden Flussufern in Porto und Gaia. Die Teilnahme ist kostenlos.",
-    "es": "El sábado 28 de noviembre a las 21:30, la Ribeira acoge una nueva edición de Air Invictus, con cientos de drones sobre ambas orillas del río, en Oporto y Gaia. La actividad es gratuita.",
-    "fr": "Le samedi 28 novembre à 21h30, la Ribeira accueille une nouvelle édition d’Air Invictus, avec des centaines de drones au-dessus des deux rives du fleuve, à Porto et Gaia. L’accès est gratuit."
+    "pt": "No sábado, 28 de novembro, às 18h00, acendem-se as luzes e a árvore de Natal na Avenida dos Aliados, com concertos gratuitos. A programação natalícia, com pista de gelo na Boavista e Casa do Pai Natal, decorre até 10 de janeiro de 2027. O Mercado de Natal do Mercado Ferreira Borges está aberto até 6 de janeiro, com entrada livre.",
+    "en": "On Saturday, 28 November at 6 pm, the lights and Christmas tree are switched on at Avenida dos Aliados, with free concerts. The festive programme, including an ice rink at Boavista and Santa’s house, runs until 10 January 2027. The Christmas market at Mercado Ferreira Borges is open until 6 January with free entry.",
+    "de": "Am Samstag, 28. November, um 18 Uhr werden an der Avenida dos Aliados Lichter und Weihnachtsbaum eingeschaltet, dazu gibt es kostenlose Konzerte. Das Weihnachtsprogramm mit Eisbahn an der Boavista und Haus des Weihnachtsmanns läuft bis 10. Januar 2027. Der Weihnachtsmarkt im Mercado Ferreira Borges ist bis 6. Januar bei freiem Eintritt geöffnet.",
+    "es": "El sábado 28 de noviembre a las 18:00 se encienden las luces y el árbol de Navidad en la Avenida dos Aliados, con conciertos gratuitos. La programación navideña, con pista de hielo en Boavista y Casa de Papá Noel, dura hasta el 10 de enero de 2027. El mercado navideño del Mercado Ferreira Borges abre hasta el 6 de enero con entrada libre.",
+    "fr": "Le samedi 28 novembre à 18 h, les lumières et le sapin de Noël sont allumés sur l’Avenida dos Aliados, avec des concerts gratuits. Le programme de fêtes, avec patinoire à Boavista et maison du Père Noël, dure jusqu’au 10 janvier 2027. Le marché de Noël du Mercado Ferreira Borges est ouvert jusqu’au 6 janvier, entrée libre."
+   },
+   "quelle": "https://agendaculturalporto.org/natal-no-porto-2026-tera-concertos-gratis-nos-aliados-e-pista-de-gelo-na-boavista/",
+   "quelle_name": "Agenda Cultural Porto"
+  },
+  {
+   "datum": "2026-11-28",
+   "bis": "2026-11-28",
+   "titel": {
+    "pt": "Espetáculo de drones na Ribeira do Porto",
+    "en": "Drone show over Porto’s Ribeira",
+    "de": "Drohnenshow an der Ribeira in Porto",
+    "es": "Espectáculo de drones en la Ribeira de Oporto",
+    "fr": "Spectacle de drones sur la Ribeira de Porto"
+   },
+   "text": {
+    "pt": "No sábado, 28 de novembro, às 21h30, centenas de drones iluminam o céu dos dois lados do rio, no Porto e em Gaia. Trata-se de mais uma edição do Air Invictus, com entrada gratuita.",
+    "en": "On Saturday, 28 November at 9:30 pm, hundreds of drones light up the sky on both sides of the river, in Porto and Gaia. It is another edition of Air Invictus, and it is free to watch.",
+    "de": "Am Samstag, 28. November, um 21:30 Uhr erleuchten Hunderte Drohnen den Himmel über beiden Flussufern, in Porto und Gaia. Es ist eine weitere Ausgabe von Air Invictus, der Eintritt ist frei.",
+    "es": "El sábado 28 de noviembre a las 21:30, cientos de drones iluminan el cielo a ambos lados del río, en Oporto y Gaia. Es una nueva edición de Air Invictus, con entrada gratuita.",
+    "fr": "Le samedi 28 novembre à 21 h 30, des centaines de drones illuminent le ciel des deux rives, à Porto et à Gaia. C’est une nouvelle édition d’Air Invictus, gratuite pour le public."
    },
    "quelle": "https://viva-porto.pt/3-planos-perfeitos-para-fazer-no-porto-este-fim-de-semana/",
    "quelle_name": "Viva Porto"
   },
   {
-   "datum": "2026-11-22",
-   "bis": "2027-01-06",
+   "datum": "2026-12-05",
+   "bis": "2026-12-08",
    "titel": {
-    "pt": "Natal no WOW, em Vila Nova de Gaia",
-    "en": "Christmas at WOW in Porto",
-    "de": "Weihnachten im WOW in Porto",
-    "es": "Navidad en WOW, Oporto",
-    "fr": "Noël au WOW à Porto"
+    "pt": "Mercado de Natal de Serralves",
+    "en": "Serralves Christmas Market",
+    "de": "Weihnachtsmarkt in Serralves",
+    "es": "Mercado de Navidad de Serralves",
+    "fr": "Marché de Noël de Serralves"
    },
    "text": {
-    "pt": "O WOW celebra o Natal até 6 de janeiro, com luzes, videomapping, Pai Natal, atividades para crianças e gastronomia. A entrada é gratuita. O videomapping e a animação da árvore acontecem todos os dias, de hora a hora, entre as 19h00 e as 23h00.",
-    "en": "WOW celebrates Christmas until 6 January, with lights, video mapping, Santa Claus, children’s activities and food. Entry is free. The video mapping and tree animation run every day, hourly, between 7:00 pm and 11:00 pm.",
-    "de": "Das WOW feiert Weihnachten bis zum 6. Januar mit Lichtern, Videomapping, Weihnachtsmann, Kinderprogramm und Gastronomie. Der Eintritt ist frei. Videomapping und Baumanimation laufen täglich stündlich zwischen 19:00 und 23:00 Uhr.",
-    "es": "WOW celebra la Navidad hasta el 6 de enero, con luces, videomapping, Papá Noel, actividades infantiles y gastronomía. La entrada es gratuita. El videomapping y la animación del árbol se ofrecen cada día, cada hora, entre las 19:00 y las 23:00.",
-    "fr": "Le WOW fête Noël jusqu’au 6 janvier, avec illuminations, mapping vidéo, Père Noël, activités pour enfants et gastronomie. L’entrée est gratuite. Le mapping vidéo et l’animation du sapin ont lieu chaque jour, toutes les heures, de 19h00 à 23h00."
+    "pt": "De 5 a 8 de dezembro, o Parque de Serralves, no Porto, recebe um mercado com marcas de design e decoração, produtos gourmet e presentes criativos. A entrada é gratuita, das 10h00 às 19h00, com oficinas, street food e música para famílias.",
+    "en": "From 5 to 8 December, Serralves Park in Porto hosts a market with design and decoration brands, gourmet products and creative gifts. Entry is free from 10 am to 7 pm, with workshops, street food and music for families.",
+    "de": "Vom 5. bis 8. Dezember findet im Parque de Serralves in Porto ein Markt mit Design- und Dekomarken, Feinkost und kreativen Geschenken statt. Der Eintritt ist von 10 bis 19 Uhr frei, dazu gibt es Workshops, Streetfood und Musik für Familien.",
+    "es": "Del 5 al 8 de diciembre, el Parque de Serralves, en Oporto, acoge un mercado con marcas de diseño y decoración, productos gourmet y regalos creativos. La entrada es gratuita de 10:00 a 19:00, con talleres, comida callejera y música para familias.",
+    "fr": "Du 5 au 8 décembre, le parc de Serralves, à Porto, accueille un marché de marques de design et de décoration, de produits gourmets et de cadeaux créatifs. L’entrée est libre de 10 h à 19 h, avec ateliers, street food et musique pour les familles."
    },
-   "quelle": "https://www.wow.pt/pt/christmas-at-wow",
-   "quelle_name": "WOW Porto"
+   "quelle": "https://ma.to/event/mercado-de-natal-de-serralves-07-dec-2026",
+   "quelle_name": "ma.to"
   }
  ]
 }

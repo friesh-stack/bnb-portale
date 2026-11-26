@@ -2,104 +2,104 @@
  "stand": "2026-11-26",
  "items": [
   {
-   "datum": "2026-11-28",
-   "bis": "2027-01-31",
-   "titel": {
-    "hu": "Újra jár a fénykomp a Balatonon",
-    "en": "Festive light ferry returns to Lake Balaton",
-    "de": "Festlich beleuchtete Lichtfähre fährt wieder auf dem Balaton",
-    "it": "Il traghetto illuminato torna sul Balaton",
-    "fr": "Le ferry illuminé reprend la mer sur le Balaton"
-   },
-   "text": {
-    "hu": "November 28-tól január 31-ig ismét ünnepi fényekkel díszített komp közlekedik Szántódrév és Tihanyrév között. A téli menetrend november 23-tól érvényes: a komp naponta félóránként jár, Szántódról 7:00 és 17:00, Tihanyból 7:15 és 17:15 között.",
-    "en": "From 28 November until 31 January, a ferry decorated with festive lights runs again between Szántód and Tihany. The winter timetable has applied since 23 November: departures every 30 minutes daily, 7:00–17:00 from Szántód and 7:15–17:15 from Tihany.",
-    "de": "Vom 28. November bis 31. Januar fährt wieder eine festlich beleuchtete Fähre zwischen Szántód und Tihany. Der Winterfahrplan gilt seit dem 23. November: täglich alle 30 Minuten, ab Szántód von 7:00 bis 17:00 Uhr, ab Tihany von 7:15 bis 17:15 Uhr.",
-    "it": "Dal 28 novembre al 31 gennaio torna a navigare tra Szántód e Tihany un traghetto decorato con luci natalizie. L’orario invernale è in vigore dal 23 novembre: corse ogni 30 minuti ogni giorno, da Szántód dalle 7:00 alle 17:00 e da Tihany dalle 7:15 alle 17:15.",
-    "fr": "Du 28 novembre au 31 janvier, un ferry décoré de lumières de fête circule de nouveau entre Szántód et Tihany. L’horaire d’hiver s’applique depuis le 23 novembre : un départ toutes les 30 minutes chaque jour, de 7h00 à 17h00 depuis Szántód et de 7h15 à 17h15 depuis Tihany."
-   },
-   "quelle": "https://hajozas.hu/magazin/balaton/hetfotol-17-oraig-kozlekedik-a-balatoni-komp-hetkoznap-is-felorankent/",
-   "quelle_name": "hajozas.hu"
-  },
-  {
    "datum": "2026-11-13",
    "bis": "2027-01-01",
    "titel": {
-    "hu": "Advent Bazilika és Vörösmarty Classic Xmas nyitva",
-    "en": "Advent Basilica and Vörösmarty Christmas markets are open",
-    "de": "Advent Bazilika und Vörösmarty-Weihnachtsmarkt geöffnet",
-    "it": "Aperti i mercatini Advent Bazilika e Vörösmarty",
-    "fr": "Les marchés de Noël Advent Bazilika et Vörösmarty sont ouverts"
+    "hu": "Advent Bazilika: Budapest ikonikus karácsonyi vására nyitva",
+    "en": "Advent Basilica: Budapest’s best-known Christmas market is open",
+    "de": "Advent Bazilika: Budapests bekanntester Weihnachtsmarkt hat geöffnet",
+    "it": "Advent Bazilika: aperto il più celebre mercatino di Natale di Budapest",
+    "fr": "Advent Bazilika : le marché de Noël le plus célèbre de Budapest est ouvert"
    },
    "text": {
-    "hu": "Budapest két legismertebb karácsonyi vására november 13-án nyitott. A Vörösmarty téri vásár január 1-jének hajnaláig tart. A Bazilika előtt betlehem, adventi koszorú, gyertyagyújtás és koncertek várják a látogatókat.",
-    "en": "Budapest’s two best-known Christmas markets opened on 13 November. The Vörösmarty Square market runs until the early hours of 1 January. In front of the Basilica you will find a nativity scene, an Advent wreath, candle lighting and concerts.",
-    "de": "Budapests zwei bekannteste Weihnachtsmärkte haben am 13. November eröffnet. Der Markt am Vörösmarty-Platz läuft bis in die Nacht zum 1. Januar. Vor der Basilika gibt es eine Krippe, einen Adventskranz, Kerzenzünden und Konzerte.",
-    "it": "I due mercatini di Natale più noti di Budapest hanno aperto il 13 novembre. Quello di piazza Vörösmarty dura fino alle prime ore del 1° gennaio. Davanti alla Basilica ci sono presepe, corona d’Avvento, accensione delle candele e concerti.",
-    "fr": "Les deux marchés de Noël les plus connus de Budapest ont ouvert le 13 novembre. Celui de la place Vörösmarty dure jusqu’aux premières heures du 1er janvier. Devant la basilique, on trouve une crèche, une couronne de l’Avent, l’allumage des bougies et des concerts."
+    "hu": "A Szent István-bazilika előtti vásár 2027. január 1-ig várja a vendégeket. Több mint száz kiállító, élőzene és esti fényfestés a bazilika homlokzatán színesíti a sétát. A szervezők az idei jubileumi évben kedvezményes ételeket és gyerekmenüt is hirdettek.",
+    "en": "The market in front of St. Stephen’s Basilica welcomes visitors until 1 January 2027. More than a hundred vendors, live music and an evening light show on the basilica facade make for a lovely stroll. The organisers also advertise discounted dishes and a children’s menu for this anniversary edition.",
+    "de": "Der Markt vor der Stephansbasilika empfängt Besucher bis zum 1. Januar 2027. Mehr als hundert Aussteller, Livemusik und eine abendliche Lichtshow auf der Basilikafassade machen den Bummel zum Erlebnis. Zum Jubiläum bewerben die Veranstalter außerdem günstige Gerichte und ein Kindermenü.",
+    "it": "Il mercatino davanti alla Basilica di Santo Stefano accoglie i visitatori fino al 1° gennaio 2027. Oltre cento espositori, musica dal vivo e uno spettacolo di luci serale sulla facciata rendono piacevole la passeggiata. Per l’anniversario gli organizzatori propongono anche piatti a prezzi ridotti e un menù per bambini.",
+    "fr": "Le marché devant la basilique Saint-Étienne accueille les visiteurs jusqu’au 1er janvier 2027. Plus d’une centaine d’exposants, de la musique live et un spectacle de lumières le soir sur la façade rendent la promenade agréable. Pour cet anniversaire, les organisateurs annoncent aussi des plats à prix réduits et un menu enfant."
    },
-   "quelle": "https://www.penzcentrum.hu/vasarlas/20261101/budapest-karacsonyi-vasar-2026-indul-az-adventi-szezon-mutatjuk-a-helyszineket-a-nyitvatartast-es-a-programokat-1208076",
-   "quelle_name": "Pénzcentrum"
+   "quelle": "https://adventbazilika.hu/",
+   "quelle_name": "Advent Bazilika"
   },
   {
    "datum": "2026-11-27",
-   "bis": "2026-12-23",
+   "bis": "2027-01-03",
    "titel": {
-    "hu": "Advent Óbudán: ingyenes korcsolyapálya a Fő téren",
-    "en": "Advent in Óbuda: free ice rink on Fő tér",
-    "de": "Advent in Óbuda: kostenlose Eisbahn am Fő tér",
-    "it": "Avvento a Óbuda: pista di pattinaggio gratuita in piazza Fő",
-    "fr": "Avent à Óbuda : patinoire gratuite sur la place Fő"
+    "hu": "Budavári Adventi Vásár a Mátyás-templomnál",
+    "en": "Buda Castle Advent Market at Matthias Church",
+    "de": "Budaer Adventsmarkt an der Matthiaskirche",
+    "it": "Mercatino dell’Avvento del Castello di Buda alla Chiesa di Mattia",
+    "fr": "Marché de l’Avent du Château de Buda près de l’église Matthias"
    },
    "text": {
-    "hu": "Az Advent Óbudán november 27-től december 23-ig várja a vendégeket a Fő téren. Kézműves és gasztronómiai standok, családi programok és ingyenes korcsolyapálya is lesz. December 12-én koncert is szerepel a programban.",
-    "en": "Advent in Óbuda welcomes visitors on Fő tér from 27 November to 23 December. Expect craft and food stalls, family activities and a free ice rink. A concert is also planned for 12 December.",
-    "de": "Der Advent in Óbuda lädt vom 27. November bis 23. Dezember auf den Fő tér ein. Es gibt Kunsthandwerks- und Gastronomiestände, Familienprogramme und eine kostenlose Eisbahn. Am 12. Dezember steht außerdem ein Konzert auf dem Programm.",
-    "it": "L’Avvento a Óbuda accoglie i visitatori in piazza Fő dal 27 novembre al 23 dicembre. Ci sono bancarelle di artigianato e gastronomia, programmi per famiglie e una pista di pattinaggio gratuita. Il 12 dicembre è previsto anche un concerto.",
-    "fr": "L’Avent à Óbuda accueille les visiteurs sur la place Fő du 27 novembre au 23 décembre. On y trouve des stands d’artisanat et de gastronomie, des animations familiales et une patinoire gratuite. Un concert est aussi prévu le 12 décembre."
+    "hu": "A vásár november 27-én nyílik a Szentháromság téren, ünnepi díszkivilágítással és koncerttel. A következő hétvégéken testvérvárosok és más települések együttesei lépnek fel. Január 3-ig látogatható.",
+    "en": "The market opens on 27 November on Szentháromság tér with a festive lighting ceremony and a concert. On the following weekends, ensembles from partner towns and other places will perform. It runs until 3 January 2027.",
+    "de": "Der Markt öffnet am 27. November auf dem Szentháromság tér mit festlicher Beleuchtung und einem Konzert. An den folgenden Wochenenden treten Ensembles aus Partnerstädten und anderen Orten auf. Er läuft bis zum 3. Januar 2027.",
+    "it": "Il mercatino apre il 27 novembre in piazza Szentháromság con l’accensione delle luci e un concerto. Nei fine settimana successivi si esibiranno gruppi delle città gemellate e di altre località. Resta aperto fino al 3 gennaio 2027.",
+    "fr": "Le marché ouvre le 27 novembre sur la place Szentháromság avec une illumination festive et un concert. Les week-ends suivants, des ensembles de villes jumelées et d’autres localités se produiront. Il reste ouvert jusqu’au 3 janvier 2027."
    },
-   "quelle": "https://drive.hu/program/budapest-karacsonyi-vasarok-2026/",
-   "quelle_name": "Drive Magazine"
+   "quelle": "https://csodalatosbudapest.hu/programok/unnep/budavari-adventi-vasar-2026-budapest/",
+   "quelle_name": "Csodálatos Budapest"
+  },
+  {
+   "datum": "2026-11-27",
+   "bis": "2026-12-20",
+   "titel": {
+    "hu": "Ferencvárosi Adventi Vásár a Ferenc téren",
+    "en": "Ferencváros Advent Market on Ferenc tér",
+    "de": "Adventsmarkt Ferencváros auf dem Ferenc tér",
+    "it": "Mercatino dell’Avvento di Ferencváros in piazza Ferenc",
+    "fr": "Marché de l’Avent de Ferencváros sur la place Ferenc"
+   },
+   "text": {
+    "hu": "A IX. kerületi vásár november 27-én nyit, és december 20-ig péntektől vasárnapig tart nyitva. Faházak, kézműves termékek, forralt bor és gyerekeknek szóló színpadi programok várják a látogatókat. Az adventi vasárnapokon gyertyagyújtást is tartanak.",
+    "en": "The market in the 9th district opens on 27 November and runs Friday to Sunday until 20 December. Wooden huts, crafts, mulled wine and stage shows for children await visitors. Advent candles are lit on the Advent Sundays.",
+    "de": "Der Markt im 9. Bezirk öffnet am 27. November und ist bis zum 20. Dezember freitags bis sonntags geöffnet. Holzhütten, Kunsthandwerk, Glühwein und Bühnenprogramme für Kinder erwarten die Gäste. An den Adventssonntagen werden gemeinsam Kerzen entzündet.",
+    "it": "Il mercatino del IX distretto apre il 27 novembre ed è aperto da venerdì a domenica fino al 20 dicembre. Casette in legno, artigianato, vin brulé e spettacoli per bambini attendono i visitatori. Nelle domeniche d’Avvento si accendono le candele.",
+    "fr": "Le marché du 9e arrondissement ouvre le 27 novembre et se tient du vendredi au dimanche jusqu’au 20 décembre. Chalets en bois, artisanat, vin chaud et spectacles pour enfants attendent les visiteurs. Les bougies de l’Avent sont allumées les dimanches d’Avent."
+   },
+   "quelle": "https://csodalatosbudapest.hu/programok/unnep/ferencvarosi-adventi-vasar-es-elmenyter-2026-budapest/",
+   "quelle_name": "Csodálatos Budapest"
   },
   {
    "datum": "2026-11-27",
    "bis": "",
    "titel": {
-    "hu": "Adventi nyitány a Balatonnál",
-    "en": "Advent kicks off at Lake Balaton",
-    "de": "Adventsauftakt am Balaton",
-    "it": "Il Natale inizia sul Balaton",
-    "fr": "Début de l’Avent au bord du Balaton"
+    "hu": "Adventi programok indulnak a Balaton körül",
+    "en": "Advent events start around Lake Balaton",
+    "de": "Adventsprogramme starten rund um den Balaton",
+    "it": "Iniziano gli eventi d’Avvento attorno al Balaton",
+    "fr": "Les animations de l’Avent débutent autour du lac Balaton"
    },
    "text": {
-    "hu": "A Balaton-parti települések sorra megnyitják adventi programjaikat: november 27-én Siófokon és Balatonfüreden, november 28-án Hévízen, november 29-én Tihanyban és Keszthelyen. A részletes programok a forrásoldalon találhatók.",
-    "en": "Towns around Lake Balaton are opening their Advent programmes one after another: Siófok and Balatonfüred on 27 November, Hévíz on 28 November, and Tihany and Keszthely on 29 November. Detailed programmes are on the source page.",
-    "de": "Die Orte rund um den Balaton starten nacheinander ihre Adventsprogramme: Siófok und Balatonfüred am 27. November, Hévíz am 28. November sowie Tihany und Keszthely am 29. November. Die Details finden Sie auf der Quellenseite.",
-    "it": "Le località del Balaton avviano una dopo l’altra i programmi d’Avvento: Siófok e Balatonfüred il 27 novembre, Hévíz il 28 novembre, Tihany e Keszthely il 29 novembre. I programmi dettagliati si trovano sulla pagina della fonte.",
-    "fr": "Les localités du Balaton lancent leurs programmes de l’Avent les unes après les autres : Siófok et Balatonfüred le 27 novembre, Hévíz le 28 novembre, Tihany et Keszthely le 29 novembre. Les programmes détaillés figurent sur la page source."
+    "hu": "November 27-én startol a Téli Varázs Siófokon és a Füredi Advent Balatonfüreden. November 29-től Tihanyban és Keszthelyen is adventi programokkal várnak. További települések programjai a Csodálatos Balaton oldalán találhatók.",
+    "en": "Winter Magic in Siófok and Füred Advent in Balatonfüred begin on 27 November. From 29 November, Tihany and Keszthely also offer Advent events. More towns are listed on the Csodálatos Balaton site.",
+    "de": "Am 27. November beginnen der Winterzauber in Siófok und der Füreder Advent in Balatonfüred. Ab dem 29. November folgen Adventsprogramme in Tihany und Keszthely. Weitere Orte sind auf der Seite Csodálatos Balaton aufgelistet.",
+    "it": "Il 27 novembre iniziano la Magia d’inverno a Siófok e l’Avvento di Füred a Balatonfüred. Dal 29 novembre seguono gli eventi d’Avvento a Tihany e Keszthely. Altre località sono elencate sul sito Csodálatos Balaton.",
+    "fr": "Le 27 novembre débutent la Magie d’hiver à Siófok et l’Avent de Füred à Balatonfüred. À partir du 29 novembre, Tihany et Keszthely proposent aussi des animations de l’Avent. D’autres localités sont listées sur le site Csodálatos Balaton."
    },
    "quelle": "https://csodalatosbalaton.hu/",
-   "quelle_name": "CsodalatosBalaton.hu"
+   "quelle_name": "Csodálatos Balaton"
   },
   {
-   "datum": "2026-12-13",
-   "bis": "",
+   "datum": "2026-11-28",
+   "bis": "2027-01-31",
    "titel": {
-    "hu": "Új MÁV-menetrend december 13-tól",
-    "en": "New MÁV train timetable from 13 December",
-    "de": "Neuer MÁV-Fahrplan ab 13. Dezember",
-    "it": "Nuovo orario ferroviario MÁV dal 13 dicembre",
-    "fr": "Nouvel horaire des trains MÁV dès le 13 décembre"
+    "hu": "Újra jár a balatoni fénykomp, téli komp-menetrend",
+    "en": "Balaton light ferry returns, winter ferry timetable",
+    "de": "Balaton-Lichterfähre fährt wieder, Winterfahrplan",
+    "it": "Torna il traghetto illuminato del Balaton, orario invernale",
+    "fr": "Le ferry illuminé du Balaton reprend, horaire d’hiver"
    },
    "text": {
-    "hu": "December 13-án lép életbe a 2026–2027-es vasúti menetrend. Több InterCity, például a soproni, szombathelyi és kaposvári járatok, a Keleti helyett Kelenföldről indul, a pécsi vonalon pedig hosszabb a menetidő. Az új menetrend már megtekinthető a MÁVPlusz alkalmazásban.",
-    "en": "The 2026–2027 rail timetable takes effect on 13 December. Several InterCity trains, including those to Sopron, Szombathely and Kaposvár, will leave from Kelenföld instead of Keleti, and journeys on the Pécs line get longer. The new timetable can already be checked in the MÁVPlusz app.",
-    "de": "Am 13. Dezember tritt der Bahnfahrplan 2026–2027 in Kraft. Mehrere InterCity-Züge, etwa nach Sopron, Szombathely und Kaposvár, fahren statt vom Keleti-Bahnhof von Kelenföld ab, und auf der Strecke nach Pécs verlängert sich die Fahrzeit. Der neue Fahrplan ist bereits in der MÁVPlusz-App abrufbar.",
-    "it": "Il 13 dicembre entra in vigore l’orario ferroviario 2026–2027. Diversi InterCity, tra cui quelli per Sopron, Szombathely e Kaposvár, partiranno da Kelenföld anziché da Keleti, e sulla linea di Pécs i tempi di viaggio aumentano. Il nuovo orario è già consultabile nell’app MÁVPlusz.",
-    "fr": "L’horaire ferroviaire 2026–2027 entre en vigueur le 13 décembre. Plusieurs trains InterCity, notamment vers Sopron, Szombathely et Kaposvár, partiront de Kelenföld au lieu de Keleti, et les trajets sur la ligne de Pécs seront plus longs. Le nouvel horaire est déjà consultable dans l’appli MÁVPlusz."
+    "hu": "November 28-tól január 31-ig ismét ünnepi fényekben közlekedik a Bahart fénykompja Szántód és Tihany között. Külön jegy nem kell hozzá, a rendes menetrend szerinti járatok része. A téli menetrend szerint a kompok félóránként indulnak Szántódról 7 és 17 óra, Tihanyból 7:15 és 17:15 között.",
+    "en": "From 28 November until 31 January, the festively lit Bahart ferry runs again between Szántód and Tihany. No separate ticket is needed, as it is part of the regular service. Under the winter timetable, ferries leave every 30 minutes, from Szántód between 7:00 and 17:00 and from Tihany between 7:15 and 17:15.",
+    "de": "Vom 28. November bis zum 31. Januar fährt die festlich beleuchtete Bahart-Fähre wieder zwischen Szántód und Tihany. Ein gesondertes Ticket ist nicht nötig, sie fährt im normalen Fahrplan mit. Laut Winterfahrplan legen die Fähren alle 30 Minuten ab, in Szántód von 7:00 bis 17:00 Uhr und in Tihany von 7:15 bis 17:15 Uhr.",
+    "it": "Dal 28 novembre al 31 gennaio il traghetto Bahart con le luci natalizie torna a operare tra Szántód e Tihany. Non serve un biglietto speciale, fa parte del servizio regolare. Secondo l’orario invernale i traghetti partono ogni 30 minuti, da Szántód dalle 7:00 alle 17:00 e da Tihany dalle 7:15 alle 17:15.",
+    "fr": "Du 28 novembre au 31 janvier, le ferry Bahart décoré de lumières circule de nouveau entre Szántód et Tihany. Aucun billet spécial n’est nécessaire, il fait partie du service normal. Selon l’horaire d’hiver, les ferries partent toutes les 30 minutes, de Szántód entre 7h00 et 17h00 et de Tihany entre 7h15 et 17h15."
    },
-   "quelle": "https://www.origo.hu/itthon/2026/11/mav-tobb-vonat-masik-palyaudvarrol-indul-december-13",
-   "quelle_name": "ORIGO"
+   "quelle": "https://hajozas.hu/magazin/balaton/november-28-tol-ismet-fenykomp-kozlekedik-a-balatonon/",
+   "quelle_name": "Hajózás.hu"
   }
  ]
 }
