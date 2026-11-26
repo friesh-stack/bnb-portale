@@ -1158,7 +1158,28 @@
             "en": "Olympic hill with a view"
           }
         }
-      ]
+      ],
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "de": "Spiel",
+          "en": "Game"
+        },
+        "titel": {
+          "de": "München als Strategiespiel",
+          "en": "Munich as a strategy game"
+        },
+        "text": {
+          "de": "Die Stadt als Hex-Karte wie in Civilization: 25 Stadtbezirke, echte Zahlen des Statistischen Amts München, 23 Ausflugsziele und Aufträge zum Mitraten. Kostenlos im Browser.",
+          "en": "The city as a Civilization-style hex map: 25 districts, real figures from Munich’s statistics office, 23 sights and missions. Free in your browser."
+        },
+        "cta": {
+          "de": "Gratis spielen",
+          "en": "Play for free"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
+      }
     },
     {
       "slug": "italia",
@@ -1374,6 +1395,39 @@
       ],
       "region_in": {
         "fr": "en Italie"
+      },
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "it": "Gioco",
+          "en": "Game",
+          "de": "Spiel",
+          "fr": "Jeu",
+          "es": "Juego"
+        },
+        "titel": {
+          "it": "Italia come gioco di strategia",
+          "en": "Italy as a strategy game",
+          "de": "Italien als Strategiespiel",
+          "fr": "Italie en jeu de stratégie",
+          "es": "Italia como juego de estrategia"
+        },
+        "text": {
+          "it": "Il paese come mappa esagonale in stile Civilization: 20 regioni, 5 ripartizioni, 25 luoghi da vedere, numeri veri e missioni. Gratis nel browser.",
+          "en": "The country as a Civilization-style hex map: 20 regions, 5 macro-areas, 25 sights, real figures and missions to solve. Free in your browser.",
+          "de": "Das Land als Hex-Karte wie in Civilization: 20 Regionen, 5 Großräume, 25 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser.",
+          "fr": "Le pays en carte hexagonale façon Civilization : 20 régions, 5 grandes zones, 25 sites à voir, de vrais chiffres et des missions à relever. Gratuit dans le navigateur.",
+          "es": "El país como mapa hexagonal al estilo Civilization: 20 regiones, 5 macrozonas, 25 lugares de interés, cifras reales y misiones. Gratis en el navegador."
+        },
+        "cta": {
+          "it": "Gioca gratis",
+          "en": "Play for free",
+          "de": "Gratis spielen",
+          "fr": "Jouer gratuitement",
+          "es": "Jugar gratis"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
       }
     },
     {
@@ -1575,6 +1629,39 @@
         "fr": "en France",
         "nl": "in Frankrijk",
         "es": "en Francia"
+      },
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "fr": "Jeu",
+          "en": "Game",
+          "de": "Spiel",
+          "nl": "Spel",
+          "es": "Juego"
+        },
+        "titel": {
+          "fr": "France en jeu de stratégie",
+          "en": "France as a strategy game",
+          "de": "Frankreich als Strategiespiel",
+          "nl": "Frankrijk als strategiespel",
+          "es": "Francia como juego de estrategia"
+        },
+        "text": {
+          "fr": "Le pays en carte hexagonale façon Civilization : 96 départements, 13 régions, 30 sites à voir, de vrais chiffres et des missions à relever. Gratuit dans le navigateur.",
+          "en": "The country as a Civilization-style hex map: 96 departments, 13 regions, 30 sights, real figures and missions to solve. Free in your browser.",
+          "de": "Das Land als Hex-Karte wie in Civilization: 96 Departements, 13 Regionen, 30 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser.",
+          "nl": "Het land als hexkaart in Civilization-stijl: 96 departementen, 13 regio’s, 30 bezienswaardigheden, echte cijfers en opdrachten. Gratis in de browser.",
+          "es": "El país como mapa hexagonal al estilo Civilization: 96 departamentos, 13 regiones, 30 lugares de interés, cifras reales y misiones. Gratis en el navegador."
+        },
+        "cta": {
+          "fr": "Jouer gratuitement",
+          "en": "Play for free",
+          "de": "Gratis spielen",
+          "nl": "Gratis spelen",
+          "es": "Jugar gratis"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
       }
     },
     {
@@ -1787,6 +1874,39 @@
       "region_in": {
         "fr": "en Espagne",
         "it": "in Spagna"
+      },
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "es": "Juego",
+          "en": "Game",
+          "de": "Spiel",
+          "fr": "Jeu",
+          "it": "Gioco"
+        },
+        "titel": {
+          "es": "España como juego de estrategia",
+          "en": "Spain as a strategy game",
+          "de": "Spanien als Strategiespiel",
+          "fr": "Espagne en jeu de stratégie",
+          "it": "Spagna come gioco di strategia"
+        },
+        "text": {
+          "es": "El país como mapa hexagonal al estilo Civilization: 50 provincias, 17 comunidades, 29 lugares de interés, cifras reales y misiones. Gratis en el navegador.",
+          "en": "The country as a Civilization-style hex map: 50 provinces, 17 regions, 29 sights, real figures and missions to solve. Free in your browser.",
+          "de": "Das Land als Hex-Karte wie in Civilization: 50 Provinzen, 17 Regionen, 29 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser.",
+          "fr": "Le pays en carte hexagonale façon Civilization : 50 provinces, 17 communautés, 29 sites à voir, de vrais chiffres et des missions à relever. Gratuit dans le navigateur.",
+          "it": "Il paese come mappa esagonale in stile Civilization: 50 province, 17 comunità, 29 luoghi da vedere, numeri veri e missioni. Gratis nel browser."
+        },
+        "cta": {
+          "es": "Jugar gratis",
+          "en": "Play for free",
+          "de": "Gratis spielen",
+          "fr": "Jouer gratuitement",
+          "it": "Gioca gratis"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
       }
     },
     {
