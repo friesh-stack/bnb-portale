@@ -575,12 +575,12 @@
           "en": "Rügen as a strategy game"
         },
         "text": {
-          "de": "Deutschlands größte Insel als Hex-Karte wie in Civilization: 39 Gemeinden, echte Zahlen zu Einwohnern und Übernachtungen, 40 Ausflugsziele und Inselaufträge zum Mitraten.",
-          "en": "Germany's largest island as a Civilization-style hex map: 39 municipalities, real figures on residents and overnight stays, 40 sights and a quiz. (German only)"
+          "de": "Deutschlands größte Insel als Hex-Karte wie in Civilization: 39 Gemeinden, echte Zahlen zu Einwohnern und Übernachtungen, 40 Ausflugsziele und Inselaufträge zum Mitraten. Kostenlos im Browser.",
+          "en": "Germany's largest island as a Civilization-style hex map: 39 municipalities, real figures on residents and overnight stays, 40 sights and a quiz. Free in your browser (German only)."
         },
         "cta": {
-          "de": "Jetzt spielen",
-          "en": "Play now"
+          "de": "Gratis spielen",
+          "en": "Play for free"
         },
         "video": "spiel-short.mp4",
         "poster": "spiel-short.jpg"
@@ -874,12 +874,12 @@
           "en": "Hamburg as a strategy game"
         },
         "text": {
-          "de": "Die Stadt als Hex-Karte wie in Civilization: 7 Bezirke, 104 Stadtteile, echte Daten des Statistikamts Nord, über 80 Ausflugsziele und Senatsaufträge zum Mitraten.",
-          "en": "The city as a Civilization-style hex map: 7 boroughs, 104 districts, real statistics, 80+ sights and a quiz. (German only)"
+          "de": "Die Stadt als Hex-Karte wie in Civilization: 7 Bezirke, 104 Stadtteile, echte Daten des Statistikamts Nord, über 80 Ausflugsziele und Senatsaufträge zum Mitraten. Kostenlos im Browser.",
+          "en": "The city as a Civilization-style hex map: 7 boroughs, 104 districts, real statistics, 80+ sights and a quiz. Free in your browser (German only)."
         },
         "cta": {
-          "de": "Jetzt spielen",
-          "en": "Play now"
+          "de": "Gratis spielen",
+          "en": "Play for free"
         },
         "video": "spiel-short.mp4",
         "poster": "spiel-short.jpg"
@@ -2022,7 +2022,44 @@
             "de": "Gudhjem"
           }
         }
-      ]
+      ],
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "da": "Spil",
+          "en": "Game",
+          "de": "Spiel",
+          "sv": "Spel",
+          "nb": "Spill",
+          "fi": "Peli"
+        },
+        "titel": {
+          "da": "Danmark som strategispil",
+          "en": "Denmark as a strategy game",
+          "de": "Dänemark als Strategiespiel",
+          "sv": "Danmark som strategispel",
+          "nb": "Danmark som strategispill",
+          "fi": "Tanska strategiapelinä"
+        },
+        "text": {
+          "da": "Landet som hexkort i Civilization-stil: 98 kommuner, 5 regioner, 25 seværdigheder, rigtige tal og opgaver at løse. Gratis i browseren – på seks sprog.",
+          "en": "The country as a Civilization-style hex map: 98 municipalities, 5 regions, 25 sights, real figures and missions to solve. Free in your browser – in six languages.",
+          "de": "Das Land als Hex-Karte wie in Civilization: 98 Kommunen, 5 Regionen, 25 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser – in sechs Sprachen.",
+          "sv": "Landet som hexkarta i Civilization-stil: 98 kommuner, 5 regioner, 25 sevärdheter, riktiga siffror och uppdrag att lösa. Gratis i webbläsaren – på sex språk.",
+          "nb": "Landet som hekskart i Civilization-stil: 98 kommuner, 5 regioner, 25 severdigheter, ekte tall og oppdrag å løse. Gratis i nettleseren – på seks språk.",
+          "fi": "Maa Civilization-tyylisenä heksakarttana: 98 kunnat, 5 alueet, 25 nähtävyyttä, oikeat luvut ja ratkaistavia tehtäviä. Ilmainen selaimessa – kuudella kielellä."
+        },
+        "cta": {
+          "da": "Spil gratis",
+          "en": "Play for free",
+          "de": "Gratis spielen",
+          "sv": "Spela gratis",
+          "nb": "Spill gratis",
+          "fi": "Pelaa ilmaiseksi"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
+      }
     },
     {
       "slug": "sverige",
@@ -2260,7 +2297,44 @@
             "de": "Nordlicht"
           }
         }
-      ]
+      ],
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "sv": "Spel",
+          "en": "Game",
+          "de": "Spiel",
+          "nb": "Spill",
+          "da": "Spil",
+          "fi": "Peli"
+        },
+        "titel": {
+          "sv": "Sverige som strategispel",
+          "en": "Sweden as a strategy game",
+          "de": "Schweden als Strategiespiel",
+          "nb": "Sverige som strategispill",
+          "da": "Sverige som strategispil",
+          "fi": "Ruotsi strategiapelinä"
+        },
+        "text": {
+          "sv": "Landet som hexkarta i Civilization-stil: 21 län, 8 riksområden, 24 sevärdheter, riktiga siffror och uppdrag att lösa. Gratis i webbläsaren – på sex språk.",
+          "en": "The country as a Civilization-style hex map: 21 counties, 8 regions, 24 sights, real figures and missions to solve. Free in your browser – in six languages.",
+          "de": "Das Land als Hex-Karte wie in Civilization: 21 Län, 8 Großregionen, 24 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser – in sechs Sprachen.",
+          "nb": "Landet som hekskart i Civilization-stil: 21 len, 8 riksområder, 24 severdigheter, ekte tall og oppdrag å løse. Gratis i nettleseren – på seks språk.",
+          "da": "Landet som hexkort i Civilization-stil: 21 len, 8 rigsområder, 24 seværdigheder, rigtige tal og opgaver at løse. Gratis i browseren – på seks sprog.",
+          "fi": "Maa Civilization-tyylisenä heksakarttana: 21 läänit, 8 suuralueet, 24 nähtävyyttä, oikeat luvut ja ratkaistavia tehtäviä. Ilmainen selaimessa – kuudella kielellä."
+        },
+        "cta": {
+          "sv": "Spela gratis",
+          "en": "Play for free",
+          "de": "Gratis spielen",
+          "nb": "Spill gratis",
+          "da": "Spil gratis",
+          "fi": "Pelaa ilmaiseksi"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
+      }
     },
     {
       "slug": "norge",
@@ -2508,7 +2582,44 @@
             "de": "Nordlicht"
           }
         }
-      ]
+      ],
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "nb": "Spill",
+          "en": "Game",
+          "de": "Spiel",
+          "sv": "Spel",
+          "da": "Spil",
+          "fi": "Peli"
+        },
+        "titel": {
+          "nb": "Norge som strategispill",
+          "en": "Norway as a strategy game",
+          "de": "Norwegen als Strategiespiel",
+          "sv": "Norge som strategispel",
+          "da": "Norge som strategispil",
+          "fi": "Norja strategiapelinä"
+        },
+        "text": {
+          "nb": "Landet som hekskart i Civilization-stil: 15 fylker, 5 landsdeler, 17 severdigheter, ekte tall og oppdrag å løse. Gratis i nettleseren – på seks språk.",
+          "en": "The country as a Civilization-style hex map: 15 counties, 5 regions, 17 sights, real figures and missions to solve. Free in your browser – in six languages.",
+          "de": "Das Land als Hex-Karte wie in Civilization: 15 Provinzen, 5 Landesteile, 17 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser – in sechs Sprachen.",
+          "sv": "Landet som hexkarta i Civilization-stil: 15 fylken, 5 landsdelar, 17 sevärdheter, riktiga siffror och uppdrag att lösa. Gratis i webbläsaren – på sex språk.",
+          "da": "Landet som hexkort i Civilization-stil: 15 fylker, 5 landsdele, 17 seværdigheder, rigtige tal og opgaver at løse. Gratis i browseren – på seks sprog.",
+          "fi": "Maa Civilization-tyylisenä heksakarttana: 15 läänit, 5 alueet, 17 nähtävyyttä, oikeat luvut ja ratkaistavia tehtäviä. Ilmainen selaimessa – kuudella kielellä."
+        },
+        "cta": {
+          "nb": "Spill gratis",
+          "en": "Play for free",
+          "de": "Gratis spielen",
+          "sv": "Spela gratis",
+          "da": "Spil gratis",
+          "fi": "Pelaa ilmaiseksi"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
+      }
     },
     {
       "slug": "suomi",
@@ -2756,7 +2867,44 @@
             "de": "Fjell & Ski"
           }
         }
-      ]
+      ],
+      "spiel": {
+        "datei": "spiel.html",
+        "nav": {
+          "fi": "Peli",
+          "en": "Game",
+          "de": "Spiel",
+          "sv": "Spel",
+          "da": "Spil",
+          "nb": "Spill"
+        },
+        "titel": {
+          "fi": "Suomi strategiapelinä",
+          "en": "Finland as a strategy game",
+          "de": "Finnland als Strategiespiel",
+          "sv": "Finland som strategispel",
+          "da": "Finland som strategispil",
+          "nb": "Finland som strategispill"
+        },
+        "text": {
+          "fi": "Maa Civilization-tyylisenä heksakarttana: 19 maakuntaa, 5 suuraluetta, 18 nähtävyyttä, oikeat luvut ja ratkaistavia tehtäviä. Ilmainen selaimessa – kuudella kielellä.",
+          "en": "The country as a Civilization-style hex map: 19 regions, 5 major regions, 18 sights, real figures and missions to solve. Free in your browser – in six languages.",
+          "de": "Das Land als Hex-Karte wie in Civilization: 19 Landschaften, 5 Großregionen, 18 Sehenswürdigkeiten, echte Zahlen und Aufträge zum Mitraten. Kostenlos im Browser – in sechs Sprachen.",
+          "sv": "Landet som hexkarta i Civilization-stil: 19 landskap, 5 storområden, 18 sevärdheter, riktiga siffror och uppdrag att lösa. Gratis i webbläsaren – på sex språk.",
+          "da": "Landet som hexkort i Civilization-stil: 19 landskaber, 5 storområder, 18 seværdigheder, rigtige tal og opgaver at løse. Gratis i browseren – på seks sprog.",
+          "nb": "Landet som hekskart i Civilization-stil: 19 landskap, 5 storområder, 18 severdigheter, ekte tall og oppdrag å løse. Gratis i nettleseren – på seks språk."
+        },
+        "cta": {
+          "fi": "Pelaa ilmaiseksi",
+          "en": "Play for free",
+          "de": "Gratis spielen",
+          "sv": "Spela gratis",
+          "da": "Spil gratis",
+          "nb": "Spill gratis"
+        },
+        "video": "spiel-short.mp4",
+        "poster": "spiel-short.jpg"
+      }
     },
     {
       "slug": "europa",
