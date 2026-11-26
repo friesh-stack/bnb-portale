@@ -112,6 +112,9 @@ V = {
  "Tiedustelu","Nimesi *","Sähköposti *","Puhelin / WhatsApp","Kohteiden määrä","Paketti","Viestisi","Lähetä tiedustelu","Viestisi on valmis – napauta Lähetä sähköpostisovelluksessa.","Ehdot","Hinta pyynnöstä"],
 }
 T = {l: dict(zip(K, v)) for l, v in V.items()}
+# Neue Länder: Vermieter-Infoseite vorerst auf Englisch (das Vermietungsportal eu-bnb.com/vermieten übersetzt vollständig)
+for _l in ("pt", "hu", "el"):
+    T.setdefault(_l, dict(T["en"]))
 for l, d in T.items():
     assert len(d) == len(K), l
 
@@ -126,6 +129,9 @@ PREISE = {
 "da":("99 € første år, derefter 20 € om året – uden tilvalg","19 € om måneden – tilvalg kan bestilles","Pris efter aftale"),
 "sv":("99 € första året, därefter 20 € per år – utan tillval","19 € per månad – tillval kan bokas","Pris på förfrågan"),
 "nb":("99 € første år, deretter 20 € per år – uten tilvalg","19 € per måned – tilvalg kan bestilles","Pris etter avtale"),
+"pt":("99 € no 1.º ano, depois 20 € por ano – sem opções adicionais","19 € por mês – opções adicionais disponíveis","Preço sob consulta"),
+"hu":("99 € az 1. évben, utána évi 20 € – kiegészítők nélkül","havi 19 € – kiegészítők rendelhetők","Ár egyeztetés alapján"),
+"el":("99 € το 1ο έτος, έπειτα 20 € τον χρόνο – χωρίς πρόσθετες επιλογές","19 € τον μήνα – διαθέσιμες πρόσθετες επιλογές","Τιμή κατόπιν αιτήματος"),
 "fi":("99 € 1. vuonna, sen jälkeen 20 € vuodessa – ilman lisävalintoja","19 € kuukaudessa – lisävalinnat tilattavissa","Hinta pyynnöstä"),
 }
 for l, d in T.items():

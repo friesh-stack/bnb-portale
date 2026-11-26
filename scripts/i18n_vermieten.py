@@ -15,7 +15,7 @@ from playwright.async_api import async_playwright
 
 URL = "https://eu-bnb.com/vermieten/"
 REPO, PFAD = "friesh-stack/eu-bnb", "vermieten/i18n/{}.json"
-SPRACHEN = ["it", "en", "fr", "es", "nl", "da", "sv", "nb", "fi"]
+SPRACHEN = ["it", "en", "fr", "es", "nl", "da", "sv", "nb", "fi", "pt", "hu", "el"]
 
 def claude(body):
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=json.dumps(body).encode(),

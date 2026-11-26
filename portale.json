@@ -35,7 +35,10 @@
         "da": "Egen side + portal: 19 € om måneden. Kun portalannonce: 99 € første år, derefter 20 € om året. Ingen provision.",
         "sv": "Egen sida + portal: 19 € per månad. Endast portalannons: 99 € första året, därefter 20 € per år. Ingen provision.",
         "nb": "Egen side + portal: 19 € per måned. Kun portaloppføring: 99 € første år, deretter 20 € per år. Ingen provisjon.",
-        "fi": "Oma sivu + portaali: 19 € kuukaudessa. Pelkkä ilmoitus: 99 € ensimmäisenä vuonna, sen jälkeen 20 € vuodessa. Ei välityspalkkiota."
+        "fi": "Oma sivu + portaali: 19 € kuukaudessa. Pelkkä ilmoitus: 99 € ensimmäisenä vuonna, sen jälkeen 20 € vuodessa. Ei välityspalkkiota.",
+        "pt": "Página própria + portal: 19 € por mês. Só anúncio: 99 € no primeiro ano, depois 20 € por ano. Sem comissão.",
+        "hu": "Saját oldal + portál: havi 19 €. Csak portálhirdetés: 99 € az első évben, utána évi 20 €. Jutalék nélkül.",
+        "el": "Δική σας σελίδα + πύλη: 19 € τον μήνα. Μόνο καταχώριση: 99 € το πρώτο έτος, έπειτα 20 € τον χρόνο. Χωρίς προμήθεια."
       }
     }
   },
@@ -3027,6 +3030,1021 @@
       }
     },
     {
+      "slug": "schweiz",
+      "domain": "ch-bnb.com",
+      "repo": "chbnb",
+      "modus": "neu",
+      "allinkl": "dns",
+      "marke": "CH-BnB",
+      "sprachen": [
+        "de",
+        "fr",
+        "it",
+        "en",
+        "nl"
+      ],
+      "sprachen_vermieter": [
+        "de",
+        "fr",
+        "it",
+        "en"
+      ],
+      "angebot": "allgemein",
+      "news": "woechentlich",
+      "karte": {
+        "lat": 46.8,
+        "lon": 8.2,
+        "zoom": 7
+      },
+      "region": {
+        "de": "Schweiz",
+        "fr": "Suisse",
+        "it": "Svizzera",
+        "en": "Switzerland",
+        "nl": "Zwitserland"
+      },
+      "region_in": {
+        "de": "in der Schweiz",
+        "fr": "en Suisse",
+        "it": "in Svizzera",
+        "en": "in Switzerland",
+        "nl": "in Zwitserland"
+      },
+      "titel": {
+        "de": "Ferienwohnungen in der Schweiz – direkt vom Gastgeber",
+        "fr": "Locations de vacances en Suisse – directement chez l'hôte",
+        "it": "Case vacanza in Svizzera – direttamente dal proprietario",
+        "en": "Holiday homes in Switzerland – direct from the host",
+        "nl": "Vakantiewoningen in Zwitserland – rechtstreeks bij de verhuurder"
+      },
+      "intro": {
+        "de": "Von Zürich über die Alpen bis ins Tessin: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche sehen, was los ist.",
+        "fr": "De Zurich aux Alpes jusqu'au Tessin : réservez directement chez l'hôte, sans frais de plateforme – et découvrez chaque semaine ce qui se passe.",
+        "it": "Da Zurigo alle Alpi fino al Ticino: prenotate direttamente dal proprietario, senza commissioni – e scoprite ogni settimana cosa succede.",
+        "en": "From Zurich across the Alps to Ticino: book directly with the host, no platform fees – and see what's on every week.",
+        "nl": "Van Zürich via de Alpen tot in Ticino: rechtstreeks bij de verhuurder boeken, zonder platformkosten – en elke week zien wat er te doen is."
+      },
+      "highlights": [
+        {
+          "titel": {
+            "de": "Matterhorn & Zermatt",
+            "fr": "Cervin & Zermatt",
+            "it": "Cervino & Zermatt",
+            "en": "Matterhorn & Zermatt",
+            "nl": "Matterhorn & Zermatt"
+          },
+          "text": {
+            "de": "Autofreies Bergdorf, Gletscher und Skipisten.",
+            "fr": "Village sans voitures, glaciers et pistes.",
+            "it": "Villaggio senza auto, ghiacciai e piste.",
+            "en": "Car-free mountain village, glaciers and slopes.",
+            "nl": "Autovrij bergdorp, gletsjers en pistes."
+          }
+        },
+        {
+          "titel": {
+            "de": "Luzern & Vierwaldstättersee",
+            "fr": "Lucerne & lac des Quatre-Cantons",
+            "it": "Lucerna & Lago dei Quattro Cantoni",
+            "en": "Lucerne & Lake Lucerne",
+            "nl": "Luzern & Vierwoudstedenmeer"
+          },
+          "text": {
+            "de": "Kapellbrücke, Dampfschiffe und die Rigi.",
+            "fr": "Pont de la Chapelle, bateaux à vapeur et le Rigi.",
+            "it": "Ponte della Cappella, battelli a vapore e il Rigi.",
+            "en": "Chapel Bridge, paddle steamers and Mount Rigi.",
+            "nl": "Kapelbrug, raderstoomboten en de Rigi."
+          }
+        },
+        {
+          "titel": {
+            "de": "Berner Oberland",
+            "fr": "Oberland bernois",
+            "it": "Oberland bernese",
+            "en": "Bernese Oberland",
+            "nl": "Berner Oberland"
+          },
+          "text": {
+            "de": "Eiger, Mönch und Jungfrau über Interlaken.",
+            "fr": "Eiger, Mönch et Jungfrau au-dessus d'Interlaken.",
+            "it": "Eiger, Mönch e Jungfrau sopra Interlaken.",
+            "en": "Eiger, Mönch and Jungfrau above Interlaken.",
+            "nl": "Eiger, Mönch en Jungfrau boven Interlaken."
+          }
+        },
+        {
+          "titel": {
+            "de": "Tessin",
+            "fr": "Tessin",
+            "it": "Ticino",
+            "en": "Ticino",
+            "nl": "Ticino"
+          },
+          "text": {
+            "de": "Palmen am Lago Maggiore und Luganersee.",
+            "fr": "Palmiers au bord du lac Majeur et du lac de Lugano.",
+            "it": "Palme sul Lago Maggiore e sul Ceresio.",
+            "en": "Palm trees on Lake Maggiore and Lake Lugano.",
+            "nl": "Palmen aan het Lago Maggiore en het meer van Lugano."
+          }
+        }
+      ],
+      "foto_suche": [
+        "Matterhorn Zermatt",
+        "Kapellbrücke Luzern",
+        "Lauterbrunnen valley",
+        "Lugano lake",
+        "Oeschinensee"
+      ],
+      "news_suche": "Schweiz Veranstaltungen diese Woche Touristen, SBB Fahrplan Störungen, Schweiz Tourismus News, Bergbahnen Saisonstart",
+      "pfeile": [
+        {
+          "name": "Zürich",
+          "lat": 47.3769,
+          "lon": 8.5417,
+          "text": {
+            "de": "Größte Stadt",
+            "fr": "Plus grande ville",
+            "it": "Città più grande",
+            "en": "Largest city",
+            "nl": "Grootste stad"
+          }
+        },
+        {
+          "name": "Luzern",
+          "lat": 47.0502,
+          "lon": 8.3093,
+          "text": {
+            "de": "Kapellbrücke",
+            "fr": "Pont de la Chapelle",
+            "it": "Ponte della Cappella",
+            "en": "Chapel Bridge",
+            "nl": "Kapelbrug"
+          }
+        },
+        {
+          "name": "Interlaken",
+          "lat": 46.6863,
+          "lon": 7.8632,
+          "text": {
+            "de": "Tor zur Jungfrau",
+            "fr": "Porte de la Jungfrau",
+            "it": "Porta della Jungfrau",
+            "en": "Gateway to the Jungfrau",
+            "nl": "Poort naar de Jungfrau"
+          }
+        },
+        {
+          "name": "Zermatt",
+          "lat": 46.0207,
+          "lon": 7.7491,
+          "text": {
+            "de": "Matterhorn",
+            "fr": "Cervin",
+            "it": "Cervino",
+            "en": "Matterhorn",
+            "nl": "Matterhorn"
+          }
+        },
+        {
+          "name": "Genève",
+          "lat": 46.2044,
+          "lon": 6.1432,
+          "text": {
+            "de": "Genfersee",
+            "fr": "Lac Léman",
+            "it": "Lago Lemano",
+            "en": "Lake Geneva",
+            "nl": "Meer van Genève"
+          }
+        },
+        {
+          "name": "Lugano",
+          "lat": 46.0037,
+          "lon": 8.9511,
+          "text": {
+            "de": "Tessiner Seen",
+            "fr": "Lacs tessinois",
+            "it": "Laghi ticinesi",
+            "en": "Ticino lakes",
+            "nl": "Meren van Ticino"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "oesterreich",
+      "domain": "a-bnb.com",
+      "repo": "abnb",
+      "modus": "neu",
+      "allinkl": "dns",
+      "marke": "A-BnB",
+      "sprachen": [
+        "de",
+        "en",
+        "nl",
+        "it",
+        "fr"
+      ],
+      "sprachen_vermieter": [
+        "de",
+        "en"
+      ],
+      "angebot": "allgemein",
+      "news": "woechentlich",
+      "karte": {
+        "lat": 47.6,
+        "lon": 13.4,
+        "zoom": 7
+      },
+      "region": {
+        "de": "Österreich",
+        "en": "Austria",
+        "nl": "Oostenrijk",
+        "it": "Austria",
+        "fr": "Autriche"
+      },
+      "region_in": {
+        "de": "in Österreich",
+        "en": "in Austria",
+        "nl": "in Oostenrijk",
+        "it": "in Austria",
+        "fr": "en Autriche"
+      },
+      "titel": {
+        "de": "Ferienwohnungen in Österreich – direkt vom Gastgeber",
+        "en": "Holiday homes in Austria – direct from the host",
+        "nl": "Vakantiewoningen in Oostenrijk – rechtstreeks bij de verhuurder",
+        "it": "Case vacanza in Austria – direttamente dal proprietario",
+        "fr": "Locations de vacances en Autriche – directement chez l'hôte"
+      },
+      "intro": {
+        "de": "Von Wien über Salzburg bis in die Tiroler Berge: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche sehen, was los ist.",
+        "en": "From Vienna via Salzburg to the Tyrolean mountains: book directly with the host, no platform fees – and see what's on every week.",
+        "nl": "Van Wenen via Salzburg tot in de Tiroolse bergen: rechtstreeks bij de verhuurder boeken, zonder platformkosten – en elke week zien wat er te doen is.",
+        "it": "Da Vienna a Salisburgo fino alle montagne del Tirolo: prenotate direttamente dal proprietario, senza commissioni – e scoprite ogni settimana cosa succede.",
+        "fr": "De Vienne à Salzbourg jusqu'aux montagnes du Tyrol : réservez directement chez l'hôte, sans frais de plateforme – et découvrez chaque semaine ce qui se passe."
+      },
+      "highlights": [
+        {
+          "titel": {
+            "de": "Wien",
+            "en": "Vienna",
+            "nl": "Wenen",
+            "it": "Vienna",
+            "fr": "Vienne"
+          },
+          "text": {
+            "de": "Kaffeehäuser, Schönbrunn und Heuriger.",
+            "en": "Coffee houses, Schönbrunn and wine taverns.",
+            "nl": "Koffiehuizen, Schönbrunn en wijnkelders.",
+            "it": "Caffè storici, Schönbrunn e osterie del vino.",
+            "fr": "Cafés viennois, Schönbrunn et guinguettes à vin."
+          }
+        },
+        {
+          "titel": {
+            "de": "Salzburg & Salzkammergut",
+            "en": "Salzburg & Salzkammergut",
+            "nl": "Salzburg & Salzkammergut",
+            "it": "Salisburgo & Salzkammergut",
+            "fr": "Salzbourg & Salzkammergut"
+          },
+          "text": {
+            "de": "Mozartstadt, Hallstatt und klare Bergseen.",
+            "en": "Mozart's city, Hallstatt and clear mountain lakes.",
+            "nl": "Mozartstad, Hallstatt en heldere bergmeren.",
+            "it": "La città di Mozart, Hallstatt e limpidi laghi alpini.",
+            "fr": "La ville de Mozart, Hallstatt et des lacs de montagne limpides."
+          }
+        },
+        {
+          "titel": {
+            "de": "Tirol",
+            "en": "Tyrol",
+            "nl": "Tirol",
+            "it": "Tirolo",
+            "fr": "Tyrol"
+          },
+          "text": {
+            "de": "Skigebiete, Almen und Innsbruck.",
+            "en": "Ski resorts, alpine pastures and Innsbruck.",
+            "nl": "Skigebieden, almen en Innsbruck.",
+            "it": "Comprensori sciistici, malghe e Innsbruck.",
+            "fr": "Stations de ski, alpages et Innsbruck."
+          }
+        },
+        {
+          "titel": {
+            "de": "Wachau & Kärnten",
+            "en": "Wachau & Carinthia",
+            "nl": "Wachau & Karinthië",
+            "it": "Wachau & Carinzia",
+            "fr": "Wachau & Carinthie"
+          },
+          "text": {
+            "de": "Weinberge an der Donau, Badeseen im Süden.",
+            "en": "Vineyards on the Danube, swimming lakes in the south.",
+            "nl": "Wijngaarden aan de Donau, zwemmeren in het zuiden.",
+            "it": "Vigneti sul Danubio, laghi balneabili al sud.",
+            "fr": "Vignobles sur le Danube, lacs de baignade au sud."
+          }
+        }
+      ],
+      "foto_suche": [
+        "Hallstatt",
+        "Schönbrunn Palace",
+        "Salzburg Altstadt",
+        "Innsbruck Nordkette",
+        "Dürnstein Wachau"
+      ],
+      "news_suche": "Österreich Veranstaltungen diese Woche Urlauber, ÖBB Fahrplan Baustellen, Österreich Tourismus News, Skigebiete Saisonstart Tirol",
+      "pfeile": [
+        {
+          "name": "Wien",
+          "lat": 48.2082,
+          "lon": 16.3738,
+          "text": {
+            "de": "Hauptstadt",
+            "en": "Capital",
+            "nl": "Hoofdstad",
+            "it": "Capitale",
+            "fr": "Capitale"
+          }
+        },
+        {
+          "name": "Salzburg",
+          "lat": 47.8095,
+          "lon": 13.055,
+          "text": {
+            "de": "Mozartstadt",
+            "en": "Mozart's city",
+            "nl": "Mozartstad",
+            "it": "Città di Mozart",
+            "fr": "Ville de Mozart"
+          }
+        },
+        {
+          "name": "Hallstatt",
+          "lat": 47.5622,
+          "lon": 13.6493,
+          "text": {
+            "de": "Seedorf",
+            "en": "Lakeside village",
+            "nl": "Meerdorp",
+            "it": "Borgo sul lago",
+            "fr": "Village lacustre"
+          }
+        },
+        {
+          "name": "Innsbruck",
+          "lat": 47.2692,
+          "lon": 11.4041,
+          "text": {
+            "de": "Alpenstadt",
+            "en": "Alpine city",
+            "nl": "Alpenstad",
+            "it": "Città alpina",
+            "fr": "Ville alpine"
+          }
+        },
+        {
+          "name": "Kitzbühel",
+          "lat": 47.4464,
+          "lon": 12.3922,
+          "text": {
+            "de": "Skiort",
+            "en": "Ski resort",
+            "nl": "Skioord",
+            "it": "Località sciistica",
+            "fr": "Station de ski"
+          }
+        },
+        {
+          "name": "Dürnstein",
+          "lat": 48.3953,
+          "lon": 15.5197,
+          "text": {
+            "de": "Wachau",
+            "en": "Wachau",
+            "nl": "Wachau",
+            "it": "Wachau",
+            "fr": "Wachau"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "portugal",
+      "domain": "p-bnb.com",
+      "repo": "pbnb",
+      "modus": "neu",
+      "allinkl": "dns",
+      "marke": "P-BnB",
+      "sprachen": [
+        "pt",
+        "en",
+        "de",
+        "es",
+        "fr"
+      ],
+      "sprachen_vermieter": [
+        "pt",
+        "en",
+        "de"
+      ],
+      "angebot": "allgemein",
+      "news": "woechentlich",
+      "karte": {
+        "lat": 39.6,
+        "lon": -8.1,
+        "zoom": 6
+      },
+      "region": {
+        "pt": "Portugal",
+        "en": "Portugal",
+        "de": "Portugal",
+        "es": "Portugal",
+        "fr": "Portugal"
+      },
+      "region_in": {
+        "pt": "em Portugal",
+        "en": "in Portugal",
+        "de": "in Portugal",
+        "es": "en Portugal",
+        "fr": "au Portugal"
+      },
+      "titel": {
+        "pt": "Alojamento local em Portugal – diretamente do anfitrião",
+        "en": "Holiday homes in Portugal – direct from the host",
+        "de": "Ferienwohnungen in Portugal – direkt vom Gastgeber",
+        "es": "Alojamientos vacacionales en Portugal – directamente del anfitrión",
+        "fr": "Locations de vacances au Portugal – directement chez l'hôte"
+      },
+      "intro": {
+        "pt": "De Lisboa ao Porto e ao Algarve: reserve diretamente com o anfitrião, sem taxas de plataforma – e veja todas as semanas o que se passa.",
+        "en": "From Lisbon to Porto and the Algarve: book directly with the host, no platform fees – and see what's on every week.",
+        "de": "Von Lissabon über Porto bis an die Algarve: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche sehen, was los ist.",
+        "es": "De Lisboa a Oporto y el Algarve: reserve directamente con el anfitrión, sin comisiones – y vea cada semana qué está pasando.",
+        "fr": "De Lisbonne à Porto et l'Algarve : réservez directement chez l'hôte, sans frais de plateforme – et découvrez chaque semaine ce qui se passe."
+      },
+      "highlights": [
+        {
+          "titel": {
+            "pt": "Lisboa",
+            "en": "Lisbon",
+            "de": "Lissabon",
+            "es": "Lisboa",
+            "fr": "Lisbonne"
+          },
+          "text": {
+            "pt": "Elétrico 28, miradouros e Belém.",
+            "en": "Tram 28, viewpoints and Belém.",
+            "de": "Tram 28, Aussichtspunkte und Belém.",
+            "es": "Tranvía 28, miradores y Belém.",
+            "fr": "Tram 28, belvédères et Belém."
+          }
+        },
+        {
+          "titel": {
+            "pt": "Porto & Douro",
+            "en": "Porto & the Douro",
+            "de": "Porto & Douro",
+            "es": "Oporto & Duero",
+            "fr": "Porto & le Douro"
+          },
+          "text": {
+            "pt": "Ribeira, caves de vinho do Porto e socalcos.",
+            "en": "Ribeira, port wine cellars and terraced vineyards.",
+            "de": "Ribeira, Portweinkeller und Weinterrassen.",
+            "es": "Ribeira, bodegas de oporto y viñedos en terrazas.",
+            "fr": "Ribeira, caves de porto et vignobles en terrasses."
+          }
+        },
+        {
+          "titel": {
+            "pt": "Algarve",
+            "en": "Algarve",
+            "de": "Algarve",
+            "es": "Algarve",
+            "fr": "Algarve"
+          },
+          "text": {
+            "pt": "Falésias, grutas e praias douradas.",
+            "en": "Cliffs, sea caves and golden beaches.",
+            "de": "Felsküste, Grotten und goldene Strände.",
+            "es": "Acantilados, grutas y playas doradas.",
+            "fr": "Falaises, grottes et plages dorées."
+          }
+        },
+        {
+          "titel": {
+            "pt": "Sintra & Costa Atlântica",
+            "en": "Sintra & Atlantic coast",
+            "de": "Sintra & Atlantikküste",
+            "es": "Sintra & costa atlántica",
+            "fr": "Sintra & côte atlantique"
+          },
+          "text": {
+            "pt": "Palácios, surf e o Cabo da Roca.",
+            "en": "Palaces, surf and Cabo da Roca.",
+            "de": "Paläste, Surfstrände und das Cabo da Roca.",
+            "es": "Palacios, surf y el Cabo da Roca.",
+            "fr": "Palais, surf et le Cabo da Roca."
+          }
+        }
+      ],
+      "foto_suche": [
+        "Lisbon Alfama tram",
+        "Porto Ribeira",
+        "Ponta da Piedade Lagos",
+        "Pena Palace Sintra",
+        "Douro valley vineyards"
+      ],
+      "news_suche": "Portugal eventos esta semana turistas, CP comboios greve, notícias turismo Portugal, Lisboa Porto agenda cultural",
+      "pfeile": [
+        {
+          "name": "Lisboa",
+          "lat": 38.7223,
+          "lon": -9.1393,
+          "text": {
+            "pt": "Capital",
+            "en": "Capital",
+            "de": "Hauptstadt",
+            "es": "Capital",
+            "fr": "Capitale"
+          }
+        },
+        {
+          "name": "Porto",
+          "lat": 41.1579,
+          "lon": -8.6291,
+          "text": {
+            "pt": "Vinho do Porto",
+            "en": "Port wine",
+            "de": "Portwein",
+            "es": "Vino de Oporto",
+            "fr": "Vin de Porto"
+          }
+        },
+        {
+          "name": "Sintra",
+          "lat": 38.8029,
+          "lon": -9.3817,
+          "text": {
+            "pt": "Palácios",
+            "en": "Palaces",
+            "de": "Paläste",
+            "es": "Palacios",
+            "fr": "Palais"
+          }
+        },
+        {
+          "name": "Coimbra",
+          "lat": 40.2033,
+          "lon": -8.4103,
+          "text": {
+            "pt": "Universidade",
+            "en": "University town",
+            "de": "Universitätsstadt",
+            "es": "Ciudad universitaria",
+            "fr": "Ville universitaire"
+          }
+        },
+        {
+          "name": "Évora",
+          "lat": 38.5714,
+          "lon": -7.9135,
+          "text": {
+            "pt": "Alentejo",
+            "en": "Alentejo",
+            "de": "Alentejo",
+            "es": "Alentejo",
+            "fr": "Alentejo"
+          }
+        },
+        {
+          "name": "Lagos",
+          "lat": 37.1028,
+          "lon": -8.673,
+          "text": {
+            "pt": "Algarve",
+            "en": "Algarve",
+            "de": "Algarve",
+            "es": "Algarve",
+            "fr": "Algarve"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ungarn",
+      "domain": "h-bnb.com",
+      "repo": "hbnb",
+      "modus": "neu",
+      "allinkl": "dns",
+      "marke": "H-BnB",
+      "sprachen": [
+        "hu",
+        "en",
+        "de",
+        "it",
+        "fr"
+      ],
+      "sprachen_vermieter": [
+        "hu",
+        "en",
+        "de"
+      ],
+      "angebot": "allgemein",
+      "news": "woechentlich",
+      "karte": {
+        "lat": 47.2,
+        "lon": 19.3,
+        "zoom": 7
+      },
+      "region": {
+        "hu": "Magyarország",
+        "en": "Hungary",
+        "de": "Ungarn",
+        "it": "Ungheria",
+        "fr": "Hongrie"
+      },
+      "region_in": {
+        "hu": "Magyarországon",
+        "en": "in Hungary",
+        "de": "in Ungarn",
+        "it": "in Ungheria",
+        "fr": "en Hongrie"
+      },
+      "titel": {
+        "hu": "Szállások Magyarországon – közvetlenül a szállásadótól",
+        "en": "Holiday homes in Hungary – direct from the host",
+        "de": "Ferienwohnungen in Ungarn – direkt vom Gastgeber",
+        "it": "Case vacanza in Ungheria – direttamente dal proprietario",
+        "fr": "Locations de vacances en Hongrie – directement chez l'hôte"
+      },
+      "intro": {
+        "hu": "Budapesttől a Balatonig és a borvidékekig: foglaljon közvetlenül a szállásadónál, közvetítői díj nélkül – és nézze meg hetente, mi történik.",
+        "en": "From Budapest to Lake Balaton and the wine regions: book directly with the host, no platform fees – and see what's on every week.",
+        "de": "Von Budapest über den Balaton bis in die Weinregionen: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche sehen, was los ist.",
+        "it": "Da Budapest al Balaton fino alle regioni del vino: prenotate direttamente dal proprietario, senza commissioni – e scoprite ogni settimana cosa succede.",
+        "fr": "De Budapest au lac Balaton et aux régions viticoles : réservez directement chez l'hôte, sans frais de plateforme – et découvrez chaque semaine ce qui se passe."
+      },
+      "highlights": [
+        {
+          "titel": {
+            "hu": "Budapest",
+            "en": "Budapest",
+            "de": "Budapest",
+            "it": "Budapest",
+            "fr": "Budapest"
+          },
+          "text": {
+            "hu": "Duna-part, termálfürdők és romkocsmák.",
+            "en": "Danube banks, thermal baths and ruin bars.",
+            "de": "Donauufer, Thermalbäder und Ruinenbars.",
+            "it": "Rive del Danubio, terme e ruin bar.",
+            "fr": "Rives du Danube, bains thermaux et bars en ruine."
+          }
+        },
+        {
+          "titel": {
+            "hu": "Balaton",
+            "en": "Lake Balaton",
+            "de": "Balaton",
+            "it": "Lago Balaton",
+            "fr": "Lac Balaton"
+          },
+          "text": {
+            "hu": "Strandok, Tihany és borászatok a parton.",
+            "en": "Beaches, Tihany and wineries on the shore.",
+            "de": "Badestrände, Tihany und Weingüter am Ufer.",
+            "it": "Spiagge, Tihany e cantine sulla riva.",
+            "fr": "Plages, Tihany et domaines viticoles sur la rive."
+          }
+        },
+        {
+          "titel": {
+            "hu": "Eger & Tokaj",
+            "en": "Eger & Tokaj",
+            "de": "Eger & Tokaj",
+            "it": "Eger & Tokaj",
+            "fr": "Eger & Tokaj"
+          },
+          "text": {
+            "hu": "Bikavér, aszú és történelmi várak.",
+            "en": "Bull's Blood, Aszú wines and historic castles.",
+            "de": "Erlauer Stierblut, Tokajer und historische Burgen.",
+            "it": "Sangue di Toro, vini Aszú e castelli storici.",
+            "fr": "Sang de taureau, vins d'Aszú et châteaux historiques."
+          }
+        },
+        {
+          "titel": {
+            "hu": "Gyógyfürdők",
+            "en": "Spa towns",
+            "de": "Thermalbäder",
+            "it": "Città termali",
+            "fr": "Villes thermales"
+          },
+          "text": {
+            "hu": "Hévíz, Bük és Hajdúszoboszló.",
+            "en": "Hévíz, Bük and Hajdúszoboszló.",
+            "de": "Hévíz, Bük und Hajdúszoboszló.",
+            "it": "Hévíz, Bük e Hajdúszoboszló.",
+            "fr": "Hévíz, Bük et Hajdúszoboszló."
+          }
+        }
+      ],
+      "foto_suche": [
+        "Hungarian Parliament Budapest",
+        "Széchenyi thermal bath",
+        "Tihany Balaton",
+        "Eger castle",
+        "Lake Hévíz"
+      ],
+      "news_suche": "Magyarország programok ezen a héten turisták, MÁV menetrend változás, Budapest események, Balaton hírek",
+      "pfeile": [
+        {
+          "name": "Budapest",
+          "lat": 47.4979,
+          "lon": 19.0402,
+          "text": {
+            "hu": "Főváros",
+            "en": "Capital",
+            "de": "Hauptstadt",
+            "it": "Capitale",
+            "fr": "Capitale"
+          }
+        },
+        {
+          "name": "Szentendre",
+          "lat": 47.6694,
+          "lon": 19.0756,
+          "text": {
+            "hu": "Művészváros",
+            "en": "Artists' town",
+            "de": "Künstlerstadt",
+            "it": "Città degli artisti",
+            "fr": "Ville d'artistes"
+          }
+        },
+        {
+          "name": "Tihany",
+          "lat": 46.9146,
+          "lon": 17.8892,
+          "text": {
+            "hu": "Balaton",
+            "en": "Lake Balaton",
+            "de": "Balaton",
+            "it": "Balaton",
+            "fr": "Balaton"
+          }
+        },
+        {
+          "name": "Hévíz",
+          "lat": 46.7903,
+          "lon": 17.1842,
+          "text": {
+            "hu": "Termáltó",
+            "en": "Thermal lake",
+            "de": "Thermalsee",
+            "it": "Lago termale",
+            "fr": "Lac thermal"
+          }
+        },
+        {
+          "name": "Eger",
+          "lat": 47.9025,
+          "lon": 20.3772,
+          "text": {
+            "hu": "Borvidék",
+            "en": "Wine region",
+            "de": "Weinregion",
+            "it": "Regione vinicola",
+            "fr": "Région viticole"
+          }
+        },
+        {
+          "name": "Pécs",
+          "lat": 46.0727,
+          "lon": 18.2323,
+          "text": {
+            "hu": "Mediterrán hangulat",
+            "en": "Mediterranean flair",
+            "de": "Südliches Flair",
+            "it": "Atmosfera mediterranea",
+            "fr": "Air méditerranéen"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "griechenland",
+      "domain": "gr-bnb.com",
+      "repo": "grbnb",
+      "modus": "neu",
+      "allinkl": "dns",
+      "marke": "GR-BnB",
+      "sprachen": [
+        "el",
+        "en",
+        "de",
+        "fr",
+        "it"
+      ],
+      "sprachen_vermieter": [
+        "el",
+        "en",
+        "de"
+      ],
+      "angebot": "allgemein",
+      "news": "woechentlich",
+      "karte": {
+        "lat": 38.4,
+        "lon": 23.8,
+        "zoom": 6
+      },
+      "region": {
+        "el": "Ελλάδα",
+        "en": "Greece",
+        "de": "Griechenland",
+        "fr": "Grèce",
+        "it": "Grecia"
+      },
+      "region_in": {
+        "el": "στην Ελλάδα",
+        "en": "in Greece",
+        "de": "in Griechenland",
+        "fr": "en Grèce",
+        "it": "in Grecia"
+      },
+      "titel": {
+        "el": "Καταλύματα στην Ελλάδα – απευθείας από τον οικοδεσπότη",
+        "en": "Holiday homes in Greece – direct from the host",
+        "de": "Ferienwohnungen in Griechenland – direkt vom Gastgeber",
+        "fr": "Locations de vacances en Grèce – directement chez l'hôte",
+        "it": "Case vacanza in Grecia – direttamente dal proprietario"
+      },
+      "intro": {
+        "el": "Από την Αθήνα στις Κυκλάδες και την Κρήτη: κλείστε απευθείας με τον οικοδεσπότη, χωρίς χρεώσεις πλατφόρμας – και δείτε κάθε εβδομάδα τι συμβαίνει.",
+        "en": "From Athens to the Cyclades and Crete: book directly with the host, no platform fees – and see what's on every week.",
+        "de": "Von Athen über die Kykladen bis nach Kreta: direkt beim Gastgeber buchen, ohne Portalgebühr – und jede Woche sehen, was los ist.",
+        "fr": "D'Athènes aux Cyclades et à la Crète : réservez directement chez l'hôte, sans frais de plateforme – et découvrez chaque semaine ce qui se passe.",
+        "it": "Da Atene alle Cicladi e a Creta: prenotate direttamente dal proprietario, senza commissioni – e scoprite ogni settimana cosa succede."
+      },
+      "highlights": [
+        {
+          "titel": {
+            "el": "Αθήνα",
+            "en": "Athens",
+            "de": "Athen",
+            "fr": "Athènes",
+            "it": "Atene"
+          },
+          "text": {
+            "el": "Ακρόπολη, Πλάκα και Ριβιέρα.",
+            "en": "Acropolis, Plaka and the Riviera.",
+            "de": "Akropolis, Plaka und die Riviera.",
+            "fr": "Acropole, Plaka et la Riviera.",
+            "it": "Acropoli, Plaka e la Riviera."
+          }
+        },
+        {
+          "titel": {
+            "el": "Κυκλάδες",
+            "en": "Cyclades",
+            "de": "Kykladen",
+            "fr": "Cyclades",
+            "it": "Cicladi"
+          },
+          "text": {
+            "el": "Σαντορίνη, Νάξος και λευκά χωριά.",
+            "en": "Santorini, Naxos and whitewashed villages.",
+            "de": "Santorini, Naxos und weiße Dörfer.",
+            "fr": "Santorin, Naxos et villages blancs.",
+            "it": "Santorini, Naxos e villaggi bianchi."
+          }
+        },
+        {
+          "titel": {
+            "el": "Κρήτη",
+            "en": "Crete",
+            "de": "Kreta",
+            "fr": "Crète",
+            "it": "Creta"
+          },
+          "text": {
+            "el": "Χανιά, Κνωσός και φαράγγια.",
+            "en": "Chania, Knossos and gorges.",
+            "de": "Chania, Knossos und Schluchten.",
+            "fr": "La Canée, Cnossos et gorges.",
+            "it": "Chania, Cnosso e gole."
+          }
+        },
+        {
+          "titel": {
+            "el": "Ιόνιο & Πελοπόννησος",
+            "en": "Ionian & Peloponnese",
+            "de": "Ionische Inseln & Peloponnes",
+            "fr": "Îles Ioniennes & Péloponnèse",
+            "it": "Isole Ionie & Peloponneso"
+          },
+          "text": {
+            "el": "Κέρκυρα, Ναύπλιο και Μονεμβασιά.",
+            "en": "Corfu, Nafplio and Monemvasia.",
+            "de": "Korfu, Nafplio und Monemvasia.",
+            "fr": "Corfou, Nauplie et Monemvasia.",
+            "it": "Corfù, Nauplia e Monemvasia."
+          }
+        }
+      ],
+      "foto_suche": [
+        "Acropolis Athens",
+        "Oia Santorini",
+        "Chania harbour",
+        "Meteora monasteries",
+        "Navagio beach Zakynthos"
+      ],
+      "news_suche": "Ελλάδα εκδηλώσεις αυτή την εβδομάδα τουρίστες, απεργία πλοία ferry, ειδήσεις τουρισμού Ελλάδα, Αθήνα εκδηλώσεις",
+      "pfeile": [
+        {
+          "name": "Αθήνα",
+          "lat": 37.9838,
+          "lon": 23.7275,
+          "text": {
+            "el": "Πρωτεύουσα",
+            "en": "Capital",
+            "de": "Hauptstadt",
+            "fr": "Capitale",
+            "it": "Capitale"
+          }
+        },
+        {
+          "name": "Θεσσαλονίκη",
+          "lat": 40.6401,
+          "lon": 22.9444,
+          "text": {
+            "el": "Βόρεια Ελλάδα",
+            "en": "Northern Greece",
+            "de": "Nordgriechenland",
+            "fr": "Grèce du Nord",
+            "it": "Grecia settentrionale"
+          }
+        },
+        {
+          "name": "Μετέωρα",
+          "lat": 39.7217,
+          "lon": 21.6306,
+          "text": {
+            "el": "Μοναστήρια",
+            "en": "Monasteries",
+            "de": "Klöster",
+            "fr": "Monastères",
+            "it": "Monasteri"
+          }
+        },
+        {
+          "name": "Κέρκυρα",
+          "lat": 39.6243,
+          "lon": 19.9217,
+          "text": {
+            "el": "Ιόνιο",
+            "en": "Ionian Sea",
+            "de": "Ionisches Meer",
+            "fr": "Mer Ionienne",
+            "it": "Mar Ionio"
+          }
+        },
+        {
+          "name": "Σαντορίνη",
+          "lat": 36.3932,
+          "lon": 25.4615,
+          "text": {
+            "el": "Κυκλάδες",
+            "en": "Cyclades",
+            "de": "Kykladen",
+            "fr": "Cyclades",
+            "it": "Cicladi"
+          }
+        },
+        {
+          "name": "Χανιά",
+          "lat": 35.5138,
+          "lon": 24.018,
+          "text": {
+            "el": "Κρήτη",
+            "en": "Crete",
+            "de": "Kreta",
+            "fr": "Crète",
+            "it": "Creta"
+          }
+        }
+      ]
+    },
+    {
       "slug": "europa",
       "domain": "eu-bnb.com",
       "repo": "eu-bnb",
@@ -3260,6 +4278,41 @@
           "lon": 26.5,
           "text": "→ fi-bnb.com",
           "link": "https://fi-bnb.com"
+        },
+        {
+          "name": "Schweiz",
+          "lat": 46.8,
+          "lon": 8.2,
+          "text": "→ ch-bnb.com",
+          "link": "https://ch-bnb.com"
+        },
+        {
+          "name": "Österreich",
+          "lat": 47.6,
+          "lon": 14.2,
+          "text": "→ a-bnb.com",
+          "link": "https://a-bnb.com"
+        },
+        {
+          "name": "Portugal",
+          "lat": 39.6,
+          "lon": -8.0,
+          "text": "→ p-bnb.com",
+          "link": "https://p-bnb.com"
+        },
+        {
+          "name": "Magyarország",
+          "lat": 47.2,
+          "lon": 19.5,
+          "text": "→ h-bnb.com",
+          "link": "https://h-bnb.com"
+        },
+        {
+          "name": "Ελλάδα",
+          "lat": 39.0,
+          "lon": 22.0,
+          "text": "→ gr-bnb.com",
+          "link": "https://gr-bnb.com"
         }
       ]
     }

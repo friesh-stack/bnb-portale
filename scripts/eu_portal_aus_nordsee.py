@@ -16,7 +16,7 @@ s=s[:i]+blk+s[j:]
 R('kontakt: { name: "NordseeBnB",','kontakt: { name: "BnB Webdesign",')
 
 # --- Länder statt Inseln
-REG='var REGIONEN=[{k:"nord",n:"Skandinavien & Finnland"},{k:"sued",n:"Südeuropa"},{k:"west",n:"Westeuropa"},{k:"de",n:"Deutschland"}];'
+REG='var REGIONEN=[{k:"nord",n:"Skandinavien & Finnland"},{k:"sued",n:"Südeuropa"},{k:"west",n:"Westeuropa"},{k:"alpen",n:"Alpen & Mitteleuropa"},{k:"de",n:"Deutschland"}];'
 L=[("Italien","https://it-bnb.com/","sued",42.8,12.0,"Ortstaxe (imposta di soggiorno) je nach Gemeinde, z. B. in Venedig, Florenz und Rom",["Venedig & Burano","Toskana","Amalfiküste"],["Venedig","Burano","Rom","Florenz","Gardasee","Cinque Terre","Amalfi"]),
  ("Frankreich","https://fr-bnb.com/","west",46.6,2.4,"Taxe de séjour je nach Gemeinde",["Paris","Provence","Bretagne"],["Paris","Nizza","Avignon","Bordeaux","Saint-Malo","Chamonix"]),
  ("Spanien","https://es-bnb.com/","sued",40.2,-3.7,"Tasa turística in einigen Regionen, z. B. Katalonien und Balearen",["Barcelona","Andalusien","Mallorca"],["Madrid","Barcelona","Valencia","Sevilla","Granada","Palma","Málaga"]),
@@ -24,6 +24,11 @@ L=[("Italien","https://it-bnb.com/","sued",42.8,12.0,"Ortstaxe (imposta di soggi
  ("Schweden","https://se-bnb.com/","nord",61.5,16.0,"in der Regel keine Ortstaxe",["Schären","Seen","Lappland"],["Stockholm","Göteborg","Malmö","Visby","Smögen","Abisko"]),
  ("Norwegen","https://no-bnb.com/","nord",64.5,13.0,"in einigen Orten eine Touristenabgabe",["Fjorde","Lofoten","Nordlicht"],["Oslo","Bergen","Flåm","Geiranger","Tromsø","Lofoten"]),
  ("Finnland","https://fi-bnb.com/","nord",64.0,26.0,"in der Regel keine Ortstaxe",["Seenplatte","Lappland","Helsinki"],["Helsinki","Turku","Tampere","Savonlinna","Rovaniemi","Levi"]),
+ ("Schweiz","https://ch-bnb.com/","alpen",46.8,8.2,"Kurtaxe je nach Gemeinde, z. B. in Zermatt, Luzern und Grindelwald",["Matterhorn","Vierwaldstättersee","Tessin"],["Zürich","Luzern","Interlaken","Zermatt","Lugano","Genf"]),
+ ("Österreich","https://a-bnb.com/","alpen",47.6,13.4,"Ortstaxe bzw. Nächtigungsabgabe nach Bundesland und Gemeinde",["Wien","Salzkammergut","Tirol"],["Wien","Salzburg","Hallstatt","Innsbruck","Kitzbühel","Wachau"]),
+ ("Ungarn","https://h-bnb.com/","alpen",47.2,19.3,"Kurtaxe (idegenforgalmi adó) je nach Gemeinde",["Budapest","Balaton","Weinregionen"],["Budapest","Tihany","Hévíz","Eger","Pécs","Szentendre"]),
+ ("Portugal","https://p-bnb.com/","sued",39.6,-8.1,"Taxa turística in einigen Gemeinden, z. B. Lissabon und Porto",["Lissabon","Porto & Douro","Algarve"],["Lissabon","Porto","Sintra","Lagos","Évora","Coimbra"]),
+ ("Griechenland","https://gr-bnb.com/","sued",38.4,23.8,"Aufenthaltsgebühr (Klimaresilienz-Abgabe) je Nacht, nach Kategorie der Unterkunft",["Athen","Kykladen","Kreta"],["Athen","Santorini","Naxos","Chania","Korfu","Thessaloniki"]),
  ("Deutschland","https://debnb.de/","de",51.2,10.4,"Kurabgabe bzw. Gästetaxe nach Satzung der Gemeinde",["Nord- & Ostsee","Städte","Alpen"],["Hamburg","München","Sylt","Rügen","Usedom"])]
 orte=",\n".join("{n:%s,seite:%s,kur:%s,reg:%s,km:%s,lat:%s,lng:%s,tags:%s,t:%s,orte:%s}"%(json.dumps(n,ensure_ascii=False),json.dumps(u),json.dumps(k,ensure_ascii=False),json.dumps(r),json.dumps("Länderportal "+u.split('//')[1].strip('/'),ensure_ascii=False),la,lo,json.dumps(tg,ensure_ascii=False),json.dumps("Ferienunterkünfte in "+n+" – direkt bei privaten Gastgebern, ohne Provision.",ensure_ascii=False),json.dumps(o,ensure_ascii=False)) for n,u,r,la,lo,k,tg,o in L)
 i=s.index('var REGIONEN='); j=s.index('];',s.index('var ORTE=',i))+2
@@ -68,27 +73,27 @@ for a,b in [("auf den Nordseeinseln","in ganz Europa"),("Alle Nordseeinseln","Al
     s=s.replace(a,b)
 s=s.replace("Ihre Website als Unterseite einer Länderseite kostet 99 € im ersten Jahr, danach 20 € pro Jahr – und 0 % Provision auf Ihre Buchungen.","Ihre Website als Unterseite einer Länderseite kostet eine feste Gebühr pro Jahr (Preis auf Anfrage) – und 0 % Provision auf Ihre Buchungen.")
 s=re.sub(r'\["Wo liegt meine Unterseite\?","[^"]*"\]','["Wo liegt meine Unterseite?","Auf dem Portal Ihres Landes, zum Beispiel it-bnb.com/ihr-name, fr-bnb.com/ihr-name oder se-bnb.com/ihr-name. Gäste sehen sie in der Landessprache, auf Englisch und Deutsch."]',s)
-s=re.sub(r'\["Welche Länder sind dabei\?","[^"]*"\]','["Welche Länder sind dabei?","Italien, Frankreich, Spanien, Dänemark, Schweden, Norwegen, Finnland und Deutschland – jeweils mit eigenem Länderportal. Weitere Länder folgen."]',s)
+s=re.sub(r'\["Welche Länder sind dabei\?","[^"]*"\]','["Welche Länder sind dabei?","Italien, Frankreich, Spanien, Portugal, Griechenland, Schweiz, Österreich, Ungarn, Dänemark, Schweden, Norwegen, Finnland und Deutschland – jeweils mit eigenem Länderportal. Weitere Länder folgen."]',s)
 
 
 # --- Nachbesserungen sichtbarer Vermieter-Texte, KI-Anweisungen und Wissen des Assistenten
 LAND_LINKS=" · ".join('<a href="%s">%s</a>'%(u,n) for n,u,*_ in L)
 s=re.sub(r'🏝️ Länderseiten: .*?(?= · 🌊)', '🌍 Länderportale: '+LAND_LINKS.replace('\\','\\\\'), s, count=1)
-s=re.sub(r'Vermieter auf Sylt, Amrum, Föhr oder Wangerooge bekommen ihre Unterseite auf [^;]*; alle anderen Orte unter eu-bnb\.com\.', 'Vermieter bekommen ihre Unterseite auf dem Länderportal ihres Landes: it-bnb.com, fr-bnb.com, es-bnb.com, dk-bnb.dk, se-bnb.com, no-bnb.com, fi-bnb.com bzw. debnb.de.', s)
-s=re.sub(r'INSELN: BnB Europa deckt .*?eigene Seiten:[^.]*\.', 'LÄNDER: BnB Europa umfasst Italien, Frankreich, Spanien, Dänemark, Schweden, Norwegen, Finnland und Deutschland, jeweils mit eigenem Länderportal (Gästeseite in Landessprache, Englisch und Deutsch).', s, count=1, flags=re.S)
+s=re.sub(r'Vermieter auf Sylt, Amrum, Föhr oder Wangerooge bekommen ihre Unterseite auf [^;]*; alle anderen Orte unter eu-bnb\.com\.', 'Vermieter bekommen ihre Unterseite auf dem Länderportal ihres Landes: it-bnb.com, fr-bnb.com, es-bnb.com, p-bnb.com, gr-bnb.com, ch-bnb.com, a-bnb.com, h-bnb.com, dk-bnb.dk, se-bnb.com, no-bnb.com, fi-bnb.com bzw. debnb.de.', s)
+s=re.sub(r'INSELN: BnB Europa deckt .*?eigene Seiten:[^.]*\.', 'LÄNDER: BnB Europa umfasst Italien, Frankreich, Spanien, Portugal, Griechenland, Schweiz, Österreich, Ungarn, Dänemark, Schweden, Norwegen, Finnland und Deutschland, jeweils mit eigenem Länderportal (Gästeseite in Landessprache, Englisch und Deutsch).', s, count=1, flags=re.S)
 s=re.sub(r'Orte liegen in Europa, meist auf einer Insel \(z\. B\. [^)]*\) – trage Ort und Insel ein, z\. B\. \\"Wyk auf Föhr\\"\.', 'Orte liegen irgendwo in Europa – trage Ort und Land ein, z. B. \\"Burano, Italien\\" oder \\"Visby, Schweden\\".', s)
 for a,b in [('(u.ort?", ":"")+"Nordsee")','(u.ort?", ":"")+"Europa")'),('(u.ort||"Nordsee")','(u.ort||"Europa")'),('ort:u.ort||"Nordsee"','ort:u.ort||"Europa"'),('esc(D.region||"Nordsee")','esc(D.region||"Europa")'),
             ("An der Nordsee bauen wir ihn","In anderen Regionen bauen wir ihn"),
             ("kennt die Insel (Strand, Fähre, Anreise, Ausflüge)","kennt die Region (Strand, Anreise, Ausflüge)"),
-            ("<span>🏝️</span><b>Ihre Länderseite</b><small>Unterseite auf syltbnb.de, amrumbnb.de, foehrbnb.de, wangeroogebnb.de oder eu-bnb.com</small>","<span>🌍</span><b>Ihre Länderseite</b><small>Unterseite auf it-bnb.com, fr-bnb.com, es-bnb.com, dk-bnb.dk, se-bnb.com, no-bnb.com oder fi-bnb.com</small>"),
-            ("sowie SyltBnB, AmrumBnB, FöhrBnB und WangeroogeBnB sind Angebote","sowie die Länderportale it-bnb.com, fr-bnb.com, es-bnb.com, dk-bnb.dk, se-bnb.com, no-bnb.com und fi-bnb.com sind Angebote"),
+            ("<span>🏝️</span><b>Ihre Länderseite</b><small>Unterseite auf syltbnb.de, amrumbnb.de, foehrbnb.de, wangeroogebnb.de oder eu-bnb.com</small>","<span>🌍</span><b>Ihre Länderseite</b><small>Unterseite auf dem Länderportal, z. B. it-bnb.com, p-bnb.com, gr-bnb.com, ch-bnb.com oder a-bnb.com</small>"),
+            ("sowie SyltBnB, AmrumBnB, FöhrBnB und WangeroogeBnB sind Angebote","sowie die Länderportale it-bnb.com, fr-bnb.com, es-bnb.com, p-bnb.com, gr-bnb.com, ch-bnb.com, a-bnb.com, h-bnb.com, dk-bnb.dk, se-bnb.com, no-bnb.com und fi-bnb.com sind Angebote"),
             ("<small>Deutsch, Englisch, Dänisch, Niederländisch, Französisch</small>","<small>Landessprache, Englisch, Deutsch – auf Wunsch weitere</small>")]:
     s=s.replace(a,b)
 
 # --- Mehrsprachigkeit (Übersetzung der Oberfläche, Ergebnis wird im Browser gespeichert)
 I18N=r"""<script>
 function bwI18n(o){
-var ALL={it:"Italiano",en:"English",de:"Deutsch",fr:"Français",es:"Español",nl:"Nederlands",da:"Dansk",sv:"Svenska",nb:"Norsk",fi:"Suomi"};
+var ALL={it:"Italiano",en:"English",de:"Deutsch",fr:"Français",es:"Español",nl:"Nederlands",da:"Dansk",sv:"Svenska",nb:"Norsk",fi:"Suomi",pt:"Português",hu:"Magyar",el:"Ελληνικά"};
 var NAMEN={it:"Italian",en:"English",fr:"French",es:"Spanish",nl:"Dutch",da:"Danish",sv:"Swedish",nb:"Norwegian (Bokmål)",fi:"Finnish",de:"German"};
 var LANGS={};(o.langs||Object.keys(ALL)).forEach(function(k){if(ALL[k])LANGS[k]=ALL[k]});
 var q=new URLSearchParams(location.search),L=q.get("lang"),KP=o.key||"bw";
@@ -168,7 +173,7 @@ s=re.sub(r'var DESIGNS=\{.*?\}\};', lambda m: '''var DESIGNS={
   nord:{name:"Skandinavien",lay:"nord",brand:"#2b3a42",brand2:"#6f8a94",bg:"#f7f8f6",card:"#ffffff",accent:"#c99a4b"},
   city:{name:"Stadt & Altbau",lay:"city",brand:"#1e2a3a",brand2:"#3b4d66",bg:"#f3efe8",card:"#ffffff",accent:"#b08d3c"}};
 DESIGNS.duene=DESIGNS.med;
-function defDesign(){var L=window.BW_LANG||"de";return /^(da|sv|nb|fi)$/.test(L)?"nord":/^(it|fr|es)$/.test(L)?"med":"city"}
+function defDesign(){var L=window.BW_LANG||"de";return /^(da|sv|nb|fi)$/.test(L)?"nord":/^(it|fr|es|pt|el)$/.test(L)?"med":"city"}
 var LAY={
  med:"h1,h2,h3{font-style:italic}.hero{min-height:78vh}.hero:after{background:linear-gradient(180deg,rgba(120,50,20,.05),rgba(90,35,15,.62))}.u{border-radius:28px;border-top:6px solid var(--ac)}.ch span{background:#fff1e4;border-color:#f1d9c2}.g img{aspect-ratio:3/2}nav b{font-style:italic}.btn{border-radius:14px}",
  nord:"h1,h2,h3{font-family:Inter,system-ui,sans-serif;font-weight:300;letter-spacing:.01em}.hero h1{text-transform:uppercase;letter-spacing:.08em;font-weight:200}.hero{min-height:60vh}.hero:after{background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.42))}.u,.f,#map{border-radius:0;box-shadow:none;border:1px solid #e4e7e3}.btn,nav a.c{border-radius:0;letter-spacing:.04em}.g{gap:2px}.ch span{border-radius:0}section{padding:64px 0}footer{background:#2b3a42}nav b{font-family:Inter,sans-serif;font-weight:300;letter-spacing:.12em;text-transform:uppercase}",
@@ -181,11 +186,11 @@ R('var D={design:"duene",paket:"portal"','var D={design:des||defDesign(),paket:"
 R('function exU(x){if(x.gen&&!x.url)x.url=exSite(x.gen);return x.url}','function exU(x){if(x.gen&&!x.url)x.url=exSite(x.gen,x.des);return x.url}')
 s=re.sub(r'var EXAMPLES = \[.*?\n\];', lambda m: '''var EXAMPLES = [
   { t:"Stil „Mittelmeer“", tag:"Beispiel · Dünenvilla 3 – warme Farben, große Fotos", img:"dv3_wohnen", gen:"dv3", des:"med",
-    pts:["Für Italien, Frankreich, Spanien und alle Küsten im Süden","Galerie mit Bildunterschriften, Preise je Saison","Anfrage per E-Mail oder WhatsApp mit Preisrechner"] },
+    pts:["Für Italien, Frankreich, Spanien, Portugal, Griechenland und alle Küsten im Süden","Galerie mit Bildunterschriften, Preise je Saison","Anfrage per E-Mail oder WhatsApp mit Preisrechner"] },
   { t:"Stil „Skandinavien“", tag:"Beispiel · Dünenvilla 5 – hell, klar, ruhig", img:"dv5_garten", gen:"dv5", des:"nord",
     pts:["Für Dänemark, Schweden, Norwegen, Finnland, Nord- und Ostsee","Schlichte Linien, viel Weißraum","Hunde, Sauna, Kamin – sofort sichtbar"] },
   { t:"Stil „Stadt & Altbau“", tag:"Beispiel · Dünenvilla 3 – elegant, dunkel mit Goldakzent", img:"dv3_wohnen", gen:"dv3", des:"city",
-    pts:["Für Stadtwohnungen, Altbau und Ferienhäuser mit Charakter","Klare Gliederung, edle Wirkung","Karte mit Lage der Wohnung"] }
+    pts:["Für Städte, Altbau und Alpenländer – Schweiz, Österreich, Ungarn","Klare Gliederung, edle Wirkung","Karte mit Lage der Wohnung"] }
 ];''', s, count=1, flags=re.S)
 R('Zwei Beispiele aus unserem eigenen Bestand: <b>Dünenvilla 3</b> und <b>Dünenvilla 5</b>.','Drei Stile zur Wahl – <b>Mittelmeer</b>, <b>Skandinavien</b> und <b>Stadt &amp; Altbau</b>, gezeigt an unseren eigenen Wohnungen Dünenvilla 3 und 5.')
 
