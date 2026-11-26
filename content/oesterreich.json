@@ -2,104 +2,104 @@
  "stand": "2026-11-26",
  "items": [
   {
-   "datum": "2026-11-26",
+   "datum": "2026-11-13",
    "bis": "2026-12-26",
    "titel": {
     "de": "Wiener Christkindlmarkt am Rathausplatz",
-    "en": "Vienna Christkindl Market at Rathausplatz",
-    "nl": "Weense kerstmarkt op het Rathausplatz",
+    "en": "Vienna Christkindlmarkt at Rathausplatz",
+    "nl": "Weense Christkindlmarkt op het Rathausplatz",
     "it": "Mercatino di Natale di Vienna al Rathausplatz",
-    "fr": "Marché de Noël de Vienne sur la Rathausplatz"
+    "fr": "Marché de Noël de Vienne sur le Rathausplatz"
    },
    "text": {
-    "de": "Der Christkindlmarkt vor dem Wiener Rathaus läuft noch bis 26. Dezember 2026. Der Wiener Eistraum auf dem Rathausplatz ist zusätzlich bis 6. Jänner 2027 geöffnet. Der erste Adventsonntag ist am 29. November.",
-    "en": "The Christkindl Market in front of Vienna City Hall runs until 26 December 2026. The Vienna Ice Dream skating area on the same square stays open until 6 January 2027. The first Sunday of Advent is on 29 November.",
-    "nl": "De kerstmarkt voor het Weense stadhuis loopt nog tot 26 december 2026. De schaatsbaan Wiener Eistraum op het plein blijft bovendien open tot 6 januari 2027. De eerste adventszondag is op 29 november.",
-    "it": "Il mercatino di Natale davanti al municipio di Vienna è aperto fino al 26 dicembre 2026. La pista di pattinaggio Wiener Eistraum sulla stessa piazza resta aperta fino al 6 gennaio 2027. La prima domenica di Avvento è il 29 novembre.",
-    "fr": "Le marché de Noël devant l'hôtel de ville de Vienne se tient jusqu'au 26 décembre 2026. La patinoire Wiener Eistraum, sur la même place, reste ouverte jusqu'au 6 janvier 2027. Le premier dimanche de l'Avent tombe le 29 novembre."
+    "de": "Der Christkindlmarkt vor dem Wiener Rathaus ist noch bis 26. Dezember täglich von 10 bis 22 Uhr geöffnet. Der Eislaufbetrieb Wiener Eistraum läuft sogar bis 6. Januar 2027. Anreise bequem mit der U2 bis Rathaus.",
+    "en": "The Christkindlmarkt in front of Vienna City Hall is open daily from 10 am to 10 pm until 26 December. The Vienna Ice Dream skating trails run even longer, until 6 January 2027. The easiest way to get there is the U2 to Rathaus.",
+    "nl": "De Christkindlmarkt voor het Weense stadhuis is nog tot en met 26 december dagelijks open van 10 tot 22 uur. De schaatsbanen van de Wiener Eistraum blijven zelfs tot 6 januari 2027 open. Je komt er het makkelijkst met de U2 tot Rathaus.",
+    "it": "Il mercatino di Natale davanti al municipio di Vienna è aperto ogni giorno dalle 10 alle 22 fino al 26 dicembre. Le piste di pattinaggio del Wiener Eistraum restano aperte addirittura fino al 6 gennaio 2027. Si raggiunge comodamente con la U2 fino a Rathaus.",
+    "fr": "Le marché de Noël devant l’hôtel de ville de Vienne est ouvert tous les jours de 10 h à 22 h jusqu’au 26 décembre. Les pistes de patinage du Wiener Eistraum restent même ouvertes jusqu’au 6 janvier 2027. Le plus simple est de prendre la ligne U2 jusqu’à Rathaus."
    },
-   "quelle": "https://lasstreffen.at/blog/christkindlmaerkte-oesterreich",
-   "quelle_name": "lasstreffen.at"
+   "quelle": "https://www.sacher.com/en/blog/guide-to-viennas-christmas-markets/",
+   "quelle_name": "Sacher"
+  },
+  {
+   "datum": "2026-11-21",
+   "bis": "2026-12-24",
+   "titel": {
+    "de": "Zwei Weihnachtsmärkte in Linz",
+    "en": "Two Christmas markets in Linz",
+    "nl": "Twee kerstmarkten in Linz",
+    "it": "Due mercatini di Natale a Linz",
+    "fr": "Deux marchés de Noël à Linz"
+   },
+   "text": {
+    "de": "In Linz sind der Christkindlmarkt am Hauptplatz und der Weihnachtsmarkt im Volksgarten seit 21. November geöffnet. Beide laufen bis einschließlich 24. Dezember. Der Volksgarten-Markt feiert heuer sein 70-jähriges Bestehen.",
+    "en": "In Linz, the Christkindlmarkt on Hauptplatz and the Christmas market in the Volksgarten have been open since 21 November. Both run until 24 December inclusive. The Volksgarten market celebrates its 70th anniversary this year.",
+    "nl": "In Linz zijn de Christkindlmarkt op het Hauptplatz en de kerstmarkt in het Volksgarten sinds 21 november open. Beide duren tot en met 24 december. De markt in het Volksgarten viert dit jaar zijn 70-jarig bestaan.",
+    "it": "A Linz il mercatino Christkindlmarkt in Hauptplatz e quello nel Volksgarten sono aperti dal 21 novembre. Entrambi durano fino al 24 dicembre incluso. Il mercatino del Volksgarten festeggia quest’anno i 70 anni.",
+    "fr": "À Linz, le Christkindlmarkt de la Hauptplatz et le marché de Noël du Volksgarten sont ouverts depuis le 21 novembre. Les deux se tiennent jusqu’au 24 décembre inclus. Le marché du Volksgarten fête cette année ses 70 ans."
+   },
+   "quelle": "https://christkindlmarkt-linz.at/",
+   "quelle_name": "Christkindlmarkt Linz"
+  },
+  {
+   "datum": "2026-11-25",
+   "bis": "2027-01-06",
+   "titel": {
+    "de": "Christkindlmarkt in der Innsbrucker Maria-Theresien-Straße",
+    "en": "Christkindlmarkt on Maria-Theresien-Straße in Innsbruck",
+    "nl": "Christkindlmarkt in de Maria-Theresien-Straße in Innsbruck",
+    "it": "Mercatino di Natale in Maria-Theresien-Straße a Innsbruck",
+    "fr": "Marché de Noël de la Maria-Theresien-Straße à Innsbruck"
+   },
+   "text": {
+    "de": "Seit 25. November gibt es in Innsbruck auch den Christkindlmarkt in der Maria-Theresien-Straße. Er ist bis 6. Januar 2027 täglich geöffnet. Die Innsbrucker Altstadt und die Hungerburg haben ebenfalls eigene Märkte.",
+    "en": "Since 25 November, Innsbruck also has a Christkindlmarkt on Maria-Theresien-Straße. It is open daily until 6 January 2027. The Old Town and the Hungerburg have their own markets too.",
+    "nl": "Sinds 25 november heeft Innsbruck ook een Christkindlmarkt in de Maria-Theresien-Straße. Die is dagelijks open tot 6 januari 2027. Ook de oude stad en de Hungerburg hebben hun eigen markten.",
+    "it": "Dal 25 novembre a Innsbruck c’è anche il mercatino in Maria-Theresien-Straße. È aperto ogni giorno fino al 6 gennaio 2027. Anche la città vecchia e la Hungerburg hanno i loro mercatini.",
+    "fr": "Depuis le 25 novembre, Innsbruck propose aussi un marché de Noël dans la Maria-Theresien-Straße. Il est ouvert tous les jours jusqu’au 6 janvier 2027. La vieille ville et la Hungerburg ont également leurs propres marchés."
+   },
+   "quelle": "https://www.ausflugsziele.jetzt/magazin/adventmaerkte-oesterreich-2026/",
+   "quelle_name": "ausflugsziele.jetzt"
   },
   {
    "datum": "2026-11-26",
    "bis": "",
    "titel": {
-    "de": "Tiroler Skigebiete starten in die Saison",
-    "en": "Tyrolean ski resorts kick off the season",
-    "nl": "Tiroolse skigebieden openen het seizoen",
-    "it": "I comprensori sciistici tirolesi aprono la stagione",
-    "fr": "Les stations de ski tyroliennes ouvrent la saison"
+    "de": "Skisaison in Tirol nimmt Fahrt auf",
+    "en": "Tyrol ski season picks up speed",
+    "nl": "Skiseizoen in Tirol komt op gang",
+    "it": "La stagione sciistica in Tirolo prende il via",
+    "fr": "La saison de ski démarre au Tyrol"
    },
    "text": {
-    "de": "Die Silvretta Arena Ischgl öffnet am 26. November. Am 27. November folgen Kühtai und der Skicircus Fieberbrunn, am 2. Dezember das gesamte Skigebiet Ski Arlberg mit St. Anton. Die Termine hängen von den Betreibern und der Schneelage ab.",
-    "en": "The Silvretta Arena in Ischgl opens on 26 November. Kühtai and the Skicircus Fieberbrunn follow on 27 November, and the whole Ski Arlberg area including St. Anton on 2 December. Dates depend on the operators and snow conditions.",
-    "nl": "De Silvretta Arena in Ischgl opent op 26 november. Op 27 november volgen Kühtai en Skicircus Fieberbrunn, op 2 december het hele skigebied Ski Arlberg met St. Anton. De data hangen af van de exploitanten en de sneeuwcondities.",
-    "it": "La Silvretta Arena di Ischgl apre il 26 novembre. Il 27 novembre seguono Kühtai e lo Skicircus Fieberbrunn, il 2 dicembre l'intero comprensorio Ski Arlberg con St. Anton. Le date dipendono dai gestori e dall'innevamento.",
-    "fr": "La Silvretta Arena d'Ischgl ouvre le 26 novembre. Kühtai et le Skicircus Fieberbrunn suivent le 27 novembre, puis tout le domaine Ski Arlberg avec St. Anton le 2 décembre. Les dates dépendent des exploitants et de l'enneigement."
+    "de": "Ischgl startet am 26. November in die Skisaison, am 27. November folgen Kühtai und der Skicircus Fieberbrunn. Ski Arlberg mit St. Anton öffnet am 2. Dezember. Alle Termine hängen von der Schneelage ab, ein Blick auf die Betreiberseiten lohnt sich.",
+    "en": "Ischgl opens for skiing on 26 November, followed by Kühtai and the Skicircus Fieberbrunn on 27 November. Ski Arlberg with St. Anton opens on 2 December. All dates depend on snow conditions, so check the operators’ websites.",
+    "nl": "Ischgl opent op 26 november het skiseizoen, op 27 november volgen Kühtai en de Skicircus Fieberbrunn. Ski Arlberg met St. Anton gaat op 2 december open. Alle data zijn afhankelijk van de sneeuwcondities, dus kijk even op de websites van de exploitanten.",
+    "it": "Ischgl apre la stagione il 26 novembre, il 27 novembre seguono Kühtai e lo Skicircus Fieberbrunn. Ski Arlberg con St. Anton apre il 2 dicembre. Tutte le date dipendono dall’innevamento: conviene controllare i siti dei gestori.",
+    "fr": "Ischgl ouvre la saison le 26 novembre, suivie de Kühtai et du Skicircus Fieberbrunn le 27 novembre. Ski Arlberg avec St. Anton ouvre le 2 décembre. Toutes les dates dépendent de l’enneigement, mieux vaut consulter les sites des exploitants."
    },
    "quelle": "https://www.news.at/ausflugsziele/skisaison-2026-27-tirol-starttermine-skigebiete-ischgl-st-anton-kitzbuehel",
    "quelle_name": "news.at"
   },
   {
-   "datum": "2026-11-26",
+   "datum": "2026-06-14",
    "bis": "2026-12-27",
    "titel": {
-    "de": "ÖBB: Einschränkungen auf der Weststrecke nach Deutschland",
-    "en": "ÖBB: Restrictions on the western line to Germany",
-    "nl": "ÖBB: beperkingen op de westelijke lijn naar Duitsland",
-    "it": "ÖBB: limitazioni sulla linea ovest verso la Germania",
-    "fr": "ÖBB : restrictions sur la ligne ouest vers l'Allemagne"
+    "de": "Bahn: Baustelle in Deutschland wirkt auf Reisen nach Westösterreich",
+    "en": "Rail: German construction affects travel to western Austria",
+    "nl": "Trein: bouwwerkzaamheden in Duitsland raken reizen naar West-Oostenrijk",
+    "it": "Treno: i lavori in Germania incidono sui viaggi verso l’Austria occidentale",
+    "fr": "Train : des travaux en Allemagne touchent les trajets vers l’ouest de l’Autriche"
    },
    "text": {
-    "de": "Wegen Bauarbeiten der Deutschen Bahn dauern die Einschränkungen bis einschließlich 27. Dezember 2026, später als zunächst geplant. Über Passau fahren keine Züge nach Deutschland, die ICE-Linie Wien–Nürnberg entfällt. Bitte vor der Reise die Verbindung bei den ÖBB prüfen.",
-    "en": "Due to construction work by Deutsche Bahn, the restrictions now last until 27 December 2026 inclusive, later than first planned. No trains run via Passau to Germany, and the ICE line Vienna–Nuremberg is cancelled. Please check your connection with ÖBB before travelling.",
-    "nl": "Door bouwwerkzaamheden van Deutsche Bahn duren de beperkingen tot en met 27 december 2026, later dan eerst gepland. Er rijden geen treinen via Passau naar Duitsland en de ICE-verbinding Wenen–Neurenberg vervalt. Controleer uw verbinding vooraf bij ÖBB.",
-    "it": "A causa dei lavori della Deutsche Bahn, le limitazioni durano fino al 27 dicembre 2026 compreso, più a lungo del previsto. Nessun treno circola via Passau verso la Germania e la linea ICE Vienna–Norimberga è soppressa. Si consiglia di controllare il collegamento presso ÖBB prima di partire.",
-    "fr": "En raison de travaux de la Deutsche Bahn, les restrictions durent jusqu'au 27 décembre 2026 inclus, plus longtemps que prévu. Aucun train ne circule via Passau vers l'Allemagne et la ligne ICE Vienne–Nuremberg est supprimée. Veuillez vérifier votre trajet auprès des ÖBB avant le départ."
+    "de": "Wegen Bauarbeiten der Deutschen Bahn ist die Strecke Passau–Obertraubling gesperrt, die Arbeiten dauern laut ÖBB bis einschließlich 27. Dezember. Reisen von und nach Deutschland führen über Salzburg und München, einzelne Züge fallen aus oder fahren länger. Bitte die Verbindung kurz vor der Abfahrt prüfen, etwa auf oebb.at.",
+    "en": "Because of German rail works, the Passau–Obertraubling line is closed, and ÖBB says the works last through 27 December. Trips to and from Germany run via Salzburg and Munich, and some trains are cancelled or take longer. Please check your connection shortly before departure, for example on oebb.at.",
+    "nl": "Vanwege werkzaamheden van de Deutsche Bahn is het traject Passau–Obertraubling afgesloten; volgens ÖBB duren die tot en met 27 december. Reizen van en naar Duitsland lopen via Salzburg en München, en sommige treinen rijden niet of doen er langer over. Controleer je verbinding kort voor vertrek, bijvoorbeeld op oebb.at.",
+    "it": "A causa dei lavori della Deutsche Bahn la linea Passau–Obertraubling è chiusa e, secondo ÖBB, i lavori proseguono fino al 27 dicembre incluso. I viaggi da e per la Germania passano per Salisburgo e Monaco, e alcuni treni sono soppressi o impiegano più tempo. Verificate il collegamento poco prima della partenza, ad esempio su oebb.at.",
+    "fr": "En raison de travaux de la Deutsche Bahn, la ligne Passau–Obertraubling est fermée et, selon ÖBB, les travaux durent jusqu’au 27 décembre inclus. Les trajets depuis et vers l’Allemagne passent par Salzbourg et Munich, et certains trains sont supprimés ou plus longs. Vérifiez votre correspondance peu avant le départ, par exemple sur oebb.at."
    },
    "quelle": "https://www.oebb.at/de/fahrplan/baustelleninformation/bauarbeiten-deutsche-bahn/bauarbeiten-deutsche-bahn-2026",
    "quelle_name": "ÖBB"
-  },
-  {
-   "datum": "2026-11-26",
-   "bis": "2027-02-21",
-   "titel": {
-    "de": "Ice Magic: Eislaufen mitten in Innsbruck",
-    "en": "Ice Magic: ice skating in the heart of Innsbruck",
-    "nl": "Ice Magic: schaatsen midden in Innsbruck",
-    "it": "Ice Magic: pattinaggio nel cuore di Innsbruck",
-    "fr": "Ice Magic : patinage au cœur d'Innsbruck"
-   },
-   "text": {
-    "de": "Seit 21. November verwandelt Ice Magic das Zentrum von Innsbruck erstmals in eine Eislaufwelt. Das Angebot ist bis 21. Februar 2027 zu erleben.",
-    "en": "Since 21 November, Ice Magic has turned the centre of Innsbruck into an ice-skating world for the first time. It can be enjoyed until 21 February 2027.",
-    "nl": "Sinds 21 november verandert Ice Magic het centrum van Innsbruck voor het eerst in een schaatswereld. Het is te beleven tot 21 februari 2027.",
-    "it": "Dal 21 novembre Ice Magic trasforma per la prima volta il centro di Innsbruck in un mondo del pattinaggio sul ghiaccio. L'attrazione è visitabile fino al 21 febbraio 2027.",
-    "fr": "Depuis le 21 novembre, Ice Magic transforme pour la première fois le centre d'Innsbruck en univers de patinage. L'attraction est à découvrir jusqu'au 21 février 2027."
-   },
-   "quelle": "https://b2b.austria.info/cs/media/newsroom/en_winter-news-2026-beyond-the-slopes/",
-   "quelle_name": "Österreich Werbung"
-  },
-  {
-   "datum": "2026-11-26",
-   "bis": "",
-   "titel": {
-    "de": "Sisi Museum in Wien neu gestaltet",
-    "en": "Sisi Museum in Vienna redesigned",
-    "nl": "Sisi Museum in Wenen vernieuwd",
-    "it": "Il Museo Sisi di Vienna rinnovato",
-    "fr": "Le musée Sisi de Vienne repensé"
-   },
-   "text": {
-    "de": "Seit 19. November empfängt das Sisi Museum in Wien seine Gäste mit einem neu gestalteten Rundgang. Zwölf zusätzliche Räume können nun besichtigt werden.",
-    "en": "Since 19 November, the Sisi Museum in Vienna has welcomed visitors with a newly designed tour. Twelve additional rooms are now open to explore.",
-    "nl": "Sinds 19 november ontvangt het Sisi Museum in Wenen bezoekers met een nieuw vormgegeven rondleiding. Twaalf extra ruimtes zijn nu te bezichtigen.",
-    "it": "Dal 19 novembre il Museo Sisi di Vienna accoglie i visitatori con un percorso ridisegnato. Ora si possono visitare dodici sale in più.",
-    "fr": "Depuis le 19 novembre, le musée Sisi de Vienne accueille ses visiteurs avec un parcours repensé. Douze salles supplémentaires sont désormais à découvrir."
-   },
-   "quelle": "https://b2b.austria.info/en-gb/media/newsroom/top-news-austria-winter-2026-27/",
-   "quelle_name": "Österreich Werbung"
   }
  ]
 }
