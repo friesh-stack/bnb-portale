@@ -4,6 +4,7 @@
 //   MAX_PAGES  = Google-Anfragen je geöffneter Liste (1–3, Standard 3; je Anfrage 20 Restaurants)
 //   MIN_REVIEWS = Mindestzahl Bewertungen (Standard 20)
 //   TOP_N      = Länge der Liste (Standard 20)
+// Zusätzlich /events: Veranstaltungen an einem Ort aus der Ticketmaster Discovery API (Secret TICKETMASTER_KEY, frei: 5000 Abrufe/Tag).
 // Zusätzlich /fussball: Spiele und Ergebnisse der Stadion-Vereine aus OpenLigaDB (frei, ohne Schlüssel).
 const ERLAUBT = ["a-bnb.com", "ch-bnb.com", "dk-bnb.dk", "es-bnb.com", "fi-bnb.com", "fr-bnb.com", "friesh-stack.github.io", "gr-bnb.com", "h-bnb.com", "hamburgbnb.de", "it-bnb.com", "muenchenbnb.de", "no-bnb.com", "ostseebnb.de", "p-bnb.com", "se-bnb.com", "xn--ostseebad-mnchgut-9zb.de"];
 const okOrigin = o => { try { const h = new URL(o).hostname; return ERLAUBT.some(d => h === d || h.endsWith('.' + d)) } catch (e) { return false } };
@@ -44,12 +45,34 @@ async function fussball(ids) {
   return out;
 }
 
+// ---------- Veranstaltungen (Ticketmaster Discovery API) ----------
+const EV_CACHE = new Map();
+async function events(env, lat, lon, r, lang) {
+  const key = `${lat.toFixed(3)},${lon.toFixed(3)},${r},${lang}`, c = EV_CACHE.get(key);
+  if (c && Date.now() - c.t < 30 * 60 * 1000) return c.d;
+  const q = new URLSearchParams({ apikey: env.TICKETMASTER_KEY, latlong: `${lat},${lon}`, radius: String(r), unit: 'km', sort: 'date,asc', size: '10', locale: '*' });
+  const res = await fetch('https://app.ticketmaster.com/discovery/v2/events.json?' + q);
+  if (!res.ok) throw new Error('tm ' + res.status);
+  const j = await res.json(), L = ((j._embedded && j._embedded.events) || []).map(e => {
+    const v = e._embedded && e._embedded.venues && e._embedded.venues[0], cl = e.classifications && e.classifications[0];
+    return { n: e.name, d: e.dates && e.dates.start && e.dates.start.localDate, z: e.dates && e.dates.start && e.dates.start.localTime || '', u: e.url || '', o: v && v.name || '', k: cl && cl.segment && cl.segment.name || '' };
+  });
+  if (EV_CACHE.size > 300) EV_CACHE.clear();
+  EV_CACHE.set(key, { t: Date.now(), d: L }); return L;
+}
+
 export default {
   async fetch(req, env) {
     const o = req.headers.get('Origin') || '', url = new URL(req.url);
     if (!okOrigin(o)) return new Response('forbidden', { status: 403 });
     if (req.method === 'OPTIONS') return new Response(null, { headers: cors(o) });
-    if (url.pathname === '/ok') return json({ ok: !!env.GOOGLE_PLACES_KEY }, o);
+    if (url.pathname === '/ok') return json({ ok: !!env.GOOGLE_PLACES_KEY, ev: !!env.TICKETMASTER_KEY }, o);
+    if (url.pathname === '/events') {
+      if (!env.TICKETMASTER_KEY) return json({ L: [] }, o);
+      const lat = +url.searchParams.get('lat'), lon = +url.searchParams.get('lon'), r = Math.max(1, Math.min(20, parseInt(url.searchParams.get('r') || '1', 10) || 1));
+      if (!isFinite(lat) || !isFinite(lon)) return json({ error: 'pos' }, o, 400);
+      try { return json({ L: await events(env, lat, lon, r, url.searchParams.get('lang') || 'de') }, o) } catch (e) { return json({ error: 'events' }, o, 502) }
+    }
     if (url.pathname === '/fussball') { const ids = (url.searchParams.get('v') || '').split(',').filter(Boolean).slice(0, 6); return json(await fussball(ids), o) }
     if (url.pathname !== '/top' || req.method !== 'POST') return json({ error: 'not found' }, o, 404);
     let b; try { b = await req.json() } catch (e) { return json({ error: 'bad request' }, o, 400) }
