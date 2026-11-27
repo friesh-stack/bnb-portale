@@ -1,16 +1,44 @@
 {
- "stand": "2026-11-26",
+ "stand": "2026-11-27",
  "items": [
   {
    "datum": "2026-11-27",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Sylt: Weihnachtsmärkte in Morsum und List am 1. Adventswochenende",
-    "en": "Sylt: Christmas markets in Morsum and List on the first Advent weekend"
+    "de": "Spiekeroog: Fährfahrplan wegen Ostwind geändert",
+    "en": "Spiekeroog: ferry timetable changed due to easterly wind"
    },
    "text": {
-    "de": "Am ersten Adventswochenende laden auf Sylt der traditionelle Weihnachtsmarkt im Muasem Hüs in Morsum und der Lister Weihnachtsmarkt an der Kurverwaltung ein. In Morsum gibt es Kunsthandwerk und ein Hüttendorf, in List startet der Markt am Freitagabend mit dem Anleuchten. Die Öffnungszeiten unterscheiden sich je nach Tag.",
-    "en": "On the first Advent weekend, Sylt hosts the traditional Christmas market at the Muasem Hüs in Morsum and the List Christmas market at the Kurverwaltung. Morsum offers crafts and a hut village, and List opens on Friday evening with a tree-lighting. Opening times vary by day."
+    "de": "Wegen anhaltenden Ostwinds und niedriger Wasserstände gibt es von Freitag bis Sonntag Änderungen im Fahrplan der Spiekeroog-Fähren. Einige Abfahrten werden vorgezogen, weitere Anpassungen sind möglich. Bitte vor der Anreise die aktuellen Abfahrtszeiten prüfen.",
+    "en": "Persistent easterly winds and low water levels mean changes to the Spiekeroog ferry timetable from Friday to Sunday. Some departures are moved earlier, and further changes are possible. Please check the current departure times before you travel."
+   },
+   "quelle": "https://www.spiekeroog.de/informieren/anreise/fahrplan",
+   "quelle_name": "Nordseebad Spiekeroog"
+  },
+  {
+   "datum": "2026-11-28",
+   "bis": "2026-11-29",
+   "titel": {
+    "de": "Amrumer Winterzauber in Norddorf",
+    "en": "Amrum Winter Magic market in Norddorf"
+   },
+   "text": {
+    "de": "Der 15. Amrumer Winterzauber öffnet am Samstag und Sonntag jeweils ab 13 Uhr in der Norddorfer Fußgängerzone. Auf der Terrasse des Seeblick Resorts warten kleine Buden, Glühwein und Geschenkideen. Die Veranstalter-Kalender nennen teils nur den Samstag, daher lohnt ein kurzer Blick auf die Infos der AmrumTouristik.",
+    "en": "The 15th Amrum Winter Magic market opens on Saturday and Sunday from 1 pm in Norddorf's pedestrian zone. Small stalls, mulled wine and gift ideas await on the terrace of the Seeblick resort. Some event calendars list only Saturday, so it is worth checking with AmrumTouristik."
+   },
+   "quelle": "https://www.amrum-news.de/2026/11/23/handarbeit-kuchenduft-und-adventsstimmung-im-clemens-hues/",
+   "quelle_name": "Amrum News"
+  },
+  {
+   "datum": "2026-11-27",
+   "bis": "2026-11-29",
+   "titel": {
+    "de": "Sylt: Adventsmärkte in Morsum und List",
+    "en": "Sylt: Advent markets in Morsum and List"
+   },
+   "text": {
+    "de": "Am ersten Adventswochenende gibt es auf Sylt den traditionellen Weihnachtsmarkt in Morsum mit Kunsthandwerk und Hüttendorf. In List findet der Weihnachtsmarkt an der Kurverwaltung statt und beginnt am Freitagabend mit dem Anleuchten. Beide Märkte laufen bis Sonntag.",
+    "en": "On the first Advent weekend, Sylt hosts the traditional Christmas market in Morsum with crafts and a hut village. In List, the market at the Kurverwaltung starts on Friday evening with a lighting ceremony. Both markets run until Sunday."
    },
    "quelle": "https://syltexklusiv.com/advent-weihnachtsmaerkte-sylt-2026/",
    "quelle_name": "Sylt Exklusiv"
@@ -23,53 +51,25 @@
     "en": "Föhr: Advent markets in Nieblum and Wrixum"
    },
    "text": {
-    "de": "Im Haus des Gastes in Nieblum findet am 28. und 29. November täglich von 12 bis 17 Uhr ein Adventsmarkt statt. Am 29. November folgt der Weihnachtsmarkt im Forst in Wrixum von 11 bis 16 Uhr, gegen 15 Uhr kommt der Weihnachtsmann vorbei.",
-    "en": "An Advent market runs at the Haus des Gastes in Nieblum on 28 and 29 November, daily from 12 to 5 pm. On 29 November the Christmas market in the Forst in Wrixum follows from 11 am to 4 pm, with a visit from Santa around 3 pm."
+    "de": "Im Haus des Gastes in Nieblum findet am Samstag und Sonntag von 12 bis 17 Uhr ein Adventsmarkt statt. Am Sonntag folgt von 11 bis 16 Uhr der Weihnachtsmarkt im Forst in Wrixum, gegen 15 Uhr kommt der Weihnachtsmann vorbei.",
+    "en": "An Advent market takes place at the Haus des Gastes in Nieblum on Saturday and Sunday from 12 to 5 pm. On Sunday, the Christmas market in the Forst in Wrixum runs from 11 am to 4 pm, with Santa Claus expected around 3 pm."
    },
    "quelle": "https://www.foehr.de/jahreswechsel",
-   "quelle_name": "Föhr Tourismus (foehr.de)"
+   "quelle_name": "Föhr Tourismus"
   },
   {
-   "datum": "2026-11-28",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Amrum: 15. Amrumer Winterzauber in Norddorf",
-    "en": "Amrum: 15th Amrum Winterzauber in Norddorf"
-   },
-   "text": {
-    "de": "In Norddorf öffnet der kleine Weihnachtsmarkt am Samstag und Sonntag jeweils ab 13 Uhr. Auf der Terrasse des Seeblick Genuss und Spa Resorts gibt es Buden, Kaffee und Glühwein. Weitere Termine folgen an den kommenden Adventswochenenden.",
-    "en": "The small Christmas market in Norddorf opens on Saturday and Sunday, each day from 1 pm. On the terrace of the Seeblick Genuss und Spa Resort you will find stalls, coffee and mulled wine. More dates follow on the coming Advent weekends."
-   },
-   "quelle": "https://www.amrum-news.de/2026/11/23/handarbeit-kuchenduft-und-adventsstimmung-im-clemens-hues/",
-   "quelle_name": "Amrum News"
-  },
-  {
-   "datum": "2026-11-28",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Langeoog: Adventsmarkt im Haus der Insel",
-    "en": "Langeoog: Advent market at the Haus der Insel"
-   },
-   "text": {
-    "de": "Am ersten Adventswochenende findet auf Langeoog der Adventsmarkt am Haus der Insel statt. Geboten werden Kunsthandwerk, weihnachtliche Leckereien und ein begleitender Flohmarkt. Ein ruhiger Winterspaziergang lässt sich gut damit verbinden.",
-    "en": "Langeoog holds its Advent market at the Haus der Insel on the first Advent weekend. Expect crafts, festive treats and an accompanying flea market. It pairs nicely with a quiet winter walk."
-   },
-   "quelle": "https://freizeitmonster.de/blog/weihnachtsmaerkte-norden",
-   "quelle_name": "Freizeitmonster"
-  },
-  {
-   "datum": "2026-12-01",
+   "datum": "2026-11-27",
    "bis": "",
    "titel": {
-    "de": "Borkum: Rumänischer Adventsabend beim Winterzauber",
-    "en": "Borkum: Romanian Advent evening at the Winterzauber"
+    "de": "Amrum: Winterfahrplan mit weniger Direktfähren",
+    "en": "Amrum: winter ferry schedule with fewer direct sailings"
    },
    "text": {
-    "de": "Auf Borkum steht der Winterzauber-Markt am Dienstag, 1. Dezember, unter einem ungewöhnlichen Motto: Es gibt rumänische Spezialitäten, Live-Musik und traditionelle Schnäpse. Der Glühwein-Treff auf dem Bunker ist noch bis zum 21. Dezember geöffnet.",
-    "en": "On Tuesday, 1 December, Borkum's Winterzauber market has an unusual theme: Romanian specialities, live music and traditional spirits. The mulled wine spot at the Bunker stays open until 21 December."
+    "de": "Im Herbst und Winter 2026/27 gibt es auf der Strecke Dagebüll–Föhr–Amrum längere Lücken im Fahrplan. Zwischen 9.35 und 15.05 Uhr legt keine Fähre in Dagebüll Richtung Amrum ab. Die Freitagsfahrt um 12.05 Uhr ab Amrum hält zunächst auf Föhr, daher bitte die Überfahrt rechtzeitig planen.",
+    "en": "In autumn and winter 2026/27 there are longer gaps in the Dagebüll–Föhr–Amrum timetable. No ferry leaves Dagebüll for Amrum between 9:35 am and 3:05 pm. The Friday 12:05 pm departure from Amrum stops at Föhr first, so please plan your crossing in good time."
    },
-   "quelle": "https://bremen.t-online.de/region/bremen/id_101538950/borkum-kurioser-weihnachtsmarkt-winterzauber-lockt-mit-seltenem-thema.html",
-   "quelle_name": "t-online"
+   "quelle": "https://www.amrum-news.de/2026/11/27/weniger-direktfaehren-laengere-ueberfahrten/",
+   "quelle_name": "Amrum News"
   }
  ]
 }
