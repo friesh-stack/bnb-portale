@@ -461,6 +461,9 @@ def baue(cfg, p, alle):
         shutil.copytree(extra, ziel, dirs_exist_ok=True)
     (ziel / "impressum.html").write_text(s.impressum(), encoding="utf-8")
     (ziel / "datenschutz.html").write_text(s.datenschutz(), encoding="utf-8")
+    orte = ROOT / "content" / "orte" / f"{p['repo']}.json" if "ROOT" in globals() else None
+    if p.get("spiel") and orte and orte.exists():
+        shutil.copy(orte, ziel / "orte.json")
     if p.get("angebot") == "allgemein":
         (ziel / "vermieter.html").write_text(s.vermieter(), encoding="utf-8")
     return ziel

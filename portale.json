@@ -586,7 +586,14 @@
           "en": "Play for free"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          54.2,
+          13.1,
+          54.7,
+          13.8
+        ],
+        "stadt": true
       }
     },
     {
@@ -885,7 +892,14 @@
           "en": "Play for free"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          53.39,
+          9.73,
+          53.74,
+          10.33
+        ],
+        "stadt": true
       }
     },
     {
@@ -1181,7 +1195,14 @@
           "en": "Play for free"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          48.06,
+          11.36,
+          48.25,
+          11.73
+        ],
+        "stadt": true
       }
     },
     {
@@ -1430,7 +1451,15 @@
           "es": "Jugar gratis"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          35.3,
+          6.4,
+          47.2,
+          18.8
+        ],
+        "stadt": false,
+        "iso": "IT"
       }
     },
     {
@@ -1664,7 +1693,15 @@
           "es": "Jugar gratis"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          41.2,
+          -5.4,
+          51.3,
+          9.9
+        ],
+        "stadt": false,
+        "iso": "FR"
       }
     },
     {
@@ -1909,7 +1946,15 @@
           "it": "Gioca gratis"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          35.9,
+          -9.5,
+          43.9,
+          4.4
+        ],
+        "stadt": false,
+        "iso": "ES"
       }
     },
     {
@@ -2181,7 +2226,15 @@
           "fi": "Pelaa ilmaiseksi"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          54.45,
+          7.6,
+          57.85,
+          15.4
+        ],
+        "stadt": false,
+        "iso": "DK"
       }
     },
     {
@@ -2456,7 +2509,15 @@
           "fi": "Pelaa ilmaiseksi"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          54.6,
+          4.5,
+          69.8,
+          25.5
+        ],
+        "stadt": false,
+        "iso": "SE"
       }
     },
     {
@@ -2741,7 +2802,15 @@
           "fi": "Pelaa ilmaiseksi"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          57.5,
+          3.5,
+          71.5,
+          32.0
+        ],
+        "stadt": false,
+        "iso": "NO"
       }
     },
     {
@@ -3026,7 +3095,15 @@
           "nb": "Spill gratis"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          59.2,
+          17.5,
+          70.4,
+          32.5
+        ],
+        "stadt": false,
+        "iso": "FI"
       }
     },
     {
@@ -3263,7 +3340,15 @@
           "nl": "Gratis spelen"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          45.75,
+          5.9,
+          47.85,
+          10.55
+        ],
+        "stadt": false,
+        "iso": "CH"
       }
     },
     {
@@ -3498,7 +3583,15 @@
           "fr": "Jouer gratuitement"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          46.3,
+          9.4,
+          49.1,
+          17.3
+        ],
+        "stadt": false,
+        "iso": "AT"
       }
     },
     {
@@ -3734,7 +3827,15 @@
           "fr": "Jouer gratuitement"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          36.9,
+          -9.6,
+          42.2,
+          -6.1
+        ],
+        "stadt": false,
+        "iso": "PT"
       }
     },
     {
@@ -3970,7 +4071,15 @@
           "fr": "Jouer gratuitement"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          45.6,
+          15.9,
+          48.7,
+          23.1
+        ],
+        "stadt": false,
+        "iso": "HU"
       }
     },
     {
@@ -4206,7 +4315,15 @@
           "it": "Gioca gratis"
         },
         "video": "spiel-short.mp4",
-        "poster": "spiel-short.jpg"
+        "poster": "spiel-short.jpg",
+        "bbox": [
+          34.7,
+          19.3,
+          41.85,
+          29.8
+        ],
+        "stadt": false,
+        "iso": "GR"
       }
     },
     {

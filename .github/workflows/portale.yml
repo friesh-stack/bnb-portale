@@ -16,6 +16,10 @@ on:
         description: "News für alle sofort neu holen"
         type: boolean
         default: false
+      orte_neu:
+        description: "Orte für die Strategiespiele sofort neu holen"
+        type: boolean
+        default: false
       fotos_neu:
         description: "Fotos neu holen (für die gewählten Portale)"
         type: boolean
@@ -51,6 +55,11 @@ jobs:
       - name: News aktualisieren
         if: env.ANTHROPIC_API_KEY != ''
         run: python scripts/news.py ${{ inputs.news_alle && '--alle' || '' }} ${{ inputs.portale }}
+
+      - name: Orte für die Strategiespiele (wöchentlich, OpenStreetMap)
+        continue-on-error: true
+        timeout-minutes: 60
+        run: python scripts/orte.py ${{ inputs.orte_neu && '--neu' || '' }} ${{ inputs.portale }}
 
       - name: Seiten bauen
         run: python scripts/build.py ${{ inputs.portale }}
