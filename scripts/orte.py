@@ -168,6 +168,70 @@ GROUP BY ?item ?itemLabel ?coord ORDER BY DESC(?sl) LIMIT {WD_LIMIT[k]}"""
     return erg
 
 
+# ---------------- Top 10 je Kategorie (Wikidata) ----------------
+TOP = {  # Kategorie: (Klassen, Kennzahl-Eigenschaft oder None, Name der Kennzahl)
+    "sight": (WD_CLS["sight"], None, "sitelinks"),
+    "museum": (WD_CLS["museum"], "P1174", "visitors"),
+    "fun": (WD_CLS["fun"], "P1174", "visitors"),
+    "view": ("Q1440300 Q12518 Q11303", "P2048", "height"),
+    "stadium": (WD_CLS["stadium"], "P1083", "capacity"),
+    "rail": (WD_CLS["rail"], "P1373", "patronage"),
+    "shop": (WD_CLS["shop"], None, "sitelinks"),
+    "garden": (WD_CLS["garden"], None, "sitelinks"),
+    "theatre": (WD_CLS["theatre"], None, "sitelinks"),
+}
+
+
+def ort_filter(sp):
+    if sp.get("stadt"):
+        S, W, N, E = sp["bbox"]
+        return f"""SERVICE wikibase:box {{ ?item wdt:P625 ?coord . bd:serviceParam wikibase:cornerSouthWest "Point({W} {S})"^^geo:wktLiteral . bd:serviceParam wikibase:cornerNorthEast "Point({E} {N})"^^geo:wktLiteral . }}"""
+    return f"?item wdt:P17 wd:{LAND_Q[sp['iso']]}; wdt:P625 ?coord."
+
+
+def top10(sp, sprachen):
+    lang = ",".join(dict.fromkeys(sprachen + ["en"])); f = ort_filter(sp); out = {}
+    for k, (cls, prop, metr) in TOP.items():
+        vals = " ".join("wd:" + c for c in cls.split())
+        rows = []
+        if prop:  # erst mit Kennzahl versuchen
+            q = f"""SELECT ?item ?itemLabel ?coord ?v ?d WHERE {{ {f} VALUES ?c {{ {vals} }} ?item wdt:P31 ?c; p:{prop} ?st. ?st ps:{prop} ?v.
+  OPTIONAL {{ ?st pq:P585 ?d. }} SERVICE wikibase:label {{ bd:serviceParam wikibase:language "{lang}". }} }} LIMIT 3000"""
+            b = sparql(q) or []
+            best = {}
+            for r in b:
+                qid = r["item"]["value"].rsplit("/", 1)[1]
+                try:
+                    v = float(r["v"]["value"])
+                except (KeyError, ValueError):
+                    continue
+                d = r.get("d", {}).get("value", "")[:4]
+                old = best.get(qid)
+                if old is None or (d, v) > (old[4], old[3]):
+                    c = r["coord"]["value"]; lon, lat = map(float, c[c.index("(") + 1:c.index(")")].split())
+                    best[qid] = [r.get("itemLabel", {}).get("value", qid), round(lat, 5), round(lon, 5), v, d, qid]
+            rows = sorted((x for x in best.values() if x[0] != x[5]), key=lambda x: -x[3])[:10]
+            if len(rows) < 5:
+                rows = []
+        if not rows:  # sonst nach Bekanntheit
+            metr = "sitelinks"
+            q = f"""SELECT ?item ?itemLabel ?coord (MAX(?s) AS ?sl) WHERE {{ {f} VALUES ?c {{ {vals} }} ?item wdt:P31 ?c; wikibase:sitelinks ?s.
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "{lang}". }} }} GROUP BY ?item ?itemLabel ?coord ORDER BY DESC(?sl) LIMIT 25"""
+            seen = set()
+            for r in sparql(q) or []:
+                qid = r["item"]["value"].rsplit("/", 1)[1]; name = r.get("itemLabel", {}).get("value", qid)
+                if qid in seen or name == qid:
+                    continue
+                seen.add(qid); c = r["coord"]["value"]; lon, lat = map(float, c[c.index("(") + 1:c.index(")")].split())
+                rows.append([name, round(lat, 5), round(lon, 5), int(r["sl"]["value"]), "", qid])
+                if len(rows) == 10:
+                    break
+        if rows:
+            out[k] = {"m": metr, "L": rows}
+        print(f"  Top 10 {k}: {len(rows)} ({metr})"); time.sleep(1)
+    return out
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     neu = "--neu" in sys.argv
@@ -192,8 +256,13 @@ def main():
             print(f"{p['slug']}: Fehler – {e}"); erg = None
         if not erg:
             print(f"{p['slug']}: keine Daten – alte Datei bleibt"); continue
+        try:
+            spr = list((sp.get("titel") or {}).keys())[:2] or ["de"]
+            top = top10(sp, spr)
+        except Exception as e:
+            print(f"{p['slug']}: Top 10 Fehler – {e}"); top = {}
         f.write_text(json.dumps({"stand": datetime.date.today().isoformat(), "stadt": bool(sp.get("stadt")),
-                                 "quelle": "osm" if sp.get("stadt") else "wikidata", "c": erg},
+                                 "quelle": "osm" if sp.get("stadt") else "wikidata", "c": erg, "top": top},
                                 ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         print(f"{p['slug']}: " + ", ".join(f"{k} {len(v)}" for k, v in erg.items()) + f" – {f.stat().st_size // 1024} KB")
 
