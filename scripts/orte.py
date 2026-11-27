@@ -353,6 +353,9 @@ def main():
                 print(f"  Top 10 {k} ({v['m']}): " + "; ".join(f"{i+1}. {r[0]}" for i, r in enumerate(v["L"][:10])))
         except Exception as e:
             print(f"{p['slug']}: Top 10 Fehler – {e}"); top = {}
+        if f.exists():  # Listen, die diesmal nicht geladen werden konnten (Wikidata-Zeitüberschreitung), aus der alten Datei behalten
+            for k, v in (json.loads(f.read_text(encoding="utf-8")).get("top") or {}).items():
+                top.setdefault(k, v)
         f.write_text(json.dumps({"stand": datetime.date.today().isoformat(), "stadt": bool(sp.get("stadt")),
                                  "quelle": "osm" if sp.get("stadt") else "wikidata", "c": erg, "top": top},
                                 ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
