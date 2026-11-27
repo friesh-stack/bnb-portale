@@ -1,0 +1,46 @@
+name: Orte für die Strategiespiele
+
+on:
+  schedule:
+    - cron: "41 2 * * 1"   # montags früh: Orte aus OpenStreetMap neu holen
+  workflow_dispatch:
+    inputs:
+      portale:
+        description: "Nur diese Portale (Slugs mit Leerzeichen, leer = alle)"
+        required: false
+        default: ""
+      neu:
+        description: "Auch aktuelle Dateien neu holen"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: orte
+  cancel-in-progress: false
+
+jobs:
+  orte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Orte holen und nach jedem Portal sichern
+        run: |
+          git config user.name "portale-bot"
+          git config user.email "portale-bot@users.noreply.github.com"
+          SLUGS="${{ inputs.portale }}"
+          [ -z "$SLUGS" ] && SLUGS=$(python -c "import json;print(' '.join(p['slug'] for p in json.load(open('portale.json'))['portale'] if (p.get('spiel') or {}).get('bbox')))")
+          for s in $SLUGS; do
+            python scripts/orte.py ${{ inputs.neu && '--neu' || '' }} $s || true
+            git add content/orte
+            if ! git diff --cached --quiet; then
+              git commit -m "auto: Orte $s $(date +%F)"
+              for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && break; sleep $((i*5)); done
+            fi
+          done

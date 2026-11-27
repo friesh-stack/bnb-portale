@@ -44,7 +44,7 @@ def frage(q):
             t0 = time.time()
             try:
                 req = urllib.request.Request(ep, data=data, headers={"User-Agent": UA})
-                with urllib.request.urlopen(req, timeout=200) as r:
+                with urllib.request.urlopen(req, timeout=150) as r:
                     j = json.load(r)
                 print(f"    {ep.split('/')[2]}: {len(j.get('elements', []))} Treffer in {time.time() - t0:.1f}s")
                 return j
@@ -60,9 +60,9 @@ def hole(repo, bbox, stadt, iso=None):
     for k, filt in (CAT_STADT if stadt else CAT_LAND).items():
         if iso:  # Länder: nur Orte innerhalb der Landesgrenze
             teile = [t + "(area.a)" for t in filt.strip(";").split(";")]
-            q = f'[out:json][timeout:180];area["ISO3166-1"="{iso}"][admin_level=2]->.a;(' + ";".join(teile) + ";);out tags center;"
+            q = f'[out:json][timeout:120];area["ISO3166-1"="{iso}"][admin_level=2]->.a;(' + ";".join(teile) + ";);out tags center;"
         else:
-            q = f"[out:json][timeout:180][bbox:{S},{W},{N},{E}];(" + filt + ");out tags center;"
+            q = f"[out:json][timeout:120][bbox:{S},{W},{N},{E}];(" + filt + ");out tags center;"
         print(f"  {repo} · {k}")
         j = frage(q)
         if j is None:
