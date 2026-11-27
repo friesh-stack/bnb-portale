@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "content" / "orte"
 UA = "friesh-stack-portale/1.0 (+https://github.com/friesh-stack)"
 KEEP = ("cuisine", "website", "contact:website", "opening_hours", "addr:street", "addr:housenumber", "addr:city")
-GRENZE = {"bus": 8000, "shop": 6000, "garden": 4000, "ita": 3000, "asia": 3000, "ger": 3000, "food": 4000}
+GRENZE = {"bus": 8000, "shop": 6000, "garden": 4000, "ita": 3000, "gre": 2000, "asia": 3000, "ger": 3000, "food": 4000}
 
 
 # ---------------- Städte: Geofabrik + osmium ----------------
@@ -24,6 +24,7 @@ FILTER = ["nwr/tourism=attraction,museum,gallery,theme_park,zoo,aquarium,viewpoi
 
 import re
 K_ITA = re.compile(r"italian|pizza")
+K_GRE = re.compile(r"greek|gyros|souvlaki")
 K_ASIA = re.compile(r"chinese|japanese|thai|vietnamese|asian|sushi|korean|indian|ramen|nepalese|indonesian|malaysian|filipino|pakistani|noodle|dim_sum|bubble_tea|cantonese|sichuan")
 K_GER = re.compile(r"german|bavarian|schnitzel|currywurst|austrian|regional")  # Stadt-Spiele liegen alle in Deutschland
 
@@ -34,7 +35,7 @@ def kat(t):
         if not n:
             return None
         c = t.get("cuisine", "")
-        return "ita" if K_ITA.search(c) else "asia" if K_ASIA.search(c) else "ger" if K_GER.search(c) else "food"
+        return "ita" if K_ITA.search(c) else "gre" if K_GRE.search(c) else "asia" if K_ASIA.search(c) else "ger" if K_GER.search(c) else "food"
     if t.get("highway") == "bus_stop":
         return "bus" if n else None
     if t.get("railway") in ("station", "halt"):
