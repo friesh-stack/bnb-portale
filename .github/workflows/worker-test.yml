@@ -1,0 +1,9 @@
+name: worker-test
+on: workflow_dispatch
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -s -H "Origin: https://hamburgbnb.de" https://places-proxy.friesh.workers.dev/ok; echo
+          curl -s -X POST -H "Origin: https://hamburgbnb.de" -H "Content-Type: application/json" -d '{"S":53.54,"W":9.97,"N":53.56,"E":10.01,"lang":"de"}' https://places-proxy.friesh.workers.dev/top | head -c 1500; echo
