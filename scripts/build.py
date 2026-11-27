@@ -206,7 +206,10 @@ class Seite:
                           f'<p>{self.t(i["text"])}</p>{quelle}</article>')
         inhalt = "".join(karten) or f'<p class="leer">{self.ui("news_leer")}</p>'
         stand = f'<p class="stand">{self.ui("stand")}: {E(daten.get("stand", ""))}</p>' if daten.get("stand") else ""
+        fb = {"hamburg": "HSV,STP", "muenchen": "FCB"}.get(self.p["slug"], "")  # Fußball am Spieltag (OpenLigaDB über places-proxy)
+        fbbox = f'<div id="fbBox" class="fbbox" data-v="{fb}" hidden></div>' if fb else ""
         return f"""<section id="aktuell" class="block">
+  {fbbox}
   <h2>{self.ui("news_titel")}</h2>
 <!-- AUTO:news:start -->
   <div class="news-grid">{inhalt}</div>
