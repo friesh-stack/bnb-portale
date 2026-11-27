@@ -190,6 +190,27 @@ class Seite:
 </header>
 """
 
+    def angebot_block(self):
+        """Was die Plattform Touristen bietet (Karten mit Funktionen, führen in die Entdecken-Karte)."""
+        sp = self.p.get("spiel") or {}
+        f = sp.get("features")
+        if not f:
+            return ""
+        karten = "".join(f'<a class="feat" href="{E(sp.get("datei", "spiel.html"))}"><span class="feat-i">{E(x["i"])}</span>'
+                         f'<h3>{self.t(x["titel"])}</h3><p>{self.t(x["text"])}</p></a>' for x in f)
+        return f"""<section id="angebot" class="block">
+  <h2>{self.t(sp["features_titel"])}</h2>
+  <div class="feat-grid">{karten}</div>
+</section>
+"""
+
+    def hero_spiel(self):
+        """Erster Knopf im Kopfbild: die Entdecken-Karte (nur wo das Portal sie als Hauptangebot führt)."""
+        sp = self.p.get("spiel") or {}
+        if not sp.get("hero"):
+            return ""
+        return f'<a class="btn" href="{E(sp.get("datei", "spiel.html"))}">🧭 {self.t(sp["hero"])}</a>'
+
     def news_block(self):
         daten = lade_json(ROOT / "content" / f"{self.p['slug']}.json", {"items": []})
         items = [i for i in daten.get("items", []) if not i.get("bis") or i["bis"] >= HEUTE.isoformat()][:6]
@@ -303,10 +324,10 @@ class Seite:
   <div class="hero-inhalt">
     <h1>{self.t(p["titel"])}</h1>
     <p>{self.t(p["intro"])}</p>
-    <div class="hero-btns"><a class="btn" href="#aktuell">{self.ui("hero_cta")}</a><a class="btn btn-rand" href="#karte">{self.ui("zur_karte")}</a></div>
+    <div class="hero-btns">{self.hero_spiel()}<a class="btn" href="#aktuell">{self.ui("hero_cta")}</a><a class="btn btn-rand" href="#karte">{self.ui("zur_karte")}</a></div>
   </div>
 </section>
-""" + self.news_block() + self.karte_block() + f"""<section id="entdecken" class="block">
+""" + self.angebot_block() + self.news_block() + self.karte_block() + f"""<section id="entdecken" class="block">
   <h2>{self.ui("entdecken_titel")}</h2>
   <div class="hl-grid">{"".join(hl)}</div>
 </section>
