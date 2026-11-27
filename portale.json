@@ -1163,12 +1163,12 @@
         "en": "Munich"
       },
       "titel": {
-        "de": "Ferienwohnungen in München – direkt vom Gastgeber",
-        "en": "Holiday flats in Munich – direct from the host"
+        "de": "München entdecken – alles für Ihren Aufenthalt",
+        "en": "Discover Munich – everything for your stay"
       },
       "intro": {
-        "de": "Altstadt, Biergärten, Berge in Sichtweite: Wohnen Sie in München direkt beim Gastgeber – mit täglichen Tipps aus der Stadt.",
-        "en": "Old town, beer gardens, mountains in view: stay in Munich directly with the host – with daily tips from the city."
+        "de": "Sehenswürdigkeiten, Museen, über 2.500 Restaurants, U-Bahn, S-Bahn, Tram und Bus, Veranstaltungen, FC Bayern live und das Wetter – alles auf einer Karte und jeden Tag aktuell. Dazu Ferienwohnungen direkt beim Gastgeber.",
+        "en": "Sights, museums, more than 2,500 restaurants, U-Bahn, S-Bahn, tram and bus, events, FC Bayern live and the weather – all on one map and updated every day. Plus holiday flats booked directly with the host."
       },
       "highlights": [
         {
@@ -1279,20 +1279,20 @@
       "spiel": {
         "datei": "spiel.html",
         "nav": {
-          "de": "Spiel",
-          "en": "Game"
+          "de": "Stadt entdecken",
+          "en": "Explore"
         },
         "titel": {
-          "de": "München als Strategiespiel",
-          "en": "Munich as a strategy game"
+          "de": "München-Karte: alles für Touristen",
+          "en": "Munich map: everything for visitors"
         },
         "text": {
-          "de": "Die Stadt als Hex-Karte wie in Civilization: 25 Stadtbezirke, echte Zahlen des Statistischen Amts München, 23 Ausflugsziele und Aufträge zum Mitraten. Kostenlos im Browser.",
-          "en": "The city as a Civilization-style hex map: 25 districts, real figures from Munich’s statistics office, 23 sights and missions. Free in your browser."
+          "de": "Sehenswürdigkeiten, Museen, Restaurants (italienisch, griechisch, asiatisch, regional), U-Bahn, S-Bahn und Bus, Einkaufen, Parks, Theater, Stadien mit Spielplan und Veranstaltungen, Wetter und Top-10-Listen – mit Route vom Standort. Dazu das Strategiespiel mit 25 Stadtbezirken. Kostenlos im Browser.",
+          "en": "Sights, museums, restaurants (Italian, Greek, Asian, regional), U-Bahn, S-Bahn and bus, shopping, parks, theatres, stadiums with fixtures and events, weather and top-10 lists – with directions. Plus the strategy game with 25 districts. Free in your browser."
         },
         "cta": {
-          "de": "Gratis spielen",
-          "en": "Play for free"
+          "de": "Stadt entdecken – gratis",
+          "en": "Explore the city – free"
         },
         "video": "spiel-short.mp4",
         "poster": "spiel-short.jpg",
@@ -1303,7 +1303,105 @@
           11.73
         ],
         "stadt": true,
-        "pbf": "https://download.geofabrik.de/europe/germany/bayern/oberbayern-latest.osm.pbf"
+        "pbf": "https://download.geofabrik.de/europe/germany/bayern/oberbayern-latest.osm.pbf",
+        "hero": {
+          "de": "Stadt entdecken",
+          "en": "Explore the city"
+        },
+        "features_titel": {
+          "de": "Alles für Ihren München-Besuch – auf einer Karte",
+          "en": "Everything for your Munich visit – on one map"
+        },
+        "features": [
+          {
+            "i": "🏛",
+            "titel": {
+              "de": "Sehenswürdigkeiten & Museen",
+              "en": "Sights & museums"
+            },
+            "text": {
+              "de": "Frauenkirche, Marienplatz, Deutsches Museum, Pinakotheken und Hunderte mehr – mit Top-10-Listen und Route vom Standort.",
+              "en": "Frauenkirche, Marienplatz, Deutsches Museum, the Pinakotheken and hundreds more – with top-10 lists and directions."
+            }
+          },
+          {
+            "i": "🍽",
+            "titel": {
+              "de": "Restaurants",
+              "en": "Restaurants"
+            },
+            "text": {
+              "de": "Über 2.500 Restaurants: italienisch, griechisch, asiatisch, regional – dazu die bestbewerteten nach Gästebewertungen.",
+              "en": "More than 2,500 restaurants: Italian, Greek, Asian, regional – plus the top-rated by guest reviews."
+            }
+          },
+          {
+            "i": "🎫",
+            "titel": {
+              "de": "Veranstaltungen",
+              "en": "Events"
+            },
+            "text": {
+              "de": "Konzerte und Shows in Stadien und Theatern mit Terminen und Ticket-Link, dazu täglich neue Meldungen aus der Stadt.",
+              "en": "Concerts and shows in stadiums and theatres with dates and ticket links, plus daily city news."
+            }
+          },
+          {
+            "i": "⚽",
+            "titel": {
+              "de": "FC Bayern live",
+              "en": "FC Bayern live"
+            },
+            "text": {
+              "de": "Spielplan, Ergebnisse und am Spieltag der aktuelle Stand aus der Allianz Arena – automatisch geladen.",
+              "en": "Fixtures, results and the live score on match day – loaded automatically."
+            }
+          },
+          {
+            "i": "🚇",
+            "titel": {
+              "de": "U-Bahn, S-Bahn & Bus",
+              "en": "U-Bahn, S-Bahn & bus"
+            },
+            "text": {
+              "de": "Alle Bahnhöfe und Haltestellen auf der Karte; Sperrungen und Ersatzverkehr unter „Was ist los“.",
+              "en": "All stations and stops on the map; closures and replacement services under “What's on”."
+            }
+          },
+          {
+            "i": "🛍",
+            "titel": {
+              "de": "Einkaufen, Parks & Aussicht",
+              "en": "Shopping, parks & views"
+            },
+            "text": {
+              "de": "Einkaufszentren, Einkaufsstraßen, Supermärkte, Englischer Garten, Olympiapark und Aussichtspunkte.",
+              "en": "Shopping centres and streets, supermarkets, the English Garden, Olympic Park and viewpoints."
+            }
+          },
+          {
+            "i": "🌡",
+            "titel": {
+              "de": "Wetter",
+              "en": "Weather"
+            },
+            "text": {
+              "de": "Die aktuelle Temperatur überall in der Stadt direkt auf der Karte.",
+              "en": "The current temperature across the city right on the map."
+            }
+          },
+          {
+            "i": "🔄",
+            "titel": {
+              "de": "Immer aktuell",
+              "en": "Always up to date"
+            },
+            "text": {
+              "de": "Meldungen täglich, Orte und Top-Listen jede Woche, Fußball und Bewertungen live – kostenlos im Browser.",
+              "en": "News daily, places and top lists weekly, football and ratings live – free in your browser."
+            }
+          }
+        ]
       }
     },
     {
