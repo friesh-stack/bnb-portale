@@ -67,12 +67,19 @@ def stadt(sp):
         d = Path(d); pbf = d / "a.osm.pbf"
         print("  lade", sp["pbf"]); t0 = time.time()
         req = urllib.request.Request(sp["pbf"], headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=900) as r, open(pbf, "wb") as f:
-            while True:
-                b = r.read(1 << 20)
-                if not b:
-                    break
-                f.write(b)
+        for v in range(4):
+            try:
+                with urllib.request.urlopen(req, timeout=900) as r, open(pbf, "wb") as f:
+                    while True:
+                        b = r.read(1 << 20)
+                        if not b:
+                            break
+                        f.write(b)
+                break
+            except Exception as e:
+                if v == 3:
+                    raise
+                print("    Download-Fehler, neuer Versuch:", e); time.sleep(20 * (v + 1))
         print(f"  {pbf.stat().st_size // 2**20} MB in {time.time() - t0:.0f}s")
         subprocess.run(["osmium", "extract", "-b", f"{W},{S},{E},{N}", "-o", str(d / "b.osm.pbf"), str(pbf)], check=True)
         subprocess.run(["osmium", "tags-filter", "-o", str(d / "c.osm.pbf"), str(d / "b.osm.pbf")] + FILTER, check=True)
@@ -254,11 +261,16 @@ def main():
                 erg = land(sp, list((sp.get("titel") or {}).keys())[:2])
         except Exception as e:
             print(f"{p['slug']}: Fehler – {e}"); erg = None
+        if not erg and f.exists():
+            erg = json.loads(f.read_text(encoding="utf-8")).get("c")
+            print(f"{p['slug']}: Orte unverändert aus alter Datei, nur Top 10 neu")
         if not erg:
             print(f"{p['slug']}: keine Daten – alte Datei bleibt"); continue
         try:
             spr = list((sp.get("titel") or {}).keys())[:2] or ["de"]
             top = top10(sp, spr)
+            for k, v in top.items():
+                print(f"  Top 10 {k} ({v['m']}): " + "; ".join(f"{i+1}. {r[0]}" for i, r in enumerate(v["L"][:10])))
         except Exception as e:
             print(f"{p['slug']}: Top 10 Fehler – {e}"); top = {}
         f.write_text(json.dumps({"stand": datetime.date.today().isoformat(), "stadt": bool(sp.get("stadt")),
