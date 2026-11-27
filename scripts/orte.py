@@ -242,9 +242,9 @@ def top10(sp, sprachen, slug=""):
                 rows.append([name, round(lat, 5), round(lon, 5), int(r["sl"]["value"]), "", qid])
                 if len(rows) == 10:
                     break
-        if rows:
+        if len(rows) >= 3:  # weniger als 3 Einträge: Liste weglassen
             out[k] = {"m": metr, "L": rows}
-        print(f"  Top 10 {k}: {len(rows)} ({metr})"); time.sleep(1)
+        print(f"  Top 10 {k}: {len(rows)} ({metr})"); time.sleep(4)
     return out
 
 
