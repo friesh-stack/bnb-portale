@@ -1,0 +1,14 @@
+name: worker-test
+on: workflow_dispatch
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for l in bl1 bl2 bl3; do echo "== $l"; curl -s https://api.openligadb.de/getmatchdata/$l/2026 > d.json; python3 -c "
+          import json,re
+          d=json.load(open('d.json'));print('ANZ',len(d), d[0]['leagueName'] if d else '', d[0]['matchDateTimeUTC'] if d else '')
+          for m in d:
+            n=m['team1']['teamName']+' | '+m['team2']['teamName']
+            if re.search('Hamburger SV|Pauli|Bayern M|1860',n) and not m['matchIsFinished']: print('NEXT',m['matchDateTimeUTC'],n); break
+          print('TEAMS',sorted({m['team1']['teamName'] for m in d}))"; done
