@@ -5,6 +5,9 @@
 Aufruf: python scripts/orte.py [--neu] [slug ...]"""
 import json, sys, time, subprocess, urllib.request, urllib.parse, datetime, tempfile
 from pathlib import Path
+import socket
+_gai = socket.getaddrinfo  # GitHub-Runner haben zeitweise kein IPv6 – nur IPv4 verwenden
+socket.getaddrinfo = lambda h, p, f=0, *a, **k: _gai(h, p, socket.AF_INET, *a, **k)
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "content" / "orte"
@@ -196,7 +199,7 @@ STADT_Q = {"hamburg": "Q1055", "muenchen": "Q1726"}  # nur Orte innerhalb der St
 
 def ort_filter(sp, slug=""):
     if sp.get("stadt"):
-        innen = f" ?item wdt:P131* wd:{STADT_Q[slug]} ." if slug in STADT_Q else ""
+        innen = f" ?item wdt:P131/wdt:P131?/wdt:P131?/wdt:P131? wd:{STADT_Q[slug]} ." if slug in STADT_Q else ""
         S, W, N, E = sp["bbox"]
         return f"""SERVICE wikibase:box {{ ?item wdt:P625 ?coord . bd:serviceParam wikibase:cornerSouthWest "Point({W} {S})"^^geo:wktLiteral . bd:serviceParam wikibase:cornerNorthEast "Point({E} {N})"^^geo:wktLiteral . }}""" + innen
     return f"?item wdt:P17 wd:{LAND_Q[sp['iso']]}; wdt:P625 ?coord."
