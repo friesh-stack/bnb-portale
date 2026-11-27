@@ -259,6 +259,60 @@ def top10(sp, sprachen, slug=""):
     return out
 
 
+# ---------------- Top 10 Restaurants: Michelin-Sterne (Wikidata), dann Wikipedia-Aufrufe der letzten 30 Tage ----------------
+def aufrufe(wiki, titel):
+    """Summe der Seitenaufrufe (Menschen, alle Geräte) der letzten 30 Tage – Wikimedia-Pageviews-API."""
+    bis = datetime.date.today() - datetime.timedelta(days=1); von = bis - datetime.timedelta(days=29)
+    t = urllib.parse.quote(titel.replace(" ", "_"), safe="")
+    url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/{wiki}/all-access/user/{t}/daily/{von:%Y%m%d}00/{bis:%Y%m%d}00"
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=30) as r:
+            return sum(i["views"] for i in json.load(r).get("items", []))
+    except Exception:
+        return 0
+
+
+def sterne(label):
+    l = label.lower()
+    if "green" in l or "bib" in l or "guide" in l:
+        return 0
+    for n, w in ((3, ("3", "three", "drei")), (2, ("2", "two", "zwei")), (1, ("1", "one", "ein"))):
+        if any(x in l for x in w):
+            return n
+    return 1
+
+
+def top_restaurants(sp, sprachen, slug):
+    f = ort_filter(sp, slug); lang = ",".join(dict.fromkeys(sprachen + ["de", "en"]))
+    q = f"""SELECT ?item ?itemLabel ?coord ?awl ?art WHERE {{ {f} ?item wdt:P31/wdt:P279? wd:Q11707 .
+  OPTIONAL {{ ?item wdt:P166 ?aw . ?aw rdfs:label ?awl . FILTER(LANG(?awl)="en" && CONTAINS(LCASE(?awl), "michelin")) }}
+  OPTIONAL {{ ?art schema:about ?item ; schema:isPartOf ?w . FILTER(?w IN (<https://{sprachen[0]}.wikipedia.org/>, <https://de.wikipedia.org/>, <https://en.wikipedia.org/>)) }}
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "{lang}". }} }} LIMIT 4000"""
+    it = {}
+    for r in sparql(q) or []:
+        qid = r["item"]["value"].rsplit("/", 1)[1]; name = r.get("itemLabel", {}).get("value", qid)
+        if name == qid:
+            continue
+        c = r["coord"]["value"]; lon, lat = map(float, c[c.index("(") + 1:c.index(")")].split())
+        e = it.setdefault(qid, {"n": name, "lat": round(lat, 5), "lon": round(lon, 5), "st": 0, "art": set()})
+        if "awl" in r:
+            e["st"] = max(e["st"], sterne(r["awl"]["value"]))
+        if "art" in r:
+            e["art"].add(r["art"]["value"])
+    kand = [e for e in it.values() if e["st"] or e["art"]]
+    print(f"  Top 10 rest: {len(it)} Restaurants in Wikidata, {sum(1 for e in kand if e['st'])} mit Michelin-Stern, {len(kand)} Kandidaten")
+    kand.sort(key=lambda e: -e["st"]); kand = kand[:60]
+    for e in kand:
+        v = 0
+        for a in e["art"]:
+            host, titel = a.split("//", 1)[1].split("/wiki/", 1)
+            v = max(v, aufrufe(host, urllib.parse.unquote(titel)))
+        e["v"] = v; time.sleep(0.2)
+    kand.sort(key=lambda e: (-e["st"], -e["v"]))
+    return [[e["n"], e["lat"], e["lon"], e["v"], "⭐" * e["st"], qid] for qid, e in
+            ((next(k for k, x in it.items() if x is e), e) for e in kand[:10])]
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     neu = "--neu" in sys.argv
@@ -289,6 +343,12 @@ def main():
         try:
             spr = list((sp.get("titel") or {}).keys())[:2] or ["de"]
             top = top10(sp, spr, p["slug"])
+            try:
+                rr = top_restaurants(sp, spr, p["slug"])
+                if len(rr) >= 3:
+                    top["rest"] = {"m": "michelin", "L": rr}
+            except Exception as e:
+                print("  Top 10 Restaurants Fehler:", e)
             for k, v in top.items():
                 print(f"  Top 10 {k} ({v['m']}): " + "; ".join(f"{i+1}. {r[0]}" for i, r in enumerate(v["L"][:10])))
         except Exception as e:
