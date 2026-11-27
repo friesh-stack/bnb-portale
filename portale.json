@@ -593,7 +593,8 @@
           54.7,
           13.8
         ],
-        "stadt": true
+        "stadt": true,
+        "pbf": "https://download.geofabrik.de/europe/germany/mecklenburg-vorpommern-latest.osm.pbf"
       }
     },
     {
@@ -899,7 +900,8 @@
           53.74,
           10.33
         ],
-        "stadt": true
+        "stadt": true,
+        "pbf": "https://download.geofabrik.de/europe/germany/hamburg-latest.osm.pbf"
       }
     },
     {
@@ -1202,7 +1204,8 @@
           48.25,
           11.73
         ],
-        "stadt": true
+        "stadt": true,
+        "pbf": "https://download.geofabrik.de/europe/germany/bayern/oberbayern-latest.osm.pbf"
       }
     },
     {

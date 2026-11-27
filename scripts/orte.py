@@ -1,86 +1,170 @@
-"""Wöchentlich: Orte für die Strategiespiele aus OpenStreetMap (Overpass) holen.
-Schreibt content/orte/<repo>.json; build.py kopiert die Datei als orte.json ins Portal.
+"""Wöchentlich: Orte für die Strategiespiele holen und als content/orte/<repo>.json ablegen
+(build.py kopiert sie als orte.json ins Portal).
+- Stadt-Spiele (Hamburg, Rügen, München): OpenStreetMap-Auszug von Geofabrik, ausgewertet mit osmium – alles inkl. Bus und Supermärkte.
+- Länder-Spiele: bekannte Orte aus Wikidata (SPARQL), sortiert nach Bekanntheit. Details lädt das Spiel beim Heranzoomen live.
 Aufruf: python scripts/orte.py [--neu] [slug ...]"""
-import json, sys, time, urllib.request, urllib.parse, datetime
+import json, sys, time, subprocess, urllib.request, urllib.parse, datetime, tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "content" / "orte"
-EP = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter", "https://overpass.kumi.systems/api/interpreter"]
 UA = "friesh-stack-portale/1.0 (+https://github.com/friesh-stack)"
-
-# Stadt-Spiele: alles. Länder-Spiele: nur bekannte Orte (mit Wikidata-Eintrag), Details lädt das Spiel beim Heranzoomen live.
-CAT_STADT = {
-    "sight": 'nwr["tourism"="attraction"]["name"];nwr["historic"~"^(castle|monument|ruins|city_gate|fort)$"]["name"];',
-    "museum": 'nwr["tourism"~"^(museum|gallery)$"]["name"];',
-    "rail": 'nwr["railway"~"^(station|halt)$"]["name"];',
-    "bus": 'node["highway"="bus_stop"]["name"];',
-    "shop": 'nwr["shop"~"^(mall|department_store|supermarket)$"];way["highway"="pedestrian"]["name"];',
-    "fun": 'nwr["tourism"~"^(theme_park|zoo|aquarium)$"];nwr["leisure"="water_park"];',
-    "stadium": 'nwr["leisure"="stadium"]["name"];',
-    "garden": 'nwr["leisure"="garden"]["garden:type"="botanical"];nwr["leisure"="park"]["name"];',
-    "view": 'nwr["tourism"="viewpoint"];nwr["man_made"="tower"]["tower:type"="observation"];',
-    "theatre": 'nwr["amenity"~"^(theatre|arts_centre)$"]["name"];',
-}
-CAT_LAND = {
-    "sight": 'nwr["tourism"="attraction"]["wikidata"];nwr["historic"~"^(castle|monument|ruins|city_gate|fort)$"]["wikidata"];',
-    "museum": 'nwr["tourism"="museum"]["wikidata"];',
-    "rail": 'nwr["railway"="station"]["wikidata"]["train"="yes"];',
-    "shop": 'nwr["shop"~"^(mall|department_store)$"]["wikidata"];',
-    "fun": 'nwr["tourism"~"^(theme_park|zoo|aquarium)$"]["wikidata"];',
-    "stadium": 'nwr["leisure"="stadium"]["wikidata"];',
-    "garden": 'nwr["leisure"="garden"]["garden:type"="botanical"]["name"];nwr["leisure"="park"]["wikidata"];',
-    "view": 'nwr["man_made"="tower"]["tower:type"="observation"]["wikidata"];nwr["tourism"="viewpoint"]["wikidata"];',
-    "theatre": 'nwr["amenity"="theatre"]["wikidata"];',
-}
-GRENZE = {"bus": 6000, "shop": 6000, "garden": 4000}  # höchstens so viele je Kategorie
 KEEP = ("website", "contact:website", "opening_hours", "addr:street", "addr:housenumber", "addr:city")
+GRENZE = {"bus": 8000, "shop": 6000, "garden": 4000}
 
 
-def frage(q):
-    data = urllib.parse.urlencode({"data": q}).encode()
-    for ep in EP:
-        for versuch in range(2):
-            t0 = time.time()
-            try:
-                req = urllib.request.Request(ep, data=data, headers={"User-Agent": UA})
-                with urllib.request.urlopen(req, timeout=150) as r:
-                    j = json.load(r)
-                print(f"    {ep.split('/')[2]}: {len(j.get('elements', []))} Treffer in {time.time() - t0:.1f}s")
-                return j
-            except Exception as e:
-                print(f"    {ep.split('/')[2]}: Fehler nach {time.time() - t0:.1f}s – {e}")
-                time.sleep(10)
+# ---------------- Städte: Geofabrik + osmium ----------------
+FILTER = ["nwr/tourism=attraction,museum,gallery,theme_park,zoo,aquarium,viewpoint", "nwr/historic=castle,monument,ruins,city_gate,fort",
+          "nwr/railway=station,halt", "n/highway=bus_stop", "nwr/shop=mall,department_store,supermarket", "w/highway=pedestrian",
+          "nwr/leisure=water_park,stadium,garden,park", "nwr/man_made=tower", "nwr/amenity=theatre,arts_centre"]
+
+
+def kat(t):
+    n = t.get("name")
+    if t.get("highway") == "bus_stop":
+        return "bus" if n else None
+    if t.get("railway") in ("station", "halt"):
+        return "rail" if n else None
+    if t.get("tourism") in ("museum", "gallery"):
+        return "museum" if n else None
+    if t.get("shop") in ("mall", "department_store", "supermarket"):
+        return "shop"
+    if t.get("highway") == "pedestrian":
+        return "shop" if n else None
+    if t.get("tourism") in ("theme_park", "zoo", "aquarium") or t.get("leisure") == "water_park":
+        return "fun"
+    if t.get("leisure") == "stadium":
+        return "stadium" if n else None
+    if t.get("leisure") == "garden":
+        return "garden" if t.get("garden:type") == "botanical" else None
+    if t.get("leisure") == "park":
+        return "garden" if n else None
+    if t.get("tourism") == "viewpoint" or (t.get("man_made") == "tower" and t.get("tower:type") == "observation"):
+        return "view"
+    if t.get("amenity") in ("theatre", "arts_centre"):
+        return "theatre" if n else None
+    if (t.get("tourism") == "attraction" or t.get("historic")) and n:
+        return "sight"
     return None
 
 
-def hole(repo, bbox, stadt, iso=None):
-    S, W, N, E = bbox
-    erg = {}
-    for k, filt in (CAT_STADT if stadt else CAT_LAND).items():
-        if iso:  # Länder: nur Orte innerhalb der Landesgrenze
-            teile = [t + "(area.a)" for t in filt.strip(";").split(";")]
-            q = f'[out:json][timeout:120];area["ISO3166-1"="{iso}"][admin_level=2]->.a;(' + ";".join(teile) + ";);out tags center;"
+def mitte(g):
+    pts = []
+
+    def walk(c):
+        if isinstance(c[0], (int, float)):
+            pts.append(c)
         else:
-            q = f"[out:json][timeout:120][bbox:{S},{W},{N},{E}];(" + filt + ");out tags center;"
-        print(f"  {repo} · {k}")
-        j = frage(q)
-        if j is None:
-            return None
-        L = []
-        for e in j.get("elements", []):
-            c = e.get("center") or {}
-            lat, lon = e.get("lat", c.get("lat")), e.get("lon", c.get("lon"))
-            if lat is None:
+            for x in c:
+                walk(x)
+    walk(g["coordinates"])
+    return sum(p[1] for p in pts) / len(pts), sum(p[0] for p in pts) / len(pts)
+
+
+def stadt(sp):
+    S, W, N, E = sp["bbox"]
+    with tempfile.TemporaryDirectory() as d:
+        d = Path(d); pbf = d / "a.osm.pbf"
+        print("  lade", sp["pbf"]); t0 = time.time()
+        req = urllib.request.Request(sp["pbf"], headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=900) as r, open(pbf, "wb") as f:
+            while True:
+                b = r.read(1 << 20)
+                if not b:
+                    break
+                f.write(b)
+        print(f"  {pbf.stat().st_size // 2**20} MB in {time.time() - t0:.0f}s")
+        subprocess.run(["osmium", "extract", "-b", f"{W},{S},{E},{N}", "-o", str(d / "b.osm.pbf"), str(pbf)], check=True)
+        subprocess.run(["osmium", "tags-filter", "-o", str(d / "c.osm.pbf"), str(d / "b.osm.pbf")] + FILTER, check=True)
+        subprocess.run(["osmium", "export", "-f", "geojsonseq", "--add-unique-id=type_id", "-o", str(d / "c.geojsonseq"), str(d / "c.osm.pbf")], check=True)
+        erg, seen = {}, set()
+        for line in open(d / "c.geojsonseq", encoding="utf-8"):
+            line = line.strip().lstrip("\x1e")
+            if not line:
                 continue
-            t = e.get("tags", {})
-            row = [round(lat, 5), round(lon, 5), t.get("name", ""), e["type"][0] + str(e["id"])]
+            ft = json.loads(line); t = ft.get("properties") or {}
+            k = kat(t)
+            if not k or not ft.get("geometry"):
+                continue
+            uid = str(ft.get("id", ""))  # n123 / w456 / r789
+            if uid in seen:
+                continue
+            seen.add(uid)
+            lat, lon = mitte(ft["geometry"])
+            if not (S <= lat <= N and W <= lon <= E):
+                continue
+            row = [round(lat, 5), round(lon, 5), t.get("name", ""), uid]
             ex = {x: t[x] for x in KEEP if x in t}
             if ex:
                 row.append(ex)
+            erg.setdefault(k, []).append(row)
+        return {k: v[:GRENZE.get(k, 3000)] for k, v in erg.items()}
+
+
+# ---------------- Länder: Wikidata ----------------
+LAND_Q = dict(SE="Q34", NO="Q20", FI="Q33", DK="Q35", FR="Q142", ES="Q29", IT="Q38", PT="Q45", HU="Q28", AT="Q40", GR="Q41", CH="Q39")
+WD_CLS = {
+    "sight": "Q570116 Q23413 Q751876 Q4989906 Q16560 Q12518 Q57821 Q44539 Q16970",
+    "museum": "Q33506 Q207694 Q16735822 Q756102 Q588140 Q1007870 Q17431399",
+    "rail": "Q55488 Q1793804 Q928830",
+    "shop": "Q11315 Q216107",
+    "fun": "Q194195 Q43501 Q2281788 Q2416723",
+    "stadium": "Q483110 Q1076486",
+    "garden": "Q167346 Q22698 Q1107656",
+    "view": "Q1440300 Q6017969",
+    "theatre": "Q24354 Q153562 Q1060829",
+}
+WD_LIMIT = {"sight": 500, "museum": 400, "rail": 300, "shop": 150, "fun": 150, "stadium": 150, "garden": 300, "view": 200, "theatre": 250}
+
+
+def sparql(q):
+    url = "https://query.wikidata.org/sparql?" + urllib.parse.urlencode({"query": q, "format": "json"})
+    for v in range(4):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/sparql-results+json"})
+            with urllib.request.urlopen(req, timeout=90) as r:
+                return json.load(r)["results"]["bindings"]
+        except Exception as e:
+            print("    Wikidata-Fehler:", e); time.sleep(15 * (v + 1))
+    return None
+
+
+def land(sp, sprachen):
+    q_land = LAND_Q[sp["iso"]]; S, W, N, E = sp["bbox"]; erg = {}
+    lang = ",".join(dict.fromkeys(sprachen + ["en"]))
+    for k, cls in WD_CLS.items():
+        vals = " ".join("wd:" + c for c in cls.split())
+        q = f"""SELECT ?item ?itemLabel ?coord (SAMPLE(?w) AS ?web) (MAX(?s) AS ?sl) WHERE {{
+  VALUES ?c {{ {vals} }} ?item wdt:P31 ?c; wdt:P17 wd:{q_land}; wdt:P625 ?coord; wikibase:sitelinks ?s.
+  OPTIONAL {{ ?item wdt:P856 ?w. }}
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "{lang}". }} }}
+GROUP BY ?item ?itemLabel ?coord ORDER BY DESC(?sl) LIMIT {WD_LIMIT[k]}"""
+        print(f"  {sp['iso']} · {k}"); t0 = time.time()
+        b = sparql(q)
+        if b is None:
+            return None
+        L, seen = [], set()
+        for r in b:
+            qid = r["item"]["value"].rsplit("/", 1)[1]
+            if qid in seen:
+                continue
+            seen.add(qid)
+            c = r["coord"]["value"]  # Point(lon lat)
+            try:
+                lon, lat = map(float, c[c.index("(") + 1:c.index(")")].split())
+            except ValueError:
+                continue
+            if not (S <= lat <= N and W <= lon <= E):
+                continue
+            name = r.get("itemLabel", {}).get("value", "")
+            if not name or name == qid:
+                continue
+            row = [round(lat, 5), round(lon, 5), name, "q" + qid[1:]]
+            if "web" in r:
+                row.append({"website": r["web"]["value"]})
             L.append(row)
-        erg[k] = L[:GRENZE.get(k, 3000)]
-        time.sleep(3)
+        erg[k] = L
+        print(f"    {len(L)} Orte in {time.time() - t0:.1f}s"); time.sleep(2)
     return erg
 
 
@@ -97,16 +181,21 @@ def main():
         if f.exists() and not neu:
             alt = json.loads(f.read_text(encoding="utf-8")).get("stand", "2000-01-01")
             if (datetime.date.today() - datetime.date.fromisoformat(alt)).days < 7:
-                print(f"{p['slug']}: aktuell (Stand {alt})")
-                continue
+                print(f"{p['slug']}: aktuell (Stand {alt})"); continue
         print(f"{p['slug']}: hole Orte …")
-        erg = hole(p["repo"], sp["bbox"], sp.get("stadt", False), sp.get("iso"))
-        if erg is None:
-            print(f"{p['slug']}: Overpass nicht erreichbar – alte Datei bleibt")
-            continue
-        f.write_text(json.dumps({"stand": datetime.date.today().isoformat(), "stadt": sp.get("stadt", False), "c": erg},
+        try:
+            if sp.get("stadt"):
+                erg = stadt(sp)
+            else:
+                erg = land(sp, list((sp.get("titel") or {}).keys())[:2])
+        except Exception as e:
+            print(f"{p['slug']}: Fehler – {e}"); erg = None
+        if not erg:
+            print(f"{p['slug']}: keine Daten – alte Datei bleibt"); continue
+        f.write_text(json.dumps({"stand": datetime.date.today().isoformat(), "stadt": bool(sp.get("stadt")),
+                                 "quelle": "osm" if sp.get("stadt") else "wikidata", "c": erg},
                                 ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-        print(f"{p['slug']}: {sum(len(v) for v in erg.values())} Orte, {f.stat().st_size // 1024} KB")
+        print(f"{p['slug']}: " + ", ".join(f"{k} {len(v)}" for k, v in erg.items()) + f" – {f.stat().st_size // 1024} KB")
 
 
 if __name__ == "__main__":
