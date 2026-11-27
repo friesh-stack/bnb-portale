@@ -177,10 +177,12 @@ GROUP BY ?item ?itemLabel ?coord ORDER BY DESC(?sl) LIMIT {WD_LIMIT[k]}"""
 
 # ---------------- Top 10 je Kategorie (Wikidata) ----------------
 TOP = {  # Kategorie: (Klassen, Kennzahl-Eigenschaft oder None, Name der Kennzahl)
-    "sight": (WD_CLS["sight"], None, "sitelinks"),
+    # Sehenswürdigkeiten: alle bekannten Bauwerke/Ziele zusammen (inkl. Konzerthaus, Rathaus, Brücken, Museen, Zoos), nach Bekanntheit
+    "sight": (" ".join(dict.fromkeys((WD_CLS["sight"] + " " + WD_CLS["museum"] + " " + WD_CLS["fun"] + " " + WD_CLS["theatre"]
+              + " Q1060829 Q543654 Q12280 Q2977 Q1440300 Q483110").split())), None, "sitelinks"),
     "museum": (WD_CLS["museum"], "P1174", "visitors"),
     "fun": (WD_CLS["fun"], "P1174", "visitors"),
-    "view": ("Q1440300 Q12518 Q11303", "P2048", "height"),
+    "view": ("Q1440300 Q6017969", "P2048", "height"),
     "stadium": (WD_CLS["stadium"], "P1083", "capacity"),
     "rail": (WD_CLS["rail"], "P1373", "patronage"),
     "shop": (WD_CLS["shop"], None, "sitelinks"),
@@ -189,15 +191,19 @@ TOP = {  # Kategorie: (Klassen, Kennzahl-Eigenschaft oder None, Name der Kennzah
 }
 
 
-def ort_filter(sp):
+STADT_Q = {"hamburg": "Q1055", "muenchen": "Q1726"}  # nur Orte innerhalb der Stadtgrenze
+
+
+def ort_filter(sp, slug=""):
     if sp.get("stadt"):
+        innen = f" ?item wdt:P131* wd:{STADT_Q[slug]} ." if slug in STADT_Q else ""
         S, W, N, E = sp["bbox"]
-        return f"""SERVICE wikibase:box {{ ?item wdt:P625 ?coord . bd:serviceParam wikibase:cornerSouthWest "Point({W} {S})"^^geo:wktLiteral . bd:serviceParam wikibase:cornerNorthEast "Point({E} {N})"^^geo:wktLiteral . }}"""
+        return f"""SERVICE wikibase:box {{ ?item wdt:P625 ?coord . bd:serviceParam wikibase:cornerSouthWest "Point({W} {S})"^^geo:wktLiteral . bd:serviceParam wikibase:cornerNorthEast "Point({E} {N})"^^geo:wktLiteral . }}""" + innen
     return f"?item wdt:P17 wd:{LAND_Q[sp['iso']]}; wdt:P625 ?coord."
 
 
-def top10(sp, sprachen):
-    lang = ",".join(dict.fromkeys(sprachen + ["en"])); f = ort_filter(sp); out = {}
+def top10(sp, sprachen, slug=""):
+    lang = ",".join(dict.fromkeys(sprachen + ["de", "en"])); f = ort_filter(sp, slug); out = {}
     for k, (cls, prop, metr) in TOP.items():
         vals = " ".join("wd:" + c for c in cls.split())
         rows = []
@@ -218,7 +224,7 @@ def top10(sp, sprachen):
                     c = r["coord"]["value"]; lon, lat = map(float, c[c.index("(") + 1:c.index(")")].split())
                     best[qid] = [r.get("itemLabel", {}).get("value", qid), round(lat, 5), round(lon, 5), v, d, qid]
             rows = sorted((x for x in best.values() if x[0] != x[5]), key=lambda x: -x[3])[:10]
-            if len(rows) < 5:
+            if len(rows) < 8:  # zu wenige Zahlen – dann lieber ehrlich nach Bekanntheit
                 rows = []
         if not rows:  # sonst nach Bekanntheit
             metr = "sitelinks"
@@ -268,7 +274,7 @@ def main():
             print(f"{p['slug']}: keine Daten – alte Datei bleibt"); continue
         try:
             spr = list((sp.get("titel") or {}).keys())[:2] or ["de"]
-            top = top10(sp, spr)
+            top = top10(sp, spr, p["slug"])
             for k, v in top.items():
                 print(f"  Top 10 {k} ({v['m']}): " + "; ".join(f"{i+1}. {r[0]}" for i, r in enumerate(v["L"][:10])))
         except Exception as e:
