@@ -1,30 +1,30 @@
 {
- "stand": "2026-11-27",
+ "stand": "2026-11-28",
  "items": [
   {
-   "datum": "2026-11-27",
+   "datum": "2026-11-28",
    "bis": "2026-12-24",
    "titel": {
-    "de": "Christkindlmarkt am Marienplatz läuft bis Heiligabend",
-    "en": "Christkindlmarkt at Marienplatz runs until Christmas Eve"
+    "de": "Münchner Christkindlmarkt am Marienplatz",
+    "en": "Munich Christkindlmarkt at Marienplatz"
    },
    "text": {
-    "de": "Der traditionelle Münchner Christkindlmarkt rund um den Marienplatz ist eröffnet und dauert bis zum 24. Dezember. Heute hat er von 10 bis 21 Uhr geöffnet. Auch der Markt am Sendlinger Tor ist bis 22. Dezember täglich geöffnet.",
-    "en": "Munich's traditional Christkindlmarkt around Marienplatz is open and runs until 24 December. Today it is open from 10 am to 9 pm. The market at Sendlinger Tor also opens daily until 22 December."
+    "de": "Der große Christkindlmarkt im Herzen der Altstadt läuft noch bis Heiligabend. Er ist samstags von 10 bis 21 Uhr und sonntags von 10 bis 20 Uhr geöffnet.",
+    "en": "The big Christmas market in the heart of the old town runs until Christmas Eve. Opening hours are 10 am to 9 pm on Saturday and 10 am to 8 pm on Sunday."
    },
    "quelle": "https://www.muenchen.de/veranstaltungen/weihnachtsmaerkte-christkindlmaerkte-2026",
    "quelle_name": "muenchen.de"
   },
   {
-   "datum": "2026-11-27",
+   "datum": "2026-11-28",
    "bis": "2026-11-30",
    "titel": {
-    "de": "S-Bahn: Einschränkungen auf der Stammstrecke bis Montagfrüh",
-    "en": "S-Bahn: Core-line restrictions until Monday morning"
+    "de": "S-Bahn: Einschränkungen auf der Stammstrecke am Wochenende",
+    "en": "S-Bahn: Core line restrictions this weekend"
    },
    "text": {
-    "de": "Wegen Bauarbeiten gibt es von Freitag, 22:10 Uhr, bis Montag, 30. November, 4:40 Uhr Einschränkungen auf der Stammstrecke. Die S4 aus Richtung Geltendorf endet in Pasing. Bei der S2 ist am Ostbahnhof ein Umstieg nötig, Leuchtenbergring und Berg am Laim werden nicht bedient. Eine ähnliche Sperrung ist vom 4. bis 7. Dezember geplant. Bitte mehr Fahrzeit einplanen, besonders auf dem Weg zum Flughafen.",
-    "en": "Construction work restricts the S-Bahn core line from Friday 10:10 pm until Monday 30 November, 4:40 am. The S4 from Geltendorf terminates at Pasing. S2 passengers must change at Ostbahnhof, and Leuchtenbergring and Berg am Laim are not served. A similar closure is planned for 4 to 7 December. Please allow extra travel time, especially on the way to the airport."
+    "de": "Wegen Bauarbeiten gibt es von Freitagabend, 27.11., bis Montagfrüh, 30.11., Einschränkungen auf der Stammstrecke. Die S4 endet in Pasing, und bei der S2 ist am Ostbahnhof ein Umstieg nötig. Bitte plant mehr Fahrzeit ein, besonders auf dem Weg zum Flughafen, und prüft die Verbindung vor der Abfahrt.",
+    "en": "Construction work restricts the S-Bahn core line from Friday evening, 27 Nov, until early Monday, 30 Nov. The S4 ends at Pasing, and S2 passengers need to change trains at Ostbahnhof. Please allow extra travel time, especially to the airport, and check your connection before departing."
    },
    "quelle": "https://www.muenchen.de/verkehr/oeffentlicher-nahverkehr/s-bahn-muenchen-fahrplaene-strecken-sperrungen",
    "quelle_name": "muenchen.de"
@@ -33,43 +33,43 @@
    "datum": "2026-11-28",
    "bis": "2026-11-29",
    "titel": {
-    "de": "Stadtteil-Christkindlmärkte in Perlach und Trudering",
-    "en": "Neighbourhood Christmas markets in Perlach and Trudering"
+    "de": "Kleine Christkindlmärkte in Trudering und Perlach",
+    "en": "Small Christmas markets in Trudering and Perlach"
    },
    "text": {
-    "de": "Am Wochenende öffnen zwei kleinere Christkindlmärkte in den östlichen Stadtteilen: der Perlacher und der Truderinger Christkindlmarkt, jeweils am 28. und 29. November. Der Markt in Trudering findet drinnen im Kulturzentrum statt, was bei kaltem Wetter angenehm ist.",
-    "en": "Two smaller Christmas markets open this weekend in Munich's eastern districts: Perlach and Trudering, on 28 and 29 November. The Trudering market is held indoors at the cultural centre, which is handy in cold weather."
+    "de": "Dieses Wochenende laden zwei Stadtteilmärkte zum Bummeln ein. Der Truderinger Christkindlmarkt findet im Kulturzentrum Trudering statt, der Perlacher Christkindlmarkt bei St. Michael. Beide sind nur am Samstag und Sonntag geöffnet.",
+    "en": "Two neighbourhood markets invite you to stroll this weekend. The Trudering Christkindlmarkt is held at the Kulturzentrum Trudering, and the Perlach Christkindlmarkt at St. Michael. Both are open on Saturday and Sunday only."
    },
-   "quelle": "https://www.muenchen.de/veranstaltungen/weihnachtsmaerkte-christkindlmaerkte-2026",
+   "quelle": "https://www.muenchen.de/freizeit/weihnachtsmarkt-christkindlmaerkte",
    "quelle_name": "muenchen.de"
   },
   {
-   "datum": "2026-11-27",
-   "bis": "2027-02-07",
+   "datum": "2026-11-28",
+   "bis": "2026-12-23",
    "titel": {
-    "de": "Eisbach Treasures im Haus der Kunst",
-    "en": "Eisbach Treasures at Haus der Kunst"
+    "de": "Sternenflotte: Weihnachtsmarkt auf der Alten Utting",
+    "en": "Sternenflotte: Christmas market on the Alte Utting"
    },
    "text": {
-    "de": "Der Europameister im Flusssurfen Tao Schirrmacher holt seit 2008 verlorene Gegenstände vom Grund des Münchner Eisbachs. Das Haus der Kunst zeigt seine Sammlung noch bis 7. Februar 2027. Ein guter Tipp für einen kalten Wintertag.",
-    "en": "River-surfing European champion Tao Schirrmacher has been retrieving lost objects from the bed of Munich's Eisbach since 2008. Haus der Kunst shows his collection until 7 February 2027. A good idea for a cold winter day."
+    "de": "Auf der Alten Utting startet heute die Sternenflotte, ein Weihnachtsmarkt der etwas anderen Art. Er läuft bis zum 23. Dezember, heute ab 16 Uhr.",
+    "en": "The Sternenflotte, a Christmas market with a difference, opens today on the Alte Utting. It runs until 23 December and opens today at 4 pm."
    },
-   "quelle": "https://www.muenchen.travel/artikel/b2b/aktuelles/neu-im-herbst-winter-2026-2027",
-   "quelle_name": "München Tourismus"
+   "quelle": "https://www.muenchen.de/freizeit/weihnachtsmarkt-christkindlmaerkte",
+   "quelle_name": "muenchen.de"
   },
   {
-   "datum": "2026-11-27",
-   "bis": "2026-11-29",
+   "datum": "2026-11-28",
+   "bis": "2026-12-20",
    "titel": {
-    "de": "Winterliches Wetter: Vorsicht bei Glätte am Wochenende",
-    "en": "Wintry weather: watch out for slippery surfaces this weekend"
+    "de": "Pasinger Christkindlmarkt startet",
+    "en": "Pasing Christkindlmarkt opens"
    },
    "text": {
-    "de": "In Bayern sind die Temperaturen rund um den Gefrierpunkt, vereinzelt fallen noch Schneeflocken. Der Deutsche Wetterdienst warnt auch am Wochenende vor Glätte. Warme Kleidung und festes Schuhwerk sind für Marktbesuche und Stadtspaziergänge ratsam.",
-    "en": "Temperatures in Bavaria are around freezing, with a few snowflakes still falling. The German Weather Service also warns of slippery conditions over the weekend. Warm clothes and sturdy shoes are advisable for market visits and city walks."
+    "de": "Der Christkindlmarkt vor der Kirche Maria Schutz in Pasing beginnt heute und läuft bis zum 20. Dezember. Heute ist er von 13 bis 19:30 Uhr geöffnet.",
+    "en": "The Christkindlmarkt in front of the Maria Schutz church in Pasing opens today and runs until 20 December. Today it is open from 1 pm to 7:30 pm."
    },
-   "quelle": "https://zdfheute.de/panorama/unfall-bayern-oesterreich-autobahn-schnee-glaette-verkehr-a93-100.html",
-   "quelle_name": "ZDFheute"
+   "quelle": "https://www.muenchen.de/freizeit/weihnachtsmarkt-christkindlmaerkte",
+   "quelle_name": "muenchen.de"
   }
  ]
 }

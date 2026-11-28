@@ -1,74 +1,74 @@
 {
- "stand": "2026-11-27",
+ "stand": "2026-11-28",
  "items": [
-  {
-   "datum": "2026-11-27",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Morsumer Weihnachtsmarkt „Jööltir ön Muasem“",
-    "en": "Morsum Christmas Market „Jööltir ön Muasem“"
-   },
-   "text": {
-    "de": "Am ersten Adventswochenende gibt es im Muasem Hüs in Morsum Kunsthandwerk, Schmuck und weihnachtliche Dekoration. Draußen ergänzt ein Hüttendorf das Angebot. Geöffnet ist Freitag von 14 bis 18 Uhr, Samstag und Sonntag von 11 bis 18 Uhr. Das Hüttendorf hat jeweils bis 22 Uhr auf.",
-    "en": "On the first Advent weekend, the Muasem Hüs in Morsum offers handicrafts, jewellery and Christmas decorations. A small hut village outside adds to the mix. Opening hours are Friday 2–6 pm, Saturday and Sunday 11 am–6 pm. The hut village stays open until 10 pm each day."
-   },
-   "quelle": "https://syltexklusiv.com/advent-weihnachtsmaerkte-sylt-2026/",
-   "quelle_name": "Sylt Exklusiv"
-  },
-  {
-   "datum": "2026-11-27",
-   "bis": "2026-11-29",
-   "titel": {
-    "de": "Lister Weihnachtsmarkt an der Kurverwaltung",
-    "en": "List Christmas Market at the Kurverwaltung"
-   },
-   "text": {
-    "de": "Der Lister Weihnachtsmarkt startet heute Abend von 18 bis 21 Uhr mit dem Anleuchten im Außenbereich. Am Samstag ist von 14 bis 18 Uhr drinnen Verkauf, draußen bis 21 Uhr. Am Sonntag ist von 11 bis 17 Uhr geöffnet.",
-    "en": "The List Christmas Market opens tonight from 6 to 9 pm with the lighting ceremony outdoors. On Saturday, indoor stalls are open from 2 to 6 pm and the outdoor area until 9 pm. On Sunday, the market is open from 11 am to 5 pm."
-   },
-   "quelle": "https://www.sylt.de/veranstaltungen/weihnachtsmaerkte",
-   "quelle_name": "Sylt Marketing"
-  },
   {
    "datum": "2026-11-28",
    "bis": "2026-11-29",
    "titel": {
     "de": "Glitter & Glüh: Designmarkt in Rantum",
-    "en": "Glitter & Glüh: Design Market in Rantum"
+    "en": "Glitter & Glüh: design market in Rantum"
    },
    "text": {
-    "de": "Im Taatjem Deel in Rantum findet am Wochenende der weihnachtliche Designmarkt Glitter & Glüh statt. Zu sehen gibt es individuelle Produkte, Mode, Keramik und Accessoires. Geöffnet ist am Samstag und Sonntag jeweils von 12 bis 18 Uhr.",
-    "en": "This weekend, the Taatjem Deel in Rantum hosts Glitter & Glüh, a Christmas design market. You will find individual products, fashion, ceramics and accessories. It is open on Saturday and Sunday from 12 to 6 pm."
+    "de": "Im Taatjem Deel in Rantum findet am Wochenende der weihnachtliche Designmarkt statt. Es gibt individuelle Produkte, Mode, Keramik und Accessoires. Geöffnet ist heute und morgen jeweils von 12 bis 18 Uhr.",
+    "en": "A Christmas design market takes place this weekend at Taatjem Deel in Rantum. You will find individual products, fashion, ceramics and accessories. It is open today and tomorrow, 12 noon to 6 pm."
    },
    "quelle": "https://syltexklusiv.com/advent-weihnachtsmaerkte-sylt-2026/",
    "quelle_name": "Sylt Exklusiv"
   },
   {
-   "datum": "2026-11-27",
-   "bis": "2026-12-12",
+   "datum": "2026-11-28",
+   "bis": "2026-11-29",
    "titel": {
-    "de": "Blauer Autozug: Übergangsfahrplan gilt noch bis 12. Dezember",
-    "en": "Blue Autozug: Transitional Timetable Until 12 December"
+    "de": "Weihnachtsmarkt Jööltir ön Muasem in Morsum",
+    "en": "Jööltir ön Muasem Christmas market in Morsum"
    },
    "text": {
-    "de": "Beim blauen Autozug gilt noch bis 12. Dezember ein Übergangsfahrplan. Die letzte tägliche Fahrt ab Niebüll hat Verladeschluss um 17.35 Uhr, ab Westerland um 17.55 Uhr. Betroffen sind vor allem Abendverbindungen und frühe Fahrten am Wochenende. Bitte vor der Abreise den Fahrplan beim Betreiber prüfen.",
-    "en": "The blue Autozug runs on a transitional timetable until 12 December. The last daily departure from Niebüll has a loading deadline of 5.35 pm, and from Westerland 5.55 pm. Evening trains and early weekend departures are mainly affected. Please check the timetable with the operator before you travel."
+    "de": "Im festlich geschmückten Muasem Hüs in Morsum gibt es noch bis Sonntag Kunsthandwerk und weihnachtliche Dekoration. Samstag und Sonntag ist jeweils von 11 bis 18 Uhr geöffnet. Das Hüttendorf draußen bleibt bis 22 Uhr offen.",
+    "en": "Until Sunday, the festively decorated Muasem Hüs in Morsum offers crafts and Christmas decorations. It is open Saturday and Sunday from 11 am to 6 pm. The outdoor hut village stays open until 10 pm."
    },
-   "quelle": "https://www.dein-sylt.online/artikel/2026/2077/blauer-autozug-sylt-neuer-uebergangsfahrplan-gilt-ab-9-november-2026",
-   "quelle_name": "Dein Sylt / Sylter Spiegel"
+   "quelle": "https://www.sylt-er.de/blog/sylt-zu-weihnachten-alle-wichtigen-informationen/",
+   "quelle_name": "Sylt-er.de"
+  },
+  {
+   "datum": "2026-11-28",
+   "bis": "2026-11-29",
+   "titel": {
+    "de": "Lister Weihnachtsmarkt an der Kurverwaltung",
+    "en": "List Christmas market at the Kurverwaltung"
+   },
+   "text": {
+    "de": "Der Lister Weihnachtsmarkt läuft noch bis Sonntag. Heute ist von 14 bis 18 Uhr drinnen geöffnet, draußen bis 21 Uhr. Morgen ist von 11 bis 17 Uhr geöffnet.",
+    "en": "The List Christmas market runs until Sunday. Today the indoor area is open from 2 to 6 pm and the outdoor area until 9 pm. Tomorrow it is open from 11 am to 5 pm."
+   },
+   "quelle": "https://www.sylt.de/veranstaltungen/weihnachtsmaerkte",
+   "quelle_name": "Sylt Marketing"
   },
   {
    "datum": "2026-12-04",
    "bis": "2027-01-02",
    "titel": {
-    "de": "Sylter Wintermarkt in Westerland öffnet am 4. Dezember",
-    "en": "Sylt Winter Market in Westerland Opens on 4 December"
+    "de": "Sylter Wintermarkt in Westerland startet",
+    "en": "Sylt Winter Market opens in Westerland"
    },
    "text": {
-    "de": "Der Sylter Wintermarkt öffnet am 4. Dezember zum neunten Mal an der Neuen Straße in Westerland. Die Eröffnung beginnt gegen 13:30 Uhr mit einer Ansprache, gegen 14 Uhr singt ein Kindergartenchor. Der Markt läuft bis 2. Januar 2027.",
-    "en": "The Sylt Winter Market opens for the ninth time on 4 December at Neue Straße in Westerland. The opening starts around 1:30 pm with a speech, and a kindergarten choir sings around 2 pm. The market runs until 2 January 2027."
+    "de": "Der Sylter Wintermarkt öffnet am 4. Dezember zum neunten Mal in der Neuen Mitte in Westerland. Eröffnet wird gegen 13:30 Uhr, am 6. Dezember kommt der Nikolaus. Der Markt läuft bis zum 2. Januar 2027.",
+    "en": "The Sylt Winter Market opens for the ninth time on 4 December in the Neue Mitte in Westerland. The opening is around 1:30 pm, and Santa Claus visits on 6 December. The market runs until 2 January 2027."
    },
    "quelle": "https://sylt1.tv/sylter-wintermarkt-2026-warum-er-fuer-uns-immer-der-weihnachtsmarkt-bleibt/",
+   "quelle_name": "SYLT1"
+  },
+  {
+   "datum": "2026-12-04",
+   "bis": "2026-12-06",
+   "titel": {
+    "de": "Kampener Weihnachtsmarkt im Kaamp-Hüs",
+    "en": "Kampen Christmas market at the Kaamp-Hüs"
+   },
+   "text": {
+    "de": "Am ersten Dezemberwochenende lädt das Kaamp-Hüs in der Hauptstraße 12 in Kampen zum Weihnachtsmarkt ein. Start ist am Freitag, 4. Dezember, um 15 Uhr. Der Markt läuft bis Sonntag, 6. Dezember.",
+    "en": "On the first weekend of December, the Kaamp-Hüs at Hauptstraße 12 in Kampen hosts a Christmas market. It starts on Friday, 4 December, at 3 pm. The market runs until Sunday, 6 December."
+   },
+   "quelle": "https://sylt1.tv/weihnachtsmarkt-sylt-2026-alle-termine-von-hoernum-bis-list/",
    "quelle_name": "SYLT1"
   }
  ]
